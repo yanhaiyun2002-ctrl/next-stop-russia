@@ -1,0 +1,241 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+PASS: 从稳定宿舍 ID 请求进入
+PASS: BuildingRoom 合同和三家具独立节点
+PASS: 原生 2D 场景，无 Node3D
+PASS: 实际窗口尺寸 1920x1080
+PASS: 空间视图未溢出 1920x1080
+PASS: 返回与反馈可见 1920x1080
+PASS: 独立横竖屏 UI 重排 1920x1080
+PASS: 控件可见且至少 48 单位 1920x1080 全景
+PASS: 控件可见且至少 48 单位 1920x1080 床
+PASS: 控件可见且至少 48 单位 1920x1080 书桌
+PASS: 控件可见且至少 48 单位 1920x1080 衣柜
+PASS: 控件可见且至少 48 单位 1920x1080 ← 横移
+PASS: 控件可见且至少 48 单位 1920x1080 横移 →
+PASS: 控件可见且至少 48 单位 1920x1080 标记换点
+PASS: 控件可见且至少 48 单位 1920x1080 标记前后
+PASS: 控件可见且至少 48 单位 1920x1080 书桌换位
+PASS: 保存实际渲染截图 room_auto_1920x1080
+PASS: 可见表面可点击 1920x1080 bed
+PASS: 鼠标仅命中可见家具 1920x1080 bed
+PASS: 合成触摸单次命中 1920x1080 bed
+PASS: 可见表面可点击 1920x1080 desk
+PASS: 鼠标仅命中可见家具 1920x1080 desk
+PASS: 合成触摸单次命中 1920x1080 desk
+PASS: 可见表面可点击 1920x1080 wardrobe
+PASS: 鼠标仅命中可见家具 1920x1080 wardrobe
+PASS: 合成触摸单次命中 1920x1080 wardrobe
+PASS: 全景可找回家具 1920x1080 bed
+PASS: 全景可找回家具 1920x1080 desk
+PASS: 全景可找回家具 1920x1080 wardrobe
+PASS: 独立射线与可见面拾取一致 overview_1920x1080[]
+PASS: 实际渲染像素与独立深度一致 overview_1920x1080[]
+PASS: 受约束横移可用 1920x1080
+PASS: 明确返回全景 1920x1080
+PASS: 实际窗口尺寸 1280x800
+PASS: 空间视图未溢出 1280x800
+PASS: 返回与反馈可见 1280x800
+PASS: 独立横竖屏 UI 重排 1280x800
+PASS: 控件可见且至少 48 单位 1280x800 全景
+PASS: 控件可见且至少 48 单位 1280x800 床
+PASS: 控件可见且至少 48 单位 1280x800 书桌
+PASS: 控件可见且至少 48 单位 1280x800 衣柜
+PASS: 控件可见且至少 48 单位 1280x800 ← 横移
+PASS: 控件可见且至少 48 单位 1280x800 横移 →
+PASS: 控件可见且至少 48 单位 1280x800 标记换点
+PASS: 控件可见且至少 48 单位 1280x800 标记前后
+PASS: 控件可见且至少 48 单位 1280x800 书桌换位
+PASS: 保存实际渲染截图 room_auto_1280x800
+PASS: 可见表面可点击 1280x800 bed
+PASS: 鼠标仅命中可见家具 1280x800 bed
+PASS: 合成触摸单次命中 1280x800 bed
+PASS: 可见表面可点击 1280x800 desk
+PASS: 鼠标仅命中可见家具 1280x800 desk
+PASS: 合成触摸单次命中 1280x800 desk
+PASS: 可见表面可点击 1280x800 wardrobe
+PASS: 鼠标仅命中可见家具 1280x800 wardrobe
+PASS: 合成触摸单次命中 1280x800 wardrobe
+PASS: 全景可找回家具 1280x800 bed
+PASS: 全景可找回家具 1280x800 desk
+PASS: 全景可找回家具 1280x800 wardrobe
+PASS: 独立射线与可见面拾取一致 overview_1280x800[]
+PASS: 实际渲染像素与独立深度一致 overview_1280x800[]
+PASS: 受约束横移可用 1280x800
+PASS: 明确返回全景 1280x800
+PASS: 实际窗口尺寸 1080x1920
+PASS: 空间视图未溢出 1080x1920
+PASS: 返回与反馈可见 1080x1920
+PASS: 独立横竖屏 UI 重排 1080x1920
+PASS: 控件可见且至少 48 单位 1080x1920 全景
+PASS: 控件可见且至少 48 单位 1080x1920 床
+PASS: 控件可见且至少 48 单位 1080x1920 书桌
+PASS: 控件可见且至少 48 单位 1080x1920 衣柜
+PASS: 控件可见且至少 48 单位 1080x1920 ← 横移
+PASS: 控件可见且至少 48 单位 1080x1920 横移 →
+PASS: 控件可见且至少 48 单位 1080x1920 标记换点
+PASS: 控件可见且至少 48 单位 1080x1920 标记前后
+PASS: 控件可见且至少 48 单位 1080x1920 书桌换位
+PASS: 保存实际渲染截图 room_auto_1080x1920
+PASS: 可见表面可点击 1080x1920 bed
+PASS: 鼠标仅命中可见家具 1080x1920 bed
+PASS: 合成触摸单次命中 1080x1920 bed
+PASS: 可见表面可点击 1080x1920 desk
+PASS: 鼠标仅命中可见家具 1080x1920 desk
+PASS: 合成触摸单次命中 1080x1920 desk
+PASS: 可见表面可点击 1080x1920 wardrobe
+PASS: 鼠标仅命中可见家具 1080x1920 wardrobe
+PASS: 合成触摸单次命中 1080x1920 wardrobe
+PASS: 全景可找回家具 1080x1920 bed
+PASS: 全景可找回家具 1080x1920 desk
+PASS: 全景可找回家具 1080x1920 wardrobe
+PASS: 独立射线与可见面拾取一致 overview_1080x1920[]
+PASS: 实际渲染像素与独立深度一致 overview_1080x1920[]
+PASS: 保存实际渲染截图 room_overview_1080x1920
+PASS: 受约束横移可用 1080x1920
+PASS: 明确返回全景 1080x1920
+PASS: 实际窗口尺寸 1170x2532
+PASS: 空间视图未溢出 1170x2532
+PASS: 返回与反馈可见 1170x2532
+PASS: 独立横竖屏 UI 重排 1170x2532
+PASS: 控件可见且至少 48 单位 1170x2532 全景
+PASS: 控件可见且至少 48 单位 1170x2532 床
+PASS: 控件可见且至少 48 单位 1170x2532 书桌
+PASS: 控件可见且至少 48 单位 1170x2532 衣柜
+PASS: 控件可见且至少 48 单位 1170x2532 ← 横移
+PASS: 控件可见且至少 48 单位 1170x2532 横移 →
+PASS: 控件可见且至少 48 单位 1170x2532 标记换点
+PASS: 控件可见且至少 48 单位 1170x2532 标记前后
+PASS: 控件可见且至少 48 单位 1170x2532 书桌换位
+PASS: 保存实际渲染截图 room_auto_1170x2532
+PASS: 可见表面可点击 1170x2532 bed
+PASS: 鼠标仅命中可见家具 1170x2532 bed
+PASS: 合成触摸单次命中 1170x2532 bed
+PASS: 可见表面可点击 1170x2532 desk
+PASS: 鼠标仅命中可见家具 1170x2532 desk
+PASS: 合成触摸单次命中 1170x2532 desk
+PASS: 可见表面可点击 1170x2532 wardrobe
+PASS: 鼠标仅命中可见家具 1170x2532 wardrobe
+PASS: 合成触摸单次命中 1170x2532 wardrobe
+PASS: 全景可找回家具 1170x2532 bed
+PASS: 全景可找回家具 1170x2532 desk
+PASS: 全景可找回家具 1170x2532 wardrobe
+PASS: 独立射线与可见面拾取一致 overview_1170x2532[]
+PASS: 实际渲染像素与独立深度一致 overview_1170x2532[]
+PASS: 保存实际渲染截图 room_overview_1170x2532
+PASS: 受约束横移可用 1170x2532
+PASS: 明确返回全景 1170x2532
+PASS: 实际窗口尺寸 360x780
+PASS: 空间视图未溢出 360x780
+PASS: 返回与反馈可见 360x780
+PASS: 独立横竖屏 UI 重排 360x780
+PASS: 控件可见且至少 48 单位 360x780 全景
+PASS: 控件可见且至少 48 单位 360x780 床
+PASS: 控件可见且至少 48 单位 360x780 书桌
+PASS: 控件可见且至少 48 单位 360x780 衣柜
+PASS: 控件可见且至少 48 单位 360x780 ← 横移
+PASS: 控件可见且至少 48 单位 360x780 横移 →
+PASS: 控件可见且至少 48 单位 360x780 标记换点
+PASS: 控件可见且至少 48 单位 360x780 标记前后
+PASS: 控件可见且至少 48 单位 360x780 书桌换位
+PASS: 保存实际渲染截图 room_auto_360x780
+PASS: 可见表面可点击 360x780 bed
+PASS: 鼠标仅命中可见家具 360x780 bed
+PASS: 合成触摸单次命中 360x780 bed
+PASS: 保存实际渲染截图 portrait_focus_bed
+PASS: 可见表面可点击 360x780 desk
+PASS: 鼠标仅命中可见家具 360x780 desk
+PASS: 合成触摸单次命中 360x780 desk
+PASS: 保存实际渲染截图 portrait_focus_desk
+PASS: 可见表面可点击 360x780 wardrobe
+PASS: 鼠标仅命中可见家具 360x780 wardrobe
+PASS: 合成触摸单次命中 360x780 wardrobe
+PASS: 保存实际渲染截图 portrait_focus_wardrobe
+PASS: 全景可找回家具 360x780 bed
+PASS: 全景可找回家具 360x780 desk
+PASS: 全景可找回家具 360x780 wardrobe
+PASS: 独立射线与可见面拾取一致 overview_360x780[]
+PASS: 实际渲染像素与独立深度一致 overview_360x780[]
+PASS: 保存实际渲染截图 room_overview_360x780
+PASS: 受约束横移可用 360x780
+PASS: 明确返回全景 360x780
+PASS: 床前标记头部可见
+PASS: 独立射线与可见面拾取一致 marker_front_bed[]
+PASS: 实际渲染像素与独立深度一致 marker_front_bed[]
+PASS: 保存实际渲染截图 marker_front_bed
+PASS: 床后标记头部被床遮挡且不穿透拾取
+PASS: 独立射线与可见面拾取一致 marker_behind_bed[]
+PASS: 实际渲染像素与独立深度一致 marker_behind_bed[]
+PASS: 保存实际渲染截图 marker_behind_bed
+PASS: 桌腿之间为真实空隙，无包围矩形误挡
+PASS: 独立射线与可见面拾取一致 marker_desk_gap[]
+PASS: 实际渲染像素与独立深度一致 marker_desk_gap[]
+PASS: 保存实际渲染截图 marker_desk_gap
+PASS: 换位前固定标记可见
+PASS: 保存实际渲染截图 desk_before_move
+PASS: 真实 GUI 书桌换位
+PASS: 换位后固定标记被桌面遮挡
+PASS: 换位未移动镜头或标记坐标
+PASS: 换位后确有书桌与床体的投影重叠且前桌优先
+PASS: 独立射线与可见面拾取一致 desk_front_overlap[]
+PASS: 实际渲染像素与独立深度一致 desk_front_overlap[]
+PASS: 保存实际渲染截图 desk_front_overlap
+PASS: 拒绝未知家具
+PASS: 拒绝越出房间
+PASS: 拒绝家具实体相交
+PASS: 拒绝移动后保留原状态
+PASS: 书桌可返回后槽位
+PASS: 标记跨床遮挡边界 z=1.15
+PASS: 保存实际渲染截图 bed_boundary_z1.15
+PASS: 标记跨床遮挡边界 z=1.24
+PASS: 标记跨床遮挡边界 z=1.26
+PASS: 标记跨床遮挡边界 z=1.35
+PASS: 标记跨床遮挡边界 z=1.50
+PASS: 标记跨床遮挡边界 z=2.10
+PASS: 保存实际渲染截图 bed_boundary_z2.10
+PASS: 标记跨床遮挡边界 z=3.32
+PASS: 标记跨床遮挡边界 z=3.34
+PASS: 标记跨床遮挡边界 z=3.60
+PASS: 保存实际渲染截图 bed_boundary_z3.60
+PASS: 独立射线与可见面拾取一致 depth_x-1.70_z0.85[]
+PASS: 独立射线与可见面拾取一致 depth_x-1.70_z1.50[]
+PASS: 独立射线与可见面拾取一致 depth_x-1.70_z2.70[]
+PASS: 独立射线与可见面拾取一致 depth_x-1.70_z3.60[]
+PASS: 独立射线与可见面拾取一致 depth_x-1.70_z4.35[]
+PASS: 独立射线与可见面拾取一致 depth_x-1.70_z5.25[]
+PASS: 独立射线与可见面拾取一致 depth_x0.35_z0.85[]
+PASS: 独立射线与可见面拾取一致 depth_x0.35_z1.50[]
+PASS: 独立射线与可见面拾取一致 depth_x0.35_z2.70[]
+PASS: 独立射线与可见面拾取一致 depth_x0.35_z3.60[]
+PASS: 独立射线与可见面拾取一致 depth_x0.35_z4.35[]
+PASS: 独立射线与可见面拾取一致 depth_x0.35_z5.25[]
+PASS: 独立射线与可见面拾取一致 depth_x2.10_z0.85[]
+PASS: 独立射线与可见面拾取一致 depth_x2.10_z1.50[]
+PASS: 独立射线与可见面拾取一致 depth_x2.10_z2.70[]
+PASS: 独立射线与可见面拾取一致 depth_x2.10_z3.60[]
+PASS: 独立射线与可见面拾取一致 depth_x2.10_z4.35[]
+PASS: 独立射线与可见面拾取一致 depth_x2.10_z5.25[]
+PASS: 标记深度按钮更新位置
+PASS: 换点保留临时交互计数合同
+PASS: 镜头变化期间旧按下被取消
+PASS: 拖离可见表面取消点击
+PASS: 取消后重复释放不会恢复旧点击
+PASS: 家具按下跨方向变化取消旧坐标释放
+PASS: 模拟不对称安全区内空间与所有控件
+PASS: 方向和安全区变化保持空间状态
+PASS: 保存实际渲染截图 portrait_simulated_safe_area
+PASS: 真实 GUI 返回地图
+PASS: 保留地图实例与宿舍选择
+PASS: 恢复宿舍导航焦点
+PASS: 退出宿舍无空间节点残留
+PASS: 重入仅建立当前灰盒状态 0
+PASS: 重入仅建立当前灰盒状态 1
+PASS: 重入仅建立当前灰盒状态 2
+PASS: 重入仅建立当前灰盒状态 3
+PASS: 重入仅建立当前灰盒状态 4
+PASS: 重入仅建立当前灰盒状态 5
+PASS: 重入仅建立当前灰盒状态 6
+PASS: 重入仅建立当前灰盒状态 7
+PASS: 八轮往返后无室内节点残留
+P0_SPATIAL_RESULT passed=237 failed=0 display=Windows

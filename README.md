@@ -1,8 +1,8 @@
-# 《下一站，俄罗斯！》P0-02
+# 《下一站，俄罗斯！》P0-03
 
-当前阶段汇总见 [P0-02_SUMMARY.md](docs/reports/P0-02_SUMMARY.md)；P0-01 报告为历史记录。
+当前阶段汇总见 [P0-03_SUMMARY.md](docs/reports/P0-03_SUMMARY.md)；P0-01/P0-02 报告为历史记录。
 
-Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程。启动即进入第一层级地图；宿舍、学校可进入独立临时场景并交互/返回；商店锁定并显示反馈。建筑均为技术样例。
+Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的主工程。启动即进入第一层级地图；宿舍进入正视广角 2D 空间灰盒，学校保留临时交互，商店锁定并显示反馈。建筑均为技术样例。
 
 ## 运行
 
@@ -20,12 +20,14 @@ Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程�
 & '.tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe' --path .
 ```
 
-其他机器从 [官方 4.7.2 归档](https://godotengine.org/download/archive/4.7.2-stable/) 取得标准版，使用相应可执行文件即可。运行工程无需导出模板；构建需要同版本模板与平台工具链。本次已验证 Windows 独立测试包与 Android 调试 APK 构建，设备/Apple 平台边界见阶段汇总。
+其他机器从 [官方 4.7.2 归档](https://godotengine.org/download/archive/4.7.2-stable/) 取得标准版，使用相应可执行文件即可。运行工程无需导出模板；构建需要同版本模板与平台工具链。P0-02 已验证当时的 Windows 独立测试包与 Android 调试 APK 构建，设备/Apple 平台边界见阶段汇总；新增宿舍尚未做包构建验证。
 
 ## 操作和布局
 
 - 鼠标点击或单指触摸建筑，选择宿舍/学校进入；商店显示未开放提示。
 - 建筑内点击交互按钮查看文字反馈，点击“返回地图”或按 Escape 返回。系统返回通知在室内也会返回地图；移动端仅作合成通知验证。
+- 宿舍点击家具可见表面显示名称。PC 默认全景；竖屏默认书桌聚焦，可选“床/书桌/衣柜”或左右横移，“全景”返回整体布局。取景保持同一个空间与等比投影。
+- “标记换点”循环六个测试位置，“标记前后”以 0.35m 步长往返测试深度；“书桌换位”切换两个不相交槽位。橙色标记是遮挡测试工具。家具实体相交和越界移动被拒绝；当前不提供任意拖放、旋转或存档。
 - 可以调整 PC 窗口比例。横屏以 1280×720 为基准，竖屏以 360×780 为基准，重排建筑坐标并等比缩放 UI，采用安全区边距。移动导出默认竖屏。
 - 地图保留实例、当前建筑选择和焦点；无平移/缩放，也不保存到磁盘。交互计数是当前室内实例的临时状态，重新进入会重置。
 
@@ -48,6 +50,8 @@ Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程�
 
 连续稳定性验收：`./tests/stability.ps1 -Rounds 5 -EvidenceRoot docs/evidence/自选未存在目录`。任一轮失败停止，保留全部结果；不以多次重试挑选通过轮次。
 
+P0-03 空间测试：`./tests/dormitory.ps1 -EvidenceDir docs/evidence/自选未存在目录`，加入 `-Rendered` 保存真实窗口截图并比对可见面像素。独立射线与物理盒相交用于核对遮挡拾取，覆盖五种尺寸、家具换位、标记深度、鼠标/合成触摸和导航回归。模拟视口、安全区与合成触摸不等于手机验收。脚本不覆盖已有同名证据目录，空间测试有 120 秒超时保护。
+
 ## 最小结构
 
 | 路径 | 职责 |
@@ -56,7 +60,8 @@ Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程�
 | `scripts/main.gd` | ID/开放状态/场景验证、转换锁、独立场景进出 |
 | `scenes/map.tscn` / `scripts/map.gd` | 第一层级地图 UI，发出 ID 请求 |
 | `data/building_definition.gd` / `data/buildings/*.tres` | 稳定 ID、名称、归一化位置、目的场景、开放状态 |
-| `scenes/buildings/*.tscn` / `scripts/building_room.gd` | 两个独立临时建筑与本地交互 |
+| `scenes/buildings/*.tscn` / `scripts/building_room.gd` | 独立建筑与公共返回/交互合同 |
+| `scenes/dormitory/` / `scripts/dormitory/` | 三件独立几何家具、共享空间状态、CanvasItem 透视/切片/拾取、宿舍 UI |
 | `ui/adaptive_layout.gd` / `ui/map_board.gd` | 横竖屏基准、安全区转换、地图投影 |
 | `ui/theme.tres` | 系统字体回退与基础主题；字体未内嵌 |
 | `tests/` | 引擎内导航、布局、合成输入集成测试与错误场景样本 |
@@ -71,7 +76,7 @@ Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程�
 - [技术可行性审查](docs/TECH_FEASIBILITY.md)、[风险登记表](docs/RISK_REGISTER.md)、[架构决策](docs/adr/0001-p0-map-boundaries.md)
 - [实际测试结果与命令](docs/TEST_REPORT.md)
 
-本次无正式房间、美术、学习、NPC、找猫、整理、经济、存档或联网系统。DEMO/正式版共用主工程，未来按构建配置及显式资源清单隔离正式资产，不复制代码库。
+本次无正式房间、美术、学习、NPC、找猫、整理、经济、存档或联网系统。宿舍只验证三件轴对齐家具和固定镜头；不保证任意旋转、相交模型、软体或透明材质的排序。DEMO/正式版共用主工程，未来按构建配置及显式资源清单隔离正式资产，不复制代码库。
 
 本地 Git 已建立经授权的稳定基线，无远程、无推送。`.tools/`、`.godot/`、构建输出和凭据已忽略；脚本 `.uid` 应随源码保留。`docs/.gdignore` 避免报告和截图被引擎当作游戏资源导入。测试导出预设并不表示正式发行、DEMO/正式资产隔离或商店发布已验收。
 
@@ -91,4 +96,6 @@ Android 产物为 `builds/android/NextStopRussia-debug.apk`。须在 Godot 编�
 
 本次 `adb devices -l` 为空，无模拟器，APK 仅验证构建/签名/包内资源，未验证手机运行。
 
-**本次止于 P0-02，不自动开始 P0-03。**
+上述独立 EXE/APK 构建证据属于 P0-02；P0-03 本轮验证源工程与 Windows 渲染，未重新构建平台包。
+
+**本次止于 P0-03，等待负责人依据截图确认视觉方向，不自动开始 P0-04。**

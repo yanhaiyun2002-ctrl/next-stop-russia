@@ -1,11 +1,7 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://scripts/building_room.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dormitory/dormitory.gd" id="1"]
 
 [node name="Dormitory" type="VBoxContainer"]
 layout_mode = 2
 script = ExtResource("1")
-heading = "宿舍 · 临时场景"
-description = "独立建筑场景 dormitory\n欢迎来到宿舍。这里尚无正式房间、家具或玩法内容。"
-action_text = "查看宿舍门牌"
-result_text = "门牌：宿舍 / Общежитие"

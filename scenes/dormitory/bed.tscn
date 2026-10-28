@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/dormitory/furniture.gd" id="1"]
+[node name="Bed" type="Node2D"]
+script = ExtResource("1")
+furniture_id = &"bed"
+display_name = "床"
+floor_position = Vector2(-1.7, 1.25)
+dimensions = Vector3(1.66, 1.0, 2.08)
+shape = "bed"

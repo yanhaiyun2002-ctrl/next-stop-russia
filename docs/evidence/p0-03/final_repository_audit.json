@@ -1,0 +1,92 @@
+{
+  "phase": "P0-03",
+  "date": "2026-10-28",
+  "candidate_files": 715,
+  "unwanted_candidate_files": [],
+  "credential_pattern_files": [],
+  "matched_ignore_probes": [
+    ".tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe",
+    ".godot/editor/project_metadata.cfg",
+    "builds/windows/NextStopRussia.exe",
+    "builds/android/NextStopRussia-debug.apk",
+    "export_credentials.cfg",
+    ".env",
+    ".ssh/id_rsa",
+    "debug.keystore"
+  ],
+  "code_sha256": [
+    {
+      "path": "project.godot",
+      "sha256": "fc42a7cd9fd841092ea93b3f985bc7db0717840901eb2b3f8123eb3cb8d8dd80"
+    },
+    {
+      "path": "scenes/buildings/dormitory.tscn",
+      "sha256": "c6799929f86bb85a9b7a2e2c3e11a4f52fc6f89a2241749df3a9f4f9376e09f3"
+    },
+    {
+      "path": "tests/run_tests.gd",
+      "sha256": "6dbb8d0e8d7ea3346d4abe8694d08466c3cc69cbdd96d6a7bfc3d02660168657"
+    },
+    {
+      "path": "tests/run.ps1",
+      "sha256": "5268cdf5ed1e2e4922d82abdc900ca14ea6dcee570c54bcfae98be95d894ae8b"
+    },
+    {
+      "path": "tests/stability.ps1",
+      "sha256": "870bd8dc73f22bb755372d97fae5f4e5bf3393654da935db057ccb8a4cc5827f"
+    },
+    {
+      "path": "tests/dormitory_tests.gd",
+      "sha256": "8c9e09a1f86b05a09cec271bcf936e5faaebc44ec4f14328c590a448c7e8d2bf"
+    },
+    {
+      "path": "tests/dormitory.ps1",
+      "sha256": "2edff78da46193426aa494ae7130c1fa715520a3e95ab700be25781925006b20"
+    },
+    {
+      "path": "scripts/dormitory/dormitory.gd",
+      "sha256": "e2d3fe67b7a1a0c4d2b06b12dc7ec0654d38b56e5ef13e9a9cf602a7ac2080f1"
+    },
+    {
+      "path": "scripts/dormitory/dormitory.gd.uid",
+      "sha256": "8751749bb52f932951ed7621407a88cc94b8ed93891ce25922bc8e3d0cbbce84"
+    },
+    {
+      "path": "scripts/dormitory/furniture.gd",
+      "sha256": "6f8c8bc3e74b0691ad0e97964f28e47712f60e75a06c3e39ef2e5738c3914c08"
+    },
+    {
+      "path": "scripts/dormitory/furniture.gd.uid",
+      "sha256": "98a8d23c4e99b014b1509fd5d7114931033d1fa9b95fd72ecdf5012b2141b6f7"
+    },
+    {
+      "path": "scripts/dormitory/room_view.gd",
+      "sha256": "2803da9e8cec3c61b7f93e1a7fc960f4e83a803d30f36989c2ff19c4cf8371d8"
+    },
+    {
+      "path": "scripts/dormitory/room_view.gd.uid",
+      "sha256": "3770549c0c5d74b0699ac95727393769f613b5b917dc42050f947190d9983a38"
+    },
+    {
+      "path": "scripts/dormitory/room_world.gd",
+      "sha256": "6bfb52f47194c82d22e59f5314c6121ee47c7af80e7d0122538491bdb41fc35a"
+    },
+    {
+      "path": "scripts/dormitory/room_world.gd.uid",
+      "sha256": "f525de2c993f280350f22f2ca2f53995c170dee1597ba5cdf89129ef543a038a"
+    },
+    {
+      "path": "scenes/dormitory/bed.tscn",
+      "sha256": "7de7fcede2740c4bd4e08dc74afda60410531c47cecb75b361a843477dcd26ec"
+    },
+    {
+      "path": "scenes/dormitory/desk.tscn",
+      "sha256": "397e0b31c16044619f836c762cd0bc82b8d7b2796ba2633c72c16376d66c52ca"
+    },
+    {
+      "path": "scenes/dormitory/wardrobe.tscn",
+      "sha256": "affe374e0e05af89051f3c8ff87d8867487e4b454536ec633ab9bba9ea06dc0b"
+    }
+  ],
+  "note": "Pattern and path audit, not an exhaustive security guarantee. Tool downloads, caches, credentials and builds are ignored."
+}

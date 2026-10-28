@@ -1,0 +1,35 @@
+extends MarginContainer
+## Changes design base and converts device safe-area insets to logical UI units.
+## Override is for deterministic viewport tests, never a fake device claim.
+
+var safe_override_pixels := Rect2(-1, -1, 0, 0)
+var portrait := false
+
+func _ready() -> void:
+	get_tree().root.size_changed.connect(refresh)
+	refresh()
+
+func refresh() -> void:
+	var window := get_tree().root
+	var pixels := Vector2(window.size)
+	if pixels.x <= 0 or pixels.y <= 0:
+		return
+	portrait = pixels.y > pixels.x
+	var base := Vector2i(360, 780) if portrait else Vector2i(1280, 720)
+	if window.content_scale_size != base:
+		window.content_scale_size = base
+	var logical_scale := minf(pixels.x / base.x, pixels.y / base.y)
+	var safe := Rect2(Vector2.ZERO, pixels)
+	if safe_override_pixels.position.x >= 0:
+		safe = safe_override_pixels.intersection(safe)
+	elif OS.has_feature("mobile"):
+		var device_safe := DisplayServer.get_display_safe_area()
+		if device_safe.has_area():
+			safe = Rect2(device_safe).intersection(safe)
+	var inset := Vector4(safe.position.x, safe.position.y,
+		pixels.x - safe.end.x, pixels.y - safe.end.y) / logical_scale
+	var padding := 16 if portrait else 28
+	add_theme_constant_override("margin_left", padding + ceili(inset.x))
+	add_theme_constant_override("margin_top", padding + ceili(inset.y))
+	add_theme_constant_override("margin_right", padding + ceili(inset.z))
+	add_theme_constant_override("margin_bottom", padding + ceili(inset.w))

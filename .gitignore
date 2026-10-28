@@ -1,0 +1,21 @@
+# Godot generates this cache; keep .uid files for stable script references.
+.godot/
+.tools/
+builds/
+/build/
+/dist/
+*.tmp
+export_credentials.cfg
+# Local environment files and signing credentials must stay outside the baseline.
+.env
+.env.*
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.DS_Store
+Thumbs.db

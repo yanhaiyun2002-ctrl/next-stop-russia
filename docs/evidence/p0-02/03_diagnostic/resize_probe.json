@@ -1,0 +1,47 @@
+{
+	"passed": false,
+	"samples": [
+		{
+			"active_id": "",
+			"buttons": {
+				"dormitory": "[P: (220.0, 370.0), S: (200.0, 110.0)]",
+				"school": "[P: (540.0, 293.68), S: (200.0, 110.0)]",
+				"shop": "[P: (860.0, 420.88), S: (200.0, 110.0)]"
+			},
+			"frame": 11,
+			"portrait": false,
+			"tag": "before_resize",
+			"transitioning": false,
+			"viewport": "(1280.0, 800.0)",
+			"window": "(1280, 800)"
+		},
+		{
+			"active_id": "",
+			"buttons": {
+				"dormitory": "[P: (220.0, 370.0), S: (200.0, 110.0)]",
+				"school": "[P: (540.0, 293.68), S: (200.0, 110.0)]",
+				"shop": "[P: (860.0, 420.88), S: (200.0, 110.0)]"
+			},
+			"frame": 11,
+			"portrait": false,
+			"tag": "before_container_sort",
+			"transitioning": false,
+			"viewport": "(360.0, 780.0)",
+			"window": "(360, 780)"
+		},
+		{
+			"active_id": "dormitory",
+			"buttons": {
+				"dormitory": "[P: (550.0, 225.56), S: (156.0, 92.0)]",
+				"school": "[P: (362.08, 367.0), S: (156.0, 92.0)]",
+				"shop": "[P: (675.28, 508.44), S: (156.0, 92.0)]"
+			},
+			"frame": 23,
+			"portrait": true,
+			"tag": "after_pending_input",
+			"transitioning": false,
+			"viewport": "(360.0, 780.0)",
+			"window": "(360, 780)"
+		}
+	]
+}

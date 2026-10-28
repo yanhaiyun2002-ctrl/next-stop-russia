@@ -1,0 +1,14 @@
+{
+  "client_date": "2026-10-28 Asia/Shanghai",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "powershell": "7.6.5",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "git": "git version 2.53.0.windows.3",
+  "java_on_path": false,
+  "adb_on_path": false,
+  "common_android_sdk": false,
+  "roaming_templates": false,
+  "local_templates": false,
+  "engine_zip_sha256": "731980F9608D61333E5BAF54A2EF17210ACC7A538446C0CB9969F002ACA1E953",
+  "remote": []
+}

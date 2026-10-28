@@ -1,0 +1,9 @@
+{
+  "round": 1,
+  "passed": 253,
+  "failed": 15,
+  "exit_code": 1,
+  "clean_logs": false,
+  "accepted": false,
+  "evidence": "docs/evidence/p0-02/08_stability/round_1"
+}

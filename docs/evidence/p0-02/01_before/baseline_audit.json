@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-28 Asia/Shanghai",
+  "scope": "P0-01 baseline closure only",
+  "source_and_test_changes": "none",
+  "commit_created": false,
+  "reason": "Rendered integration tests failed in both unchanged runs; conditional commit is not authorized until tests pass",
+  "headless": {
+    "passed": 154,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "rendered_attempt1": {
+    "passed": 145,
+    "failed": 14,
+    "exit_code": 1
+  },
+  "rendered_attempt2": {
+    "passed": 151,
+    "failed": 11,
+    "exit_code": 1
+  },
+  "ignore_probes": [
+    ".tools/Godot_v4.7.2-stable_win64.exe.zip",
+    ".godot/editor/project_metadata.cfg",
+    "builds/example.exe",
+    "build/example.exe",
+    "dist/example.exe",
+    "export_credentials.cfg",
+    ".env",
+    ".env.local",
+    ".aws/credentials",
+    ".ssh/id_rsa",
+    "example.pem",
+    "example.key",
+    "example.p12",
+    "example.pfx",
+    "example.jks",
+    "example.keystore"
+  ],
+  "remote": [],
+  "source_snapshot": [
+    {
+      "path": "data/building_definition.gd",
+      "sha256": "B40CB58B660D37593C3451A5278C8C542476A907675302F647C14C6E1CE81F6D"
+    },
+    {
+      "path": "data/building_definition.gd.uid",
+      "sha256": "E09744E2FAD0DD5A2204EBC783ED32CD05D1D10ABF9F145CFF9C21AA827A0451"
+    },
+    {
+      "path": "data/buildings/dormitory.tres",
+      "sha256": "C6EFECF627899EF645931C360E0BF2AEC5A65011DFB671D8B4C6B8C8D233321A"
+    },
+    {
+      "path": "data/buildings/school.tres",
+      "sha256": "77D87EA7CF641843C79F16A805C422F6637B68A24085064D8D56F70D1462CD4D"
+    },
+    {
+      "path": "data/buildings/shop.tres",
+      "sha256": "FCE794B1BD00A944C02182C86D1F4142E3161C29C3D49B61A848657AF3CE176E"
+    },
+    {
+      "path": "project.godot",
+      "sha256": "006C2DBE9481750ABAAC4252DB2C3BAD7FA2A119BE051994B667174979749057"
+    },
+    {
+      "path": "scenes/buildings/dormitory.tscn",
+      "sha256": "41AAB837FA57332D80D2E4C33733711E427AB8D3DB6A6C55D5FC97227D11B740"
+    },
+    {
+      "path": "scenes/buildings/school.tscn",
+      "sha256": "4B1F04C0D23BCDF9DC6B513024A70B074A237DF49619EBE7A958C3D12ABAA9A7"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "sha256": "F3CB598CDB0EB39CFC74FE46460FF7D19D5B3F468405FFB1B402C113FEEFA67C"
+    },
+    {
+      "path": "scenes/map.tscn",
+      "sha256": "E5FB359C0354716DCAB8FE6BAD476761A0F3182207796D871EB9C03C70383F51"
+    },
+    {
+      "path": "scripts/building_room.gd",
+      "sha256": "0B23E72C1B9C424468EF54E6C65DFCFFC418277AF5BB5EE7628CF64227E8A93F"
+    },
+    {
+      "path": "scripts/building_room.gd.uid",
+      "sha256": "C50AECA893C7BCC74FC92070D8C1DBA110542679E41155704154EBD5899AA23F"
+    },
+    {
+      "path": "scripts/main.gd",
+      "sha256": "07F275EE1171E86D8DD651584D075155A2442A085294AA0C09B943EF53465F87"
+    },
+    {
+      "path": "scripts/main.gd.uid",
+      "sha256": "DEDE476FE4EFAE703F8403C9830106BAF565C9B3DAC5ADACD733E15AFBD02333"
+    },
+    {
+      "path": "scripts/map.gd",
+      "sha256": "FC55897A2F582EAA074E4546225106E4693648ACA2C5428F0715F5D7AEBEAD1A"
+    },
+    {
+      "path": "scripts/map.gd.uid",
+      "sha256": "42529581B41259DDF0F633DB4146DB4939792E0B4F5ED93F5CF0DB8814A5CDC4"
+    },
+    {
+      "path": "tests/fixtures/wrong_room.tscn",
+      "sha256": "92F159DBD2954439C23A6D8073FAA443C9293F732FEAD96750E0AD5D7017D9F5"
+    },
+    {
+      "path": "tests/run.ps1",
+      "sha256": "DF5F8388029A50336704C87FE8D3A9DA06E0F730E386433F86C33E8E103FBA3D"
+    },
+    {
+      "path": "tests/run_tests.gd",
+      "sha256": "C0D42C77B57AE82872BF5D66D2399F1194BCF705C6D21867622959914E5C7213"
+    },
+    {
+      "path": "tests/run_tests.gd.uid",
+      "sha256": "E2FF9BE60E1F72CA8567DD13E6D69F112DE039E4C15F641B6B287478E90FA1ED"
+    },
+    {
+      "path": "ui/adaptive_layout.gd",
+      "sha256": "66425CF31DB3F958922DE177810C2A5DCBEB4631FA609D294033DDEC57F73549"
+    },
+    {
+      "path": "ui/adaptive_layout.gd.uid",
+      "sha256": "BA0364A8F7A3DD51549CFC244CF73F4521C086B888560CAE5D8734147FB20923"
+    },
+    {
+      "path": "ui/map_board.gd",
+      "sha256": "728CEEEBDAEB0724F1DC9B16D7C5EBF2EA374F0635F624C40690A726B8117B42"
+    },
+    {
+      "path": "ui/map_board.gd.uid",
+      "sha256": "E13A9B02EA1DF81CBB7578ADB5316FE9F0D103B2742600EC85405B12FA6AB7A9"
+    },
+    {
+      "path": "ui/theme.tres",
+      "sha256": "2C56809749A69A3C009A7C1B3B90A41544B083B9B1B5AAE76EEA07C611B32BC9"
+    }
+  ],
+  "final_checks": {
+    "credential_pattern_matches": 0,
+    "candidate_artifacts": 0,
+    "source_hashes_unchanged": true,
+    "staged_count": 0,
+    "has_commit": false,
+    "remote_count": 0,
+    "startup_exit_code": 0
+  }
+}

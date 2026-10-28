@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/building_room.gd" id="1"]
+
+[node name="School" type="VBoxContainer"]
+layout_mode = 2
+script = ExtResource("1")
+heading = "学校 · 临时场景"
+description = "独立建筑场景 school\n这里只验证基础交互，尚未接入课程、学习、NPC 或剧情。"
+action_text = "查看学校告示"
+result_text = "告示：学校 / Школа · 技术样例"

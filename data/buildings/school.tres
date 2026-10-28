@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BuildingDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/building_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"school"
+display_name = "学校"
+map_position = Vector2(0.5, 0.32)
+destination = "res://scenes/buildings/school.tscn"
+is_open = true

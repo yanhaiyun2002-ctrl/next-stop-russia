@@ -271,6 +271,8 @@ func _sample_scene(label: String, pixels: bool = true) -> void:
 		for color in [box.color, box.color.lightened(0.17), box.color.darkened(0.18)]:
 			palette.append({"owner": box.owner, "color": color})
 	palette.append({"owner": &"marker", "color": view.MARKER_COLOR})
+	for part in world.cat_parts():
+		palette.append({"owner": &"cat", "color": part.color})
 	for x in range(11, int(view.size.x) - 1, 19):
 		for y in range(13, int(view.size.y) - 1, 17):
 			var point := Vector2(x + 0.37, y + 0.63)

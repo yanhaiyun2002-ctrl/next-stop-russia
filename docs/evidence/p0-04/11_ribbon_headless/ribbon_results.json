@@ -1,0 +1,6022 @@
+{
+	"checks": [
+		{
+			"name": "原宿舍 ID 加载新横向空间",
+			"passed": true
+		},
+		{
+			"name": "R 为真实默认入口",
+			"passed": true
+		},
+		{
+			"name": "默认收起测试，移除不必要聚焦入口",
+			"passed": true
+		},
+		{
+			"name": "三家具复用 2D，无额外场景/3D",
+			"passed": true
+		},
+		{
+			"name": "默认有界浏览 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "不把整个横向房间缩入手机 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "PC 默认宽视野可读 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "PC 默认宽视野可读 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "PC 默认宽视野可读 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 pc_1920x1080_middle",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_middle 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_middle 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_middle 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_middle 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_middle 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 middle_1920x1080[]",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖到左侧边界 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "横拖不激活家具 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "横拖尺度不变 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 pc_1920x1080_left",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_left 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_left 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_left 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_left 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_left 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 left_1920x1080[]",
+			"passed": true
+		},
+		{
+			"name": "左侧床可见 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "左端床体范围完整可读 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "合成触摸拖到右侧边界 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 pc_1920x1080_right",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_right 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_right 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_right 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_right 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1920x1080_right 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 right_1920x1080[]",
+			"passed": true
+		},
+		{
+			"name": "右侧衣柜可见 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "右端衣柜范围完整可读 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "简单复位返回默认取景 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "横竖屏相机不移动/复制家具 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "默认有界浏览 1280x800",
+			"passed": true
+		},
+		{
+			"name": "不把整个横向房间缩入手机 1280x800",
+			"passed": true
+		},
+		{
+			"name": "PC 默认宽视野可读 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "PC 默认宽视野可读 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "PC 默认宽视野可读 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 pc_1280x800_middle",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_middle 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_middle 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_middle 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_middle 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_middle 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 middle_1280x800[]",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖到左侧边界 1280x800",
+			"passed": true
+		},
+		{
+			"name": "横拖不激活家具 1280x800",
+			"passed": true
+		},
+		{
+			"name": "横拖尺度不变 1280x800",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 pc_1280x800_left",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_left 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_left 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_left 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_left 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_left 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 left_1280x800[]",
+			"passed": true
+		},
+		{
+			"name": "左侧床可见 1280x800",
+			"passed": true
+		},
+		{
+			"name": "左端床体范围完整可读 1280x800",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "合成触摸拖到右侧边界 1280x800",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 pc_1280x800_right",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_right 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_right 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_right 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_right 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 pc_1280x800_right 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 right_1280x800[]",
+			"passed": true
+		},
+		{
+			"name": "右侧衣柜可见 1280x800",
+			"passed": true
+		},
+		{
+			"name": "右端衣柜范围完整可读 1280x800",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "简单复位返回默认取景 1280x800",
+			"passed": true
+		},
+		{
+			"name": "横竖屏相机不移动/复制家具 1280x800",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "默认有界浏览 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "不把整个横向房间缩入手机 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "手机默认为足够大比例的局部 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_1080x1920_middle",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_middle 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_middle 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_middle 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_middle 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_middle 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 middle_1080x1920[]",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖到左侧边界 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "横拖不激活家具 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "横拖尺度不变 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_1080x1920_left",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_left 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_left 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_left 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_left 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_left 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 left_1080x1920[]",
+			"passed": true
+		},
+		{
+			"name": "左侧床可见 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "左端床体范围完整可读 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "合成触摸拖到右侧边界 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_1080x1920_right",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_right 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_right 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_right 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_right 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1080x1920_right 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 right_1080x1920[]",
+			"passed": true
+		},
+		{
+			"name": "右侧衣柜可见 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "右端衣柜范围完整可读 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "简单复位返回默认取景 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "横竖屏相机不移动/复制家具 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1080x1920 desk",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1080x1920 desk",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "默认有界浏览 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "不把整个横向房间缩入手机 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "手机默认为足够大比例的局部 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_1170x2532_middle",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_middle 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_middle 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_middle 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_middle 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_middle 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 middle_1170x2532[]",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖到左侧边界 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "横拖不激活家具 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "横拖尺度不变 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_1170x2532_left",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_left 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_left 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_left 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_left 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_left 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 left_1170x2532[]",
+			"passed": true
+		},
+		{
+			"name": "左侧床可见 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "左端床体范围完整可读 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "合成触摸拖到右侧边界 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_1170x2532_right",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_right 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_right 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_right 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_right 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_1170x2532_right 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 right_1170x2532[]",
+			"passed": true
+		},
+		{
+			"name": "右侧衣柜可见 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "右端衣柜范围完整可读 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "简单复位返回默认取景 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "横竖屏相机不移动/复制家具 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1170x2532 desk",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1170x2532 desk",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "默认有界浏览 360x780",
+			"passed": true
+		},
+		{
+			"name": "不把整个横向房间缩入手机 360x780",
+			"passed": true
+		},
+		{
+			"name": "手机默认为足够大比例的局部 360x780",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_360x780_middle",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_middle 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_middle 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_middle 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_middle 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_middle 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 middle_360x780[]",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖到左侧边界 360x780",
+			"passed": true
+		},
+		{
+			"name": "横拖不激活家具 360x780",
+			"passed": true
+		},
+		{
+			"name": "横拖尺度不变 360x780",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_360x780_left",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_left 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_left 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_left 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_left 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_left 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 left_360x780[]",
+			"passed": true
+		},
+		{
+			"name": "左侧床可见 360x780",
+			"passed": true
+		},
+		{
+			"name": "左端床体范围完整可读 360x780",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "合成触摸拖到右侧边界 360x780",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_360x780_right",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_right 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_right 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_right 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_right 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_360x780_right 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 right_360x780[]",
+			"passed": true
+		},
+		{
+			"name": "右侧衣柜可见 360x780",
+			"passed": true
+		},
+		{
+			"name": "右端衣柜范围完整可读 360x780",
+			"passed": true
+		},
+		{
+			"name": "移动后鼠标热点对应 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "移动后合成触摸单次对应 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "点击家具不跳镜头 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "简单复位返回默认取景 360x780",
+			"passed": true
+		},
+		{
+			"name": "横竖屏相机不移动/复制家具 360x780",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 360x780 desk",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 360x780 desk",
+			"passed": true
+		},
+		{
+			"name": "具名按钮平移至家具 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名浏览不额外缩放 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "床体有可测的内部触摸区域",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "小幅抖动仍为一次点击",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "竖向移动取消点击且不横移",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "家具上开始横拖也不点击",
+			"passed": true
+		},
+		{
+			"name": "拖动后重复释放不激活",
+			"passed": true
+		},
+		{
+			"name": "外部取景变化取消旧按下",
+			"passed": true
+		},
+		{
+			"name": "方向变化取消未释放的浏览手势",
+			"passed": true
+		},
+		{
+			"name": "新前景床前标记可见",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 occlusion_bed_front",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_front 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_front 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_front 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_front 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_front 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 occlusion_bed_front[]",
+			"passed": true
+		},
+		{
+			"name": "新床后遮挡及热点不穿透",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 occlusion_bed_back",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_back 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_back 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_back 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_back 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_bed_back 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 occlusion_bed_back[]",
+			"passed": true
+		},
+		{
+			"name": "中景桌腿空隙仍可见",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 occlusion_desk_gap",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_desk_gap 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_desk_gap 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_desk_gap 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_desk_gap 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 occlusion_desk_gap 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 occlusion_desk_gap[]",
+			"passed": true
+		},
+		{
+			"name": "换位前标记上缘可见",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 desk_before_move",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_before_move 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_before_move 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_before_move 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_before_move 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_before_move 测试",
+			"passed": true
+		},
+		{
+			"name": "新前景换位更新遮挡",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 desk_front_overlap",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_front_overlap 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_front_overlap 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_front_overlap 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_front_overlap 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 desk_front_overlap 测试",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 desk_front_overlap[]",
+			"passed": true
+		},
+		{
+			"name": "新布局拒绝未知家具",
+			"passed": true
+		},
+		{
+			"name": "新布局拒绝越界",
+			"passed": true
+		},
+		{
+			"name": "新布局拒绝家具相交",
+			"passed": true
+		},
+		{
+			"name": "后景衣柜遮挡标记",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 occlusion_wardrobe_back[]",
+			"passed": true
+		},
+		{
+			"name": "模拟安全区保护浏览区域和常驻 UI",
+			"passed": true
+		},
+		{
+			"name": "浏览画布与 UI 未溢出 phone_simulated_safe_area",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_simulated_safe_area 床",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_simulated_safe_area 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_simulated_safe_area 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_simulated_safe_area 复位",
+			"passed": true
+		},
+		{
+			"name": "常驻按钮触摸尺寸 phone_simulated_safe_area 测试",
+			"passed": true
+		},
+		{
+			"name": "返回同一地图并恢复焦点 0",
+			"passed": true
+		},
+		{
+			"name": "退出无横向空间节点残留 0",
+			"passed": true
+		},
+		{
+			"name": "重入默认中部且无旧手势 0",
+			"passed": true
+		},
+		{
+			"name": "返回同一地图并恢复焦点 1",
+			"passed": true
+		},
+		{
+			"name": "退出无横向空间节点残留 1",
+			"passed": true
+		},
+		{
+			"name": "重入默认中部且无旧手势 1",
+			"passed": true
+		},
+		{
+			"name": "返回同一地图并恢复焦点 2",
+			"passed": true
+		},
+		{
+			"name": "退出无横向空间节点残留 2",
+			"passed": true
+		},
+		{
+			"name": "重入默认中部且无旧手势 2",
+			"passed": true
+		},
+		{
+			"name": "返回同一地图并恢复焦点 3",
+			"passed": true
+		},
+		{
+			"name": "退出无横向空间节点残留 3",
+			"passed": true
+		},
+		{
+			"name": "重入默认中部且无旧手势 3",
+			"passed": true
+		}
+	],
+	"display_server": "headless",
+	"drags": [
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 642.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(856.8, 0.0)",
+			"end_camera": 593.849487304688,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				},
+				{
+					"camera": 593.849487304688,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(523.75, 388.0212)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 593.849487304688,
+			"steps": [
+				{
+					"camera": 675.940377682501,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(416.6501, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 686.150573730469,
+			"steps": [
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 686.150573730469,
+			"steps": [
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 686.150573730469,
+			"steps": [
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 686.150573730469,
+			"steps": [
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 686.150573730469,
+			"steps": [
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-856.8, 0.0)",
+			"end_camera": 686.150573730469,
+			"limits": "(593.8495, 686.1506)",
+			"start_camera": 686.150573730469,
+			"steps": [
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				},
+				{
+					"camera": 686.150573730469,
+					"scale": 1.3046511627907,
+					"screen_anchor": "(403.3293, 388.0212)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 423.706185399958,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 612.963273174995,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(89.0062, 390.7879)"
+				},
+				{
+					"camera": 585.926540543548,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(124.5312, 390.7879)"
+				},
+				{
+					"camera": 558.889819524984,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(160.0562, 390.7879)"
+				},
+				{
+					"camera": 531.853092699979,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(195.5812, 390.7879)"
+				},
+				{
+					"camera": 504.816371681416,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(231.1062, 390.7879)"
+				},
+				{
+					"camera": 477.779627437085,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(266.6312, 390.7879)"
+				},
+				{
+					"camera": 450.742906418522,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(302.1562, 390.7879)"
+				},
+				{
+					"camera": 423.706185399958,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(337.6812, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 279.254180908203,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 423.706185399958,
+			"steps": [
+				{
+					"camera": 396.669458574953,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(373.2062, 390.7879)"
+				},
+				{
+					"camera": 369.632725943506,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(408.7312, 390.7879)"
+				},
+				{
+					"camera": 342.596004924943,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(444.2562, 390.7879)"
+				},
+				{
+					"camera": 315.559278099938,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(479.7812, 390.7879)"
+				},
+				{
+					"camera": 288.522557081374,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(515.3062, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 279.254180908203,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 279.254180908203,
+			"steps": [
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 279.254180908203,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 279.254180908203,
+			"steps": [
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 279.254180908203,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 279.254180908203,
+			"steps": [
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 279.254180908203,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 279.254180908203,
+			"steps": [
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(284.2, 0.0)",
+			"end_camera": 279.254180908203,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 279.254180908203,
+			"steps": [
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				},
+				{
+					"camera": 279.254180908203,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(527.4844, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 495.548018734012,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 279.254180908203,
+			"steps": [
+				{
+					"camera": 306.290901926766,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(491.9594, 390.7879)"
+				},
+				{
+					"camera": 333.327646171097,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(456.4344, 390.7879)"
+				},
+				{
+					"camera": 360.364378802544,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(420.9094, 390.7879)"
+				},
+				{
+					"camera": 387.401088208224,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(385.3844, 390.7879)"
+				},
+				{
+					"camera": 414.437820839671,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(349.8594, 390.7879)"
+				},
+				{
+					"camera": 441.474553471118,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(314.3344, 390.7879)"
+				},
+				{
+					"camera": 468.511297715449,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(278.8094, 390.7879)"
+				},
+				{
+					"camera": 495.548018734012,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(243.2844, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 711.841856559821,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 495.548018734012,
+			"steps": [
+				{
+					"camera": 522.584739752575,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(207.7594, 390.7879)"
+				},
+				{
+					"camera": 549.621483996906,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(172.2344, 390.7879)"
+				},
+				{
+					"camera": 576.658216628353,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(136.7094, 390.7879)"
+				},
+				{
+					"camera": 603.694926034033,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(101.1843, 390.7879)"
+				},
+				{
+					"camera": 630.73165866548,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(65.65938, 390.7879)"
+				},
+				{
+					"camera": 657.768391296927,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(30.13435, 390.7879)"
+				},
+				{
+					"camera": 684.805135541258,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-5.390671, 390.7879)"
+				},
+				{
+					"camera": 711.841856559821,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-40.9157, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 928.13569438563,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 711.841856559821,
+			"steps": [
+				{
+					"camera": 738.878577578384,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-76.4407, 390.7879)"
+				},
+				{
+					"camera": 765.915321822715,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-111.9657, 390.7879)"
+				},
+				{
+					"camera": 792.952054454162,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-147.4907, 390.7879)"
+				},
+				{
+					"camera": 819.988763859842,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-183.0157, 390.7879)"
+				},
+				{
+					"camera": 847.025496491289,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-218.5407, 390.7879)"
+				},
+				{
+					"camera": 874.062229122736,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-254.0658, 390.7879)"
+				},
+				{
+					"camera": 901.098973367067,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-289.5908, 390.7879)"
+				},
+				{
+					"camera": 928.13569438563,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-325.1157, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 928.13569438563,
+			"steps": [
+				{
+					"camera": 955.172415404193,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-360.6407, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-284.2, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(279.2542, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-362.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 465.260183958881,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 618.157524446471,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(43.18115, 390.7879)"
+				},
+				{
+					"camera": 596.315043086499,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(71.88114, 390.7879)"
+				},
+				{
+					"camera": 574.472561726528,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(100.5812, 390.7879)"
+				},
+				{
+					"camera": 552.630086172999,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(129.2812, 390.7879)"
+				},
+				{
+					"camera": 530.787610619469,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(157.9812, 390.7879)"
+				},
+				{
+					"camera": 508.945123453056,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(186.6812, 390.7879)"
+				},
+				{
+					"camera": 487.102647899526,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(215.3812, 390.7879)"
+				},
+				{
+					"camera": 465.260183958881,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(244.0811, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 290.520367917761,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 465.260183958881,
+			"steps": [
+				{
+					"camera": 443.417708405351,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(272.7812, 390.7879)"
+				},
+				{
+					"camera": 421.57522704538,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(301.4812, 390.7879)"
+				},
+				{
+					"camera": 399.732745685409,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(330.1812, 390.7879)"
+				},
+				{
+					"camera": 377.890270131879,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(358.8812, 390.7879)"
+				},
+				{
+					"camera": 356.04779457835,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(387.5812, 390.7879)"
+				},
+				{
+					"camera": 334.205307411936,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(416.2812, 390.7879)"
+				},
+				{
+					"camera": 312.362831858407,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(444.9812, 390.7879)"
+				},
+				{
+					"camera": 290.520367917761,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(473.6812, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 290.520367917761,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 446.925618669628,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 294.028278182038,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(469.0719, 390.7879)"
+				},
+				{
+					"camera": 315.870753735568,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(440.3719, 390.7879)"
+				},
+				{
+					"camera": 337.713229289097,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(411.6719, 390.7879)"
+				},
+				{
+					"camera": 359.55571645551,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(382.9719, 390.7879)"
+				},
+				{
+					"camera": 381.398180396156,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(354.2719, 390.7879)"
+				},
+				{
+					"camera": 403.240667562569,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(325.5719, 390.7879)"
+				},
+				{
+					"camera": 425.083154728982,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(296.8719, 390.7879)"
+				},
+				{
+					"camera": 446.925618669628,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(268.1719, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 621.665446323631,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 446.925618669628,
+			"steps": [
+				{
+					"camera": 468.768105836041,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(239.4719, 390.7879)"
+				},
+				{
+					"camera": 490.610581389571,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(210.7719, 390.7879)"
+				},
+				{
+					"camera": 512.4530569431,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(182.0719, 390.7879)"
+				},
+				{
+					"camera": 534.295544109513,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(153.3719, 390.7879)"
+				},
+				{
+					"camera": 556.138008050159,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(124.6719, 390.7879)"
+				},
+				{
+					"camera": 577.980495216572,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(95.97195, 390.7879)"
+				},
+				{
+					"camera": 599.822982382985,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(67.27188, 390.7879)"
+				},
+				{
+					"camera": 621.665446323631,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(38.57189, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 796.405273977634,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 621.665446323631,
+			"steps": [
+				{
+					"camera": 643.507933490044,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(9.871902, 390.7879)"
+				},
+				{
+					"camera": 665.350409043574,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-18.82808, 390.7879)"
+				},
+				{
+					"camera": 687.192884597103,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-47.52808, 390.7879)"
+				},
+				{
+					"camera": 709.035371763516,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-76.22813, 390.7879)"
+				},
+				{
+					"camera": 730.877835704162,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-104.928, 390.7879)"
+				},
+				{
+					"camera": 752.720322870575,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-133.6281, 390.7879)"
+				},
+				{
+					"camera": 774.562810036988,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-162.3281, 390.7879)"
+				},
+				{
+					"camera": 796.405273977634,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-191.0281, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 796.405273977634,
+			"steps": [
+				{
+					"camera": 818.247761144047,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-219.7281, 390.7879)"
+				},
+				{
+					"camera": 840.090236697577,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-248.4281, 390.7879)"
+				},
+				{
+					"camera": 861.932712251106,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-277.1281, 390.7879)"
+				},
+				{
+					"camera": 883.77519941752,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-305.8281, 390.7879)"
+				},
+				{
+					"camera": 905.617663358165,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-334.5281, 390.7879)"
+				},
+				{
+					"camera": 927.460150524578,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-363.2281, 390.7879)"
+				},
+				{
+					"camera": 949.302637690992,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-391.9281, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 465.260183958881,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 618.157524446471,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(43.18115, 390.7879)"
+				},
+				{
+					"camera": 596.315043086499,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(71.88114, 390.7879)"
+				},
+				{
+					"camera": 574.472561726528,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(100.5812, 390.7879)"
+				},
+				{
+					"camera": 552.630086172999,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(129.2812, 390.7879)"
+				},
+				{
+					"camera": 530.787610619469,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(157.9812, 390.7879)"
+				},
+				{
+					"camera": 508.945123453056,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(186.6812, 390.7879)"
+				},
+				{
+					"camera": 487.102647899526,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(215.3812, 390.7879)"
+				},
+				{
+					"camera": 465.260183958881,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(244.0811, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 290.520367917761,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 465.260183958881,
+			"steps": [
+				{
+					"camera": 443.417708405351,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(272.7812, 390.7879)"
+				},
+				{
+					"camera": 421.57522704538,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(301.4812, 390.7879)"
+				},
+				{
+					"camera": 399.732745685409,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(330.1812, 390.7879)"
+				},
+				{
+					"camera": 377.890270131879,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(358.8812, 390.7879)"
+				},
+				{
+					"camera": 356.04779457835,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(387.5812, 390.7879)"
+				},
+				{
+					"camera": 334.205307411936,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(416.2812, 390.7879)"
+				},
+				{
+					"camera": 312.362831858407,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(444.9812, 390.7879)"
+				},
+				{
+					"camera": 290.520367917761,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(473.6812, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 290.520367917761,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(229.6, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 446.925618669628,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 294.028278182038,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(469.0719, 390.7879)"
+				},
+				{
+					"camera": 315.870742122684,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(440.372, 390.7879)"
+				},
+				{
+					"camera": 337.713229289097,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(411.6719, 390.7879)"
+				},
+				{
+					"camera": 359.555704842627,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(382.972, 390.7879)"
+				},
+				{
+					"camera": 381.398180396156,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(354.2719, 390.7879)"
+				},
+				{
+					"camera": 403.240667562569,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(325.5719, 390.7879)"
+				},
+				{
+					"camera": 425.083143116099,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(296.8719, 390.7879)"
+				},
+				{
+					"camera": 446.925618669628,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(268.1719, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 621.665446323631,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 446.925618669628,
+			"steps": [
+				{
+					"camera": 468.768105836041,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(239.4719, 390.7879)"
+				},
+				{
+					"camera": 490.610569776687,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(210.7719, 390.7879)"
+				},
+				{
+					"camera": 512.4530569431,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(182.0719, 390.7879)"
+				},
+				{
+					"camera": 534.29553249663,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(153.3719, 390.7879)"
+				},
+				{
+					"camera": 556.138008050159,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(124.6719, 390.7879)"
+				},
+				{
+					"camera": 577.980495216572,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(95.97195, 390.7879)"
+				},
+				{
+					"camera": 599.822970770102,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(67.27188, 390.7879)"
+				},
+				{
+					"camera": 621.665446323631,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(38.57189, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 796.405273977634,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 621.665446323631,
+			"steps": [
+				{
+					"camera": 643.507933490044,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(9.871902, 390.7879)"
+				},
+				{
+					"camera": 665.35039743069,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-18.82808, 390.7879)"
+				},
+				{
+					"camera": 687.192884597103,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-47.52808, 390.7879)"
+				},
+				{
+					"camera": 709.035360150633,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-76.22806, 390.7879)"
+				},
+				{
+					"camera": 730.877835704162,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-104.928, 390.7879)"
+				},
+				{
+					"camera": 752.720322870575,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-133.6281, 390.7879)"
+				},
+				{
+					"camera": 774.562798424105,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-162.3281, 390.7879)"
+				},
+				{
+					"camera": 796.405273977634,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-191.0281, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 796.405273977634,
+			"steps": [
+				{
+					"camera": 818.247761144047,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-219.7281, 390.7879)"
+				},
+				{
+					"camera": 840.090225084693,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-248.4281, 390.7879)"
+				},
+				{
+					"camera": 861.932712251106,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-277.1281, 390.7879)"
+				},
+				{
+					"camera": 883.775187804636,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-305.8281, 390.7879)"
+				},
+				{
+					"camera": 905.617663358165,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-334.5281, 390.7879)"
+				},
+				{
+					"camera": 927.460150524578,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-363.2281, 390.7879)"
+				},
+				{
+					"camera": 949.302626078108,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-391.9281, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(-229.6, 0.0)",
+			"end_camera": 956.319519042969,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				},
+				{
+					"camera": 956.319519042969,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(-401.1479, 390.7879)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(3.0, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(0.0, 40.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(70.0, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.31395348837209,
+					"screen_anchor": "(497.7719, 390.7879)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": 0,
+	"passed": 381,
+	"ray_samples": [
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1780,
+			"rendered_pixels": 0,
+			"scene": "middle_1920x1080"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1780,
+			"rendered_pixels": 0,
+			"scene": "left_1920x1080"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1783,
+			"rendered_pixels": 0,
+			"scene": "right_1920x1080"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2077,
+			"rendered_pixels": 0,
+			"scene": "middle_1280x800"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2077,
+			"rendered_pixels": 0,
+			"scene": "left_1280x800"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2087,
+			"rendered_pixels": 0,
+			"scene": "right_1280x800"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 692,
+			"rendered_pixels": 0,
+			"scene": "middle_1080x1920"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 675,
+			"rendered_pixels": 0,
+			"scene": "left_1080x1920"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 691,
+			"rendered_pixels": 0,
+			"scene": "right_1080x1920"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 560,
+			"rendered_pixels": 0,
+			"scene": "middle_1170x2532"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 542,
+			"rendered_pixels": 0,
+			"scene": "left_1170x2532"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 560,
+			"rendered_pixels": 0,
+			"scene": "right_1170x2532"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 560,
+			"rendered_pixels": 0,
+			"scene": "middle_360x780"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 542,
+			"rendered_pixels": 0,
+			"scene": "left_360x780"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 560,
+			"rendered_pixels": 0,
+			"scene": "right_360x780"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1780,
+			"rendered_pixels": 0,
+			"scene": "occlusion_bed_front"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1781,
+			"rendered_pixels": 0,
+			"scene": "occlusion_bed_back"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1778,
+			"rendered_pixels": 0,
+			"scene": "occlusion_desk_gap"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1777,
+			"rendered_pixels": 0,
+			"scene": "desk_front_overlap"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1781,
+			"rendered_pixels": 0,
+			"scene": "occlusion_wardrobe_back"
+		}
+	],
+	"scope": "Actual Godot viewport / synthetic mouse and touch. No Android device or human playtest.",
+	"screenshots": [],
+	"views": [
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_middle",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_left",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 642.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_right",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 593.849487304688,
+			"canvas": "(1224.0, 561.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 156.949359698628,
+					"visible": true,
+					"width": 299.274785454329
+				},
+				"desk": {
+					"height": 126.431001743051,
+					"visible": true,
+					"width": 186.685197697129
+				},
+				"wardrobe": {
+					"height": 264.944559141647,
+					"visible": true,
+					"width": 174.190200592751
+				}
+			},
+			"limits": "(593.8495, 686.1506)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.3046511627907,
+			"scene": "pc_1280x800_middle",
+			"window": "(1280, 800)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 593.849487304688,
+			"canvas": "(1224.0, 561.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 156.949359698628,
+					"visible": true,
+					"width": 299.274785454329
+				},
+				"desk": {
+					"height": 126.431001743051,
+					"visible": true,
+					"width": 186.685197697129
+				},
+				"wardrobe": {
+					"height": 264.944559141647,
+					"visible": true,
+					"width": 174.190200592751
+				}
+			},
+			"limits": "(593.8495, 686.1506)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.3046511627907,
+			"scene": "pc_1280x800_left",
+			"window": "(1280, 800)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 686.150573730469,
+			"canvas": "(1224.0, 561.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 156.949359698628,
+					"visible": true,
+					"width": 299.274785454329
+				},
+				"desk": {
+					"height": 126.431001743051,
+					"visible": true,
+					"width": 186.685197697129
+				},
+				"wardrobe": {
+					"height": 264.944559141647,
+					"visible": true,
+					"width": 174.190200592751
+				}
+			},
+			"limits": "(593.8495, 686.1506)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.3046511627907,
+			"scene": "pc_1280x800_right",
+			"window": "(1280, 800)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 640.0,
+			"canvas": "(406.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": false,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": true,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": false,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(279.2542, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_1080x1920_middle",
+			"window": "(1080, 1920)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 279.254180908203,
+			"canvas": "(406.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": true,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": false,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": false,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(279.2542, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_1080x1920_left",
+			"window": "(1080, 1920)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 956.319519042969,
+			"canvas": "(406.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": false,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": false,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": true,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(279.2542, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_1080x1920_right",
+			"window": "(1080, 1920)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 640.0,
+			"canvas": "(328.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": false,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": true,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": false,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_1170x2532_middle",
+			"window": "(1170, 2532)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 272.185791015625,
+			"canvas": "(328.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": true,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": false,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": false,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_1170x2532_left",
+			"window": "(1170, 2532)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 956.319519042969,
+			"canvas": "(328.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": false,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": false,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": true,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_1170x2532_right",
+			"window": "(1170, 2532)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 640.0,
+			"canvas": "(328.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": false,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": true,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": false,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_360x780_middle",
+			"window": "(360, 780)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 272.185791015625,
+			"canvas": "(328.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": true,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": false,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": false,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_360x780_left",
+			"window": "(360, 780)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 956.319519042969,
+			"canvas": "(328.0, 565.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 158.068428216979,
+					"visible": false,
+					"width": 301.408652017283
+				},
+				"desk": {
+					"height": 127.332470561183,
+					"visible": false,
+					"width": 188.016286450763
+				},
+				"wardrobe": {
+					"height": 266.833646907363,
+					"visible": true,
+					"width": 175.43219845794
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.31395348837209,
+			"scene": "phone_360x780_right",
+			"window": "(360, 780)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-3.4, 0.85)",
+			"scale": 1.19242128696843,
+			"scene": "occlusion_bed_front",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-3.4, 3.6)",
+			"scale": 1.19242128696843,
+			"scene": "occlusion_bed_back",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(0.0, 4.35)",
+			"scale": 1.19242128696843,
+			"scene": "occlusion_desk_gap",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 115.555040390013,
+					"visible": true,
+					"width": 170.625995702792
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-2.0, 1.6)",
+			"scale": 1.19242128696843,
+			"scene": "desk_before_move",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 638.0,
+			"canvas": "(1224.0, 481.0)",
+			"desk_slot": 1,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 143.44812070714,
+					"visible": true,
+					"width": 273.530300670803
+				},
+				"desk": {
+					"height": 144.10874131394,
+					"visible": true,
+					"width": 223.127939614322
+				},
+				"wardrobe": {
+					"height": 242.153259965055,
+					"visible": true,
+					"width": 159.205854478221
+				}
+			},
+			"limits": "(638.0, 642.0)",
+			"marker": "(-2.0, 1.6)",
+			"scale": 1.19242128696843,
+			"scene": "desk_front_overlap",
+			"window": "(1920, 1080)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (-2.0, 0.25), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		},
+		{
+			"camera_x": 640.0,
+			"canvas": "(328.0, 486.0)",
+			"desk_slot": 0,
+			"framing": "browse",
+			"furniture": {
+				"bed": {
+					"height": 135.96682497956,
+					"visible": false,
+					"width": 259.264787398937
+				},
+				"desk": {
+					"height": 109.52846140307,
+					"visible": true,
+					"width": 161.727283566497
+				},
+				"wardrobe": {
+					"height": 229.524163534475,
+					"visible": false,
+					"width": 150.902740620458
+				}
+			},
+			"limits": "(272.1858, 956.3195)",
+			"marker": "(3.5, 5.25)",
+			"scale": 1.13023255813953,
+			"scene": "phone_simulated_safe_area",
+			"window": "(1170, 2532)",
+			"world_positions": "[[33185334789, (-3.4, 1.15), (1.66, 1.0, 2.08)], [33202112006, (0.0, 3.2), (1.45, 0.96, 0.8)], [33218889235, (3.5, 4.25), (1.3, 2.2, 0.88)]]"
+		}
+	]
+}

@@ -1,0 +1,712 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 正在注册全局类…… (3 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | GrayboxCat[39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 正在加载编辑器 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 正在加载编辑器布局……[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 正在加载停靠面板……[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+PASS: 真实默认宿舍启用找猫
+PASS: 局部 2D 原型与默认收起调试
+PASS: 找猫状态未增加场景管理节点
+PASS: 三个有稳定 ID 的藏点
+PASS: 藏点唯一且引用有效家具 under_bed
+PASS: 位置绑定的俄语原文 under_bed
+PASS: 本机字体覆盖俄文字符 К
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 п
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 д
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 р
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 в
+PASS: 本机字体覆盖俄文字符 а
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 ь
+PASS: 本机字体覆盖俄文字符 ю
+PASS: 本机字体覆盖俄文字符 Г
+PASS: 本机字体覆盖俄文字符 д
+PASS: 本机字体覆盖俄文字符 е
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 В
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 藏点唯一且引用有效家具 under_desk
+PASS: 位置绑定的俄语原文 under_desk
+PASS: 本机字体覆盖俄文字符 К
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 п
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 д
+PASS: 本机字体覆盖俄文字符 с
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 л
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 м
+PASS: 本机字体覆盖俄文字符 Г
+PASS: 本机字体覆盖俄文字符 д
+PASS: 本机字体覆盖俄文字符 е
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 В
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 藏点唯一且引用有效家具 by_wardrobe
+PASS: 位置绑定的俄语原文 by_wardrobe
+PASS: 本机字体覆盖俄文字符 К
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 у
+PASS: 本机字体覆盖俄文字符 ш
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 а
+PASS: 本机字体覆盖俄文字符 ф
+PASS: 本机字体覆盖俄文字符 а
+PASS: 本机字体覆盖俄文字符 Г
+PASS: 本机字体覆盖俄文字符 д
+PASS: 本机字体覆盖俄文字符 е
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 В
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 本机字体覆盖俄文字符 к
+PASS: 本机字体覆盖俄文字符 о
+PASS: 本机字体覆盖俄文字符 т
+PASS: 未找到前不能跳过本次藏点
+PASS: 导航家具不自动找到猫 pc_1920x1080_under_bed
+PASS: 藏点使用空间锚点 pc_1920x1080_under_bed
+PASS: 当前视图可发现猫头 pc_1920x1080_under_bed
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_under_bed_search
+PASS: 提示位于画布外 pc_1920x1080_under_bed_search
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_under_bed_search
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_under_bed_search
+PASS: 真实像素显示当前猫头 pc_1920x1080_under_bed_search
+PASS: 保存实际渲染截图 pc_1920x1080_under_bed_search
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_under_bed[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_under_bed[]
+PASS: 床体优先于被遮住的猫身 pc_1920x1080_under_bed
+PASS: 点击遮挡处不会穿透找猫 pc_1920x1080_under_bed
+PASS: 空白点击有轻松的失败反馈 pc_1920x1080_under_bed
+PASS: 未找到不宣称成功 pc_1920x1080_under_bed
+ERROR: FAIL: 实际提示与藏点一致 pc_1920x1080_under_bed
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:68)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 无不相关俄语提示 pc_1920x1080_under_bed under_desk
+PASS: 无不相关俄语提示 pc_1920x1080_under_bed by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_under_bed_hint
+PASS: 提示位于画布外 pc_1920x1080_under_bed_hint
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_under_bed_hint
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_under_bed_hint
+PASS: 真实像素显示当前猫头 pc_1920x1080_under_bed_hint
+PASS: 保存实际渲染截图 pc_1920x1080_under_bed_hint
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 pc_1920x1080_under_bed
+PASS: 可见猫优先且只找到一次 pc_1920x1080_under_bed
+PASS: 成功后反馈和俄语对应 pc_1920x1080_under_bed
+PASS: 找到时不跳镜头 pc_1920x1080_under_bed
+PASS: 重复点击猫不重复结算 pc_1920x1080_under_bed
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_under_bed_found
+PASS: 提示位于画布外 pc_1920x1080_under_bed_found
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_under_bed_found
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_under_bed_found
+PASS: 真实像素显示当前猫头 pc_1920x1080_under_bed_found
+PASS: 保存实际渲染截图 pc_1920x1080_under_bed_found
+ERROR: FAIL: 再次寻找排除上一藏点 pc_1920x1080_under_bed
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:92)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 导航家具不自动找到猫 pc_1920x1080_under_desk
+PASS: 藏点使用空间锚点 pc_1920x1080_under_desk
+PASS: 当前视图可发现猫头 pc_1920x1080_under_desk
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_under_desk_search
+PASS: 提示位于画布外 pc_1920x1080_under_desk_search
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_under_desk_search
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_under_desk_search
+PASS: 真实像素显示当前猫头 pc_1920x1080_under_desk_search
+PASS: 保存实际渲染截图 pc_1920x1080_under_desk_search
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_under_desk[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_under_desk[]
+PASS: 空白点击有轻松的失败反馈 pc_1920x1080_under_desk
+PASS: 未找到不宣称成功 pc_1920x1080_under_desk
+ERROR: FAIL: 实际提示与藏点一致 pc_1920x1080_under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:68)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 无不相关俄语提示 pc_1920x1080_under_desk under_bed
+PASS: 无不相关俄语提示 pc_1920x1080_under_desk by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_under_desk_hint
+PASS: 提示位于画布外 pc_1920x1080_under_desk_hint
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_under_desk_hint
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_under_desk_hint
+PASS: 真实像素显示当前猫头 pc_1920x1080_under_desk_hint
+PASS: 保存实际渲染截图 pc_1920x1080_under_desk_hint
+ERROR: FAIL: 拖动统一平移且无透视/纵向跳变
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _drag (res://tests/ribbon_tests.gd:270)
+       [2] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 猫上开始拖动不算找到 pc_1920x1080_under_desk
+ERROR: FAIL: 可见猫优先且只找到一次 pc_1920x1080_under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:84)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+ERROR: FAIL: 成功后反馈和俄语对应 pc_1920x1080_under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:85)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 找到时不跳镜头 pc_1920x1080_under_desk
+PASS: 重复点击猫不重复结算 pc_1920x1080_under_desk
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_under_desk_found
+PASS: 提示位于画布外 pc_1920x1080_under_desk_found
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_under_desk_found
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_under_desk_found
+PASS: 真实像素显示当前猫头 pc_1920x1080_under_desk_found
+PASS: 保存实际渲染截图 pc_1920x1080_under_desk_found
+ERROR: FAIL: 再次寻找排除上一藏点 pc_1920x1080_under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:92)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 导航家具不自动找到猫 pc_1920x1080_by_wardrobe
+PASS: 藏点使用空间锚点 pc_1920x1080_by_wardrobe
+PASS: 当前视图可发现猫头 pc_1920x1080_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_by_wardrobe_search
+PASS: 提示位于画布外 pc_1920x1080_by_wardrobe_search
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_by_wardrobe_search
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_by_wardrobe_search
+PASS: 真实像素显示当前猫头 pc_1920x1080_by_wardrobe_search
+PASS: 保存实际渲染截图 pc_1920x1080_by_wardrobe_search
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_by_wardrobe[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_by_wardrobe[]
+PASS: 空白点击有轻松的失败反馈 pc_1920x1080_by_wardrobe
+PASS: 未找到不宣称成功 pc_1920x1080_by_wardrobe
+ERROR: FAIL: 实际提示与藏点一致 pc_1920x1080_by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:68)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 无不相关俄语提示 pc_1920x1080_by_wardrobe under_bed
+PASS: 无不相关俄语提示 pc_1920x1080_by_wardrobe under_desk
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_by_wardrobe_hint
+PASS: 提示位于画布外 pc_1920x1080_by_wardrobe_hint
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_by_wardrobe_hint
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_by_wardrobe_hint
+PASS: 真实像素显示当前猫头 pc_1920x1080_by_wardrobe_hint
+PASS: 保存实际渲染截图 pc_1920x1080_by_wardrobe_hint
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 pc_1920x1080_by_wardrobe
+PASS: 可见猫优先且只找到一次 pc_1920x1080_by_wardrobe
+PASS: 成功后反馈和俄语对应 pc_1920x1080_by_wardrobe
+PASS: 找到时不跳镜头 pc_1920x1080_by_wardrobe
+PASS: 重复点击猫不重复结算 pc_1920x1080_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 pc_1920x1080_by_wardrobe_found
+PASS: 提示位于画布外 pc_1920x1080_by_wardrobe_found
+PASS: 提示/再找按钮触摸尺寸 pc_1920x1080_by_wardrobe_found
+PASS: 猫屏幕位置与空间锚点一致 pc_1920x1080_by_wardrobe_found
+PASS: 真实像素显示当前猫头 pc_1920x1080_by_wardrobe_found
+PASS: 保存实际渲染截图 pc_1920x1080_by_wardrobe_found
+ERROR: FAIL: 再次寻找排除上一藏点 pc_1920x1080_by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://tests/dormitory_tests.gd:367)
+       [1] _run (res://tests/cat_hunt_tests.gd:92)
+       [2] _touch (res://tests/dormitory_tests.gd:337)
+       [3] _settle (res://tests/dormitory_tests.gd:343)
+PASS: 导航家具不自动找到猫 pc_1280x800_under_bed
+PASS: 藏点使用空间锚点 pc_1280x800_under_bed
+PASS: 当前视图可发现猫头 pc_1280x800_under_bed
+PASS: 玩法 UI 不遮挡/溢出 pc_1280x800_under_bed_search
+PASS: 提示位于画布外 pc_1280x800_under_bed_search
+PASS: 提示/再找按钮触摸尺寸 pc_1280x800_under_bed_search
+PASS: 猫屏幕位置与空间锚点一致 pc_1280x800_under_bed_search
+PASS: 真实像素显示当前猫头 pc_1280x800_under_bed_search
+PASS: 保存实际渲染截图 pc_1280x800_under_bed_search
+PASS: 独立射线与可见面拾取一致 pc_1280x800_under_bed[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_under_bed[]
+PASS: 床体优先于被遮住的猫身 pc_1280x800_under_bed
+PASS: 点击遮挡处不会穿透找猫 pc_1280x800_under_bed
+PASS: 空白点击有轻松的失败反馈 pc_1280x800_under_bed
+PASS: 未找到不宣称成功 pc_1280x800_under_bed
+PASS: 实际提示与藏点一致 pc_1280x800_under_bed
+PASS: 无不相关俄语提示 pc_1280x800_under_bed under_desk
+PASS: 无不相关俄语提示 pc_1280x800_under_bed by_wardrobe
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 pc_1280x800_under_bed
+PASS: 可见猫优先且只找到一次 pc_1280x800_under_bed
+PASS: 成功后反馈和俄语对应 pc_1280x800_under_bed
+PASS: 找到时不跳镜头 pc_1280x800_under_bed
+PASS: 重复点击猫不重复结算 pc_1280x800_under_bed
+PASS: 玩法 UI 不遮挡/溢出 pc_1280x800_under_bed_found
+PASS: 提示位于画布外 pc_1280x800_under_bed_found
+PASS: 提示/再找按钮触摸尺寸 pc_1280x800_under_bed_found
+PASS: 猫屏幕位置与空间锚点一致 pc_1280x800_under_bed_found
+PASS: 真实像素显示当前猫头 pc_1280x800_under_bed_found
+PASS: 保存实际渲染截图 pc_1280x800_under_bed_found
+PASS: 再次寻找排除上一藏点 pc_1280x800_under_bed
+PASS: 导航家具不自动找到猫 pc_1280x800_under_desk
+PASS: 藏点使用空间锚点 pc_1280x800_under_desk
+PASS: 当前视图可发现猫头 pc_1280x800_under_desk
+PASS: 玩法 UI 不遮挡/溢出 pc_1280x800_under_desk_search
+PASS: 提示位于画布外 pc_1280x800_under_desk_search
+PASS: 提示/再找按钮触摸尺寸 pc_1280x800_under_desk_search
+PASS: 猫屏幕位置与空间锚点一致 pc_1280x800_under_desk_search
+PASS: 真实像素显示当前猫头 pc_1280x800_under_desk_search
+PASS: 保存实际渲染截图 pc_1280x800_under_desk_search
+PASS: 独立射线与可见面拾取一致 pc_1280x800_under_desk[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_under_desk[]
+PASS: 空白点击有轻松的失败反馈 pc_1280x800_under_desk
+PASS: 未找到不宣称成功 pc_1280x800_under_desk
+PASS: 实际提示与藏点一致 pc_1280x800_under_desk
+PASS: 无不相关俄语提示 pc_1280x800_under_desk under_bed
+PASS: 无不相关俄语提示 pc_1280x800_under_desk by_wardrobe
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 pc_1280x800_under_desk
+PASS: 可见猫优先且只找到一次 pc_1280x800_under_desk
+PASS: 成功后反馈和俄语对应 pc_1280x800_under_desk
+PASS: 找到时不跳镜头 pc_1280x800_under_desk
+PASS: 重复点击猫不重复结算 pc_1280x800_under_desk
+PASS: 玩法 UI 不遮挡/溢出 pc_1280x800_under_desk_found
+PASS: 提示位于画布外 pc_1280x800_under_desk_found
+PASS: 提示/再找按钮触摸尺寸 pc_1280x800_under_desk_found
+PASS: 猫屏幕位置与空间锚点一致 pc_1280x800_under_desk_found
+PASS: 真实像素显示当前猫头 pc_1280x800_under_desk_found
+PASS: 保存实际渲染截图 pc_1280x800_under_desk_found
+PASS: 再次寻找排除上一藏点 pc_1280x800_under_desk
+PASS: 导航家具不自动找到猫 pc_1280x800_by_wardrobe
+PASS: 藏点使用空间锚点 pc_1280x800_by_wardrobe
+PASS: 当前视图可发现猫头 pc_1280x800_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 pc_1280x800_by_wardrobe_search
+PASS: 提示位于画布外 pc_1280x800_by_wardrobe_search
+PASS: 提示/再找按钮触摸尺寸 pc_1280x800_by_wardrobe_search
+PASS: 猫屏幕位置与空间锚点一致 pc_1280x800_by_wardrobe_search
+PASS: 真实像素显示当前猫头 pc_1280x800_by_wardrobe_search
+PASS: 保存实际渲染截图 pc_1280x800_by_wardrobe_search
+PASS: 独立射线与可见面拾取一致 pc_1280x800_by_wardrobe[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_by_wardrobe[]
+PASS: 空白点击有轻松的失败反馈 pc_1280x800_by_wardrobe
+PASS: 未找到不宣称成功 pc_1280x800_by_wardrobe
+PASS: 实际提示与藏点一致 pc_1280x800_by_wardrobe
+PASS: 无不相关俄语提示 pc_1280x800_by_wardrobe under_bed
+PASS: 无不相关俄语提示 pc_1280x800_by_wardrobe under_desk
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 pc_1280x800_by_wardrobe
+PASS: 可见猫优先且只找到一次 pc_1280x800_by_wardrobe
+PASS: 成功后反馈和俄语对应 pc_1280x800_by_wardrobe
+PASS: 找到时不跳镜头 pc_1280x800_by_wardrobe
+PASS: 重复点击猫不重复结算 pc_1280x800_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 pc_1280x800_by_wardrobe_found
+PASS: 提示位于画布外 pc_1280x800_by_wardrobe_found
+PASS: 提示/再找按钮触摸尺寸 pc_1280x800_by_wardrobe_found
+PASS: 猫屏幕位置与空间锚点一致 pc_1280x800_by_wardrobe_found
+PASS: 真实像素显示当前猫头 pc_1280x800_by_wardrobe_found
+PASS: 保存实际渲染截图 pc_1280x800_by_wardrobe_found
+PASS: 再次寻找排除上一藏点 pc_1280x800_by_wardrobe
+PASS: 导航家具不自动找到猫 phone_1080x1920_under_bed
+PASS: 藏点使用空间锚点 phone_1080x1920_under_bed
+PASS: 当前视图可发现猫头 phone_1080x1920_under_bed
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_under_bed_search
+PASS: 提示位于画布外 phone_1080x1920_under_bed_search
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_under_bed_search
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_under_bed_search
+PASS: 真实像素显示当前猫头 phone_1080x1920_under_bed_search
+PASS: 保存实际渲染截图 phone_1080x1920_under_bed_search
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_under_bed[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_under_bed[]
+PASS: 床体优先于被遮住的猫身 phone_1080x1920_under_bed
+PASS: 点击遮挡处不会穿透找猫 phone_1080x1920_under_bed
+PASS: 空白点击有轻松的失败反馈 phone_1080x1920_under_bed
+PASS: 未找到不宣称成功 phone_1080x1920_under_bed
+PASS: 实际提示与藏点一致 phone_1080x1920_under_bed
+PASS: 无不相关俄语提示 phone_1080x1920_under_bed under_desk
+PASS: 无不相关俄语提示 phone_1080x1920_under_bed by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_under_bed_hint
+PASS: 提示位于画布外 phone_1080x1920_under_bed_hint
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_under_bed_hint
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_under_bed_hint
+PASS: 真实像素显示当前猫头 phone_1080x1920_under_bed_hint
+PASS: 保存实际渲染截图 phone_1080x1920_under_bed_hint
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_1080x1920_under_bed
+PASS: 可见猫优先且只找到一次 phone_1080x1920_under_bed
+PASS: 成功后反馈和俄语对应 phone_1080x1920_under_bed
+PASS: 找到时不跳镜头 phone_1080x1920_under_bed
+PASS: 重复点击猫不重复结算 phone_1080x1920_under_bed
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_under_bed_found
+PASS: 提示位于画布外 phone_1080x1920_under_bed_found
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_under_bed_found
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_under_bed_found
+PASS: 真实像素显示当前猫头 phone_1080x1920_under_bed_found
+PASS: 保存实际渲染截图 phone_1080x1920_under_bed_found
+PASS: 再次寻找排除上一藏点 phone_1080x1920_under_bed
+PASS: 导航家具不自动找到猫 phone_1080x1920_under_desk
+PASS: 藏点使用空间锚点 phone_1080x1920_under_desk
+PASS: 当前视图可发现猫头 phone_1080x1920_under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_under_desk_search
+PASS: 提示位于画布外 phone_1080x1920_under_desk_search
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_under_desk_search
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_under_desk_search
+PASS: 真实像素显示当前猫头 phone_1080x1920_under_desk_search
+PASS: 保存实际渲染截图 phone_1080x1920_under_desk_search
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_under_desk[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_under_desk[]
+PASS: 空白点击有轻松的失败反馈 phone_1080x1920_under_desk
+PASS: 未找到不宣称成功 phone_1080x1920_under_desk
+PASS: 实际提示与藏点一致 phone_1080x1920_under_desk
+PASS: 无不相关俄语提示 phone_1080x1920_under_desk under_bed
+PASS: 无不相关俄语提示 phone_1080x1920_under_desk by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_under_desk_hint
+PASS: 提示位于画布外 phone_1080x1920_under_desk_hint
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_under_desk_hint
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_under_desk_hint
+PASS: 真实像素显示当前猫头 phone_1080x1920_under_desk_hint
+PASS: 保存实际渲染截图 phone_1080x1920_under_desk_hint
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_1080x1920_under_desk
+PASS: 可见猫优先且只找到一次 phone_1080x1920_under_desk
+PASS: 成功后反馈和俄语对应 phone_1080x1920_under_desk
+PASS: 找到时不跳镜头 phone_1080x1920_under_desk
+PASS: 重复点击猫不重复结算 phone_1080x1920_under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_under_desk_found
+PASS: 提示位于画布外 phone_1080x1920_under_desk_found
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_under_desk_found
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_under_desk_found
+PASS: 真实像素显示当前猫头 phone_1080x1920_under_desk_found
+PASS: 保存实际渲染截图 phone_1080x1920_under_desk_found
+PASS: 再次寻找排除上一藏点 phone_1080x1920_under_desk
+PASS: 导航家具不自动找到猫 phone_1080x1920_by_wardrobe
+PASS: 藏点使用空间锚点 phone_1080x1920_by_wardrobe
+PASS: 当前视图可发现猫头 phone_1080x1920_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_by_wardrobe_search
+PASS: 提示位于画布外 phone_1080x1920_by_wardrobe_search
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_by_wardrobe_search
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_by_wardrobe_search
+PASS: 真实像素显示当前猫头 phone_1080x1920_by_wardrobe_search
+PASS: 保存实际渲染截图 phone_1080x1920_by_wardrobe_search
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_by_wardrobe[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_by_wardrobe[]
+PASS: 空白点击有轻松的失败反馈 phone_1080x1920_by_wardrobe
+PASS: 未找到不宣称成功 phone_1080x1920_by_wardrobe
+PASS: 实际提示与藏点一致 phone_1080x1920_by_wardrobe
+PASS: 无不相关俄语提示 phone_1080x1920_by_wardrobe under_bed
+PASS: 无不相关俄语提示 phone_1080x1920_by_wardrobe under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_by_wardrobe_hint
+PASS: 提示位于画布外 phone_1080x1920_by_wardrobe_hint
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_by_wardrobe_hint
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_by_wardrobe_hint
+PASS: 真实像素显示当前猫头 phone_1080x1920_by_wardrobe_hint
+PASS: 保存实际渲染截图 phone_1080x1920_by_wardrobe_hint
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_1080x1920_by_wardrobe
+PASS: 可见猫优先且只找到一次 phone_1080x1920_by_wardrobe
+PASS: 成功后反馈和俄语对应 phone_1080x1920_by_wardrobe
+PASS: 找到时不跳镜头 phone_1080x1920_by_wardrobe
+PASS: 重复点击猫不重复结算 phone_1080x1920_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_1080x1920_by_wardrobe_found
+PASS: 提示位于画布外 phone_1080x1920_by_wardrobe_found
+PASS: 提示/再找按钮触摸尺寸 phone_1080x1920_by_wardrobe_found
+PASS: 猫屏幕位置与空间锚点一致 phone_1080x1920_by_wardrobe_found
+PASS: 真实像素显示当前猫头 phone_1080x1920_by_wardrobe_found
+PASS: 保存实际渲染截图 phone_1080x1920_by_wardrobe_found
+PASS: 再次寻找排除上一藏点 phone_1080x1920_by_wardrobe
+PASS: 导航家具不自动找到猫 phone_1170x2532_under_bed
+PASS: 藏点使用空间锚点 phone_1170x2532_under_bed
+PASS: 当前视图可发现猫头 phone_1170x2532_under_bed
+PASS: 玩法 UI 不遮挡/溢出 phone_1170x2532_under_bed_search
+PASS: 提示位于画布外 phone_1170x2532_under_bed_search
+PASS: 提示/再找按钮触摸尺寸 phone_1170x2532_under_bed_search
+PASS: 猫屏幕位置与空间锚点一致 phone_1170x2532_under_bed_search
+PASS: 真实像素显示当前猫头 phone_1170x2532_under_bed_search
+PASS: 保存实际渲染截图 phone_1170x2532_under_bed_search
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_under_bed[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_under_bed[]
+PASS: 床体优先于被遮住的猫身 phone_1170x2532_under_bed
+PASS: 点击遮挡处不会穿透找猫 phone_1170x2532_under_bed
+PASS: 空白点击有轻松的失败反馈 phone_1170x2532_under_bed
+PASS: 未找到不宣称成功 phone_1170x2532_under_bed
+PASS: 实际提示与藏点一致 phone_1170x2532_under_bed
+PASS: 无不相关俄语提示 phone_1170x2532_under_bed under_desk
+PASS: 无不相关俄语提示 phone_1170x2532_under_bed by_wardrobe
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_1170x2532_under_bed
+PASS: 可见猫优先且只找到一次 phone_1170x2532_under_bed
+PASS: 成功后反馈和俄语对应 phone_1170x2532_under_bed
+PASS: 找到时不跳镜头 phone_1170x2532_under_bed
+PASS: 重复点击猫不重复结算 phone_1170x2532_under_bed
+PASS: 玩法 UI 不遮挡/溢出 phone_1170x2532_under_bed_found
+PASS: 提示位于画布外 phone_1170x2532_under_bed_found
+PASS: 提示/再找按钮触摸尺寸 phone_1170x2532_under_bed_found
+PASS: 猫屏幕位置与空间锚点一致 phone_1170x2532_under_bed_found
+PASS: 真实像素显示当前猫头 phone_1170x2532_under_bed_found
+PASS: 保存实际渲染截图 phone_1170x2532_under_bed_found
+PASS: 再次寻找排除上一藏点 phone_1170x2532_under_bed
+PASS: 导航家具不自动找到猫 phone_1170x2532_under_desk
+PASS: 藏点使用空间锚点 phone_1170x2532_under_desk
+PASS: 当前视图可发现猫头 phone_1170x2532_under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_1170x2532_under_desk_search
+PASS: 提示位于画布外 phone_1170x2532_under_desk_search
+PASS: 提示/再找按钮触摸尺寸 phone_1170x2532_under_desk_search
+PASS: 猫屏幕位置与空间锚点一致 phone_1170x2532_under_desk_search
+PASS: 真实像素显示当前猫头 phone_1170x2532_under_desk_search
+PASS: 保存实际渲染截图 phone_1170x2532_under_desk_search
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_under_desk[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_under_desk[]
+PASS: 空白点击有轻松的失败反馈 phone_1170x2532_under_desk
+PASS: 未找到不宣称成功 phone_1170x2532_under_desk
+PASS: 实际提示与藏点一致 phone_1170x2532_under_desk
+PASS: 无不相关俄语提示 phone_1170x2532_under_desk under_bed
+PASS: 无不相关俄语提示 phone_1170x2532_under_desk by_wardrobe
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_1170x2532_under_desk
+PASS: 可见猫优先且只找到一次 phone_1170x2532_under_desk
+PASS: 成功后反馈和俄语对应 phone_1170x2532_under_desk
+PASS: 找到时不跳镜头 phone_1170x2532_under_desk
+PASS: 重复点击猫不重复结算 phone_1170x2532_under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_1170x2532_under_desk_found
+PASS: 提示位于画布外 phone_1170x2532_under_desk_found
+PASS: 提示/再找按钮触摸尺寸 phone_1170x2532_under_desk_found
+PASS: 猫屏幕位置与空间锚点一致 phone_1170x2532_under_desk_found
+PASS: 真实像素显示当前猫头 phone_1170x2532_under_desk_found
+PASS: 保存实际渲染截图 phone_1170x2532_under_desk_found
+PASS: 再次寻找排除上一藏点 phone_1170x2532_under_desk
+PASS: 导航家具不自动找到猫 phone_1170x2532_by_wardrobe
+PASS: 藏点使用空间锚点 phone_1170x2532_by_wardrobe
+PASS: 当前视图可发现猫头 phone_1170x2532_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_1170x2532_by_wardrobe_search
+PASS: 提示位于画布外 phone_1170x2532_by_wardrobe_search
+PASS: 提示/再找按钮触摸尺寸 phone_1170x2532_by_wardrobe_search
+PASS: 猫屏幕位置与空间锚点一致 phone_1170x2532_by_wardrobe_search
+PASS: 真实像素显示当前猫头 phone_1170x2532_by_wardrobe_search
+PASS: 保存实际渲染截图 phone_1170x2532_by_wardrobe_search
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_by_wardrobe[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_by_wardrobe[]
+PASS: 空白点击有轻松的失败反馈 phone_1170x2532_by_wardrobe
+PASS: 未找到不宣称成功 phone_1170x2532_by_wardrobe
+PASS: 实际提示与藏点一致 phone_1170x2532_by_wardrobe
+PASS: 无不相关俄语提示 phone_1170x2532_by_wardrobe under_bed
+PASS: 无不相关俄语提示 phone_1170x2532_by_wardrobe under_desk
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_1170x2532_by_wardrobe
+PASS: 可见猫优先且只找到一次 phone_1170x2532_by_wardrobe
+PASS: 成功后反馈和俄语对应 phone_1170x2532_by_wardrobe
+PASS: 找到时不跳镜头 phone_1170x2532_by_wardrobe
+PASS: 重复点击猫不重复结算 phone_1170x2532_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_1170x2532_by_wardrobe_found
+PASS: 提示位于画布外 phone_1170x2532_by_wardrobe_found
+PASS: 提示/再找按钮触摸尺寸 phone_1170x2532_by_wardrobe_found
+PASS: 猫屏幕位置与空间锚点一致 phone_1170x2532_by_wardrobe_found
+PASS: 真实像素显示当前猫头 phone_1170x2532_by_wardrobe_found
+PASS: 保存实际渲染截图 phone_1170x2532_by_wardrobe_found
+PASS: 再次寻找排除上一藏点 phone_1170x2532_by_wardrobe
+PASS: 导航家具不自动找到猫 phone_360x780_under_bed
+PASS: 藏点使用空间锚点 phone_360x780_under_bed
+PASS: 当前视图可发现猫头 phone_360x780_under_bed
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_under_bed_search
+PASS: 提示位于画布外 phone_360x780_under_bed_search
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_under_bed_search
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_under_bed_search
+PASS: 真实像素显示当前猫头 phone_360x780_under_bed_search
+PASS: 保存实际渲染截图 phone_360x780_under_bed_search
+PASS: 独立射线与可见面拾取一致 phone_360x780_under_bed[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_under_bed[]
+PASS: 床体优先于被遮住的猫身 phone_360x780_under_bed
+PASS: 点击遮挡处不会穿透找猫 phone_360x780_under_bed
+PASS: 空白点击有轻松的失败反馈 phone_360x780_under_bed
+PASS: 未找到不宣称成功 phone_360x780_under_bed
+PASS: 实际提示与藏点一致 phone_360x780_under_bed
+PASS: 无不相关俄语提示 phone_360x780_under_bed under_desk
+PASS: 无不相关俄语提示 phone_360x780_under_bed by_wardrobe
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_360x780_under_bed
+PASS: 可见猫优先且只找到一次 phone_360x780_under_bed
+PASS: 成功后反馈和俄语对应 phone_360x780_under_bed
+PASS: 找到时不跳镜头 phone_360x780_under_bed
+PASS: 重复点击猫不重复结算 phone_360x780_under_bed
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_under_bed_found
+PASS: 提示位于画布外 phone_360x780_under_bed_found
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_under_bed_found
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_under_bed_found
+PASS: 真实像素显示当前猫头 phone_360x780_under_bed_found
+PASS: 保存实际渲染截图 phone_360x780_under_bed_found
+PASS: 再次寻找排除上一藏点 phone_360x780_under_bed
+PASS: 导航家具不自动找到猫 phone_360x780_under_desk
+PASS: 藏点使用空间锚点 phone_360x780_under_desk
+PASS: 当前视图可发现猫头 phone_360x780_under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_under_desk_search
+PASS: 提示位于画布外 phone_360x780_under_desk_search
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_under_desk_search
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_under_desk_search
+PASS: 真实像素显示当前猫头 phone_360x780_under_desk_search
+PASS: 保存实际渲染截图 phone_360x780_under_desk_search
+PASS: 独立射线与可见面拾取一致 phone_360x780_under_desk[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_under_desk[]
+PASS: 空白点击有轻松的失败反馈 phone_360x780_under_desk
+PASS: 未找到不宣称成功 phone_360x780_under_desk
+PASS: 实际提示与藏点一致 phone_360x780_under_desk
+PASS: 无不相关俄语提示 phone_360x780_under_desk under_bed
+PASS: 无不相关俄语提示 phone_360x780_under_desk by_wardrobe
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_360x780_under_desk
+PASS: 可见猫优先且只找到一次 phone_360x780_under_desk
+PASS: 成功后反馈和俄语对应 phone_360x780_under_desk
+PASS: 找到时不跳镜头 phone_360x780_under_desk
+PASS: 重复点击猫不重复结算 phone_360x780_under_desk
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_under_desk_found
+PASS: 提示位于画布外 phone_360x780_under_desk_found
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_under_desk_found
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_under_desk_found
+PASS: 真实像素显示当前猫头 phone_360x780_under_desk_found
+PASS: 保存实际渲染截图 phone_360x780_under_desk_found
+PASS: 再次寻找排除上一藏点 phone_360x780_under_desk
+PASS: 导航家具不自动找到猫 phone_360x780_by_wardrobe
+PASS: 藏点使用空间锚点 phone_360x780_by_wardrobe
+PASS: 当前视图可发现猫头 phone_360x780_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_by_wardrobe_search
+PASS: 提示位于画布外 phone_360x780_by_wardrobe_search
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_by_wardrobe_search
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_by_wardrobe_search
+PASS: 真实像素显示当前猫头 phone_360x780_by_wardrobe_search
+PASS: 保存实际渲染截图 phone_360x780_by_wardrobe_search
+PASS: 独立射线与可见面拾取一致 phone_360x780_by_wardrobe[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_by_wardrobe[]
+PASS: 空白点击有轻松的失败反馈 phone_360x780_by_wardrobe
+PASS: 未找到不宣称成功 phone_360x780_by_wardrobe
+PASS: 实际提示与藏点一致 phone_360x780_by_wardrobe
+PASS: 无不相关俄语提示 phone_360x780_by_wardrobe under_bed
+PASS: 无不相关俄语提示 phone_360x780_by_wardrobe under_desk
+PASS: 拖动统一平移且无透视/纵向跳变
+PASS: 猫上开始拖动不算找到 phone_360x780_by_wardrobe
+PASS: 可见猫优先且只找到一次 phone_360x780_by_wardrobe
+PASS: 成功后反馈和俄语对应 phone_360x780_by_wardrobe
+PASS: 找到时不跳镜头 phone_360x780_by_wardrobe
+PASS: 重复点击猫不重复结算 phone_360x780_by_wardrobe
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_by_wardrobe_found
+PASS: 提示位于画布外 phone_360x780_by_wardrobe_found
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_by_wardrobe_found
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_by_wardrobe_found
+PASS: 真实像素显示当前猫头 phone_360x780_by_wardrobe_found
+PASS: 保存实际渲染截图 phone_360x780_by_wardrobe_found
+PASS: 再次寻找排除上一藏点 phone_360x780_by_wardrobe
+PASS: 连续游玩不相邻重复 0
+PASS: 连续完整找到 0
+PASS: 连续游玩语言不串藏点 0
+PASS: 连续游玩不相邻重复 1
+PASS: 连续完整找到 1
+PASS: 连续游玩语言不串藏点 1
+PASS: 连续游玩不相邻重复 2
+PASS: 连续完整找到 2
+PASS: 连续游玩语言不串藏点 2
+PASS: 连续游玩不相邻重复 3
+PASS: 连续完整找到 3
+PASS: 连续游玩语言不串藏点 3
+PASS: 连续游玩不相邻重复 4
+PASS: 连续完整找到 4
+PASS: 连续游玩语言不串藏点 4
+PASS: 连续游玩不相邻重复 5
+PASS: 连续完整找到 5
+PASS: 连续游玩语言不串藏点 5
+PASS: 连续游玩不相邻重复 6
+PASS: 连续完整找到 6
+PASS: 连续游玩语言不串藏点 6
+PASS: 连续游玩不相邻重复 7
+PASS: 连续完整找到 7
+PASS: 连续游玩语言不串藏点 7
+PASS: 连续游玩不相邻重复 8
+PASS: 连续完整找到 8
+PASS: 连续游玩语言不串藏点 8
+PASS: 连续游玩不相邻重复 9
+PASS: 连续完整找到 9
+PASS: 连续游玩语言不串藏点 9
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_repeat_ten_found
+PASS: 提示位于画布外 phone_360x780_repeat_ten_found
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_repeat_ten_found
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_repeat_ten_found
+PASS: 真实像素显示当前猫头 phone_360x780_repeat_ten_found
+PASS: 保存实际渲染截图 phone_360x780_repeat_ten_found
+PASS: 十轮后可继续且没有线性通关
+PASS: 技术面板暂停并隐藏猫，不覆盖主要画面
+PASS: 家具移动后藏点仍绑定对象 ID
+PASS: 换位后可发现且语义仍为桌下
+PASS: 玩法 UI 不遮挡/溢出 phone_360x780_moved_desk
+PASS: 提示位于画布外 phone_360x780_moved_desk
+PASS: 提示/再找按钮触摸尺寸 phone_360x780_moved_desk
+PASS: 猫屏幕位置与空间锚点一致 phone_360x780_moved_desk
+PASS: 真实像素显示当前猫头 phone_360x780_moved_desk
+PASS: 保存实际渲染截图 phone_360x780_moved_desk
+PASS: 横竖屏切换取消猫的旧按下
+PASS: 模拟安全区内语言提示、猫和返回
+PASS: 模拟安全区内合成触摸可找到猫
+PASS: 玩法 UI 不遮挡/溢出 phone_simulated_safe_area_found
+PASS: 提示位于画布外 phone_simulated_safe_area_found
+PASS: 提示/再找按钮触摸尺寸 phone_simulated_safe_area_found
+PASS: 猫屏幕位置与空间锚点一致 phone_simulated_safe_area_found
+PASS: 真实像素显示当前猫头 phone_simulated_safe_area_found
+PASS: 保存实际渲染截图 phone_simulated_safe_area_found
+PASS: 搜索或找到均可退出且无残留 0
+PASS: 找猫退出恢复导航焦点 0
+PASS: 重入为新局部状态而非旧宠物存档 0
+PASS: 搜索或找到均可退出且无残留 1
+PASS: 找猫退出恢复导航焦点 1
+PASS: 重入为新局部状态而非旧宠物存档 1
+PASS: 搜索或找到均可退出且无残留 2
+PASS: 找猫退出恢复导航焦点 2
+PASS: 重入为新局部状态而非旧宠物存档 2
+PASS: 搜索或找到均可退出且无残留 3
+PASS: 找猫退出恢复导航焦点 3
+PASS: 重入为新局部状态而非旧宠物存档 3
+PASS: 搜索或找到均可退出且无残留 4
+PASS: 找猫退出恢复导航焦点 4
+PASS: 重入为新局部状态而非旧宠物存档 4
+P0_CAT_RESULT passed=624 failed=9 display=Windows

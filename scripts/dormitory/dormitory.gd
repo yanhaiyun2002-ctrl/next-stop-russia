@@ -1,5 +1,5 @@
 extends BuildingRoom
-## P0-03R continuous-room trial; V presets remain available for regression.
+## P0-04 local hunt on the R room; older spatial fixtures remain available.
 var world: DormitoryWorld
 var room_view: DormitoryView
 var controls: GridContainer
@@ -15,6 +15,9 @@ var composition_option: OptionButton
 var scheme_option: OptionButton
 var phone_scheme := "B"
 var selected_furniture: StringName = &"bed"
+var hunt_panel: HBoxContainer
+var hunt_prompt: Label
+var hunt_action: Button
 
 func _ready() -> void:
 	add_theme_constant_override("separation", 8)
@@ -23,7 +26,7 @@ func _ready() -> void:
 	add_child(world)
 	var header := HBoxContainer.new()
 	var title := Label.new()
-	title.text = "宿舍灰盒"
+	title.text = "宿舍 · 找猫"
 	title.add_theme_font_size_override("font_size", 22)
 	title.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	header.add_child(title)
@@ -37,6 +40,26 @@ func _ready() -> void:
 	mode_label.add_theme_font_size_override("font_size", 14)
 	mode_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	add_child(mode_label)
+	hunt_panel = HBoxContainer.new()
+	hunt_prompt = Label.new()
+	hunt_prompt.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	hunt_prompt.add_theme_font_size_override("font_size", 16)
+	hunt_prompt.custom_minimum_size.y = 72
+	hunt_prompt.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	hunt_panel.add_child(hunt_prompt)
+	hunt_action = _make_button("给个提示")
+	hunt_action.custom_minimum_size.x = 88
+	hunt_action.size_flags_horizontal = Control.SIZE_FILL
+	hunt_action.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	hunt_action.pressed.connect(func():
+		if world.is_hunt_active():
+			if world.hunt.found:
+				world.hunt.next_search()
+				feedback.text = "猫换了个地方，慢慢找吧。"
+			else:
+				world.hunt.show_hint())
+	hunt_panel.add_child(hunt_action)
+	add_child(hunt_panel)
 	room_view = DormitoryView.new()
 	room_view.name = "RoomView"
 	room_view.size_flags_vertical = Control.SIZE_EXPAND_FILL
@@ -44,14 +67,13 @@ func _ready() -> void:
 	add_child(room_view)
 	room_view.configure(world)
 	room_view.object_selected.connect(_selected)
+	room_view.empty_tapped.connect(_missed)
 	room_view.framing_changed.connect(_framing_text)
+	world.changed.connect(_refresh_hunt)
 	selection_bar = HBoxContainer.new()
 	for entry in [["床", &"bed"], ["书桌", &"desk"], ["衣柜", &"wardrobe"]]:
 		var button := _make_button(entry[0])
-		button.pressed.connect(func():
-			_selected(entry[1])
-			if room_view.composition == "ribbon" or not room_view.is_portrait():
-				room_view.frame_object(String(entry[1])))
+		button.pressed.connect(_browse_to_furniture.bind(entry[1]))
 		selection_bar.add_child(button)
 	add_child(selection_bar)
 	selection_bar.add_theme_constant_override("separation", 4)
@@ -97,7 +119,11 @@ func _ready() -> void:
 	scheme_option.add_item("手机 A：全景")
 	scheme_option.add_item("手机 B：点选聚焦")
 	scheme_option.select(1)
-	scheme_option.item_selected.connect(func(index): set_phone_scheme("A" if index == 0 else "B"))
+	scheme_option.item_selected.connect(func(index):
+		if room_view.composition == "ribbon":
+			set_play_enabled(index == 0)
+		else:
+			set_phone_scheme("A" if index == 0 else "B"))
 	for option in [composition_option, scheme_option]:
 		option.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		option.custom_minimum_size.y = 48
@@ -113,6 +139,7 @@ func _ready() -> void:
 	resized.connect(_layout_room)
 	get_viewport().size_changed.connect(_layout_room)
 	_layout_room()
+	_refresh_hunt()
 
 func _make_button(value: String) -> Button:
 	var button := Button.new()
@@ -129,8 +156,36 @@ func _button(value: String) -> Button:
 
 func set_debug_visible(value: bool) -> void:
 	debug_panel.visible = value
+	world.set_hunt_paused(value)
 	debug_button.text = "收起" if value else "测试"
 	_framing_text()
+	_refresh_hunt()
+
+func set_play_enabled(value: bool) -> void:
+	world.set_hunt_enabled(value)
+	_refresh_hunt()
+	_framing_text()
+
+func _refresh_hunt() -> void:
+	if not hunt_panel or not world.hunt:
+		return
+	hunt_panel.visible = world.is_hunt_active()
+	hunt_prompt.text = world.hunt.prompt()
+	hunt_action.text = "再找一次" if world.hunt.found else "给个提示"
+
+func _browse_to_furniture(id: StringName) -> void:
+	if world.is_hunt_active():
+		selected_furniture = id
+		feedback.text = "看看%s附近，试着点点猫咪。" % world.furniture[id].display_name
+		room_view.frame_object(String(id))
+	else:
+		_selected(id)
+		if room_view.composition == "ribbon" or not room_view.is_portrait():
+			room_view.frame_object(String(id))
+
+func _missed() -> void:
+	if world.is_hunt_active() and world.hunt.miss():
+		feedback.text = "还没点到猫，换个角度看看。"
 
 func _reset_view() -> void:
 	room_view.frame_object("overview")
@@ -159,7 +214,7 @@ func _framing_text() -> void:
 	var portrait := room_view.is_portrait()
 	var ribbon := room_view.composition == "ribbon"
 	if ribbon:
-		mode_label.text = "手机 · 左右拖动浏览" if portrait else "正视广角 · 连续室内 / 可横移"
+		mode_label.text = ("找猫" if world.hunt_enabled else "空间测试") + " · 左右拖动浏览"
 	else:
 		mode_label.text = ("手机 %s · " % phone_scheme if portrait else "正视广角 · ") + ("全景" if mode == "overview" else "局部聚焦")
 	if overview_button:
@@ -167,11 +222,23 @@ func _framing_text() -> void:
 	if focus_button:
 		focus_button.visible = not ribbon
 	if scheme_option:
-		scheme_option.disabled = ribbon
+		var first := "找猫玩法" if ribbon else "手机 A：全景"
+		if scheme_option.get_item_text(0) != first:
+			scheme_option.clear()
+			scheme_option.add_item(first)
+			scheme_option.add_item("空间测试" if ribbon else "手机 B：点选聚焦")
+		scheme_option.select((0 if world.hunt_enabled else 1) if ribbon else (0 if phone_scheme == "A" else 1))
 	if composition_option:
 		composition_option.select(["original", "balanced", "compact", "ribbon"].find(room_view.composition))
 
 func _selected(id: StringName) -> void:
+	if world.is_hunt_active():
+		if id == &"cat":
+			if world.hunt.find_cat():
+				feedback.text = "找到啦！准备好后可以再找一次。"
+		elif world.hunt.miss():
+			feedback.text = "点到%s了；看看露出的猫咪。" % world.furniture[id].display_name
+		return
 	if id == &"marker":
 		feedback.text = "测试标记 · 深度 %.2f m" % world.marker_position.y
 	else:

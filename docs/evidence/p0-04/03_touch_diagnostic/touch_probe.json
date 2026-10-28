@@ -1,0 +1,555 @@
+{
+	"events": [
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "one_frame",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "one_frame",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "one_frame"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "two_frames",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "two_frames",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "two_frames"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "atomic",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "atomic",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "atomic"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(162.8241, 551.1807)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(162.8241, 551.1807)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(43.0, 206.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "atomic",
+			"position": "(43.0, 206.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "mixed_one_frame",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "mixed_one_frame",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "mixed_one_frame"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(162.8241, 551.1807)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(162.8241, 551.1807)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(43.0, 206.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_one_frame",
+			"position": "(43.0, 206.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "mixed_atomic",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "mixed_atomic",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "mixed_atomic"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(162.8241, 551.1807)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(162.8241, 551.1807)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(43.0, 206.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_atomic",
+			"position": "(43.0, 206.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "mixed_two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "mixed_two_frames",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "mixed_two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "mixed_two_frames",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "mixed_two_frames"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "mixed_two_frames",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "window_origin",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "window_origin",
+			"position": "(44.0, 24.0)",
+			"pressed": true
+		},
+		{
+			"mouse_down": true,
+			"path": "input",
+			"phase": "window_origin",
+			"position": "(1208.0, 147.0)",
+			"pressed": true,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "window_origin",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventMouseButton"
+		},
+		{
+			"path": "button_gui",
+			"phase": "window_origin",
+			"position": "(44.0, 24.0)",
+			"pressed": false
+		},
+		{
+			"path": "pressed_signal",
+			"phase": "window_origin"
+		},
+		{
+			"mouse_down": false,
+			"path": "input",
+			"phase": "window_origin",
+			"position": "(1208.0, 147.0)",
+			"pressed": false,
+			"settled": true,
+			"type": "InputEventScreenTouch"
+		}
+	],
+	"results": [
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "one_frame",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(320, 156)"
+		},
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "two_frames",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(320, 156)"
+		},
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "atomic",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(320, 156)"
+		},
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "mixed_one_frame",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(320, 156)"
+		},
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "mixed_atomic",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(320, 156)"
+		},
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "mixed_two_frames",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(320, 156)"
+		},
+		{
+			"button": "[P: (1164.0, 123.0), S: (88.0, 48.0)]",
+			"hint_requested": true,
+			"logical": "(1280.0, 720.0)",
+			"logical_point": "(1208.0, 147.0)",
+			"phase": "window_origin",
+			"physical_point": "(1812.0, 220.5)",
+			"transform": "[X: (1.5, 0.0), Y: (0.0, 1.5), O: (0.0, 0.0)]",
+			"window": "(1920, 1080)",
+			"window_position": "(0, 0)"
+		}
+	]
+}

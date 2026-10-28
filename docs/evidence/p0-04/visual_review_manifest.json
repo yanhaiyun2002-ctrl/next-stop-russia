@@ -1,0 +1,277 @@
+{
+  "output": "P0-04_VISUAL_REVIEW.png",
+  "size": [
+    3960,
+    4590
+  ],
+  "sha256": "4d130749b8abfe9496aa26861148ab6bd1da94abf4c47653eca8f2c67edf3377",
+  "source_suite_passed": 633,
+  "source_suite_failed": 0,
+  "panels": [
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\pc_1920x1080_under_bed_hint.png",
+      "sha256": "ef8864201a706d40f127ec0a6e22dcedcf3492e6a33e0c25bc395f4cde4029e9",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "placed_size": [
+        1920,
+        1080
+      ],
+      "placed_at": [
+        40,
+        320
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(-3.4, 0.0, 1.8)",
+        "camera_x": 638.0,
+        "cat_head_local": "(181.2755, 363.1901)",
+        "found": false,
+        "found_count": 0,
+        "furniture_id": "bed",
+        "hint": true,
+        "prompt": "Кот под кроватью.\n猫在床下面。\n留意家具旁露出的小猫。",
+        "scale": 1.19242128696843,
+        "scene": "pc_1920x1080_under_bed_hint",
+        "spot": "under_bed",
+        "window": "(1920, 1080)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\pc_1920x1080_under_desk_hint.png",
+      "sha256": "96de9870681076f3a8d711e37de4a9f9b49a6ca9d8cef5a5cd8e5c6641451317",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "placed_size": [
+        1920,
+        1080
+      ],
+      "placed_at": [
+        2000,
+        320
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(0.0, 0.0, 3.7)",
+        "camera_x": 640.0,
+        "cat_head_local": "(639.3422, 337.7424)",
+        "found": false,
+        "found_count": 1,
+        "furniture_id": "desk",
+        "hint": true,
+        "prompt": "Кот под столом.\n猫在桌子下面。\n留意家具旁露出的小猫。",
+        "scale": 1.19242128696843,
+        "scene": "pc_1920x1080_under_desk_hint",
+        "spot": "under_desk",
+        "window": "(1920, 1080)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\pc_1920x1080_by_wardrobe_hint.png",
+      "sha256": "c5768398f966ac9ce30f8bd8bc5ee5d6f405957c781a01252ef7ecfd127b9cab",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "placed_size": [
+        1920,
+        1080
+      ],
+      "placed_at": [
+        40,
+        1540
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(2.45, 0.0, 4.1)",
+        "camera_x": 642.0,
+        "cat_head_local": "(908.4611, 334.6289)",
+        "found": false,
+        "found_count": 2,
+        "furniture_id": "wardrobe",
+        "hint": true,
+        "prompt": "Кот у шкафа.\n猫在衣柜旁。\n留意家具旁露出的小猫。",
+        "scale": 1.19242128696843,
+        "scene": "pc_1920x1080_by_wardrobe_hint",
+        "spot": "by_wardrobe",
+        "window": "(1920, 1080)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\pc_1920x1080_by_wardrobe_found.png",
+      "sha256": "008b6463e40c12012837b7da203cecc91108588df9475d5f05d129f39d8db960",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "placed_size": [
+        1920,
+        1080
+      ],
+      "placed_at": [
+        2000,
+        1540
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(2.45, 0.0, 4.1)",
+        "camera_x": 638.0,
+        "cat_head_local": "(913.2308, 334.6289)",
+        "found": true,
+        "found_count": 3,
+        "furniture_id": "wardrobe",
+        "hint": true,
+        "prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+        "scale": 1.19242128696843,
+        "scene": "pc_1920x1080_by_wardrobe_found",
+        "spot": "by_wardrobe",
+        "window": "(1920, 1080)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\phone_1080x1920_under_bed_hint.png",
+      "sha256": "d907da13cc0f8b273901d9e874f289fd129ce969d8f5d24aa8ab2b1971286047",
+      "source_size": [
+        1080,
+        1920
+      ],
+      "placed_size": [
+        900,
+        1600
+      ],
+      "placed_at": [
+        40,
+        2820
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(-3.4, 0.0, 1.8)",
+        "camera_x": 304.737976074219,
+        "cat_head_local": "(171.4678, 396.388)",
+        "found": false,
+        "found_count": 6,
+        "furniture_id": "bed",
+        "hint": true,
+        "prompt": "Кот под кроватью.\n猫在床下面。\n留意家具旁露出的小猫。",
+        "scale": 1.12790697674419,
+        "scene": "phone_1080x1920_under_bed_hint",
+        "spot": "under_bed",
+        "window": "(1080, 1920)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\phone_1080x1920_under_desk_hint.png",
+      "sha256": "5f7c3a679a16c571bfc3010e1d39952d6df3344dbddcf02d2fb80037f8656a2a",
+      "source_size": [
+        1080,
+        1920
+      ],
+      "placed_size": [
+        900,
+        1600
+      ],
+      "placed_at": [
+        1020,
+        2820
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(0.0, 0.0, 3.7)",
+        "camera_x": 640.0,
+        "cat_head_local": "(228.8628, 372.3171)",
+        "found": false,
+        "found_count": 7,
+        "furniture_id": "desk",
+        "hint": true,
+        "prompt": "Кот под столом.\n猫在桌子下面。\n留意家具旁露出的小猫。",
+        "scale": 1.12790697674419,
+        "scene": "phone_1080x1920_under_desk_hint",
+        "spot": "under_desk",
+        "window": "(1080, 1920)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\phone_1080x1920_by_wardrobe_hint.png",
+      "sha256": "289794cc3731121acfb64bc8ed938843828dfb3a230044a17f830595f237a822",
+      "source_size": [
+        1080,
+        1920
+      ],
+      "placed_size": [
+        900,
+        1600
+      ],
+      "placed_at": [
+        2000,
+        2820
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(2.45, 0.0, 4.1)",
+        "camera_x": 956.319519042969,
+        "cat_head_local": "(128.8983, 369.372)",
+        "found": false,
+        "found_count": 8,
+        "furniture_id": "wardrobe",
+        "hint": true,
+        "prompt": "Кот у шкафа.\n猫在衣柜旁。\n留意家具旁露出的小猫。",
+        "scale": 1.12790697674419,
+        "scene": "phone_1080x1920_by_wardrobe_hint",
+        "spot": "by_wardrobe",
+        "window": "(1080, 1920)"
+      }
+    },
+    {
+      "source": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\phone_1080x1920_under_desk_found.png",
+      "sha256": "0b92bbb1ce21042449a74cbd812cbe3c26de513d603777fbfbccca7eff29f469",
+      "source_size": [
+        1080,
+        1920
+      ],
+      "placed_size": [
+        900,
+        1600
+      ],
+      "placed_at": [
+        2980,
+        2820
+      ],
+      "whole_frame": true,
+      "aspect_ratio_preserved": true,
+      "pixel_copy_verified": true,
+      "state": {
+        "anchor": "(0.0, 0.0, 3.7)",
+        "camera_x": 595.670116621194,
+        "cat_head_local": "(278.8628, 372.3171)",
+        "found": true,
+        "found_count": 8,
+        "furniture_id": "desk",
+        "hint": true,
+        "prompt": "Вот кот! 找到啦！\nКот под столом.\n猫在桌子下面。",
+        "scale": 1.12790697674419,
+        "scene": "phone_1080x1920_under_desk_found",
+        "spot": "under_desk",
+        "window": "(1080, 1920)"
+      }
+    }
+  ],
+  "method": "Pillow whole-frame paste / proportional downscale only; labels outside captures"
+}

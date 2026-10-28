@@ -1,0 +1,4515 @@
+{
+	"cat_states": [
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 638.0,
+			"cat_head_local": "(181.2755, 363.1901)",
+			"found": false,
+			"found_count": 0,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_under_bed_search",
+			"spot": "under_bed",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 638.0,
+			"cat_head_local": "(181.2755, 363.1901)",
+			"found": false,
+			"found_count": 0,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "还没点到猫，慢慢找。\nГде кот? 猫在哪里？",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_under_bed_hint",
+			"spot": "under_bed",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 638.0,
+			"cat_head_local": "(181.2755, 363.1901)",
+			"found": true,
+			"found_count": 1,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Вот кот! 找到啦！\nКот под кроватью.\n猫在床下面。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_under_bed_found",
+			"spot": "under_bed",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(639.3422, 337.7424)",
+			"found": false,
+			"found_count": 1,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_under_desk_search",
+			"spot": "under_desk",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(639.3422, 337.7424)",
+			"found": false,
+			"found_count": 1,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "还没点到猫，慢慢找。\nГде кот? 猫在哪里？",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_under_desk_hint",
+			"spot": "under_desk",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(639.3422, 337.7424)",
+			"found": true,
+			"found_count": 2,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Вот кот! 找到啦！\nКот под столом.\n猫在桌子下面。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_under_desk_found",
+			"spot": "under_desk",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 642.0,
+			"cat_head_local": "(908.4611, 334.6289)",
+			"found": false,
+			"found_count": 2,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1920x1080_by_wardrobe_search",
+			"spot": "by_wardrobe",
+			"window": "(1920, 1080)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 642.0,
+			"cat_head_local": "(975.2596, 344.4913)",
+			"found": false,
+			"found_count": 2,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "还没点到猫，慢慢找。\nГде кот? 猫在哪里？",
+			"scale": 1.28009932277494,
+			"scene": "pc_1920x1080_by_wardrobe_hint",
+			"spot": "by_wardrobe",
+			"window": "(1920, 1009)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 638.0,
+			"cat_head_local": "(980.3801, 344.4913)",
+			"found": true,
+			"found_count": 3,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+			"scale": 1.28009932277494,
+			"scene": "pc_1920x1080_by_wardrobe_found",
+			"spot": "by_wardrobe",
+			"window": "(1920, 1009)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 638.0,
+			"cat_head_local": "(181.2755, 403.1901)",
+			"found": false,
+			"found_count": 3,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1280x800_under_bed_search",
+			"spot": "under_bed",
+			"window": "(1280, 800)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 638.0,
+			"cat_head_local": "(181.2755, 403.1901)",
+			"found": true,
+			"found_count": 4,
+			"furniture_id": "bed",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под кроватью.\n猫在床下面。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1280x800_under_bed_found",
+			"spot": "under_bed",
+			"window": "(1280, 800)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(639.3422, 377.7424)",
+			"found": false,
+			"found_count": 4,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1280x800_under_desk_search",
+			"spot": "under_desk",
+			"window": "(1280, 800)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 638.0,
+			"cat_head_local": "(641.727, 377.7424)",
+			"found": true,
+			"found_count": 5,
+			"furniture_id": "desk",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под столом.\n猫在桌子下面。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1280x800_under_desk_found",
+			"spot": "under_desk",
+			"window": "(1280, 800)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 642.0,
+			"cat_head_local": "(908.4611, 374.6289)",
+			"found": false,
+			"found_count": 5,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1280x800_by_wardrobe_search",
+			"spot": "by_wardrobe",
+			"window": "(1280, 800)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 638.0,
+			"cat_head_local": "(913.2308, 374.6289)",
+			"found": true,
+			"found_count": 6,
+			"furniture_id": "wardrobe",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+			"scale": 1.19242128696843,
+			"scene": "pc_1280x800_by_wardrobe_found",
+			"spot": "by_wardrobe",
+			"window": "(1280, 800)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 304.737976074219,
+			"cat_head_local": "(171.4678, 396.388)",
+			"found": false,
+			"found_count": 6,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_under_bed_search",
+			"spot": "under_bed",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 304.737976074219,
+			"cat_head_local": "(171.4678, 396.388)",
+			"found": false,
+			"found_count": 6,
+			"furniture_id": "bed",
+			"hint": true,
+			"prompt": "Кот под кроватью.\n猫在床下面。\n留意家具旁露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_under_bed_hint",
+			"spot": "under_bed",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 304.737976074219,
+			"cat_head_local": "(171.4678, 396.388)",
+			"found": true,
+			"found_count": 7,
+			"furniture_id": "bed",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под кроватью.\n猫在床下面。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_under_bed_found",
+			"spot": "under_bed",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(228.8628, 372.3171)",
+			"found": false,
+			"found_count": 7,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_under_desk_search",
+			"spot": "under_desk",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(228.8628, 372.3171)",
+			"found": false,
+			"found_count": 7,
+			"furniture_id": "desk",
+			"hint": true,
+			"prompt": "Кот под столом.\n猫在桌子下面。\n留意家具旁露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_under_desk_hint",
+			"spot": "under_desk",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 595.670116621194,
+			"cat_head_local": "(278.8628, 372.3171)",
+			"found": true,
+			"found_count": 8,
+			"furniture_id": "desk",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под столом.\n猫在桌子下面。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_under_desk_found",
+			"spot": "under_desk",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 956.319519042969,
+			"cat_head_local": "(128.8983, 369.372)",
+			"found": false,
+			"found_count": 8,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_by_wardrobe_search",
+			"spot": "by_wardrobe",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 956.319519042969,
+			"cat_head_local": "(128.8983, 369.372)",
+			"found": false,
+			"found_count": 8,
+			"furniture_id": "wardrobe",
+			"hint": true,
+			"prompt": "Кот у шкафа.\n猫在衣柜旁。\n留意家具旁露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_by_wardrobe_hint",
+			"spot": "by_wardrobe",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 911.989622135752,
+			"cat_head_local": "(178.8983, 369.372)",
+			"found": true,
+			"found_count": 9,
+			"furniture_id": "wardrobe",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1080x1920_by_wardrobe_found",
+			"spot": "by_wardrobe",
+			"window": "(1080, 1920)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 272.185791015625,
+			"cat_head_local": "(169.1837, 396.388)",
+			"found": false,
+			"found_count": 9,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1170x2532_under_bed_search",
+			"spot": "under_bed",
+			"window": "(1170, 2532)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 272.185791015625,
+			"cat_head_local": "(169.1837, 396.388)",
+			"found": true,
+			"found_count": 10,
+			"furniture_id": "bed",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под кроватью.\n猫在床下面。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1170x2532_under_bed_found",
+			"spot": "under_bed",
+			"window": "(1170, 2532)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(189.8628, 372.3171)",
+			"found": false,
+			"found_count": 10,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1170x2532_under_desk_search",
+			"spot": "under_desk",
+			"window": "(1170, 2532)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 595.670116621194,
+			"cat_head_local": "(239.8628, 372.3171)",
+			"found": true,
+			"found_count": 11,
+			"furniture_id": "desk",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под столом.\n猫在桌子下面。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1170x2532_under_desk_found",
+			"spot": "under_desk",
+			"window": "(1170, 2532)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 956.319519042969,
+			"cat_head_local": "(89.89829, 369.372)",
+			"found": false,
+			"found_count": 11,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1170x2532_by_wardrobe_search",
+			"spot": "by_wardrobe",
+			"window": "(1170, 2532)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 911.989628899958,
+			"cat_head_local": "(139.8983, 369.372)",
+			"found": true,
+			"found_count": 12,
+			"furniture_id": "wardrobe",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+			"scale": 1.12790697674419,
+			"scene": "phone_1170x2532_by_wardrobe_found",
+			"spot": "by_wardrobe",
+			"window": "(1170, 2532)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 272.185791015625,
+			"cat_head_local": "(169.1837, 396.388)",
+			"found": false,
+			"found_count": 12,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_under_bed_search",
+			"spot": "under_bed",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 272.185791015625,
+			"cat_head_local": "(169.1837, 396.388)",
+			"found": true,
+			"found_count": 13,
+			"furniture_id": "bed",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под кроватью.\n猫在床下面。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_under_bed_found",
+			"spot": "under_bed",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 640.0,
+			"cat_head_local": "(189.8628, 372.3171)",
+			"found": false,
+			"found_count": 13,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_under_desk_search",
+			"spot": "under_desk",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"camera_x": 595.670103092784,
+			"cat_head_local": "(239.8628, 372.3171)",
+			"found": true,
+			"found_count": 14,
+			"furniture_id": "desk",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот под столом.\n猫在桌子下面。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_under_desk_found",
+			"spot": "under_desk",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 956.319519042969,
+			"cat_head_local": "(89.89829, 369.372)",
+			"found": false,
+			"found_count": 14,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_by_wardrobe_search",
+			"spot": "by_wardrobe",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 911.989628899958,
+			"cat_head_local": "(139.8983, 369.372)",
+			"found": true,
+			"found_count": 15,
+			"furniture_id": "wardrobe",
+			"hint": true,
+			"prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_by_wardrobe_found",
+			"spot": "by_wardrobe",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"camera_x": 956.319519042969,
+			"cat_head_local": "(89.89829, 369.372)",
+			"found": true,
+			"found_count": 10,
+			"furniture_id": "wardrobe",
+			"hint": false,
+			"prompt": "Вот кот! 找到啦！\nКот у шкафа.\n猫在衣柜旁。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_repeat_ten_found",
+			"spot": "by_wardrobe",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(-2.0, 0.0, 0.75)",
+			"camera_x": 399.887390136719,
+			"cat_head_local": "(201.2816, 399.7435)",
+			"found": false,
+			"found_count": 10,
+			"furniture_id": "desk",
+			"hint": false,
+			"prompt": "Где кот?\n猫在哪里？\n左右拖动，点点露出的小猫。",
+			"scale": 1.12790697674419,
+			"scene": "phone_360x780_moved_desk",
+			"spot": "under_desk",
+			"window": "(360, 780)"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"camera_x": 298.453186035156,
+			"cat_head_local": "(143.538, 331.8217)",
+			"found": true,
+			"found_count": 11,
+			"furniture_id": "bed",
+			"hint": false,
+			"prompt": "Вот кот! 找到啦！\nКот под кроватью.\n猫在床下面。",
+			"scale": 0.944186046511628,
+			"scene": "phone_simulated_safe_area_found",
+			"spot": "under_bed",
+			"window": "(1170, 2532)"
+		}
+	],
+	"checks": [
+		{
+			"name": "真实默认宿舍启用找猫",
+			"passed": true
+		},
+		{
+			"name": "局部 2D 原型与默认收起调试",
+			"passed": true
+		},
+		{
+			"name": "找猫状态未增加场景管理节点",
+			"passed": true
+		},
+		{
+			"name": "三个有稳定 ID 的藏点",
+			"passed": true
+		},
+		{
+			"name": "藏点唯一且引用有效家具 under_bed",
+			"passed": true
+		},
+		{
+			"name": "位置绑定的俄语原文 under_bed",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 К",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 п",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 д",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 р",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 в",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 а",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 ь",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 ю",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 Г",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 д",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 е",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 В",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "藏点唯一且引用有效家具 under_desk",
+			"passed": true
+		},
+		{
+			"name": "位置绑定的俄语原文 under_desk",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 К",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 п",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 д",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 с",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 л",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 м",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 Г",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 д",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 е",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 В",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "藏点唯一且引用有效家具 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "位置绑定的俄语原文 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 К",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 у",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 ш",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 а",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 ф",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 а",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 Г",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 д",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 е",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 В",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 к",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 о",
+			"passed": true
+		},
+		{
+			"name": "本机字体覆盖俄文字符 т",
+			"passed": true
+		},
+		{
+			"name": "未找到前不能跳过本次藏点",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 pc_1920x1080_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "床体优先于被遮住的猫身 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "点击遮挡处不会穿透找猫 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 pc_1920x1080_under_bed",
+			"passed": false
+		},
+		{
+			"name": "无不相关俄语提示 pc_1920x1080_under_bed under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1920x1080_under_bed by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 pc_1920x1080_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 pc_1920x1080_under_bed",
+			"passed": false
+		},
+		{
+			"name": "导航家具不自动找到猫 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 pc_1920x1080_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 pc_1920x1080_under_desk",
+			"passed": false
+		},
+		{
+			"name": "无不相关俄语提示 pc_1920x1080_under_desk under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1920x1080_under_desk by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": false
+		},
+		{
+			"name": "猫上开始拖动不算找到 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 pc_1920x1080_under_desk",
+			"passed": false
+		},
+		{
+			"name": "成功后反馈和俄语对应 pc_1920x1080_under_desk",
+			"passed": false
+		},
+		{
+			"name": "找到时不跳镜头 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 pc_1920x1080_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 pc_1920x1080_under_desk",
+			"passed": false
+		},
+		{
+			"name": "导航家具不自动找到猫 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 pc_1920x1080_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 pc_1920x1080_by_wardrobe",
+			"passed": false
+		},
+		{
+			"name": "无不相关俄语提示 pc_1920x1080_by_wardrobe under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1920x1080_by_wardrobe under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 pc_1920x1080_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1920x1080_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1920x1080_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1920x1080_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1920x1080_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1920x1080_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1920x1080_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 pc_1920x1080_by_wardrobe",
+			"passed": false
+		},
+		{
+			"name": "导航家具不自动找到猫 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1280x800_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1280x800_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1280x800_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1280x800_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1280x800_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1280x800_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 pc_1280x800_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "床体优先于被遮住的猫身 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "点击遮挡处不会穿透找猫 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1280x800_under_bed under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1280x800_under_bed by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1280x800_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1280x800_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1280x800_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1280x800_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1280x800_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1280x800_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 pc_1280x800_under_bed",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1280x800_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1280x800_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1280x800_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1280x800_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1280x800_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1280x800_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 pc_1280x800_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1280x800_under_desk under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1280x800_under_desk by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1280x800_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1280x800_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1280x800_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1280x800_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1280x800_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1280x800_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 pc_1280x800_under_desk",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1280x800_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1280x800_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1280x800_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1280x800_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1280x800_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1280x800_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 pc_1280x800_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1280x800_by_wardrobe under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 pc_1280x800_by_wardrobe under_desk",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 pc_1280x800_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 pc_1280x800_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 pc_1280x800_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 pc_1280x800_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 pc_1280x800_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 pc_1280x800_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 pc_1280x800_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_1080x1920_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "床体优先于被遮住的猫身 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "点击遮挡处不会穿透找猫 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1080x1920_under_bed under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1080x1920_under_bed by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_under_bed_hint",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_1080x1920_under_bed",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_1080x1920_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1080x1920_under_desk under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1080x1920_under_desk by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_under_desk_hint",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_1080x1920_under_desk",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_1080x1920_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1080x1920_by_wardrobe under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1080x1920_by_wardrobe under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_by_wardrobe_hint",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1080x1920_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1080x1920_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1080x1920_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1080x1920_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1080x1920_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1080x1920_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_1080x1920_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1170x2532_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1170x2532_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1170x2532_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1170x2532_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1170x2532_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1170x2532_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_1170x2532_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "床体优先于被遮住的猫身 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "点击遮挡处不会穿透找猫 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1170x2532_under_bed under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1170x2532_under_bed by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1170x2532_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1170x2532_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1170x2532_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1170x2532_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1170x2532_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1170x2532_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_1170x2532_under_bed",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1170x2532_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1170x2532_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1170x2532_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1170x2532_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1170x2532_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1170x2532_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_1170x2532_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1170x2532_under_desk under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1170x2532_under_desk by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1170x2532_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1170x2532_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1170x2532_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1170x2532_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1170x2532_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1170x2532_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_1170x2532_under_desk",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1170x2532_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1170x2532_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1170x2532_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1170x2532_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1170x2532_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1170x2532_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_1170x2532_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1170x2532_by_wardrobe under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_1170x2532_by_wardrobe under_desk",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_1170x2532_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_1170x2532_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_1170x2532_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_1170x2532_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_1170x2532_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_1170x2532_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_1170x2532_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_under_bed_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_360x780_under_bed[]",
+			"passed": true
+		},
+		{
+			"name": "床体优先于被遮住的猫身 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "点击遮挡处不会穿透找猫 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_360x780_under_bed under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_360x780_under_bed by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_under_bed_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_under_desk_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_360x780_under_desk[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_360x780_under_desk under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_360x780_under_desk by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_under_desk_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "导航家具不自动找到猫 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点使用空间锚点 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "当前视图可发现猫头 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_by_wardrobe_search",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 phone_360x780_by_wardrobe[]",
+			"passed": true
+		},
+		{
+			"name": "空白点击有轻松的失败反馈 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "未找到不宣称成功 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "实际提示与藏点一致 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_360x780_by_wardrobe under_bed",
+			"passed": true
+		},
+		{
+			"name": "无不相关俄语提示 phone_360x780_by_wardrobe under_desk",
+			"passed": true
+		},
+		{
+			"name": "拖动统一平移且无透视/纵向跳变",
+			"passed": true
+		},
+		{
+			"name": "猫上开始拖动不算找到 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可见猫优先且只找到一次 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "成功后反馈和俄语对应 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "找到时不跳镜头 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "重复点击猫不重复结算 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_by_wardrobe_found",
+			"passed": true
+		},
+		{
+			"name": "再次寻找排除上一藏点 phone_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 0",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 0",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 0",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 1",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 1",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 1",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 2",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 2",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 2",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 3",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 3",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 3",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 4",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 4",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 4",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 5",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 5",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 5",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 6",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 6",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 6",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 7",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 7",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 7",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 8",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 8",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 8",
+			"passed": true
+		},
+		{
+			"name": "连续游玩不相邻重复 9",
+			"passed": true
+		},
+		{
+			"name": "连续完整找到 9",
+			"passed": true
+		},
+		{
+			"name": "连续游玩语言不串藏点 9",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_repeat_ten_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_repeat_ten_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_repeat_ten_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_repeat_ten_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_repeat_ten_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_repeat_ten_found",
+			"passed": true
+		},
+		{
+			"name": "十轮后可继续且没有线性通关",
+			"passed": true
+		},
+		{
+			"name": "技术面板暂停并隐藏猫，不覆盖主要画面",
+			"passed": true
+		},
+		{
+			"name": "家具移动后藏点仍绑定对象 ID",
+			"passed": true
+		},
+		{
+			"name": "换位后可发现且语义仍为桌下",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_360x780_moved_desk",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_360x780_moved_desk",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_360x780_moved_desk",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_360x780_moved_desk",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_360x780_moved_desk",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_360x780_moved_desk",
+			"passed": true
+		},
+		{
+			"name": "横竖屏切换取消猫的旧按下",
+			"passed": true
+		},
+		{
+			"name": "模拟安全区内语言提示、猫和返回",
+			"passed": true
+		},
+		{
+			"name": "模拟安全区内合成触摸可找到猫",
+			"passed": true
+		},
+		{
+			"name": "玩法 UI 不遮挡/溢出 phone_simulated_safe_area_found",
+			"passed": true
+		},
+		{
+			"name": "提示位于画布外 phone_simulated_safe_area_found",
+			"passed": true
+		},
+		{
+			"name": "提示/再找按钮触摸尺寸 phone_simulated_safe_area_found",
+			"passed": true
+		},
+		{
+			"name": "猫屏幕位置与空间锚点一致 phone_simulated_safe_area_found",
+			"passed": true
+		},
+		{
+			"name": "真实像素显示当前猫头 phone_simulated_safe_area_found",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 phone_simulated_safe_area_found",
+			"passed": true
+		},
+		{
+			"name": "搜索或找到均可退出且无残留 0",
+			"passed": true
+		},
+		{
+			"name": "找猫退出恢复导航焦点 0",
+			"passed": true
+		},
+		{
+			"name": "重入为新局部状态而非旧宠物存档 0",
+			"passed": true
+		},
+		{
+			"name": "搜索或找到均可退出且无残留 1",
+			"passed": true
+		},
+		{
+			"name": "找猫退出恢复导航焦点 1",
+			"passed": true
+		},
+		{
+			"name": "重入为新局部状态而非旧宠物存档 1",
+			"passed": true
+		},
+		{
+			"name": "搜索或找到均可退出且无残留 2",
+			"passed": true
+		},
+		{
+			"name": "找猫退出恢复导航焦点 2",
+			"passed": true
+		},
+		{
+			"name": "重入为新局部状态而非旧宠物存档 2",
+			"passed": true
+		},
+		{
+			"name": "搜索或找到均可退出且无残留 3",
+			"passed": true
+		},
+		{
+			"name": "找猫退出恢复导航焦点 3",
+			"passed": true
+		},
+		{
+			"name": "重入为新局部状态而非旧宠物存档 3",
+			"passed": true
+		},
+		{
+			"name": "搜索或找到均可退出且无残留 4",
+			"passed": true
+		},
+		{
+			"name": "找猫退出恢复导航焦点 4",
+			"passed": true
+		},
+		{
+			"name": "重入为新局部状态而非旧宠物存档 4",
+			"passed": true
+		}
+	],
+	"display_server": "Windows",
+	"drags": [
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 298.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": false,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 640.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				},
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 298.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(508.7733, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.28009932277494,
+					"screen_anchor": "(513.8937, 305.9978)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 638.0,
+			"steps": [
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 640.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(476.3107, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 638.0,
+			"limits": "(638.0, 642.0)",
+			"start_camera": 642.0,
+			"steps": [
+				{
+					"camera": 642.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(473.9258, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				},
+				{
+					"camera": 638.0,
+					"scale": 1.19242128696843,
+					"screen_anchor": "(478.6956, 338.772)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 304.737976074219,
+			"limits": "(304.738, 956.3195)",
+			"start_camera": 304.737976074219,
+			"steps": [
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				},
+				{
+					"camera": 304.737976074219,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(452.7963, 335.4551)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 595.670116621194,
+			"limits": "(304.738, 956.3195)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 640.0,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(74.65199, 335.4551)"
+				},
+				{
+					"camera": 628.917512244785,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(87.15197, 335.4551)"
+				},
+				{
+					"camera": 623.376275131383,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(93.40199, 335.4551)"
+				},
+				{
+					"camera": 617.835038017981,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(99.65202, 335.4551)"
+				},
+				{
+					"camera": 612.293800904579,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(105.902, 335.4551)"
+				},
+				{
+					"camera": 606.752563791177,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(112.152, 335.4551)"
+				},
+				{
+					"camera": 601.211326677775,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(118.402, 335.4551)"
+				},
+				{
+					"camera": 595.670116621194,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(124.652, 335.4551)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 911.989622135752,
+			"limits": "(304.738, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-282.127, 335.4551)"
+				},
+				{
+					"camera": 945.237044816165,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-269.627, 335.4551)"
+				},
+				{
+					"camera": 939.695807702763,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-263.377, 335.4551)"
+				},
+				{
+					"camera": 934.15457058936,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-257.127, 335.4551)"
+				},
+				{
+					"camera": 928.613333475958,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-250.877, 335.4551)"
+				},
+				{
+					"camera": 923.072096362556,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-244.627, 335.4551)"
+				},
+				{
+					"camera": 917.530859249154,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-238.377, 335.4551)"
+				},
+				{
+					"camera": 911.989622135752,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-232.127, 335.4551)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 595.670116621194,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 640.0,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(35.65199, 335.4551)"
+				},
+				{
+					"camera": 628.917525773196,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(48.15197, 335.4551)"
+				},
+				{
+					"camera": 623.376288659794,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(54.40199, 335.4551)"
+				},
+				{
+					"camera": 617.835051546392,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(60.65202, 335.4551)"
+				},
+				{
+					"camera": 612.29381443299,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(66.90198, 335.4551)"
+				},
+				{
+					"camera": 606.752577319588,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(73.152, 335.4551)"
+				},
+				{
+					"camera": 601.211353734597,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(79.40195, 335.4551)"
+				},
+				{
+					"camera": 595.670116621194,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(85.65198, 335.4551)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 911.989628899958,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-321.127, 335.4551)"
+				},
+				{
+					"camera": 945.237044816165,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-308.627, 335.4551)"
+				},
+				{
+					"camera": 939.695807702763,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-302.377, 335.4551)"
+				},
+				{
+					"camera": 934.154577353566,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-296.127, 335.4551)"
+				},
+				{
+					"camera": 928.613340240164,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-289.877, 335.4551)"
+				},
+				{
+					"camera": 923.072103126762,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-283.627, 335.4551)"
+				},
+				{
+					"camera": 917.53086601336,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-277.377, 335.4551)"
+				},
+				{
+					"camera": 911.989628899958,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-271.127, 335.4551)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 272.185791015625,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 272.185791015625,
+			"steps": [
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				},
+				{
+					"camera": 272.185791015625,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(450.5122, 335.4551)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 595.670103092784,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 640.0,
+			"steps": [
+				{
+					"camera": 640.0,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(35.65199, 335.4551)"
+				},
+				{
+					"camera": 628.917525773196,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(48.15197, 335.4551)"
+				},
+				{
+					"camera": 623.376288659794,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(54.40199, 335.4551)"
+				},
+				{
+					"camera": 617.835051546392,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(60.65202, 335.4551)"
+				},
+				{
+					"camera": 612.29381443299,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(66.90198, 335.4551)"
+				},
+				{
+					"camera": 606.752577319588,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(73.152, 335.4551)"
+				},
+				{
+					"camera": 601.211340206186,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(79.40195, 335.4551)"
+				},
+				{
+					"camera": 595.670103092784,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(85.65198, 335.4551)"
+				}
+			],
+			"touch": true,
+			"touch_samples_after_frame_delivery": true
+		},
+		{
+			"continuous": true,
+			"delta": "(50.0, 0.0)",
+			"end_camera": 911.989628899958,
+			"limits": "(272.1858, 956.3195)",
+			"start_camera": 956.319519042969,
+			"steps": [
+				{
+					"camera": 956.319519042969,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-321.127, 335.4551)"
+				},
+				{
+					"camera": 945.237044816165,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-308.627, 335.4551)"
+				},
+				{
+					"camera": 939.695807702763,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-302.377, 335.4551)"
+				},
+				{
+					"camera": 934.154577353566,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-296.127, 335.4551)"
+				},
+				{
+					"camera": 928.613340240164,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-289.877, 335.4551)"
+				},
+				{
+					"camera": 923.072103126762,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-283.627, 335.4551)"
+				},
+				{
+					"camera": 917.53086601336,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-277.377, 335.4551)"
+				},
+				{
+					"camera": 911.989628899958,
+					"scale": 1.12790697674419,
+					"screen_anchor": "(-271.127, 335.4551)"
+				}
+			],
+			"touch": false,
+			"touch_samples_after_frame_delivery": false
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": 9,
+	"passed": 624,
+	"ray_samples": [
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1464,
+			"rendered_pixels": 214,
+			"scene": "pc_1920x1080_under_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1467,
+			"rendered_pixels": 227,
+			"scene": "pc_1920x1080_under_desk"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1467,
+			"rendered_pixels": 224,
+			"scene": "pc_1920x1080_by_wardrobe"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1777,
+			"rendered_pixels": 213,
+			"scene": "pc_1280x800_under_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1784,
+			"rendered_pixels": 228,
+			"scene": "pc_1280x800_under_desk"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1784,
+			"rendered_pixels": 224,
+			"scene": "pc_1280x800_by_wardrobe"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 577,
+			"rendered_pixels": 78,
+			"scene": "phone_1080x1920_under_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 584,
+			"rendered_pixels": 19,
+			"scene": "phone_1080x1920_under_desk"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 573,
+			"rendered_pixels": 98,
+			"scene": "phone_1080x1920_by_wardrobe"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 469,
+			"rendered_pixels": 79,
+			"scene": "phone_1170x2532_under_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 472,
+			"rendered_pixels": 19,
+			"scene": "phone_1170x2532_under_desk"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 473,
+			"rendered_pixels": 98,
+			"scene": "phone_1170x2532_by_wardrobe"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 469,
+			"rendered_pixels": 79,
+			"scene": "phone_360x780_under_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 472,
+			"rendered_pixels": 19,
+			"scene": "phone_360x780_under_desk"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 473,
+			"rendered_pixels": 98,
+			"scene": "phone_360x780_by_wardrobe"
+		}
+	],
+	"repeat_searches": [
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"found_count": 1,
+			"iteration": 1,
+			"ru": "Кот под столом.",
+			"spot": "under_desk"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"found_count": 2,
+			"iteration": 2,
+			"ru": "Кот у шкафа.",
+			"spot": "by_wardrobe"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"found_count": 3,
+			"iteration": 3,
+			"ru": "Кот под столом.",
+			"spot": "under_desk"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"found_count": 4,
+			"iteration": 4,
+			"ru": "Кот под кроватью.",
+			"spot": "under_bed"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"found_count": 5,
+			"iteration": 5,
+			"ru": "Кот под столом.",
+			"spot": "under_desk"
+		},
+		{
+			"anchor": "(-3.4, 0.0, 1.8)",
+			"found_count": 6,
+			"iteration": 6,
+			"ru": "Кот под кроватью.",
+			"spot": "under_bed"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"found_count": 7,
+			"iteration": 7,
+			"ru": "Кот под столом.",
+			"spot": "under_desk"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"found_count": 8,
+			"iteration": 8,
+			"ru": "Кот у шкафа.",
+			"spot": "by_wardrobe"
+		},
+		{
+			"anchor": "(0.0, 0.0, 3.7)",
+			"found_count": 9,
+			"iteration": 9,
+			"ru": "Кот под столом.",
+			"spot": "under_desk"
+		},
+		{
+			"anchor": "(2.45, 0.0, 4.1)",
+			"found_count": 10,
+			"iteration": 10,
+			"ru": "Кот у шкафа.",
+			"spot": "by_wardrobe"
+		}
+	],
+	"scope": "Actual Windows viewport and synthetic input, not Android device / human playtesting.",
+	"screenshots": [
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_under_bed_search.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_under_bed_hint.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_under_bed_found.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_under_desk_search.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_under_desk_hint.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_under_desk_found.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 642.0,
+			"framing": "browse",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_by_wardrobe_search.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 401.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 642.0,
+			"framing": "browse",
+			"image": "(1920, 1009)",
+			"logical": "(1370.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_by_wardrobe_hint.png",
+			"scale": 1.28009932277494,
+			"view_rect": "[P: (28.0, 191.0), S: (1314.0, 401.0)]",
+			"window": "(1920, 1009)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1920, 1009)",
+			"logical": "(1370.0, 720.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1920x1080_by_wardrobe_found.png",
+			"scale": 1.28009932277494,
+			"view_rect": "[P: (28.0, 191.0), S: (1314.0, 401.0)]",
+			"window": "(1920, 1009)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1280x800_under_bed_search.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 481.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1280x800_under_bed_found.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 481.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1280x800_under_desk_search.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 481.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1280x800_under_desk_found.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 481.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 642.0,
+			"framing": "browse",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1280x800_by_wardrobe_search.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 481.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 638.0,
+			"framing": "browse",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "pc_1280x800_by_wardrobe_found.png",
+			"scale": 1.19242128696843,
+			"view_rect": "[P: (28.0, 191.0), S: (1224.0, 481.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 304.737976074219,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_under_bed_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 304.737976074219,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_under_bed_hint.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 304.737976074219,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_under_bed_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_under_desk_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_under_desk_hint.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 595.670116621194,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_under_desk_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 956.319519042969,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_by_wardrobe_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 956.319519042969,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_by_wardrobe_hint.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 911.989622135752,
+			"framing": "browse",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1080x1920_by_wardrobe_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (406.0, 485.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 272.185791015625,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1170x2532_under_bed_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 272.185791015625,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1170x2532_under_bed_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1170x2532_under_desk_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 595.670116621194,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1170x2532_under_desk_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 956.319519042969,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1170x2532_by_wardrobe_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 911.989628899958,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_1170x2532_by_wardrobe_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 272.185791015625,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_under_bed_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 272.185791015625,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_under_bed_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 640.0,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_under_desk_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 595.670103092784,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_under_desk_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 956.319519042969,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_by_wardrobe_search.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 911.989628899958,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_by_wardrobe_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 956.319519042969,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_repeat_ten_found.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 1,
+			"focus_x": 399.887390136719,
+			"framing": "browse",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_360x780_moved_desk.png",
+			"scale": 1.12790697674419,
+			"view_rect": "[P: (16.0, 179.0), S: (328.0, 485.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 298.453186035156,
+			"framing": "browse",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-3.4, 0.85)",
+			"path": "phone_simulated_safe_area_found.png",
+			"scale": 0.944186046511628,
+			"view_rect": "[P: (16.0, 226.0), S: (328.0, 406.0)]",
+			"window": "(1170, 2532)"
+		}
+	]
+}

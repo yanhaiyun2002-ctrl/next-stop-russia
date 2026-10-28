@@ -4,6 +4,7 @@ extends Control
 ## Depth cuts are local to these three axis-aligned geometric samples.
 signal object_selected(id: StringName)
 signal framing_changed
+signal empty_tapped
 
 const HORIZON := Vector2(640, 210)
 const MARKER_COLOR := Color("ed795a")
@@ -159,14 +160,21 @@ func rebuild(preserve_pointer := false) -> void:
 		focus_y = bounds.get_center().y
 	commands.clear()
 	var boxes := world.all_boxes()
+	var cat_parts := world.cat_parts()
 	var cuts: Array[float] = [world.marker_position.y]
+	for part in cat_parts:
+		cuts.append(part.depth)
 	for box in boxes:
 		cuts.append(box.origin.z)
 		cuts.append(box.origin.z + box.size.z)
 	cuts.sort()
 	for box in boxes:
 		_box_faces(box, cuts)
-	_marker()
+	if cat_parts.is_empty():
+		_marker()
+	else:
+		for part in cat_parts:
+			_face(part.points, &"cat", part.color, part.depth, part.tie)
 	commands.sort_custom(func(a, b):
 		if not is_equal_approx(a.depth, b.depth):
 			return a.depth > b.depth
@@ -277,11 +285,13 @@ func _gui_input(event: InputEvent) -> void:
 			_pressed_revision = view_revision
 		else:
 			var id := _pressed_id
-			var activate := _pointer_down and not _dragging and not _gesture_cancelled and _pressed_revision == view_revision and id != &"" and pick(event.position) == id
+			var activate := _pointer_down and not _dragging and not _gesture_cancelled and _pressed_revision == view_revision and pick(event.position) == id
 			_cancel_pointer()
-			if activate:
+			if activate and id != &"":
 				selected_id = id
 				object_selected.emit(id)
+			elif activate and world.is_hunt_active():
+				empty_tapped.emit()
 		accept_event()
 	elif event is InputEventMouseMotion and _pointer_down:
 		if (event.button_mask & MOUSE_BUTTON_MASK_LEFT) == 0:

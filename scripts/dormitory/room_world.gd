@@ -20,6 +20,9 @@ var room_half_width := 6.0
 var room_depth := 5.4
 var room_height := 3.0
 var room_front := -2.4
+var hunt: CatHunt
+var hunt_enabled := true
+var hunt_paused := false
 
 func _ready() -> void:
 	for packed in [preload("res://scenes/dormitory/bed.tscn"), preload("res://scenes/dormitory/desk.tscn"), preload("res://scenes/dormitory/wardrobe.tscn")]:
@@ -27,6 +30,26 @@ func _ready() -> void:
 		add_child(item)
 		furniture[item.furniture_id] = item
 	set_layout("ribbon")
+	hunt = CatHunt.new()
+	hunt.changed.connect(func(): changed.emit())
+
+func is_hunt_active() -> bool:
+	return layout_kind == "ribbon" and hunt_enabled and not hunt_paused and hunt != null
+
+func set_hunt_enabled(value: bool) -> void:
+	if hunt_enabled != value:
+		hunt_enabled = value
+		changed.emit()
+
+func set_hunt_paused(value: bool) -> void:
+	if hunt_paused != value:
+		hunt_paused = value
+		changed.emit()
+
+func cat_parts() -> Array[Dictionary]:
+	if not is_hunt_active():
+		return []
+	return GrayboxCat.parts(hunt.anchor(furniture), hunt.current_spot().peek)
 
 func set_layout(kind: String) -> void:
 	layout_kind = kind
@@ -36,6 +59,8 @@ func set_layout(kind: String) -> void:
 	desk_slot = 0
 	marker_index = 0
 	marker_position = RIBBON_MARKER_POINTS[0] if kind == "ribbon" else MARKER_POINTS[0]
+	if hunt:
+		hunt.restart()
 
 func all_boxes() -> Array[Dictionary]:
 	var result: Array[Dictionary] = []

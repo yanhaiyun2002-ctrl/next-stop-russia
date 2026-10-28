@@ -176,6 +176,8 @@ func _bind_room() -> void:
 	room = app.active_room
 	view = room.room_view
 	world = room.world
+	# Replay R's retained spatial mode, not the new P0-04 search loop.
+	room.set_play_enabled(false)
 	view.object_selected.connect(func(id): selected.append(id))
 
 func _positions() -> Array:

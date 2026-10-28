@@ -1,0 +1,361 @@
+{
+  "baseline": "130e8cade8a50ea876dcebb3e69adce68a83fe5a",
+  "original_R_evidence": [
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/desk_before_move.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/desk_front_overlap.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/import.log",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_bed_back.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_bed_front.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_desk_gap.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1280x800_left.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1280x800_middle.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1280x800_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_left.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_middle.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_left.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_middle.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1170x2532_left.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1170x2532_middle.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1170x2532_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_360x780_left.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_360x780_middle.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_360x780_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_simulated_safe_area.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/ribbon.log",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/ribbon_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/evidence/p0-03r/P0-03R_VISUAL_REVIEW.png",
+      "unchanged": true
+    }
+  ],
+  "unchanged_core": [
+    {
+      "path": "project.godot",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/main.gd",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/map.gd",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/building_room.gd",
+      "unchanged": true
+    },
+    {
+      "path": "ui/adaptive_layout.gd",
+      "unchanged": true
+    },
+    {
+      "path": "ui/map_board.gd",
+      "unchanged": true
+    },
+    {
+      "path": "ui/theme.tres",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/main.tscn",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/map.tscn",
+      "unchanged": true
+    },
+    {
+      "path": "tests/run_tests.gd",
+      "unchanged": true
+    },
+    {
+      "path": "tests/composition_tests.gd",
+      "unchanged": true
+    },
+    {
+      "path": "data/building_definition.gd",
+      "unchanged": true
+    },
+    {
+      "path": "data/building_definition.gd.uid",
+      "unchanged": true
+    },
+    {
+      "path": "data/buildings/dormitory.tres",
+      "unchanged": true
+    },
+    {
+      "path": "data/buildings/school.tres",
+      "unchanged": true
+    },
+    {
+      "path": "data/buildings/shop.tres",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/buildings/dormitory.tscn",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/buildings/school.tscn",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/dormitory/bed.tscn",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/dormitory/desk.tscn",
+      "unchanged": true
+    },
+    {
+      "path": "scenes/dormitory/wardrobe.tscn",
+      "unchanged": true
+    }
+  ],
+  "old_assertions": [
+    {
+      "path": "tests/dormitory_tests.gd",
+      "assertion_lines": 47,
+      "all_assertions_unchanged": true
+    },
+    {
+      "path": "tests/composition_tests.gd",
+      "assertion_lines": 23,
+      "all_assertions_unchanged": true
+    },
+    {
+      "path": "tests/ribbon_tests.gd",
+      "assertion_lines": 47,
+      "all_assertions_unchanged": true
+    },
+    {
+      "path": "tests/run_tests.gd",
+      "assertion_lines": 54,
+      "all_assertions_unchanged": true
+    }
+  ],
+  "ignored_probes": [
+    {
+      "probe": ".tools/probe.zip",
+      "ignored": true
+    },
+    {
+      "probe": ".godot/probe.cache",
+      "ignored": true
+    },
+    {
+      "probe": "builds/probe.exe",
+      "ignored": true
+    },
+    {
+      "probe": ".env",
+      "ignored": true
+    },
+    {
+      "probe": "export_credentials.cfg",
+      "ignored": true
+    },
+    {
+      "probe": "private.pem",
+      "ignored": true
+    },
+    {
+      "probe": "private.keystore",
+      "ignored": true
+    },
+    {
+      "probe": "docs/references/dorm_visual_reference.mp4",
+      "ignored": true
+    }
+  ],
+  "tracked_forbidden_paths": [],
+  "credential_pattern_findings": [],
+  "remotes": "",
+  "suites": [
+    {
+      "path": "docs\\evidence\\p0-04\\00_baseline_headless\\headless_results.json",
+      "passed": 254,
+      "failed": 0,
+      "display": "headless"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\01_navigation_headless\\headless_results.json",
+      "passed": 254,
+      "failed": 0,
+      "display": "headless"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\02_cat_rendered\\cat_hunt_results.json",
+      "passed": 624,
+      "failed": 9,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\04_cat_traced_rendered\\cat_hunt_results.json",
+      "passed": 633,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\05_cat_independent_rendered\\cat_hunt_results.json",
+      "passed": 633,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\06_cat_headless\\cat_hunt_results.json",
+      "passed": 540,
+      "failed": 0,
+      "display": "headless"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\07_spatial_headless\\spatial_results.json",
+      "passed": 223,
+      "failed": 0,
+      "display": "headless"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\08_spatial_rendered\\spatial_results.json",
+      "passed": 252,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\09_composition_headless\\composition_results.json",
+      "passed": 571,
+      "failed": 0,
+      "display": "headless"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\10_composition_rendered\\composition_results.json",
+      "passed": 684,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\11_ribbon_headless\\ribbon_results.json",
+      "passed": 381,
+      "failed": 0,
+      "display": "headless"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\12_ribbon_rendered\\ribbon_results.json",
+      "passed": 443,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\13_navigation_rendered\\rendered_results.json",
+      "passed": 268,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\14_navigation_stability\\round_1\\rendered_results.json",
+      "passed": 268,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\14_navigation_stability\\round_2\\rendered_results.json",
+      "passed": 268,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\14_navigation_stability\\round_3\\rendered_results.json",
+      "passed": 268,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\14_navigation_stability\\round_4\\rendered_results.json",
+      "passed": 268,
+      "failed": 0,
+      "display": "Windows"
+    },
+    {
+      "path": "docs\\evidence\\p0-04\\14_navigation_stability\\round_5\\rendered_results.json",
+      "passed": 268,
+      "failed": 0,
+      "display": "Windows"
+    }
+  ],
+  "scope": "No credential-pattern findings does not prove absence of every possible secret; no remote or copied legacy prototype used."
+}

@@ -1,0 +1,106 @@
+{
+  "original_head": "130e8cade8a50ea876dcebb3e69adce68a83fe5a",
+  "original_implementation": "0f361796cad1efd4399abba5861ea781df13270e",
+  "files": [
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/desk_before_move.png",
+      "sha256": "c9895e5557752a30a08288eec0c5674819bd3a60a0337fa8f49938fc3982e0a5"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/desk_front_overlap.png",
+      "sha256": "8485870fedf91cb0fd59f7dd7604654218c7e1212a59a4aaaf96b99f2f222265"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/import.log",
+      "sha256": "96ce36feb6f99165ebd3ab8da7c17a103e0af01aa9745e588f4149130c46e093"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_bed_back.png",
+      "sha256": "c1d620ddbbd62c4ea67dd100d14f2dd59922fd66a7f65bdf71d32699d668c964"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_bed_front.png",
+      "sha256": "aedf4fdf6a76f06ab57bc3e55d7f14ef1040e41e9c4199742baee5f4545e1e90"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_desk_gap.png",
+      "sha256": "7de3b5f7f36b12c38bce74dd37c0a0614ad53080f839f7901f9956f6a7e1c4a7"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1280x800_left.png",
+      "sha256": "32ca0a25c15b1d2d2d0a037159b604bc75ff1764af23ea9d8455f193da2758b2"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1280x800_middle.png",
+      "sha256": "73d61f9e90ad8993f7fb681b6002a9dbce16eacd5dbd5f249076666ae2e38f8b"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1280x800_right.png",
+      "sha256": "0eee1f9d29af2658dc484c04c1da3ec18e50e4aaf8e2755c2fe4548f1abc53a4"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_left.png",
+      "sha256": "312b68a14d0e021dc99491f9b80c9eaa3a5548543e224e8588bc1b98720c3b73"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_middle.png",
+      "sha256": "35995b9ab7a9ce266ed000cc746156a3d13db932e5fce222d95db6a04fd33077"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_right.png",
+      "sha256": "fcfd7a9c4b3d596879a696b54a50561328a18ecf6863c832a254fe4d1563d615"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_left.png",
+      "sha256": "9f1cee4d84a3d57a923ee6c73a16506970870edfd16443c85c6cca8633618e10"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_middle.png",
+      "sha256": "3fc9864fcad8774d3a612fa403da5cf3c09c59a2b731708453d2191622fa6fea"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_right.png",
+      "sha256": "40f28cc44b597203fe29b2428708db1c61592133e10f4cc2cf93d02a79048150"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1170x2532_left.png",
+      "sha256": "f42d31419d086de035b279b38ab4a99d62f9c476ba24a4afce04d67c55714906"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1170x2532_middle.png",
+      "sha256": "79dcaf831c9b90cdf94b9f071b02ee2da0e9d7e8f00cecba895c1e9d71ba2881"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1170x2532_right.png",
+      "sha256": "8d50e4b17cc09f64f17ee36ef788b242eb007ea150cd4e9ca87a4b75a237261d"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_360x780_left.png",
+      "sha256": "e6193c26dabc0d8922703d62f413ff9545f3d6677d89f154a0073f84ebdd7e09"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_360x780_middle.png",
+      "sha256": "de0d52e79677a01ac260812caa5138d948d508fc5594cdcdab83232544d4908b"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_360x780_right.png",
+      "sha256": "a6fd902d9ea3f93e0b63d6b5b34e989438912ed205ed49aac72001c4b94d6d06"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_simulated_safe_area.png",
+      "sha256": "8a9c224f36f0d542712407b5868440228d07b7227f0dd47786d20a7262d47a88"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/ribbon.log",
+      "sha256": "244bdf77834d1dacdab725d7fd8e1c1b083db4af6de9b63c4497951c7705fdcc"
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/ribbon_results.json",
+      "sha256": "5c9174b7e80d5eab903f1d92f9d2e4a2a97015d4cb97e1b4d9fb68a0c7154f37"
+    },
+    {
+      "path": "docs/evidence/p0-03r/P0-03R_VISUAL_REVIEW.png",
+      "sha256": "99ae3c5b869928e61d5aca5ce371f15b0a8498e942e2bd8a59d8002af598641e"
+    }
+  ]
+}

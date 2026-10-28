@@ -74,6 +74,8 @@ A/B 的进入画面有意一致，区别在点选策略；拼图第三行展示�
 
 产品代码只改 `scripts/dormitory/dormitory.gd`、`room_view.gd`、`room_world.gd`：局部 UI/取景参数、房间壳体含天花板、与尺寸一致的边界。家具几何资源、深度切片/排序原则、导航、学校、商店、BuildingDefinition、引擎版本和输入配置保持。新增 `tests/composition_tests.gd`（及 UID）、`composition.ps1`，合理更新两份原测试；工程规则/README/基线范围/风险/ADR 补充本轮授权与限制。无正式美术、猫咪、整理、装修、经济、存档、联网或通用框架。
 
-Git 实现提交：完成后登记。原始独立拼图为此前请求生成但尚未入库的文件，本轮仅将其原字节纳入对照基线。`final_source_audit.json` 记录源码哈希并核对 `_marker`、`pick`、`visible_point`、`_gui_input` 与 P0-03 完全相同，`_box_faces` 仅固定眼高改为当前参数；原始对照哈希全部匹配。源码文本入库依原 LF 规则规范化，审计哈希为本机原始字节。无远程创建、无推送；缓存、工具、SDK、签名和构建产物继续忽略。最终工作区状态在本地提交后核对。
+Git 实现提交：**`44b997342e4f3efbba1a58f3c5b8a63f95af5e9a`**，说明 `P0-03V: refine dormitory composition and verify ceiling and portrait views`，包含实现、测试、报告和原始证据共 291 个变更文件。提交后 `git status --short` 为空；随后仅本报告登记真实提交号，形成文档登记提交，交付 HEAD 可由 `git log -1` 查询，已测产品代码不再改变。
+
+原始独立拼图为此前请求生成但尚未入库的文件，本轮仅将其原字节纳入对照基线。`final_source_audit.json` 记录源码哈希并核对 `_marker`、`pick`、`visible_point`、`_gui_input` 与 P0-03 完全相同，`_box_faces` 仅固定眼高改为当前参数；原始对照哈希全部匹配。源码文本入库依原 LF 规则规范化，审计哈希为本机原始字节。提交前检查 996 个候选文件，禁止路径/产物与常见凭据模式命中均为 0，记录在 `repository_audit.json`（非穷尽安全保证）。远程列表为空、无推送；缓存、工具、SDK、签名和构建产物继续忽略。
 
 需要负责人确认：紧凑是否过平、是否更偏好适中纵深；眼高 1.30 或 1.50；是否接受只裁外围空角的全景；明确/弱化顶面哪种更有生活空间包围感；手机 A/B 及常驻按钮是否合适。工程仅保留候选方便复核，不表示正式定稿。**完成后停止，等待构图与手机取景确认。**

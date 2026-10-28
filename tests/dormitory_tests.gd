@@ -32,6 +32,9 @@ func _run() -> void:
 	room = app.active_room
 	view = room.room_view
 	world = room.world
+	# Replay the retained V fixture: its coordinate-specific assertions remain.
+	view.set_composition("compact")
+	await _settle()
 	view.object_selected.connect(func(id): selected.append(id))
 	_check(room is BuildingRoom and world.furniture.size() == 3, "BuildingRoom 合同和三家具独立节点")
 	_check(world.get_child_count() == 3 and not _has_3d(room), "原生 2D 场景，无 Node3D")

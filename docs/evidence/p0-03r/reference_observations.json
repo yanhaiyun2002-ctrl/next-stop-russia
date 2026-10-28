@@ -1,0 +1,18 @@
+{
+  "reference": "docs/references/dorm_visual_reference.mp4",
+  "inspection": "28 nearest-frame requests over 0–63 seconds; full duration metadata 63.7435833 s, native 512x924. Windows MediaComposition thumbnails. Frame rate not established; audio not analyzed.",
+  "observed": [
+    {"seconds": "0–3, 10–15, 60–63", "feature": "Front-facing interior with visible furniture tops/floor, a structured bright overhead plane, wall/window frames, and separate bed/desk/seating depth groups. Room occupies the upper area while an editing panel occupies the bottom."},
+    {"seconds": "20–38", "feature": "Different room style/backdrop and controls are visibly selected. These changes are not evidence of camera travel through one unchanged physical room."},
+    {"seconds": "40–46, 48–52, 56–58", "feature": "Closer partial-room views with overhead structure and floor still present; the wall/window and seating areas translate horizontally relative to fixed UI. A person is visible in some views and absent from the right-side view."},
+    {"seconds": "44–46", "feature": "Right wall/window and foreground seating fill the portrait viewport. The room is not reduced to one small complete six-sided box. Frames retain substantial furniture scale."},
+    {"seconds": "54", "feature": "A separate outfit interface is visible; this is outside the dormitory prototype scope."}
+  ],
+  "implementation_inferences": [
+    "A continuous 2D projected room with bounded horizontal viewport translation is a low-cost candidate to reproduce the spatial viewing pattern, not a claim about the reference engine.",
+    "Simple original window bays, wall divisions and overhead beams may reduce empty-box appearance without borrowing protected artwork.",
+    "A 10 logical-unit click/drag threshold and explicit reset are prototype choices, not observed reference specifications."
+  ],
+  "not_confirmed": ["Underlying 2D/3D implementation or exact lens/eye angle", "Original gesture source, threshold, inertia, zoom, movement limits or touch behavior", "Real-world dimensions or physically correct parallax", "Any need to implement its editing, furnishing, outfits or character systems"],
+  "asset_use": "Reference and derived frames are local analysis only, ignored by Git and docs/.gdignore; no video-derived pixel, model, texture or animation is used by the Godot project or final comparison PNG."
+}

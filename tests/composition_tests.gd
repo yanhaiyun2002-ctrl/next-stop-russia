@@ -17,6 +17,9 @@ func _run() -> void:
 	room = app.active_room
 	view = room.room_view
 	world = room.world
+	# This is the preserved V suite; R/default drag coverage is separate.
+	view.set_composition("compact")
+	await _settle()
 	view.object_selected.connect(func(id): selected.append(id))
 	_check(not room.debug_panel.visible and view.effective_framing() == "overview", "进入宿舍先完整展示，调试默认收起")
 	var world_id := world.get_instance_id()

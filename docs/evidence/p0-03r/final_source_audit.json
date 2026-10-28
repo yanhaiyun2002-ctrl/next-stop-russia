@@ -1,0 +1,28 @@
+{
+  "_box_faces": true,
+  "_marker": true,
+  "pick": true,
+  "visible_point": true,
+  "legacy_input_body_unchanged": true,
+  "face_sort_unchanged": true,
+  "scripts/main.gd": true,
+  "scripts/map.gd": true,
+  "scripts/building_room.gd": true,
+  "project.godot": true,
+  "scenes/buildings/school.tscn": true,
+  "data/building_definition.gd": true,
+  "data/building_definition.gd.uid": true,
+  "data/buildings/dormitory.tres": true,
+  "data/buildings/school.tres": true,
+  "data/buildings/shop.tres": true,
+  "original_V_evidence_unchanged": true,
+  "source_sha256": {
+    "scripts/dormitory/dormitory.gd": "875028687b0aa7e9194632a4db78514a0266eb15a87df351ba0ba4ec7044a460",
+    "scripts/dormitory/room_view.gd": "638026454ec42283025135efface9ae3907e185be85fff62a6fb61f789ee5a6b",
+    "scripts/dormitory/room_world.gd": "eef7f705663a4d99f54f41b784bc1ec1cc144f9b9b4305a0746b548257222b25",
+    "tests/ribbon_tests.gd": "258c2189f836e8a6ec07b3f0592830341161ea931ce82a5c4aed143ac074ad41",
+    "tests/ribbon.ps1": "303b982d9ffc34388b70fe4570367592abe4e8993d93375f4116a3301c67a80a",
+    "tests/dormitory_tests.gd": "d6e43059b281661435d5118ced2cde7ed7f54f171a4d8f1987042e4d14a131b2",
+    "tests/composition_tests.gd": "49e2198e39da2aa86cc6fe4a0ce8606e476898b2dd5ecfdad7d6a1fa79759229"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "duration_seconds": 63.7435833,
+  "width": 512,
+  "height": 924,
+  "frame_rate_milli": null,
+  "decoder": "Windows MediaComposition / nearest-frame request",
+  "reference_path": "docs/references/dorm_visual_reference.mp4",
+  "reference_sha256": "62e465c5b2fb8734319d03241c20e45bf5ed87e326be5c84c40e15a7303df508",
+  "frames": [
+    {
+      "requested_seconds": 0,
+      "path": "reference_frames/frame_000.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "8e4fd5b7be21eea6d49b7ea8711610f617da9a62a061f2e71efcbea8a4fcbe06"
+    },
+    {
+      "requested_seconds": 1,
+      "path": "reference_frames/frame_001.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "fdbebfa165979309c92bf8c7b76917266909677c96a6b47713b3b3dc9e3e3149"
+    },
+    {
+      "requested_seconds": 2,
+      "path": "reference_frames/frame_002.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "aa7fec2f2549ccd0ad5715b627285c467391f884e97394e1fc7078226fbf1ed4"
+    },
+    {
+      "requested_seconds": 3,
+      "path": "reference_frames/frame_003.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "629a2608bb548ca84b080b1490d8d36cdbe9877f45c375e7a01b5daf6598e594"
+    },
+    {
+      "requested_seconds": 10,
+      "path": "reference_frames/frame_010.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "9bb1f134f12f473853324dcdbd94a0b198c22329d870aa37c2d362387a54f4be"
+    },
+    {
+      "requested_seconds": 15,
+      "path": "reference_frames/frame_015.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "6b061883175df6e1584d0bf438475979ea1972e209a4438b1881c3be3843742a"
+    },
+    {
+      "requested_seconds": 18,
+      "path": "reference_frames/frame_018.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "be07df7d41973d40b62fb4f1a04e677b8dab04ffb7e2883685d7de41f18cc50a"
+    },
+    {
+      "requested_seconds": 20,
+      "path": "reference_frames/frame_020.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "8f6516145b924befdd110e48790c3cffee62e687dcb11bd4f0dd703cecbacbab"
+    },
+    {
+      "requested_seconds": 24,
+      "path": "reference_frames/frame_024.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "2cafa0030f1c641d508698f04c55263bac5bc9638413e6f1f07abfb006e5251a"
+    },
+    {
+      "requested_seconds": 28,
+      "path": "reference_frames/frame_028.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "6f8ca324a07b5183778b47710726089d7f502ec578516fa7d56fcf491ef96a36"
+    },
+    {
+      "requested_seconds": 32,
+      "path": "reference_frames/frame_032.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "5a196a1812fd2d57bcef39de96fe26cb4e5cc4420db95071656f55d68bf418d7"
+    },
+    {
+      "requested_seconds": 34,
+      "path": "reference_frames/frame_034.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "f9578d0a5aa74cbf3665f85b928650ef94beadaee6e902e4ec2ed0fd107cefdd"
+    },
+    {
+      "requested_seconds": 36,
+      "path": "reference_frames/frame_036.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "e2a8527be0b3d06297c2efa50acef0a211dc7b8d1a96b7d4ff04b23273357c22"
+    },
+    {
+      "requested_seconds": 38,
+      "path": "reference_frames/frame_038.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "92be7fa78c702626bfc79bc986cccaefee2dc1bb698d8c4644a398f103dfe62e"
+    },
+    {
+      "requested_seconds": 40,
+      "path": "reference_frames/frame_040.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "79e0daf17cbbcedf323abb7071cf35b4934d56187b9458b9fd60f51c45506bce"
+    },
+    {
+      "requested_seconds": 42,
+      "path": "reference_frames/frame_042.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "3e8dfbced3468bfed671db291ba3dd396866a325f9ac64865e61e662bebc11cc"
+    },
+    {
+      "requested_seconds": 44,
+      "path": "reference_frames/frame_044.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "bd233b34faf04d55195b2e65019cc908b85a3ac30b58228ca02adf0c49c2d457"
+    },
+    {
+      "requested_seconds": 45,
+      "path": "reference_frames/frame_045.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "81a033b896b7db7e1f59481d7a1f1bc0291e4cb7ebb16c9eff2d52cefb9eb3f0"
+    },
+    {
+      "requested_seconds": 46,
+      "path": "reference_frames/frame_046.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "39d99b21b872a15c40801f8e68e5ab7fb1e843096f7c98731e1e0e3b37e86775"
+    },
+    {
+      "requested_seconds": 48,
+      "path": "reference_frames/frame_048.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "e73d153347ce35de16c62f2a5daf55625a7ec0d29a29a58e86a784ad2b2dfcc8"
+    },
+    {
+      "requested_seconds": 50,
+      "path": "reference_frames/frame_050.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "9d4417881d01eb0cd079727d96a7baae419228ef247947cacc96508653bd33ea"
+    },
+    {
+      "requested_seconds": 52,
+      "path": "reference_frames/frame_052.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "cb26e49212beff7145fd4426731e7fc06fb62d437e3ed76ea17de864d3e8d640"
+    },
+    {
+      "requested_seconds": 54,
+      "path": "reference_frames/frame_054.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "dcffdaaf7a30ea79afb4568ade88f44479c732460e860a4e63b6f9ac0ec5f7a6"
+    },
+    {
+      "requested_seconds": 56,
+      "path": "reference_frames/frame_056.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "065a5b0c4920aa0b7222c98e1c31efe89f9e001ef4d4ca136d4485cc7744a847"
+    },
+    {
+      "requested_seconds": 58,
+      "path": "reference_frames/frame_058.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "5d9a6204f84861fa1a6644ae1d3f13fc75062a369aad5d21eaff24094ea7c644"
+    },
+    {
+      "requested_seconds": 60,
+      "path": "reference_frames/frame_060.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "6fbd9f9cdad77bcfb4029d37d5f670de4a3af3fc640ec2543a5c4da172c38b2e"
+    },
+    {
+      "requested_seconds": 62,
+      "path": "reference_frames/frame_062.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "e90f34f4b7cc6659b6aa25a6dcf42a8fdd386c11e27fdfe894cb350d6480f96b"
+    },
+    {
+      "requested_seconds": 63,
+      "path": "reference_frames/frame_063.png",
+      "size": [
+        512,
+        924
+      ],
+      "sha256": "e6cfda1e308db83933e670b5713a755a13d430b1afa3f72001974439e60d1eab"
+    }
+  ],
+  "note": "Windows nearest-frame thumbnails; no assertion of exact presentation timestamp or frame rate. Reference-derived frames are local analysis only, excluded from game assets and Git."
+}

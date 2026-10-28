@@ -1,0 +1,1501 @@
+{
+	"checks": [
+		{
+			"name": "从稳定宿舍 ID 请求进入",
+			"passed": true
+		},
+		{
+			"name": "BuildingRoom 合同和三家具独立节点",
+			"passed": true
+		},
+		{
+			"name": "原生 2D 场景，无 Node3D",
+			"passed": true
+		},
+		{
+			"name": "实际窗口尺寸 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "展开测试面板时空间视图未溢出 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "返回与反馈可见 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "独立横竖屏 UI 重排 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 ← 横移",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 横移 →",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 标记换点",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 标记前后",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 床",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 书桌",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 衣柜",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 全景",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 聚焦",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1920x1080 收起",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_auto_1920x1080",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1920x1080 bed",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1920x1080 desk",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1920x1080 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 overview_1920x1080[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 overview_1920x1080[]",
+			"passed": true
+		},
+		{
+			"name": "受约束横移可用 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "明确返回全景 1920x1080",
+			"passed": true
+		},
+		{
+			"name": "实际窗口尺寸 1280x800",
+			"passed": true
+		},
+		{
+			"name": "展开测试面板时空间视图未溢出 1280x800",
+			"passed": true
+		},
+		{
+			"name": "返回与反馈可见 1280x800",
+			"passed": true
+		},
+		{
+			"name": "独立横竖屏 UI 重排 1280x800",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 ← 横移",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 横移 →",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 标记换点",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 标记前后",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 床",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 书桌",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 衣柜",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 全景",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 聚焦",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1280x800 收起",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_auto_1280x800",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1280x800 bed",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1280x800 desk",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1280x800 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 overview_1280x800[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 overview_1280x800[]",
+			"passed": true
+		},
+		{
+			"name": "受约束横移可用 1280x800",
+			"passed": true
+		},
+		{
+			"name": "明确返回全景 1280x800",
+			"passed": true
+		},
+		{
+			"name": "实际窗口尺寸 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "展开测试面板时空间视图未溢出 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "返回与反馈可见 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "独立横竖屏 UI 重排 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 ← 横移",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 横移 →",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 标记换点",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 标记前后",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 床",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 书桌",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 衣柜",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 全景",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 聚焦",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1080x1920 收起",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_auto_1080x1920",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1080x1920 desk",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1080x1920 desk",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1080x1920 desk",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1080x1920 bed",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1080x1920 desk",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1080x1920 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 overview_1080x1920[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 overview_1080x1920[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_overview_1080x1920",
+			"passed": true
+		},
+		{
+			"name": "受约束横移可用 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "明确返回全景 1080x1920",
+			"passed": true
+		},
+		{
+			"name": "实际窗口尺寸 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "展开测试面板时空间视图未溢出 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "返回与反馈可见 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "独立横竖屏 UI 重排 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 ← 横移",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 横移 →",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 标记换点",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 标记前后",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 床",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 书桌",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 衣柜",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 全景",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 聚焦",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 1170x2532 收起",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_auto_1170x2532",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1170x2532 desk",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1170x2532 desk",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1170x2532 desk",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1170x2532 bed",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1170x2532 desk",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 1170x2532 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 overview_1170x2532[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 overview_1170x2532[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_overview_1170x2532",
+			"passed": true
+		},
+		{
+			"name": "受约束横移可用 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "明确返回全景 1170x2532",
+			"passed": true
+		},
+		{
+			"name": "实际窗口尺寸 360x780",
+			"passed": true
+		},
+		{
+			"name": "展开测试面板时空间视图未溢出 360x780",
+			"passed": true
+		},
+		{
+			"name": "返回与反馈可见 360x780",
+			"passed": true
+		},
+		{
+			"name": "独立横竖屏 UI 重排 360x780",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 ← 横移",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 横移 →",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 标记换点",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 标记前后",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 床",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 书桌",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 衣柜",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 全景",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 聚焦",
+			"passed": true
+		},
+		{
+			"name": "控件可见且至少 48 单位 360x780 收起",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_auto_360x780",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 portrait_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 360x780 desk",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 360x780 desk",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 360x780 desk",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 portrait_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "可见表面可点击 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "鼠标仅命中可见家具 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "合成触摸单次命中 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 portrait_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 360x780 bed",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 360x780 desk",
+			"passed": true
+		},
+		{
+			"name": "全景可找回家具 360x780 wardrobe",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 overview_360x780[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 overview_360x780[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 room_overview_360x780",
+			"passed": true
+		},
+		{
+			"name": "受约束横移可用 360x780",
+			"passed": true
+		},
+		{
+			"name": "明确返回全景 360x780",
+			"passed": true
+		},
+		{
+			"name": "床前标记头部可见",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 marker_front_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 marker_front_bed[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 marker_front_bed",
+			"passed": true
+		},
+		{
+			"name": "床后标记头部被床遮挡且不穿透拾取",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 marker_behind_bed[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 marker_behind_bed[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 marker_behind_bed",
+			"passed": true
+		},
+		{
+			"name": "桌腿之间为真实空隙，无包围矩形误挡",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 marker_desk_gap[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 marker_desk_gap[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 marker_desk_gap",
+			"passed": true
+		},
+		{
+			"name": "换位前固定标记可见",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 desk_before_move",
+			"passed": true
+		},
+		{
+			"name": "真实 GUI 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "换位后固定标记被桌面遮挡",
+			"passed": true
+		},
+		{
+			"name": "换位未移动镜头或标记坐标",
+			"passed": true
+		},
+		{
+			"name": "换位后确有书桌与床体的投影重叠且前桌优先",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 desk_front_overlap[]",
+			"passed": true
+		},
+		{
+			"name": "实际渲染像素与独立深度一致 desk_front_overlap[]",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 desk_front_overlap",
+			"passed": true
+		},
+		{
+			"name": "拒绝未知家具",
+			"passed": true
+		},
+		{
+			"name": "拒绝越出房间",
+			"passed": true
+		},
+		{
+			"name": "拒绝家具实体相交",
+			"passed": true
+		},
+		{
+			"name": "拒绝移动后保留原状态",
+			"passed": true
+		},
+		{
+			"name": "书桌可返回后槽位",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=1.15",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 bed_boundary_z1.15",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=1.24",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=1.26",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=1.35",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=1.50",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=2.10",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 bed_boundary_z2.10",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=3.32",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=3.34",
+			"passed": true
+		},
+		{
+			"name": "标记跨床遮挡边界 z=3.60",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 bed_boundary_z3.60",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x-1.70_z0.85[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x-1.70_z1.50[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x-1.70_z2.70[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x-1.70_z3.60[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x-1.70_z4.35[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x-1.70_z5.25[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x0.35_z0.85[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x0.35_z1.50[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x0.35_z2.70[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x0.35_z3.60[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x0.35_z4.35[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x0.35_z5.25[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x2.10_z0.85[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x2.10_z1.50[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x2.10_z2.70[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x2.10_z3.60[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x2.10_z4.35[]",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 depth_x2.10_z5.25[]",
+			"passed": true
+		},
+		{
+			"name": "标记深度按钮更新位置",
+			"passed": true
+		},
+		{
+			"name": "换点保留临时交互计数合同",
+			"passed": true
+		},
+		{
+			"name": "镜头变化期间旧按下被取消",
+			"passed": true
+		},
+		{
+			"name": "拖离可见表面取消点击",
+			"passed": true
+		},
+		{
+			"name": "取消后重复释放不会恢复旧点击",
+			"passed": true
+		},
+		{
+			"name": "家具按下跨方向变化取消旧坐标释放",
+			"passed": true
+		},
+		{
+			"name": "模拟不对称安全区内空间与常驻控件",
+			"passed": true
+		},
+		{
+			"name": "方向和安全区变化保持空间状态",
+			"passed": true
+		},
+		{
+			"name": "保存实际渲染截图 portrait_simulated_safe_area",
+			"passed": true
+		},
+		{
+			"name": "真实 GUI 返回地图",
+			"passed": true
+		},
+		{
+			"name": "保留地图实例与宿舍选择",
+			"passed": true
+		},
+		{
+			"name": "恢复宿舍导航焦点",
+			"passed": true
+		},
+		{
+			"name": "退出宿舍无空间节点残留",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 0",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 1",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 2",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 3",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 4",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 5",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 6",
+			"passed": true
+		},
+		{
+			"name": "重入仅建立当前灰盒状态 7",
+			"passed": true
+		},
+		{
+			"name": "八轮往返后无室内节点残留",
+			"passed": true
+		}
+	],
+	"display_server": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": 0,
+	"passed": 252,
+	"ray_samples": [
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1385,
+			"rendered_pixels": 125,
+			"scene": "overview_1920x1080"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1649,
+			"rendered_pixels": 193,
+			"scene": "overview_1280x800"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 482,
+			"rendered_pixels": 66,
+			"scene": "overview_1080x1920"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 408,
+			"rendered_pixels": 48,
+			"scene": "overview_1170x2532"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 408,
+			"rendered_pixels": 48,
+			"scene": "overview_360x780"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1385,
+			"rendered_pixels": 125,
+			"scene": "marker_front_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 127,
+			"scene": "marker_behind_bed"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 131,
+			"scene": "marker_desk_gap"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1386,
+			"rendered_pixels": 123,
+			"scene": "desk_front_overlap"
+		},
+		{
+			"steps": [
+				{
+					"depth": 1.15,
+					"head_owner": "marker"
+				},
+				{
+					"depth": 1.24,
+					"head_owner": "marker"
+				},
+				{
+					"depth": 1.26,
+					"head_owner": "marker"
+				},
+				{
+					"depth": 1.35,
+					"head_owner": "marker"
+				},
+				{
+					"depth": 1.5,
+					"head_owner": "marker"
+				},
+				{
+					"depth": 2.1,
+					"head_owner": "marker"
+				},
+				{
+					"depth": 3.32,
+					"head_owner": "bed"
+				},
+				{
+					"depth": 3.34,
+					"head_owner": "bed"
+				},
+				{
+					"depth": 3.6,
+					"head_owner": "bed"
+				}
+			],
+			"trajectory": "bed depth boundary"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1385,
+			"rendered_pixels": 0,
+			"scene": "depth_x-1.70_z0.85"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1389,
+			"rendered_pixels": 0,
+			"scene": "depth_x-1.70_z1.50"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1389,
+			"rendered_pixels": 0,
+			"scene": "depth_x-1.70_z2.70"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x-1.70_z3.60"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x-1.70_z4.35"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x-1.70_z5.25"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1386,
+			"rendered_pixels": 0,
+			"scene": "depth_x0.35_z0.85"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1385,
+			"rendered_pixels": 0,
+			"scene": "depth_x0.35_z1.50"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x0.35_z2.70"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x0.35_z3.60"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x0.35_z4.35"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x0.35_z5.25"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x2.10_z0.85"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1389,
+			"rendered_pixels": 0,
+			"scene": "depth_x2.10_z1.50"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x2.10_z2.70"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x2.10_z3.60"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x2.10_z4.35"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1390,
+			"rendered_pixels": 0,
+			"scene": "depth_x2.10_z5.25"
+		}
+	],
+	"scope": "Windows viewport rendering and synthetic mouse/touch only; no device or human playtest",
+	"screenshots": [
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_auto_1920x1080.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1280, 800)",
+			"logical": "(1280.0, 800.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_auto_1280x800.png",
+			"scale": 1.16844919786096,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 453.0)]",
+			"window": "(1280, 800)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_auto_1080x1920.png",
+			"scale": 0.68536985029523,
+			"view_rect": "[P: (16.0, 99.0), S: (406.0, 403.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1080, 1920)",
+			"logical": "(438.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_overview_1080x1920.png",
+			"scale": 0.68536985029523,
+			"view_rect": "[P: (16.0, 99.0), S: (406.0, 403.0)]",
+			"window": "(1080, 1920)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_auto_1170x2532.png",
+			"scale": 0.574656259093693,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_overview_1170x2532.png",
+			"scale": 0.574656259093693,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(1170, 2532)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_auto_360x780.png",
+			"scale": 0.574656259093693,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 454.228851318359,
+			"framing": "bed",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "portrait_focus_bed.png",
+			"scale": 1.20246719354549,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 674.539428710938,
+			"framing": "desk",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "portrait_focus_desk.png",
+			"scale": 1.54037743033666,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 830.408203125,
+			"framing": "wardrobe",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "portrait_focus_wardrobe.png",
+			"scale": 1.41906692006103,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(360, 780)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "room_overview_360x780.png",
+			"scale": 0.574656259093693,
+			"view_rect": "[P: (8.5, 99.0), S: (343.0, 403.0)]",
+			"window": "(360, 780)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-1.7, 0.85)",
+			"path": "marker_front_bed.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-1.7, 3.6)",
+			"path": "marker_behind_bed.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(0.35, 4.35)",
+			"path": "marker_desk_gap.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-0.45, 1.6)",
+			"path": "desk_before_move.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 1,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-0.45, 1.6)",
+			"path": "desk_front_overlap.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-1.7, 1.15)",
+			"path": "bed_boundary_z1.15.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-1.7, 2.1)",
+			"path": "bed_boundary_z2.10.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1920, 1080)",
+			"logical": "(1280.0, 720.0)",
+			"marker": "(-1.7, 3.6)",
+			"path": "bed_boundary_z3.60.png",
+			"scale": 0.954545454545455,
+			"view_rect": "[P: (28.0, 111.0), S: (1224.0, 373.0)]",
+			"window": "(1920, 1080)"
+		},
+		{
+			"desk_slot": 0,
+			"focus_x": 626.102783203125,
+			"framing": "overview",
+			"image": "(1170, 2532)",
+			"logical": "(360.0, 780.0)",
+			"marker": "(-1.7, 3.6)",
+			"path": "portrait_simulated_safe_area.png",
+			"scale": 0.548295880236184,
+			"view_rect": "[P: (16.0, 146.0), S: (328.0, 486.0)]",
+			"window": "(1170, 2532)"
+		}
+	]
+}

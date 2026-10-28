@@ -1,0 +1,172 @@
+{
+  "output": "docs/evidence/p0-03r/P0-03R_VISUAL_REVIEW.png",
+  "dimensions": [
+    4080,
+    7010
+  ],
+  "source_count": 10,
+  "paste_verification": true,
+  "source_files_unchanged": true,
+  "sources": [
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/pc_1920x1080_compact_ceiling.png",
+      "sha256": "0fe3ca54a54bd4a4e239fb48e2d40f8d7d4dfdb271e6b0765953d34c3e62b5dd",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        80,
+        492
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/pc_1920x1080_middle.png",
+      "sha256": "35995b9ab7a9ce266ed000cc746156a3d13db932e5fce222d95db6a04fd33077",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        2080,
+        492
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_B_ceiling_entry.png",
+      "sha256": "188bd6a6b2ef4b8fa48a4ed231dca45e3f45faf70db116caadc3b9a685750c3f",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        90,
+        2032
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_left.png",
+      "sha256": "9f1cee4d84a3d57a923ee6c73a16506970870edfd16443c85c6cca8633618e10",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        1090,
+        2032
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_middle.png",
+      "sha256": "3fc9864fcad8774d3a612fa403da5cf3c09c59a2b731708453d2191622fa6fea",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        2090,
+        2032
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/phone_1080x1920_right.png",
+      "sha256": "40f28cc44b597203fe29b2428708db1c61592133e10f4cc2cf93d02a79048150",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        3090,
+        2032
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_bed_front.png",
+      "sha256": "aedf4fdf6a76f06ab57bc3e55d7f14ef1040e41e9c4199742baee5f4545e1e90",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        80,
+        4082
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/occlusion_bed_back.png",
+      "sha256": "c1d620ddbbd62c4ea67dd100d14f2dd59922fd66a7f65bdf71d32699d668c964",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        2080,
+        4082
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/desk_before_move.png",
+      "sha256": "c9895e5557752a30a08288eec0c5674819bd3a60a0337fa8f49938fc3982e0a5",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        80,
+        5622
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03r/13_ribbon_rendered_delivery/desk_front_overlap.png",
+      "sha256": "8485870fedf91cb0fd59f7dd7604654218c7e1212a59a4aaaf96b99f2f222265",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        2080,
+        5622
+      ]
+    }
+  ]
+}

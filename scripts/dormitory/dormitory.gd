@@ -1,5 +1,5 @@
 extends BuildingRoom
-## P0-03V local composition/phone trials; navigation and world stay shared.
+## P0-03R continuous-room trial; V presets remain available for regression.
 var world: DormitoryWorld
 var room_view: DormitoryView
 var controls: GridContainer
@@ -50,13 +50,13 @@ func _ready() -> void:
 		var button := _make_button(entry[0])
 		button.pressed.connect(func():
 			_selected(entry[1])
-			if not room_view.is_portrait():
+			if room_view.composition == "ribbon" or not room_view.is_portrait():
 				room_view.frame_object(String(entry[1])))
 		selection_bar.add_child(button)
 	add_child(selection_bar)
 	selection_bar.add_theme_constant_override("separation", 4)
 	overview_button = _make_button("全景")
-	overview_button.pressed.connect(room_view.frame_object.bind("overview"))
+	overview_button.pressed.connect(_reset_view)
 	selection_bar.add_child(overview_button)
 	focus_button = _make_button("聚焦")
 	focus_button.pressed.connect(func(): room_view.frame_object(String(selected_furniture)))
@@ -89,10 +89,10 @@ func _ready() -> void:
 	ceiling.pressed.connect(func(): room_view.set_ceiling_emphasis(not room_view.ceiling_emphasis))
 	var options := HBoxContainer.new()
 	composition_option = OptionButton.new()
-	for text_value in ["比例：原版", "比例：适中", "比例：紧凑"]:
+	for text_value in ["比例：原版", "比例：适中", "比例：紧凑", "空间：横向"]:
 		composition_option.add_item(text_value)
-	composition_option.select(2)
-	composition_option.item_selected.connect(func(index): room_view.set_composition(["original", "balanced", "compact"][index]))
+	composition_option.select(3)
+	composition_option.item_selected.connect(func(index): room_view.set_composition(["original", "balanced", "compact", "ribbon"][index]))
 	scheme_option = OptionButton.new()
 	scheme_option.add_item("手机 A：全景")
 	scheme_option.add_item("手机 B：点选聚焦")
@@ -108,7 +108,7 @@ func _ready() -> void:
 	feedback.add_theme_font_size_override("font_size", 14)
 	feedback.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	feedback.custom_minimum_size.y = 36
-	feedback.text = "点击家具查看；测试面板可展开。"
+	feedback.text = "左右拖动浏览；点击查看，复位返回默认取景。"
 	add_child(feedback)
 	resized.connect(_layout_room)
 	get_viewport().size_changed.connect(_layout_room)
@@ -132,6 +132,11 @@ func set_debug_visible(value: bool) -> void:
 	debug_button.text = "收起" if value else "测试"
 	_framing_text()
 
+func _reset_view() -> void:
+	room_view.frame_object("overview")
+	if room_view.composition == "ribbon":
+		feedback.text = "默认取景；左右拖动浏览，点击查看。"
+
 func set_phone_scheme(value: String) -> void:
 	if value not in ["A", "B"]:
 		return
@@ -152,7 +157,19 @@ func _framing_text() -> void:
 		return
 	var mode := room_view.effective_framing()
 	var portrait := room_view.is_portrait()
-	mode_label.text = ("手机 %s · " % phone_scheme if portrait else "正视广角 · ") + ("全景" if mode == "overview" else "局部聚焦")
+	var ribbon := room_view.composition == "ribbon"
+	if ribbon:
+		mode_label.text = "手机 · 左右拖动浏览" if portrait else "正视广角 · 连续室内 / 可横移"
+	else:
+		mode_label.text = ("手机 %s · " % phone_scheme if portrait else "正视广角 · ") + ("全景" if mode == "overview" else "局部聚焦")
+	if overview_button:
+		overview_button.text = "复位" if ribbon else "全景"
+	if focus_button:
+		focus_button.visible = not ribbon
+	if scheme_option:
+		scheme_option.disabled = ribbon
+	if composition_option:
+		composition_option.select(["original", "balanced", "compact", "ribbon"].find(room_view.composition))
 
 func _selected(id: StringName) -> void:
 	if id == &"marker":
@@ -160,7 +177,7 @@ func _selected(id: StringName) -> void:
 	else:
 		selected_furniture = id
 		feedback.text = "%s · 深度 %.2f m" % [world.furniture[id].display_name, world.furniture[id].floor_position.y]
-		if room_view.is_portrait() and phone_scheme == "B":
+		if room_view.composition != "ribbon" and room_view.is_portrait() and phone_scheme == "B":
 			room_view.frame_object(String(id))
 
 func interact() -> void:

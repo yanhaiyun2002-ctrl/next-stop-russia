@@ -1,0 +1,18 @@
+{
+  "candidate_count": 1284,
+  "forbidden_paths": [],
+  "credential_pattern_files": [],
+  "ignored_probes": [
+    ".tools/video_decode/ffmpeg.whl",
+    ".godot/editor/project_metadata.cfg",
+    "builds/windows/NextStopRussia.exe",
+    "builds/android/NextStopRussia-debug.apk",
+    "export_credentials.cfg",
+    ".env",
+    ".ssh/id_rsa",
+    "debug.keystore",
+    "docs/references/dorm_visual_reference.mp4",
+    "docs/evidence/p0-03r/reference_frames/frame_000.png"
+  ],
+  "note": "Path and common-pattern audit; not an exhaustive security guarantee. Reference video/derived frames stay local and outside game resources."
+}

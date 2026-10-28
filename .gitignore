@@ -21,3 +21,6 @@ export_credentials.cfg
 *.keystore
 .DS_Store
 Thumbs.db
+# Reference media is kept locally for analysis, never imported as game assets.
+/docs/references/*.mp4
+/docs/evidence/p0-03r/reference_frames/

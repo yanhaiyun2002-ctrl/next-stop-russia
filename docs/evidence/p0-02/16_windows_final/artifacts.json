@@ -1,0 +1,12 @@
+[
+  {
+    "path": "builds/windows/NextStopRussia.exe",
+    "bytes": 109268480,
+    "sha256": "D34D36F3BE1A6C49C56525AE86469B92E4F417DDF0B43CF00DD80C385C4B0562"
+  },
+  {
+    "path": "builds/windows/NextStopRussia.pck",
+    "bytes": 47068,
+    "sha256": "E8D79E7FACB855F316BF3CEB829553A75319B2915D3B1AC11B0FDFE6EA5DBD93"
+  }
+]

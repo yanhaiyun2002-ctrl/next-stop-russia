@@ -1,0 +1,24 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "jdk": "Zulu OpenJDK 17.0.21",
+  "sdk_commandline": "22.0",
+  "platform_tools": "37.0.1",
+  "active_build_tools": "36.0.0",
+  "platforms": [
+    35,
+    36
+  ],
+  "template_target_sdk": 36,
+  "ndk_installed": false,
+  "cmake_installed": false,
+  "gradle_build": false,
+  "debug_signing": "local .tools keystore; not a release signing identity",
+  "apk_export_exit": 0,
+  "signature_verify_exit": 0,
+  "connected_device_count": 0,
+  "emulator_available": false,
+  "device_runtime_verified": false,
+  "mobile_safe_area_verified": false,
+  "mobile_resume_verified": false,
+  "mobile_performance_verified": false
+}

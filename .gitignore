@@ -5,6 +5,8 @@ builds/
 /build/
 /dist/
 *.tmp
+__pycache__/
+*.pyc
 export_credentials.cfg
 # Local environment files and signing credentials must stay outside the baseline.
 .env

@@ -1,0 +1,17 @@
+{
+  "required": {
+    "assets/project.binary": true,
+    "assets/scenes/main.tscn.remap": true,
+    "assets/scenes/buildings/dormitory.tscn.remap": true,
+    "assets/scenes/buildings/school.tscn.remap": true,
+    "assets/data/buildings/shop.tres.remap": true,
+    "assets/assets/p0_icon.svg.remap": false
+  },
+  "forbidden_paths": [],
+  "native_libraries": [
+    "lib/arm64-v8a/libc++_shared.so",
+    "lib/arm64-v8a/libgodot_android.so",
+    "lib/x86_64/libc++_shared.so",
+    "lib/x86_64/libgodot_android.so"
+  ]
+}

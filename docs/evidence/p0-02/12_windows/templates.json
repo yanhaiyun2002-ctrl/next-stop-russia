@@ -1,0 +1,38 @@
+{
+  "source": "https://godotengine.org/download/archive/4.7.2-stable/",
+  "version": "4.7.2.stable",
+  "archive_size": 1281349702,
+  "archive_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+  "entries": [
+    {
+      "name": "templates/android_debug.apk",
+      "bytes": 127260725,
+      "sha256": "59e0073f0fa59f552684a861d8f4266b0b34b488a140d6657eac7dd70d1a0a0d",
+      "zip_crc_checked": true
+    },
+    {
+      "name": "templates/android_release.apk",
+      "bytes": 104803333,
+      "sha256": "6d1bb2cfa126a1b1c87e064a35b3cbd181bef0ec784dec1efd1d64dffa8be6cb",
+      "zip_crc_checked": true
+    },
+    {
+      "name": "templates/version.txt",
+      "bytes": 13,
+      "sha256": "38885c88f75abbc797a1db7559719800279a00cfb9fa8b2e2868a7f6f84bad2e",
+      "zip_crc_checked": true
+    },
+    {
+      "name": "templates/windows_debug_x86_64.exe",
+      "bytes": 103176704,
+      "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107",
+      "zip_crc_checked": true
+    },
+    {
+      "name": "templates/windows_release_x86_64.exe",
+      "bytes": 109268480,
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+      "zip_crc_checked": true
+    }
+  ]
+}

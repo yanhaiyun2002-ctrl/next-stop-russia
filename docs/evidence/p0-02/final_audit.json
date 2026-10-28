@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-28 Asia/Shanghai",
+  "baseline_commit": "de6e08d9eaed506c2cf80a3dda43b3da58818ceb",
+  "final_headless": {
+    "failed": 0,
+    "passed": 254
+  },
+  "final_rendered": [
+    {
+      "round": 1,
+      "passed": 268,
+      "failed": 0,
+      "exit_code": 0,
+      "clean_logs": true,
+      "accepted": true,
+      "evidence": "docs/evidence/p0-02/21_stability/round_1"
+    },
+    {
+      "round": 2,
+      "passed": 268,
+      "failed": 0,
+      "exit_code": 0,
+      "clean_logs": true,
+      "accepted": true,
+      "evidence": "docs/evidence/p0-02/21_stability/round_2"
+    },
+    {
+      "round": 3,
+      "passed": 268,
+      "failed": 0,
+      "exit_code": 0,
+      "clean_logs": true,
+      "accepted": true,
+      "evidence": "docs/evidence/p0-02/21_stability/round_3"
+    },
+    {
+      "round": 4,
+      "passed": 268,
+      "failed": 0,
+      "exit_code": 0,
+      "clean_logs": true,
+      "accepted": true,
+      "evidence": "docs/evidence/p0-02/21_stability/round_4"
+    },
+    {
+      "round": 5,
+      "passed": 268,
+      "failed": 0,
+      "exit_code": 0,
+      "clean_logs": true,
+      "accepted": true,
+      "evidence": "docs/evidence/p0-02/21_stability/round_5"
+    }
+  ],
+  "windows_package": {
+    "editor_feature": false,
+    "passed": 17,
+    "template_feature": true,
+    "failed": 0
+  },
+  "android_apk_built": true,
+  "android_signature_verified": true,
+  "android_inventory_verified": true,
+  "android_device_verified": false,
+  "macos_verified": false,
+  "ios_verified": false,
+  "credentials_pattern_matches": 0,
+  "forbidden_candidate_artifacts": 0,
+  "remote_count": 0,
+  "candidate_file_count": 545
+}

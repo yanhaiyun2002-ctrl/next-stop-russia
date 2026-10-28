@@ -20,7 +20,7 @@ Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程�
 & '.tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe' --path .
 ```
 
-其他机器从 [官方 4.7.2 归档](https://godotengine.org/download/archive/4.7.2-stable/) 取得标准版，使用相应可执行文件即可。运行工程无需导出模板；生成发行包需要同版本模板与平台工具链，本次没有验证发行包。
+其他机器从 [官方 4.7.2 归档](https://godotengine.org/download/archive/4.7.2-stable/) 取得标准版，使用相应可执行文件即可。运行工程无需导出模板；构建需要同版本模板与平台工具链。本次已验证 Windows 独立测试包与 Android 调试 APK 构建，设备/Apple 平台边界见阶段汇总。
 
 ## 操作和布局
 
@@ -73,6 +73,22 @@ Godot **4.7.2 Stable 标准版** + GDScript + Compatibility 的最小主工程�
 
 本次无正式房间、美术、学习、NPC、找猫、整理、经济、存档或联网系统。DEMO/正式版共用主工程，未来按构建配置及显式资源清单隔离正式资产，不复制代码库。
 
-本地 Git 已初始化，无远程、无自动提交或推送。`.tools/`、`.godot/`、构建输出和凭据已忽略；脚本 `.uid` 应随源码保留。`docs/.gdignore` 避免报告和截图被引擎当作游戏资源导入。没有生成发行预设，也没有声称 DEMO/正式资产隔离已构建验证。
+本地 Git 已建立经授权的稳定基线，无远程、无推送。`.tools/`、`.godot/`、构建输出和凭据已忽略；脚本 `.uid` 应随源码保留。`docs/.gdignore` 避免报告和截图被引擎当作游戏资源导入。测试导出预设并不表示正式发行、DEMO/正式资产隔离或商店发布已验收。
+
+## 测试构建
+
+`export_presets.cfg` 的模板路径为 `.tools/export_templates/`。从官方同版本模板 ZIP 提取 `windows_release_x86_64.exe`、`windows_debug_x86_64.exe`、`android_debug.apk`、`android_release.apk`、`version.txt` 到该目录；模板不加入 Git。实际模板指纹见阶段汇总引用的 JSON。
+
+```powershell
+& '.tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe' --headless --path . --export-release 'Windows Test'
+./tests/verify_windows.ps1 -EvidenceDir docs/evidence/自选未存在目录
+& '.tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe' --headless --path . --export-debug 'Android Debug'
+```
+
+Windows 产物为 `builds/windows/NextStopRussia.exe` 与同目录 `.pck`，可脱离编辑器运行。`Windows Test` 默认显示真实地图，只有显式用户参数 `-- --verify-package` 才执行包内验证并退出；验证脚本还检查实际二进制不是编辑器。测试包保留必要测试脚本，不作为正式发行包裁剪方案。
+
+Android 产物为 `builds/android/NextStopRussia-debug.apk`。须在 Godot 编辑器设置填写本机 JDK/SDK 和调试签名路径；本机用 `.tools/godot-4.7.2/_sc_` 与 `editor_data/editor_settings-4.7.tres` 隔离这些设置。使用 JDK 17、Platform/Build-Tools 36、Platform-Tools，当前预设使用官方预编译 APK，不启用 Gradle。正式 Gradle/原生插件工作需要另核 NDK/CMake。调试私钥只存 `.tools/`，不可提交或当作正式发行身份。
+
+本次 `adb devices -l` 为空，无模拟器，APK 仅验证构建/签名/包内资源，未验证手机运行。
 
 **本次止于 P0-02，不自动开始 P0-03。**

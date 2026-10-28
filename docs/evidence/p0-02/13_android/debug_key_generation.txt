@@ -1,0 +1,2 @@
+����Ϊ���¶������� 2,048 λRSA��Կ�Ժ���ǩ��֤�� (SHA256withRSA) (��Ч��Ϊ 10,000 ��):
+	 CN=Android Debug, O=Android, C=US

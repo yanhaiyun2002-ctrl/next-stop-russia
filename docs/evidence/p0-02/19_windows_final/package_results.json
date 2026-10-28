@@ -1,0 +1,91 @@
+{
+	"checks": [
+		{
+			"name": "实际导出模板运行，非编辑器二进制",
+			"passed": true
+		},
+		{
+			"name": "地图入口可见",
+			"passed": true
+		},
+		{
+			"name": "文档/证据未打包",
+			"passed": true
+		},
+		{
+			"name": "工具与密钥未打包",
+			"passed": true
+		},
+		{
+			"name": "实际导出程序截图 map",
+			"passed": true
+		},
+		{
+			"name": "包内场景完整 dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 进入 dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 dormitory",
+			"passed": true
+		},
+		{
+			"name": "实际导出程序截图 dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 dormitory",
+			"passed": true
+		},
+		{
+			"name": "包内场景完整 school",
+			"passed": true
+		},
+		{
+			"name": "GUI 进入 school",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 school",
+			"passed": true
+		},
+		{
+			"name": "实际导出程序截图 school",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 school",
+			"passed": true
+		},
+		{
+			"name": "商店锁定反馈",
+			"passed": true
+		},
+		{
+			"name": "无效 ID 防护",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"editor_feature": false,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"executable": "E:/俄语游戏/NEXT_STOP_RUSSIA/builds/windows/NextStopRussia.exe",
+	"failed": 0,
+	"passed": 17,
+	"resource_root": "",
+	"template_feature": true,
+	"viewport": "(1280.0, 720.0)"
+}

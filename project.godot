@@ -3,7 +3,9 @@ config_version=5
 
 [application]
 config/name="下一站，俄罗斯！ · P0-01"
+config/icon="res://assets/p0_icon.svg"
 run/main_scene="res://scenes/main.tscn"
+run/main_scene.p0_test="res://tests/package_entry.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]
@@ -23,4 +25,5 @@ pointing/emulate_mouse_from_touch=true
 [rendering]
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_clear_color=Color(0.055, 0.085, 0.12, 1)

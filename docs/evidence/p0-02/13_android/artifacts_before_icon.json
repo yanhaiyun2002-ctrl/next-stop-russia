@@ -1,0 +1,12 @@
+[
+  {
+    "path": "builds/android/NextStopRussia-debug.apk",
+    "bytes": 56999836,
+    "sha256": "8A39447125003CFE400047D8056ADD421F74049BC0EE0BF14111315901FE28CA"
+  },
+  {
+    "path": "builds/android/NextStopRussia-debug.apk.idsig",
+    "bytes": 452019,
+    "sha256": "CA5115B200F471119C512FC54EF4ABDF4EEAB248027372E5BA0D5ADEBAE4A808"
+  }
+]

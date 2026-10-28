@@ -1,0 +1,20 @@
+[
+  {
+    "package": "build-tools;35.0.1",
+    "url": "https://dl.google.com/android/repository/build-tools_r35.0.1_windows.zip",
+    "size": 59876477,
+    "checksum": "1cbfa5564b62504a1111352edda35914cf723a20",
+    "checksum_type": "sha1",
+    "actual_sha256": "79748cb4ab64b61fa678af21639985c7e394d874a4e31f082f4026d5c57e01a3",
+    "checksum_verified": true
+  },
+  {
+    "package": "platform-tools",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+    "size": 8044989,
+    "checksum": "e03e78b1d80b396f1c3358e31251cb31740e1110",
+    "checksum_type": "sha1",
+    "actual_sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99",
+    "checksum_verified": true
+  }
+]

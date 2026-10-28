@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started 项目初始化 (5 steps)
+[   0% ] first_scan_filesystem | 正在扫描文件结构……
+[  16% ] first_scan_filesystem | 正在加载全局类名……
+[  33% ] first_scan_filesystem | 正在校验 GDExtension……
+[  50% ] first_scan_filesystem | 正在创建自动加载脚本……
+[  66% ] first_scan_filesystem | 正在初始化插件……
+[  83% ] first_scan_filesystem | 正在启动文件扫描……
+[ DONE ] first_scan_filesystem
+
+ERROR: Cannot export project with preset "Android Debug" due to configuration errors:
+“最小 SDK”只有在启用“使用 Gradle 构建”时才能覆盖。
+“目标 SDK”只有在启用“使用 Gradle 构建”时才能覆盖。
+导出 Android 版本需要 ETC2/ASTC 纹理压缩格式。请在“项目设置”中搜索字段 'ETC2'，或者启用“高级设置”并进入 渲染 > 纹理 > VRAM 压缩，以开启 导入 ETC2 ASTC 选项。
+
+   at: _fs_changed (editor/editor_node.cpp:1401)
+ERROR: Project export for preset "Android Debug" failed.
+   at: _fs_changed (editor/editor_node.cpp:1417)

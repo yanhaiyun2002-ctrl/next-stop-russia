@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-28",
+  "sdk_command_line_tools_version": "15859902",
+  "sha256": "90AE805D20434428BFFCB699C290860F19BB5F66A67E6B330067E3DE801FB04A",
+  "jdk_initial_attempt": "Adoptium official metadata available; GitHub binary connect timed out, no JDK obtained by this route",
+  "initial_java_on_path": false,
+  "initial_adb_on_path": false
+}

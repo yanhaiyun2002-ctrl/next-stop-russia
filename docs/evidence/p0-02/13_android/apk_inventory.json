@@ -1,0 +1,22 @@
+{
+  "required": {
+    "assets/project.binary": true,
+    "assets/scenes/main.tscn.remap": true,
+    "assets/scenes/buildings/dormitory.tscn.remap": true,
+    "assets/scenes/buildings/school.tscn.remap": true,
+    "assets/data/buildings/shop.tres.remap": true,
+    "assets/assets/p0_icon.svg.import": true,
+    "lib/arm64-v8a/libgodot_android.so": true,
+    "lib/x86_64/libgodot_android.so": true,
+    "icon_import_target_exists": true
+  },
+  "icon_import_target": "assets/.godot/imported/p0_icon.svg-56473f47dd49a2087a1d31afbf2bfd13.ctex",
+  "forbidden_paths": [],
+  "native_libraries": [
+    "lib/arm64-v8a/libc++_shared.so",
+    "lib/arm64-v8a/libgodot_android.so",
+    "lib/x86_64/libc++_shared.so",
+    "lib/x86_64/libgodot_android.so"
+  ],
+  "scope": "static inventory; not emulator/device execution"
+}

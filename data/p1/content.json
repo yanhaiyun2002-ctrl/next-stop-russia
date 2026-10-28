@@ -1,0 +1,24 @@
+{
+  "status": "TEMP_TEXT / REVIEW_PENDING",
+  "source": "docs/design/source_v03/01_MAIN_STORY_NPC_RU_ZH.md",
+  "arrival": [
+    {"id":"q00.anna.01","speakerId":"anna","speaker":"Анна · 安娜","ru":"Привет! Я Анна. Добро пожаловать в Санкт-Петербург!","zhSubtitle":"你好！我是安娜。欢迎来到圣彼得堡！"},
+    {"id":"q00.anna.02","speakerId":"anna","speaker":"Анна · 安娜","ru":"Наверное, дорога была долгой. Пойдём, я покажу тебе комнату.","zhSubtitle":"一路辛苦了吧。走，我带你去看看房间。"},
+    {"id":"q00.maria.01","speakerId":"dorm_admin","speaker":"Мария Ивановна · 宿舍管理员","ru":"Здравствуйте! Вот ключ от вашей комнаты.","zhSubtitle":"你好！这是你的房间钥匙。"},
+    {"id":"q00.maria.02","speakerId":"dorm_admin","speaker":"Мария Ивановна · 宿舍管理员","ru":"Если что-то понадобится, обращайтесь ко мне.","zhSubtitle":"有什么需要，可以来找我。"},
+    {"id":"q00.anna.03","speakerId":"anna","speaker":"Анна · 安娜","ru":"Осмотрись пока. Позже я напишу тебе про университет.","zhSubtitle":"你先熟悉一下房间。稍后我再发消息告诉你大学的事。"}
+  ],
+  "annaMessage": [
+    {"id":"q03.anna.msg01","speakerId":"anna","speaker":"Анна · 安娜的消息","ru":"Привет! В университете уже можно забрать пакет документов для регистрации.","zhSubtitle":"嗨！现在可以去大学领取报到资料了。"},
+    {"id":"q03.anna.msg02","speakerId":"anna","speaker":"Анна · 安娜的消息","ru":"Загляни туда, когда будет время. Потом расскажешь, как всё прошло!","zhSubtitle":"有空就去一趟吧。之后告诉我顺不顺利！"}
+  ],
+  "spots": [
+    {"spotId":"under_bed","roomObjectId":"bed","vocabId":"furniture.bed","ru":"кровать","zh":"床","hideOffset":[0,0,0.65],"labelOffset":[0,1.35,0],"peek":true,"foregroundOccluderId":"bed","exitWaypoints":[[0,0,-0.8],[0,0,-1.4]]},
+    {"spotId":"by_window","roomObjectId":"window","vocabId":"furniture.window","ru":"окно","zh":"窗","hideOffset":[-0.65,1.08,-0.18],"labelOffset":[0,2.25,-0.05],"peek":false,"foregroundOccluderId":"window_sill","exitWaypoints":[[-0.65,1.08,-1.0],[-0.65,0,-5.0]]},
+    {"spotId":"by_wardrobe","roomObjectId":"wardrobe","vocabId":"furniture.wardrobe","ru":"шкаф","zh":"衣柜","hideOffset":[-1.05,0,-0.15],"labelOffset":[-0.6,2.4,0],"peek":false,"foregroundOccluderId":"wardrobe","exitWaypoints":[[-1.05,0,-1.0],[-1.05,0,-3.8]]},
+    {"spotId":"under_desk","roomObjectId":"desk","vocabId":"furniture.desk","ru":"стол","zh":"书桌","hideOffset":[0,0,0.5],"labelOffset":[0,1.35,0],"peek":false,"foregroundOccluderId":"desk","exitWaypoints":[[0,0,-0.8],[0,0,-2.8]]}
+  ],
+  "itemNames":{"textbook":"厚教材 · 2格","passport":"护照 · 1格","scarf":"围巾 · 1格","washbag":"洗漱包 · 1格"},
+  "binNames":{"A":"A 书籍区 · 2格","B":"B 随身区 · 2格","C":"C 洗漱区 · 1格"},
+  "suggestedNames":["米沙","Снежок","小松"]
+}

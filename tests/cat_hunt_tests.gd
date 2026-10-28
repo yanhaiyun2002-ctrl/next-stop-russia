@@ -16,6 +16,7 @@ func _run() -> void:
 		push_error("P0_CAT_TIMEOUT")
 		quit(124))
 	app = MAIN.instantiate()
+	app.technical_mode = true
 	root.add_child(app)
 	await _settle()
 	var map_instance: int = app.map_view.get_instance_id()

@@ -18,6 +18,9 @@ var active_id: StringName = &""
 var buildings: Dictionary = {}
 var transitioning := false
 var last_rejection: StringName = &""
+var technical_mode := false
+var session: P1Session
+var story_flow: Control
 
 func _ready() -> void:
 	get_tree().auto_accept_quit = true
@@ -28,6 +31,27 @@ func _ready() -> void:
 	safe_layout.add_child(map_view)
 	map_view.configure(CATALOG)
 	map_view.building_requested.connect(enter_building)
+	if not technical_mode:
+		var channel := "DEV" if "--dev" in OS.get_cmdline_user_args() else "PLAYTEST"
+		session = P1Session.new(channel)
+		if channel == "DEV" and "--name-pending" in OS.get_cmdline_user_args() and not session.store.blocked and not session.state.cat.firstPetCompleted:
+			while session.state.story.arrivalIndex < 5:
+				if not session.advance_arrival():
+					break
+			if session.enter_home() and session.choose_spot("by_window"):
+				session.pet_reaction_completed()
+		map_view.hide()
+		story_flow = load("res://scripts/p1/flow.gd").new()
+		add_child(story_flow)
+		story_flow.setup(self, session)
+		if OS.has_feature("p1_playtest") and "--verify-p1-package" in OS.get_cmdline_user_args():
+			var verifier: Node = load("res://scripts/p1/package_check.gd").new()
+			verifier.app = self
+			add_child(verifier)
+		if channel == "DEV" and "--technical-map" in OS.get_cmdline_user_args():
+			technical_mode = true
+			story_flow._clear()
+			map_view.show()
 
 func enter_building(id: StringName) -> bool:
 	if transitioning or is_instance_valid(active_room):
@@ -35,6 +59,9 @@ func enter_building(id: StringName) -> bool:
 	if not buildings.has(id):
 		return _reject(&"invalid_id", "无法进入：未知建筑 ID。")
 	var building: BuildingDefinition = buildings[id]
+	if not technical_mode and session != null:
+		if (id == &"dormitory" and not session.state.story.homeEntered) or (id != &"dormitory" and not session.state.story.cityUnlocked):
+			return _reject(&"story_locked", "先完成宿舍里的相识、整理与安娜消息。")
 	if not building.is_open:
 		return _reject(&"locked", "%s暂未开放。" % building.display_name)
 	if building.destination.is_empty() or not ResourceLoader.exists(building.destination, "PackedScene"):
@@ -57,6 +84,10 @@ func _enter_room(room: BuildingRoom, id: StringName) -> void:
 	active_id = id
 	map_view.hide()
 	safe_layout.add_child(room)
+	if not technical_mode and id == &"dormitory":
+		var controller := P1HomeController.new()
+		room.add_child(controller)
+		controller.setup(room, session, story_flow)
 	room.return_requested.connect(return_to_map)
 	await get_tree().process_frame
 	room.back_button.grab_focus()
@@ -64,6 +95,8 @@ func _enter_room(room: BuildingRoom, id: StringName) -> void:
 	room_entered.emit(id)
 
 func return_to_map() -> bool:
+	if not technical_mode and story_flow != null and story_flow.block_return():
+		return false
 	if transitioning or not is_instance_valid(active_room):
 		return false
 	transitioning = true

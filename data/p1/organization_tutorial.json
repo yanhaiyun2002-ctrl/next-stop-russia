@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "org_tutorial_01",
+  "templateVersion": 1,
+  "themeId": "arrival_luggage",
+  "difficulty": "light",
+  "bins": [
+    {
+      "id": "A",
+      "capacity": 2
+    },
+    {
+      "id": "B",
+      "capacity": 2
+    },
+    {
+      "id": "C",
+      "capacity": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "textbook",
+      "size": 2
+    },
+    {
+      "id": "passport",
+      "size": 1
+    },
+    {
+      "id": "scarf",
+      "size": 1
+    },
+    {
+      "id": "washbag",
+      "size": 1
+    }
+  ],
+  "rules": [
+    {
+      "type": "fixedBin",
+      "itemId": "textbook",
+      "binId": "A"
+    },
+    {
+      "type": "fixedBin",
+      "itemId": "passport",
+      "binId": "B"
+    },
+    {
+      "type": "fixedBin",
+      "itemId": "scarf",
+      "binId": "B"
+    },
+    {
+      "type": "fixedBin",
+      "itemId": "washbag",
+      "binId": "C"
+    }
+  ],
+  "hints": [
+    "先找到需要两格的厚书。",
+    "检查护照、围巾和洗漱包对应的区域。"
+  ],
+  "verification": {
+    "solutionCount": 1,
+    "exampleSolution": {
+      "textbook": "A",
+      "passport": "B",
+      "scarf": "B",
+      "washbag": "C"
+    }
+  }
+}

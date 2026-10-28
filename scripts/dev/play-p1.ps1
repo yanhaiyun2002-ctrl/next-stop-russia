@@ -1,0 +1,26 @@
+param(
+    [switch]$Dev,
+    [switch]$Fresh,
+    [switch]$TechnicalMap,
+    [ValidateSet('', 'under_bed', 'by_window', 'by_wardrobe', 'under_desk')][string]$CatSpot = '',
+    [switch]$NamePending
+)
+$ErrorActionPreference = 'Stop'
+. "$PSScriptRoot/use-e-drive.ps1"
+$taskRoot = (Resolve-Path "$PSScriptRoot/../..").Path
+$taskData = Join-Path $taskRoot '.local-dev/player-data'
+if ($Fresh) { $taskData = Join-Path $taskData ('fresh-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff')) }
+$env:NSR_DATA_ROOT = $taskData.Replace('\', '/')
+$taskArgs = @('--path', $taskRoot, '--log-file', (Join-Path $taskRoot '.local-dev/p1-play.log'))
+$taskUserArgs = @()
+if ($Dev) { $taskUserArgs += '--dev' }
+if ($TechnicalMap -or $CatSpot -or $NamePending) {
+    if (-not $Dev) { throw 'Fixtures require explicit -Dev. PLAYTEST has no fixture controls.' }
+    if ($TechnicalMap) { $taskUserArgs += '--technical-map' }
+    if ($CatSpot) { $taskUserArgs += "--cat-spot=$CatSpot" }
+    if ($NamePending) { $taskUserArgs += '--name-pending' }
+}
+if ($taskUserArgs.Count) { $taskArgs += '--'; $taskArgs += $taskUserArgs }
+Write-Host "存档根目录: $env:NSR_DATA_ROOT"
+& "$taskRoot/.tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe" @taskArgs
+exit $LASTEXITCODE

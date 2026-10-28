@@ -22,6 +22,7 @@ func _run() -> void:
 		push_error("P0_TEST_TIMEOUT: integration suite did not finish")
 		quit(124))
 	app = MAIN.instantiate()
+	app.technical_mode = true # Explicit P0 navigation fixture; P1 tests cover player entry.
 	root.add_child(app)
 	app.room_entered.connect(func(_id): entries += 1)
 	await _frames()

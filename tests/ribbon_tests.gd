@@ -2,8 +2,11 @@ extends "res://tests/dormitory_tests.gd"
 ## R default-mode tests. V's coordinate fixtures are replayed separately.
 var views: Array[Dictionary] = []
 var drags: Array[Dictionary] = []
+var window_trace: Node
 
 func _run() -> void:
+	if OS.get_environment("P1_BORDERLESS_MATRIX") == "1":
+		root.borderless = true # Explicit fixture avoids native frame shrinking the client area.
 	evidence = OS.get_environment("P0_EVIDENCE_DIR")
 	if evidence.is_empty():
 		evidence = "res://docs/evidence/p0-03r/ribbon"
@@ -12,18 +15,27 @@ func _run() -> void:
 		push_error("P0_RIBBON_TIMEOUT")
 		quit(124))
 	app = MAIN.instantiate()
+	app.technical_mode = true
 	root.add_child(app)
 	await _settle()
 	var map_instance: int = app.map_view.get_instance_id()
 	_check(app.enter_building(&"dormitory"), "原宿舍 ID 加载新横向空间")
 	await _settle()
 	_bind_room()
+	if OS.get_environment("P1_BORDERLESS_MATRIX") == "1":
+		window_trace = preload("res://tests/p1_window_trace.gd").new()
+		window_trace.app = app
+		window_trace.evidence = evidence
+		root.add_child(window_trace)
 	_check(view.composition == "ribbon" and world.layout_kind == "ribbon", "R 为真实默认入口")
 	_check(not room.debug_panel.visible and not room.focus_button.visible, "默认收起测试，移除不必要聚焦入口")
 	_check(world.furniture.size() == 3 and world.get_child_count() == 3 and not _has_3d(room), "三家具复用 2D，无额外场景/3D")
 	var original_positions := _positions()
 	var world_id := world.get_instance_id()
 	for pixels in [Vector2i(1920, 1080), Vector2i(1280, 800), Vector2i(1080, 1920), Vector2i(1170, 2532), Vector2i(360, 780)]:
+		if window_trace:
+			window_trace.requested_size = pixels
+			window_trace.capture("request_size")
 		root.size = pixels
 		app.safe_layout.refresh()
 		await _settle()
@@ -68,6 +80,8 @@ func _run() -> void:
 			await _touch(button.get_global_rect().get_center())
 			_check(view.visible_point(id).x >= 0 and room.selected_furniture == id, "具名按钮平移至家具 %s %s" % [label, id])
 			_check(is_equal_approx(view.view_scale, default_scale), "具名浏览不额外缩放 %s %s" % [label, id])
+		if window_trace:
+			_check(root.size == pixels, "实际客户区保持请求尺寸 " + label)
 	# Gesture threshold and cancellation at the smallest requested viewport.
 	view.frame_object("bed")
 	await _settle()

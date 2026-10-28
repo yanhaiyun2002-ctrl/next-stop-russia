@@ -12,6 +12,7 @@ var interaction_count := 0
 var action_button: Button
 var back_button: Button
 var feedback: Label
+var p1_controller: P1HomeController
 
 func _ready() -> void:
 	add_theme_constant_override("separation", 16)

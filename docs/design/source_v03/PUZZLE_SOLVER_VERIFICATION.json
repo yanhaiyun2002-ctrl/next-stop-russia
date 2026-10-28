@@ -1,0 +1,37 @@
+{
+  "source": "content/minigames/organization_templates.v1.json",
+  "method": "exhaustive item-to-bin assignment plus capacity and constraint checking",
+  "results": [
+    {
+      "puzzleId": "org_tutorial_01",
+      "legalPlacements": 1,
+      "matchesSourceVerification": true
+    },
+    {
+      "puzzleId": "org_daily_01",
+      "legalPlacements": 1,
+      "matchesSourceVerification": true
+    },
+    {
+      "puzzleId": "org_daily_02",
+      "legalPlacements": 1,
+      "matchesSourceVerification": true
+    },
+    {
+      "puzzleId": "org_daily_03",
+      "legalPlacements": 2,
+      "matchesSourceVerification": true
+    },
+    {
+      "puzzleId": "org_daily_04",
+      "legalPlacements": 1,
+      "matchesSourceVerification": true
+    },
+    {
+      "puzzleId": "org_daily_05",
+      "legalPlacements": 1,
+      "matchesSourceVerification": true
+    }
+  ],
+  "note": "This verifies content satisfiability only; game implementation is not tested."
+}

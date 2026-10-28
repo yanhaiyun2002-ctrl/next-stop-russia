@@ -1,7 +1,8 @@
 # 《下一站，俄罗斯！》工程协作规则
 
 - 开工前阅读 `docs/TECH_BASELINE.md`、`docs/FEATURE_FEASIBILITY.md` 和 `docs/tasks/P0-01_TASK.md`。
-- 当前任务为 P0-04（见 `docs/tasks/P0-04_TASK.md`）：复用 P0-03R 空间、横拖、遮挡和导航，验证三藏点可重复找猫与少量位置相关俄语；保留 R/V 基线与测试，不引入旧 WorkBuddy，不自动进入下一阶段。
+- 当前任务为已授权 P1-01（见 `docs/tasks/P1-01_FIRST_PLAYABLE_TASK.md`）：按 V0.3 已确认策划实施 Q00～Q03，复用 P0 空间、横拖、遮挡、导航和自由找猫；保留 R/V 与 P0 测试，不引入旧 WorkBuddy，不自动进入 Q04/Q05 或 P1-02。
+- P1 依据索引：`docs/design/PRODUCT_DECISIONS_V03_P1.md`、`P0_TO_V03_GAP_MATRIX.md`、`P1_CONTENT_AND_QUEST_BASELINE.md`、`TEMP_ART_GUIDE.md`；协作和存储遵守 `docs/production/CODEX_AGENT_WORKTREE_RULES.md`、`E_DRIVE_STORAGE_POLICY.md`。正式宿舍美术规格待交付，本轮仅可替换 TEMP_REPLACE_REQUIRED 占位。
 - 宿舍视觉暂定近正视、允许未来轻微俯视；当前固定投影是本轮实现，不是永久规范。藏点以家具 ID 和房间空间坐标定位，不绑定屏幕像素。
 - 不能将未来设想视为已确认开发需求；不擅自更换引擎、发布代码、购买服务或扩展任务范围。
 - 游戏 DEMO 与正式版共用一个主代码库，正式内容按构建配置与资源清单隔离。

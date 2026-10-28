@@ -167,6 +167,8 @@ func set_play_enabled(value: bool) -> void:
 	_framing_text()
 
 func _refresh_hunt() -> void:
+	if p1_controller != null:
+		return
 	if not hunt_panel or not world.hunt:
 		return
 	hunt_panel.visible = world.is_hunt_active()
@@ -210,6 +212,9 @@ func _layout_room() -> void:
 func _framing_text() -> void:
 	if not mode_label or not room_view:
 		return
+	if p1_controller != null:
+		mode_label.text = "TEMP_REPLACE_REQUIRED · 正式视觉待集成"
+		return
 	var mode := room_view.effective_framing()
 	var portrait := room_view.is_portrait()
 	var ribbon := room_view.composition == "ribbon"
@@ -232,6 +237,9 @@ func _framing_text() -> void:
 		composition_option.select(["original", "balanced", "compact", "ribbon"].find(room_view.composition))
 
 func _selected(id: StringName) -> void:
+	if p1_controller != null:
+		p1_controller.selected(id)
+		return
 	if world.is_hunt_active():
 		if id == &"cat":
 			if world.hunt.find_cat():

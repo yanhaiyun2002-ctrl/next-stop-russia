@@ -2,7 +2,7 @@
 config_version=5
 
 [application]
-config/name="下一站，俄罗斯！ · P0-01"
+config/name="下一站，俄罗斯！ · P1-01 ART_PENDING"
 config/icon="res://assets/p0_icon.svg"
 run/main_scene="res://scenes/main.tscn"
 run/main_scene.p0_test="res://tests/package_entry.tscn"

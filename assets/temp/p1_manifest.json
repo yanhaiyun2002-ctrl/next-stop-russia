@@ -1,0 +1,191 @@
+{
+  "revision": "p1-01-a",
+  "status": "TEMP_REPLACE_REQUIRED",
+  "buildApproval": "CONTROLLED_PLAYTEST_ONLY",
+  "releaseStatus": "ART_PENDING",
+  "permanentApproval": false,
+  "source": "original_minimal_placeholder / existing P0 geometry",
+  "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+  "assets": [
+    {
+      "assetId": "temp.home.room_bg",
+      "targetSlot": "home.room",
+      "sceneBinding": "DormitoryView._room_shell/_architecture",
+      "layers": [
+        "wall",
+        "ceiling",
+        "floor",
+        "window"
+      ],
+      "dimensions": "world 12m wide / 5.4m deep / 3m high; provisional",
+      "anchor": "room world origin",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.home.bed",
+      "targetSlot": "home.bed",
+      "sceneBinding": "bed",
+      "layers": [
+        "base",
+        "front_occluder"
+      ],
+      "dimensions": "scenes/dormitory/bed.tscn dimensions in metres",
+      "anchor": "furniture_id bed / floor_position",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.home.desk",
+      "targetSlot": "home.desk",
+      "sceneBinding": "desk",
+      "layers": [
+        "top",
+        "legs"
+      ],
+      "dimensions": "scenes/dormitory/desk.tscn dimensions in metres",
+      "anchor": "furniture_id desk / floor_position",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.home.wardrobe",
+      "targetSlot": "home.wardrobe",
+      "sceneBinding": "wardrobe",
+      "layers": [
+        "body",
+        "front_occluder"
+      ],
+      "dimensions": "scenes/dormitory/wardrobe.tscn dimensions in metres",
+      "anchor": "furniture_id wardrobe / floor_position",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.home.window",
+      "targetSlot": "home.window",
+      "sceneBinding": "window / window_sill",
+      "layers": [
+        "background",
+        "sill"
+      ],
+      "dimensions": "2.24m window bay; 0.12m sill",
+      "anchor": "(0,0,room_depth-0.02)",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.cat.siberian_placeholder",
+      "targetSlot": "cat.siberian_forest",
+      "sceneBinding": "GrayboxCat.parts / P1CatEncounter.anchor",
+      "layers": [
+        "tail",
+        "body",
+        "ears",
+        "head",
+        "eyes"
+      ],
+      "dimensions": "about 1.07m x 0.63m placeholder; not final breed proportions",
+      "anchor": "room-space floor / hideOffset / exitWaypoints",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.npc.anna",
+      "targetSlot": "npc.anna",
+      "sceneBinding": "P1Content arrival and annaMessage speakerId anna",
+      "layers": [
+        "text_identity"
+      ],
+      "dimensions": "responsive text panel; no portrait supplied",
+      "anchor": "dialogue flow",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.npc.admin",
+      "targetSlot": "npc.dorm_admin",
+      "sceneBinding": "P1Content speakerId dorm_admin",
+      "layers": [
+        "text_identity"
+      ],
+      "dimensions": "responsive text panel; no portrait supplied",
+      "anchor": "dialogue flow",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.ui.first_playable",
+      "targetSlot": "ui.dialogue/naming/organize/feedback/world_label",
+      "sceneBinding": "scripts/p1/flow.gd / home_controller.gd / ui/p1_world_label.gd",
+      "layers": [
+        "panel",
+        "text",
+        "interactive_control"
+      ],
+      "dimensions": "PC base 1280x720; portrait base 360x780; controls >=48 logical units",
+      "anchor": "safe-area layout / projected room anchors",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.org.item_set",
+      "targetSlot": "organization.org_tutorial_01",
+      "sceneBinding": "data/p1/organization_tutorial.json",
+      "layers": [
+        "item_text",
+        "bin_capacity",
+        "placement_feedback"
+      ],
+      "dimensions": "responsive >=48 logical unit controls; no final sprites",
+      "anchor": "item ID / bin ID",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    },
+    {
+      "assetId": "temp.reward.first_meeting",
+      "targetSlot": "reward.cat_first_meeting_v1",
+      "sceneBinding": "P1Session rewards ledger",
+      "layers": [
+        "text_sticker_and_badge_record"
+      ],
+      "dimensions": "text record only; sticker and badge artwork pending",
+      "anchor": "reward stable key",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false
+    }
+  ]
+}

@@ -23,6 +23,7 @@ var room_front := -2.4
 var hunt: CatHunt
 var hunt_enabled := true
 var hunt_paused := false
+var encounter: Node
 
 func _ready() -> void:
 	for packed in [preload("res://scenes/dormitory/bed.tscn"), preload("res://scenes/dormitory/desk.tscn"), preload("res://scenes/dormitory/wardrobe.tscn")]:
@@ -47,6 +48,8 @@ func set_hunt_paused(value: bool) -> void:
 		changed.emit()
 
 func cat_parts() -> Array[Dictionary]:
+	if is_instance_valid(encounter):
+		return encounter.parts()
 	if not is_hunt_active():
 		return []
 	return GrayboxCat.parts(hunt.anchor(furniture), hunt.current_spot().peek)
@@ -66,6 +69,8 @@ func all_boxes() -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
 	for item in furniture.values():
 		result.append_array(item.boxes())
+	if is_instance_valid(encounter):
+		result.append({"owner": &"window_sill", "origin": Vector3(-1.12, 1.0, room_depth - 0.36), "size": Vector3(2.24, 0.12, 0.36), "color": Color("869b99")})
 	return result
 
 func set_marker(point: Vector2) -> void:

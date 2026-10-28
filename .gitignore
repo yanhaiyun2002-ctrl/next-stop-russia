@@ -2,6 +2,7 @@
 .godot/
 .tools/
 builds/
+.local-dev/
 /build/
 /dist/
 *.tmp
@@ -23,4 +24,5 @@ export_credentials.cfg
 Thumbs.db
 # Reference media is kept locally for analysis, never imported as game assets.
 /docs/references/*.mp4
+/docs/references/dorm_layout_camera_reference.jfif
 /docs/evidence/p0-03r/reference_frames/

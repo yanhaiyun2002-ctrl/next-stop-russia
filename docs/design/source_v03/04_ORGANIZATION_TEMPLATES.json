@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "gameId": "organization",
+  "selectionPolicy": {
+    "mode": "one_per_local_day",
+    "selector": "sha256(seed + | + yyyy-mm-dd + | + poolVersion), first8bytes modulo poolLength",
+    "poolVersion": "demo-pool-v1",
+    "sameDayReentry": "restore_pinned_payload",
+    "unlimitedReplay": true,
+    "dailyRewardLimit": 1
+  },
+  "tutorial": {
+    "schemaVersion": 1,
+    "puzzleId": "org_tutorial_01",
+    "templateVersion": 1,
+    "themeId": "arrival_luggage",
+    "difficulty": "light",
+    "bins": [
+      {
+        "id": "A",
+        "capacity": 2
+      },
+      {
+        "id": "B",
+        "capacity": 2
+      },
+      {
+        "id": "C",
+        "capacity": 1
+      }
+    ],
+    "items": [
+      {
+        "id": "textbook",
+        "size": 2
+      },
+      {
+        "id": "passport",
+        "size": 1
+      },
+      {
+        "id": "scarf",
+        "size": 1
+      },
+      {
+        "id": "washbag",
+        "size": 1
+      }
+    ],
+    "rules": [
+      {
+        "type": "fixedBin",
+        "itemId": "textbook",
+        "binId": "A"
+      },
+      {
+        "type": "fixedBin",
+        "itemId": "passport",
+        "binId": "B"
+      },
+      {
+        "type": "fixedBin",
+        "itemId": "scarf",
+        "binId": "B"
+      },
+      {
+        "type": "fixedBin",
+        "itemId": "washbag",
+        "binId": "C"
+      }
+    ],
+    "hints": [
+      "先找到需要两格的厚书。",
+      "检查护照、围巾和洗漱包对应的区域。"
+    ],
+    "verification": {
+      "solutionCount": 1,
+      "exampleSolution": {
+        "textbook": "A",
+        "passport": "B",
+        "scarf": "B",
+        "washbag": "C"
+      }
+    }
+  },
+  "dailyTemplates": [
+    {
+      "schemaVersion": 1,
+      "puzzleId": "org_daily_01",
+      "templateVersion": 1,
+      "themeId": "desk",
+      "difficulty": "light",
+      "bins": [
+        {
+          "id": "A",
+          "capacity": 2
+        },
+        {
+          "id": "B",
+          "capacity": 2
+        },
+        {
+          "id": "C",
+          "capacity": 2
+        }
+      ],
+      "items": [
+        {
+          "id": "textbook",
+          "size": 2
+        },
+        {
+          "id": "passport",
+          "size": 1
+        },
+        {
+          "id": "scarf",
+          "size": 1
+        },
+        {
+          "id": "cup",
+          "size": 1
+        },
+        {
+          "id": "washbag",
+          "size": 1
+        }
+      ],
+      "rules": [
+        {
+          "type": "allowedBins",
+          "itemId": "textbook",
+          "binIds": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "cup",
+          "binId": "C"
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "passport",
+            "cup"
+          ]
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "passport",
+            "washbag"
+          ]
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "scarf",
+            "washbag"
+          ]
+        }
+      ],
+      "hints": [
+        "水杯已经决定了右仓的部分空间。",
+        "厚教材需要完整的两格。",
+        "护照不能与水杯和洗漱包同仓。"
+      ],
+      "verification": {
+        "solutionCount": 1,
+        "exampleSolution": {
+          "textbook": "A",
+          "passport": "B",
+          "scarf": "B",
+          "cup": "C",
+          "washbag": "C"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "puzzleId": "org_daily_02",
+      "templateVersion": 1,
+      "themeId": "shelf",
+      "difficulty": "light",
+      "bins": [
+        {
+          "id": "A",
+          "capacity": 2
+        },
+        {
+          "id": "B",
+          "capacity": 2
+        },
+        {
+          "id": "C",
+          "capacity": 2
+        }
+      ],
+      "items": [
+        {
+          "id": "atlas",
+          "size": 2
+        },
+        {
+          "id": "passport",
+          "size": 1
+        },
+        {
+          "id": "charger",
+          "size": 1
+        },
+        {
+          "id": "scarf",
+          "size": 1
+        },
+        {
+          "id": "toothbrush",
+          "size": 1
+        }
+      ],
+      "rules": [
+        {
+          "type": "allowedBins",
+          "itemId": "atlas",
+          "binIds": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "charger",
+          "binId": "B"
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "passport",
+          "binId": "C"
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "toothbrush",
+            "passport"
+          ]
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "scarf",
+            "charger"
+          ]
+        }
+      ],
+      "hints": [
+        "充电器占据中仓一个格位，因此地图册无法放进中仓。",
+        "护照已经在右仓，牙刷不能与它同放。"
+      ],
+      "verification": {
+        "solutionCount": 1,
+        "exampleSolution": {
+          "atlas": "A",
+          "passport": "C",
+          "charger": "B",
+          "scarf": "C",
+          "toothbrush": "B"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "puzzleId": "org_daily_03",
+      "templateVersion": 1,
+      "themeId": "drawer",
+      "difficulty": "relaxed",
+      "bins": [
+        {
+          "id": "A",
+          "capacity": 2
+        },
+        {
+          "id": "B",
+          "capacity": 2
+        },
+        {
+          "id": "C",
+          "capacity": 2
+        }
+      ],
+      "items": [
+        {
+          "id": "textbook",
+          "size": 2
+        },
+        {
+          "id": "map",
+          "size": 1
+        },
+        {
+          "id": "cloth",
+          "size": 1
+        },
+        {
+          "id": "pen",
+          "size": 1
+        },
+        {
+          "id": "toy",
+          "size": 1
+        }
+      ],
+      "rules": [
+        {
+          "type": "fixedBin",
+          "itemId": "textbook",
+          "binId": "A"
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "map",
+          "binId": "B"
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "cloth",
+          "binId": "C"
+        },
+        {
+          "type": "allowedBins",
+          "itemId": "pen",
+          "binIds": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "type": "allowedBins",
+          "itemId": "toy",
+          "binIds": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "hints": [
+        "先放三件有固定位置的物品。",
+        "笔和小玩具可以互换，规则允许多种正确整理方式。"
+      ],
+      "verification": {
+        "solutionCount": 2,
+        "exampleSolution": {
+          "textbook": "A",
+          "map": "B",
+          "cloth": "C",
+          "pen": "B",
+          "toy": "C"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "puzzleId": "org_daily_04",
+      "templateVersion": 1,
+      "themeId": "wardrobe_organize",
+      "difficulty": "light",
+      "bins": [
+        {
+          "id": "A",
+          "capacity": 3
+        },
+        {
+          "id": "B",
+          "capacity": 2
+        },
+        {
+          "id": "C",
+          "capacity": 2
+        }
+      ],
+      "items": [
+        {
+          "id": "jacket",
+          "size": 2
+        },
+        {
+          "id": "socks",
+          "size": 1
+        },
+        {
+          "id": "shampoo",
+          "size": 2
+        },
+        {
+          "id": "notebook",
+          "size": 1
+        },
+        {
+          "id": "comb",
+          "size": 1
+        }
+      ],
+      "rules": [
+        {
+          "type": "fixedBin",
+          "itemId": "jacket",
+          "binId": "A"
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "shampoo",
+          "binId": "C"
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "notebook",
+          "binId": "B"
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "socks",
+            "notebook"
+          ]
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "comb",
+            "shampoo"
+          ]
+        }
+      ],
+      "hints": [
+        "外套先占左仓两格。",
+        "袜子不能和笔记本放一起。"
+      ],
+      "verification": {
+        "solutionCount": 1,
+        "exampleSolution": {
+          "jacket": "A",
+          "socks": "A",
+          "shampoo": "C",
+          "notebook": "B",
+          "comb": "B"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "puzzleId": "org_daily_05",
+      "templateVersion": 1,
+      "themeId": "study",
+      "difficulty": "light",
+      "bins": [
+        {
+          "id": "A",
+          "capacity": 2
+        },
+        {
+          "id": "B",
+          "capacity": 3
+        },
+        {
+          "id": "C",
+          "capacity": 2
+        }
+      ],
+      "items": [
+        {
+          "id": "atlas",
+          "size": 2
+        },
+        {
+          "id": "sketchbook",
+          "size": 2
+        },
+        {
+          "id": "passport",
+          "size": 1
+        },
+        {
+          "id": "pen",
+          "size": 1
+        },
+        {
+          "id": "mug",
+          "size": 1
+        }
+      ],
+      "rules": [
+        {
+          "type": "allowedBins",
+          "itemId": "atlas",
+          "binIds": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "sketchbook",
+          "binId": "B"
+        },
+        {
+          "type": "fixedBin",
+          "itemId": "mug",
+          "binId": "C"
+        },
+        {
+          "type": "forbiddenTogether",
+          "itemIds": [
+            "passport",
+            "mug"
+          ]
+        }
+      ],
+      "hints": [
+        "右仓的杯子占一格，地图册不能再放那里。",
+        "护照不能放到有杯子的右仓。"
+      ],
+      "verification": {
+        "solutionCount": 1,
+        "exampleSolution": {
+          "atlas": "A",
+          "sketchbook": "B",
+          "passport": "B",
+          "pen": "C",
+          "mug": "C"
+        }
+      }
+    }
+  ]
+}

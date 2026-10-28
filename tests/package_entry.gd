@@ -8,6 +8,7 @@ var evidence: String
 
 func _ready() -> void:
 	app = MAIN.instantiate()
+	app.technical_mode = "--verify-package" in OS.get_cmdline_user_args()
 	add_child(app)
 	if "--verify-package" in OS.get_cmdline_user_args():
 		evidence = OS.get_environment("P0_EVIDENCE_DIR")

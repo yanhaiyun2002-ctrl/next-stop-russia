@@ -170,7 +170,7 @@ func rebuild(preserve_pointer := false) -> void:
 	cuts.sort()
 	for box in boxes:
 		_box_faces(box, cuts)
-	if cat_parts.is_empty():
+	if cat_parts.is_empty() and not is_instance_valid(world.encounter):
 		_marker()
 	else:
 		for part in cat_parts:

@@ -19,6 +19,7 @@ func _run() -> void:
 		return
 	DirAccess.make_dir_recursive_absolute(evidence)
 	app = MAIN.instantiate()
+	app.technical_mode = true
 	root.add_child(app)
 	await _settle()
 	app.enter_building(&"dormitory")

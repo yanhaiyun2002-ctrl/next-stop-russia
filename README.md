@@ -131,4 +131,12 @@ Android 产物为 `builds/android/NextStopRussia-debug.apk`。须在 Godot 编�
 
 上述独立 EXE/APK 构建证据属于 P0-02；P0-03 本轮验证源工程与 Windows 渲染，未重新构建平台包。
 
-**P0 历史基线止于 P0-04；当前授权止于 P1-01，等待负责人试玩与验收，不自动进入下一阶段。**
+**P0 历史基线止于 P0-04；当前整改授权为 P1-01R（Q00～Q03），不自动进入下一阶段。**
+
+## P1-01R 视觉与交互试玩
+
+根目录 `试玩P1.cmd` 继续运行当前主工程，沿用 `.local-dev/player-data/PLAYTEST` 存档。每次启动先到城市地图，再通过“继续”入口进入当前剧情；地图入口不清空或推进存档。`-Fresh` 使用单独的新存档目录，不覆盖已有记录。
+
+Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 构建目录保留。直接启动独立包默认使用其旁 `player-data`；如需续用主工程进度，在启动该进程前把 `NSR_DATA_ROOT` 指向项目 `.local-dev/player-data`，不要手工更改存档结构。导出验证：`./tests/verify_p1_windows.ps1 -P1R -Build -EvidenceDir docs/evidence/自选未存在目录`。
+
+美术登记以 `assets/art_registry.json` 为准。生成素材可为 `RETAIN_CANDIDATE`，既有几何占位仍可为 `MUST_REPLACE`，两者都没有自动获得最终美术批准。阶段结果、真实截图、已知风险见 `docs/reports/P1-01R_SUMMARY.md`。

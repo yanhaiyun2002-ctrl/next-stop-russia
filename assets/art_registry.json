@@ -1,0 +1,2830 @@
+{
+  "registrySchemaVersion": 1,
+  "revision": "p1-01r-integrated-dual-axis-v4",
+  "authority": "Single authoritative art classification and rendererKey-to-path lookup; does not change gameplay/save schema.",
+  "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+  "approvalRecord": {
+    "date": "2026-10-29",
+    "source": "project owner explicit P1-01R art direction and retention authorization in current chat",
+    "scope": "Three visual directions and necessary P1-01R production/use; not final approval of every generated output or permanent art style."
+  },
+  "sourceTypes": [
+    "EXISTING_PLACEHOLDER",
+    "AI_GENERATED",
+    "THIRD_PARTY",
+    "PROJECT_ORIGINAL"
+  ],
+  "retentionStatuses": [
+    "MUST_REPLACE",
+    "RETAIN_CANDIDATE",
+    "FINAL_APPROVED",
+    "REVIEW_REQUIRED"
+  ],
+  "compatibility": {
+    "TEMP_REPLACE_REQUIRED": "Legacy status for MUST_REPLACE only; not a blanket label for AI-generated assets.",
+    "permanentApproval": "true only for FINAL_APPROVED after final producer and required rights/use checks.",
+    "legacyViews": [
+      "assets/temp/p1_manifest.json",
+      "docs/art-prep/p1-01r/candidate_manifest.json"
+    ],
+    "viewRule": "Asset IDs refer to this registry. Keep sourceType/retentionStatus/visualApproval/permanentApproval consistent when refreshing a compatibility view."
+  },
+  "thirdPartyFilesImported": [],
+  "notes": [
+    "No asset is FINAL_APPROVED; visual direction approval is distinct from final asset and commercial review.",
+    "Fifteen independently generated PNGs are measured and integrated as AI_GENERATED/RETAIN_CANDIDATE.",
+    "Wood/fabric are materials over existing furniture geometry, which remains MUST_REPLACE.",
+    "Three concept boards remain non-game REVIEW_REQUIRED references with approved P1R direction.",
+    "Project PNGs are on E drive; original imagegen outputs may remain in CODEX_HOME on C drive.",
+    "No third-party art files were imported.",
+    "caseA/caseC use independent generated caseB only as drawing-language/viewpoint reference; empty containers carry no baked labels, grid or buttons; overlays remain code-drawn.",
+    "Owner organization layout reference is a separate non-game REVIEW_REQUIRED documentation asset; it is not candidate_organization_v02 and not a story/geography reference."
+  ],
+  "assets": [
+    {
+      "assetId": "temp.home.room_bg",
+      "targetSlot": "home.room",
+      "sceneBinding": "DormitoryView._room_shell/_architecture",
+      "layers": [
+        "wall",
+        "ceiling",
+        "floor",
+        "window"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "world 12m wide / 5.4m deep / 3m high; provisional",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "room world origin",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/dormitory/room_view.gd",
+      "paths": [
+        "scripts/dormitory/room_view.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "MISSING_ART_FALLBACK"
+      ],
+      "usageScope": "Original room shell and painted architecture only in technical mode or missing-background fallback; P1R uses generated backdrop.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/dormitory/room_view.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "dormitory",
+      "issues": [
+        "P0/P1 gray shell is a geometry prototype, not the accepted P1-01R visual finish. Keep spatial renderer and room coordinates."
+      ]
+    },
+    {
+      "assetId": "temp.home.bed",
+      "targetSlot": "home.bed",
+      "sceneBinding": "bed",
+      "layers": [
+        "base",
+        "front_occluder"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "scenes/dormitory/bed.tscn dimensions in metres",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "furniture_id bed / floor_position",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scenes/dormitory/bed.tscn",
+      "paths": [
+        "scenes/dormitory/bed.tscn",
+        "scripts/dormitory/furniture.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "Old bed geometric silhouette and occluding surfaces remain visible, with generated fabric/wood material in P1R; no whole furniture sprite replacement.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scenes/dormitory/bed.tscn",
+          "scripts/dormitory/furniture.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "dormitory",
+      "issues": [
+        "Visible original furniture shape still requires later art replacement; generated materials improve appearance without retiring the geometry."
+      ]
+    },
+    {
+      "assetId": "temp.home.desk",
+      "targetSlot": "home.desk",
+      "sceneBinding": "desk",
+      "layers": [
+        "top",
+        "legs"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "scenes/dormitory/desk.tscn dimensions in metres",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "furniture_id desk / floor_position",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scenes/dormitory/desk.tscn",
+      "paths": [
+        "scenes/dormitory/desk.tscn",
+        "scripts/dormitory/furniture.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "Old desk geometric silhouette remains visible with generated wood material; preserve object ID, depth and hit geometry.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scenes/dormitory/desk.tscn",
+          "scripts/dormitory/furniture.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "dormitory",
+      "issues": [
+        "Visible original furniture shape still requires later art replacement; generated materials improve appearance without retiring the geometry."
+      ]
+    },
+    {
+      "assetId": "temp.home.wardrobe",
+      "targetSlot": "home.wardrobe",
+      "sceneBinding": "wardrobe",
+      "layers": [
+        "body",
+        "front_occluder"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "scenes/dormitory/wardrobe.tscn dimensions in metres",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "furniture_id wardrobe / floor_position",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scenes/dormitory/wardrobe.tscn",
+      "paths": [
+        "scenes/dormitory/wardrobe.tscn",
+        "scripts/dormitory/furniture.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "Old wardrobe geometric silhouette remains visible with generated wood and original simple handle lines; not fully replaced.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scenes/dormitory/wardrobe.tscn",
+          "scripts/dormitory/furniture.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "dormitory",
+      "issues": [
+        "Visible original furniture shape still requires later art replacement; generated materials improve appearance without retiring the geometry."
+      ]
+    },
+    {
+      "assetId": "temp.home.window",
+      "targetSlot": "home.window",
+      "sceneBinding": "window / window_sill",
+      "layers": [
+        "background",
+        "sill"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "2.24m window bay; 0.12m sill",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "(0,0,room_depth-0.02)",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/dormitory/room_view.gd",
+      "paths": [
+        "scripts/dormitory/room_view.gd",
+        "scripts/dormitory/room_world.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "Original window_sill world box remains; painted technical architecture is replaced by backdrop in P1R.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/dormitory/room_view.gd",
+          "scripts/dormitory/room_world.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "dormitory",
+      "issues": [
+        "Gray architecture/window appearance is not final; keep window anchor and fourth cat spot."
+      ]
+    },
+    {
+      "assetId": "temp.cat.siberian_placeholder",
+      "targetSlot": "cat.siberian_forest",
+      "sceneBinding": "GrayboxCat.parts / P1CatEncounter.anchor",
+      "layers": [
+        "tail",
+        "body",
+        "ears",
+        "head",
+        "eyes"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "about 1.07m x 0.63m placeholder; not final breed proportions",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "room-space floor / hideOffset / exitWaypoints",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/dormitory/cat_placeholder.gd",
+      "paths": [
+        "scripts/dormitory/cat_placeholder.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "MISSING_ART_FALLBACK"
+      ],
+      "usageScope": "GrayboxCat remains in P0/free-hunt technical mode and P1CatEncounter missing-image fallback; loaded P1R cat uses p1r.cat.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/dormitory/cat_placeholder.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "cat",
+      "issues": [
+        "Geometric cat is a fallback/test silhouette, not the accepted cat appearance. Do not replace cat motion or reward state logic."
+      ]
+    },
+    {
+      "assetId": "temp.npc.anna",
+      "targetSlot": "npc.anna",
+      "sceneBinding": "P1Content arrival and annaMessage speakerId anna",
+      "layers": [
+        "text_identity"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "responsive text panel; no portrait supplied",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "dialogue flow",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/p1/flow.gd",
+      "paths": [
+        "scripts/p1/flow.gd",
+        "data/p1/content.json"
+      ],
+      "usedInGame": false,
+      "activeProfiles": [],
+      "usageScope": "Historical text-only visual representation superseded by P1R portrait/stage; Russian/Chinese identity and dialogue data retained.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/p1/flow.gd",
+          "data/p1/content.json"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "q00_story",
+      "issues": [
+        "Text-only NPC visual representation needs the approved illustrated direction; retain Russian dialogue and Chinese subtitle data."
+      ]
+    },
+    {
+      "assetId": "temp.npc.admin",
+      "targetSlot": "npc.dorm_admin",
+      "sceneBinding": "P1Content speakerId dorm_admin",
+      "layers": [
+        "text_identity"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "responsive text panel; no portrait supplied",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "dialogue flow",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/p1/flow.gd",
+      "paths": [
+        "scripts/p1/flow.gd",
+        "data/p1/content.json"
+      ],
+      "usedInGame": false,
+      "activeProfiles": [],
+      "usageScope": "Historical text-only visual representation superseded by P1R portrait/stage; original identity, dialogue and key event retained.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/p1/flow.gd",
+          "data/p1/content.json"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "q00_story",
+      "issues": [
+        "Text-only NPC visual representation needs the approved illustrated direction; retain original NPC identity and key event."
+      ]
+    },
+    {
+      "assetId": "temp.ui.first_playable",
+      "targetSlot": "ui.dialogue/naming/organize/feedback/world_label",
+      "sceneBinding": "scripts/p1/flow.gd / home_controller.gd / ui/p1_world_label.gd",
+      "layers": [
+        "panel",
+        "text",
+        "interactive_control"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "PC base 1280x720; portrait base 360x780; controls >=48 logical units",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "safe-area layout / projected room anchors",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/p1/flow.gd",
+      "paths": [
+        "scripts/p1/flow.gd",
+        "scripts/p1/home_controller.gd",
+        "ui/p1_world_label.gd"
+      ],
+      "usedInGame": false,
+      "activeProfiles": [],
+      "usageScope": "Historical combined plain-panel art record superseded by the three P1R PROJECT_ORIGINAL UI records; naming, feedback and dialogue logic retained.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/p1/flow.gd",
+          "scripts/p1/home_controller.gd",
+          "ui/p1_world_label.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "shared_ui",
+      "issues": [
+        "Legacy plain modal/control styling is a placeholder. New scalable UI can have a separate PROJECT_ORIGINAL record after actual integration."
+      ]
+    },
+    {
+      "assetId": "temp.org.item_set",
+      "targetSlot": "organization.org_tutorial_01",
+      "sceneBinding": "data/p1/organization_tutorial.json",
+      "layers": [
+        "item_text",
+        "bin_capacity",
+        "placement_feedback"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "responsive >=48 logical unit controls; no final sprites",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "item ID / bin ID",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/p1/flow.gd",
+      "paths": [
+        "scripts/p1/flow.gd",
+        "data/p1/organization_tutorial.json"
+      ],
+      "usedInGame": false,
+      "activeProfiles": [],
+      "usageScope": "Historical text-selection visual presentation superseded by P1R item PNGs and organization board; puzzle rules and state retained.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/p1/flow.gd",
+          "data/p1/organization_tutorial.json"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "organization",
+      "issues": [
+        "Legacy text-only item/bin presentation must be replaced by visible items and compartments; puzzle and placements contract remain unchanged."
+      ]
+    },
+    {
+      "assetId": "temp.reward.first_meeting",
+      "targetSlot": "reward.cat_first_meeting_v1",
+      "sceneBinding": "P1Session rewards ledger",
+      "layers": [
+        "text_sticker_and_badge_record"
+      ],
+      "dimensions": {
+        "pixels": null,
+        "description": "text record only; sticker and badge artwork pending",
+        "measurementStatus": "CODE_GEOMETRY_OR_RESPONSIVE_UI"
+      },
+      "anchor": "reward stable key",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "source": "original_minimal_placeholder / existing P0 geometry",
+      "licenseNote": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution.",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "permanentApproval": false,
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "replacementRequired": true,
+      "path": "scripts/p1/flow.gd",
+      "paths": [
+        "scripts/p1/flow.gd"
+      ],
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "usageScope": "Reward remains a text-only sticker/badge record/feedback; reward ledger logic is not artwork and is retained.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_geometry_or_text",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/p1/flow.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Project-owned code-drawn shapes and text UI; no reference-image pixels or third-party character artwork. System font fallback is not bundled; font rights and final assets require review before public distribution."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "No final art approval; system font fallback is not a redistributed font binary."
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "module": "reward_visual",
+      "issues": [
+        "Text-only sticker/badge visual is a placeholder; reward ledger and one-time grant logic are not art and must remain intact."
+      ]
+    },
+    {
+      "assetId": "placeholder.map.city",
+      "path": "scripts/map.gd",
+      "paths": [
+        "scripts/map.gd",
+        "ui/map_board.gd"
+      ],
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "Technical city map remains the launch entry; no formal six-entry map asset produced.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_or_svg",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/map.gd",
+          "ui/map_board.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Existing original code/SVG; not third-party downloaded art."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED"
+      },
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "CODE_OR_SVG_NOT_RASTER_MEASURED"
+      },
+      "transparency": {
+        "mode": "CODE_OR_VECTOR",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_MEASURED"
+      },
+      "anchor": {
+        "space": "existing_ui_or_world",
+        "value": null
+      },
+      "layers": [
+        "existing_visual"
+      ],
+      "module": "city_map",
+      "replacementRequired": true,
+      "issues": [
+        "Technical three-building map appearance remains allowed as a placeholder; it is not an approved final Saint Petersburg layout."
+      ]
+    },
+    {
+      "assetId": "placeholder.app_icon",
+      "path": "assets/p0_icon.svg",
+      "paths": [
+        "assets/p0_icon.svg"
+      ],
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "P0 technical icon remains configured; not final game identity.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_or_svg",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "assets/p0_icon.svg"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Existing original code/SVG; not third-party downloaded art."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED"
+      },
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "CODE_OR_SVG_NOT_RASTER_MEASURED"
+      },
+      "transparency": {
+        "mode": "CODE_OR_VECTOR",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_MEASURED"
+      },
+      "anchor": {
+        "space": "existing_ui_or_world",
+        "value": null
+      },
+      "layers": [
+        "existing_visual"
+      ],
+      "module": "application",
+      "replacementRequired": true,
+      "issues": [
+        "P0 technical project icon is not approved final game icon."
+      ]
+    },
+    {
+      "assetId": "placeholder.debug.marker",
+      "path": "scripts/dormitory/room_view.gd",
+      "paths": [
+        "scripts/dormitory/room_view.gd"
+      ],
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL"
+      ],
+      "usageScope": "Debug marker rendered only when cat parts are empty and no P1 encounter; not a P1R playtest character.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_or_svg",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/dormitory/room_view.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Existing original code/SVG; not third-party downloaded art."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED"
+      },
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "CODE_OR_SVG_NOT_RASTER_MEASURED"
+      },
+      "transparency": {
+        "mode": "CODE_OR_VECTOR",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_MEASURED"
+      },
+      "anchor": {
+        "space": "existing_ui_or_world",
+        "value": null
+      },
+      "layers": [
+        "existing_visual"
+      ],
+      "module": "debug",
+      "replacementRequired": true,
+      "issues": [
+        "Orange marker is retained for test-only spatial diagnostics; never an approved player-facing character or decoration."
+      ]
+    },
+    {
+      "assetId": "placeholder.school.tech_room",
+      "path": "scripts/building_room.gd",
+      "paths": [
+        "scripts/building_room.gd",
+        "scenes/buildings/school.tscn"
+      ],
+      "sourceType": "EXISTING_PLACEHOLDER",
+      "retentionStatus": "MUST_REPLACE",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "replaceStatus": "TEMP_REPLACE_REQUIRED",
+      "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_TECHNICAL",
+        "PLAYTEST_P1R"
+      ],
+      "usageScope": "Unlocked school destination retains technical text/room placeholder; no unapproved school art produced.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "sourceRecord": {
+        "type": "existing_code_or_svg",
+        "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
+        "paths": [
+          "scripts/building_room.gd",
+          "scenes/buildings/school.tscn"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P0/P1 implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_PLACEHOLDER",
+        "note": "Existing original code/SVG; not third-party downloaded art."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED"
+      },
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "CODE_OR_SVG_NOT_RASTER_MEASURED"
+      },
+      "transparency": {
+        "mode": "CODE_OR_VECTOR",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_MEASURED"
+      },
+      "anchor": {
+        "space": "existing_ui_or_world",
+        "value": null
+      },
+      "layers": [
+        "existing_visual"
+      ],
+      "module": "school_technical",
+      "replacementRequired": true,
+      "issues": [
+        "Existing technical school text/controls are not Q04/Q05 implementation or final university art."
+      ]
+    },
+    {
+      "assetId": "candidate.p1r.organization",
+      "file": "candidate_organization_v02.png",
+      "status": "REVIEW_REQUIRED",
+      "approval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "targetSlot": "review_board_only",
+      "source": "builtin_imagegen",
+      "licenseNote": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "layers": [
+        "flattened_preview_not_production_layers"
+      ],
+      "bytes": 1749458,
+      "sha256": "593fb0f539ad8232f9ea54d4eebfebf6297f73aaff35e26c47dddeabb85570a1",
+      "legacyStatusBeforeApproval": "TEMP_REPLACE_REQUIRED",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "usedInGame": false,
+      "activeProfiles": [],
+      "replacementRequired": null,
+      "path": "docs/art-prep/p1-01r/candidate_organization_v02.png",
+      "paths": [
+        "docs/art-prep/p1-01r/candidate_organization_v02.png"
+      ],
+      "module": "organization",
+      "usageScope": "Unpackaged direction reference in docs/.gdignore; not a sprite sheet to crop into production assets.",
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "promptLog": "docs/art-prep/p1-01r/prompts.json",
+        "projectCopy": "docs/art-prep/p1-01r/candidate_organization_v02.png"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "promptLog": "docs/art-prep/p1-01r/prompts.json",
+        "model": "not exposed by tool"
+      },
+      "author": "builtin image generation directed for this project",
+      "licenseReview": {
+        "status": "AI_OUTPUT_NOT_CC0_OR_EXCLUSIVE",
+        "note": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval"
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Direction approval does not establish final commercial clearance or exclusive rights."
+      },
+      "dimensions": {
+        "pixels": [
+          1536,
+          1024
+        ],
+        "measurementStatus": "MEASURED_DURING_ART_PREP"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "measurementStatus": "MEASURED_DURING_ART_PREP"
+      },
+      "anchor": {
+        "space": "review_board",
+        "value": null
+      },
+      "issues": [
+        "Flattened RGB concept only; needs independent layers and actual engineering checks before game use.",
+        "No permanent final approval; individual character details, exact layout and palette remain editable."
+      ]
+    },
+    {
+      "assetId": "candidate.p1r.story",
+      "file": "candidate_story_v01.png",
+      "status": "REVIEW_REQUIRED",
+      "approval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "targetSlot": "review_board_only",
+      "source": "builtin_imagegen",
+      "licenseNote": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "layers": [
+        "flattened_preview_not_production_layers"
+      ],
+      "bytes": 1875859,
+      "sha256": "40917d7e2c6be84809e47f28d41c82dc4b71dae05d8a27829240fa42304a2f66",
+      "legacyStatusBeforeApproval": "TEMP_REPLACE_REQUIRED",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "usedInGame": false,
+      "activeProfiles": [],
+      "replacementRequired": null,
+      "path": "docs/art-prep/p1-01r/candidate_story_v01.png",
+      "paths": [
+        "docs/art-prep/p1-01r/candidate_story_v01.png"
+      ],
+      "module": "story",
+      "usageScope": "Unpackaged direction reference in docs/.gdignore; not a sprite sheet to crop into production assets.",
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "promptLog": "docs/art-prep/p1-01r/prompts.json",
+        "projectCopy": "docs/art-prep/p1-01r/candidate_story_v01.png"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "promptLog": "docs/art-prep/p1-01r/prompts.json",
+        "model": "not exposed by tool"
+      },
+      "author": "builtin image generation directed for this project",
+      "licenseReview": {
+        "status": "AI_OUTPUT_NOT_CC0_OR_EXCLUSIVE",
+        "note": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval"
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Direction approval does not establish final commercial clearance or exclusive rights."
+      },
+      "dimensions": {
+        "pixels": [
+          1536,
+          1024
+        ],
+        "measurementStatus": "MEASURED_DURING_ART_PREP"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "measurementStatus": "MEASURED_DURING_ART_PREP"
+      },
+      "anchor": {
+        "space": "review_board",
+        "value": null
+      },
+      "issues": [
+        "Flattened RGB concept only; needs independent layers and actual engineering checks before game use.",
+        "No permanent final approval; individual character details, exact layout and palette remain editable."
+      ]
+    },
+    {
+      "assetId": "candidate.p1r.dormitory",
+      "file": "candidate_dormitory_v02.png",
+      "status": "REVIEW_REQUIRED",
+      "approval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "targetSlot": "review_board_only",
+      "source": "builtin_imagegen",
+      "licenseNote": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "layers": [
+        "flattened_preview_not_production_layers"
+      ],
+      "bytes": 2087422,
+      "sha256": "a39983fab91fc888429529a389ce8686ca46b189d2666e5e57f8d45564119b40",
+      "legacyStatusBeforeApproval": "TEMP_REPLACE_REQUIRED",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "usedInGame": false,
+      "activeProfiles": [],
+      "replacementRequired": null,
+      "path": "docs/art-prep/p1-01r/candidate_dormitory_v02.png",
+      "paths": [
+        "docs/art-prep/p1-01r/candidate_dormitory_v02.png"
+      ],
+      "module": "dormitory",
+      "usageScope": "Unpackaged direction reference in docs/.gdignore; not a sprite sheet to crop into production assets.",
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "promptLog": "docs/art-prep/p1-01r/prompts.json",
+        "projectCopy": "docs/art-prep/p1-01r/candidate_dormitory_v02.png"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "promptLog": "docs/art-prep/p1-01r/prompts.json",
+        "model": "not exposed by tool"
+      },
+      "author": "builtin image generation directed for this project",
+      "licenseReview": {
+        "status": "AI_OUTPUT_NOT_CC0_OR_EXCLUSIVE",
+        "note": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval"
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Direction approval does not establish final commercial clearance or exclusive rights."
+      },
+      "dimensions": {
+        "pixels": [
+          1536,
+          1024
+        ],
+        "measurementStatus": "MEASURED_DURING_ART_PREP"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "measurementStatus": "MEASURED_DURING_ART_PREP"
+      },
+      "anchor": {
+        "space": "review_board",
+        "value": null
+      },
+      "issues": [
+        "Flattened RGB concept only; needs independent layers and actual engineering checks before game use.",
+        "No permanent final approval; individual character details, exact layout and palette remain editable."
+      ]
+    },
+    {
+      "assetId": "p1r.organization.textbook",
+      "rendererKey": "org.textbook",
+      "path": "assets/p1r/organization/textbook.png",
+      "paths": [
+        "assets/p1r/organization/textbook.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-df58c8a8-df74-4eec-a519-6c10fb864ec4.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "textbook",
+        "copyMatchesOriginal": true,
+        "originalSha256": "706dca063f05906e8d224f07a856d4ad9d423cfbb325516bd20d4a5614cc6392",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Produce ONE independent production sprite for the approved P1-01R organizing-game art direction. Original gently outlined storybook game illustration, clean ink contours, simple soft shading, warm restrained colors, readable at 64 pixels. A single object centered with generous clear margins, nearly frontal with a small visible top edge, same neutral upper-left light across the set. True transparent background/alpha. No floor, backdrop, frame, lettering, numbers, label, watermark, UI, collage or other objects. This is a retainable AI game-art candidate, not a final approved asset.\nSubject: A thick closed blue university textbook with a visible cream page block and plain cover. Broad horizontal silhouette; substantial thickness, soft blue cover, no writing or emblem.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#textbook"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1536,
+          1024
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "transparentFraction": 0.5024,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "ui/organization_item.gd art_rect aspect-fit center"
+      },
+      "layers": [
+        "organization_item_icon",
+        "drag_ghost"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Small-screen icon readability still subject to human/device acceptance."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 1695271,
+      "sha256": "706dca063f05906e8d224f07a856d4ad9d423cfbb325516bd20d4a5614cc6392",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.organization.passport",
+      "rendererKey": "org.passport",
+      "path": "assets/p1r/organization/passport.png",
+      "paths": [
+        "assets/p1r/organization/passport.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-3f532df8-fec4-4ce1-990a-705ebf5f8de0.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "passport",
+        "copyMatchesOriginal": true,
+        "originalSha256": "dfbe9fc38befb2254c7bc42f22808d6d6db5b7c58e9034ac2feaa4e00786c619",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Produce ONE independent production sprite for the approved P1-01R organizing-game art direction. Original gently outlined storybook game illustration, clean ink contours, simple soft shading, warm restrained colors, readable at 64 pixels. A single object centered with generous clear margins, nearly frontal with a small visible top edge, same neutral upper-left light across the set. True transparent background/alpha. No floor, backdrop, frame, lettering, numbers, label, watermark, UI, collage or other objects. This is a retainable AI game-art candidate, not a final approved asset.\nSubject: A small closed burgundy passport booklet, distinct thin book silhouette with rounded cover corners, NO national crest, symbol, country name or other text. Plain unmarked cover.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#passport"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1236,
+          1273
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.627,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "ui/organization_item.gd art_rect aspect-fit center"
+      },
+      "layers": [
+        "organization_item_icon",
+        "drag_ghost"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Small-screen icon readability still subject to human/device acceptance."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 975885,
+      "sha256": "dfbe9fc38befb2254c7bc42f22808d6d6db5b7c58e9034ac2feaa4e00786c619",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.organization.scarf",
+      "rendererKey": "org.scarf",
+      "path": "assets/p1r/organization/scarf.png",
+      "paths": [
+        "assets/p1r/organization/scarf.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-81cdcd66-f4b9-4678-9c2c-4f68491d2c33.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "scarf",
+        "copyMatchesOriginal": true,
+        "originalSha256": "9f7fc37c207e9e5635795ea60166abb7281a9efb5355610db7180ec7da95ba24",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Produce ONE independent production sprite for the approved P1-01R organizing-game art direction. Original gently outlined storybook game illustration, clean ink contours, simple soft shading, warm restrained colors, readable at 64 pixels. A single object centered with generous clear margins, nearly frontal with a small visible top edge, same neutral upper-left light across the set. True transparent background/alpha. No floor, backdrop, frame, lettering, numbers, label, watermark, UI, collage or other objects. This is a retainable AI game-art candidate, not a final approved asset.\nSubject: A neatly folded burnt-orange knitted scarf with a few restrained woven stripes and short tassels; soft folded fabric silhouette, clearly a scarf, no person.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#scarf"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1312,
+          1199
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.5017,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "ui/organization_item.gd art_rect aspect-fit center"
+      },
+      "layers": [
+        "organization_item_icon",
+        "drag_ghost"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Small-screen icon readability still subject to human/device acceptance."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 1689322,
+      "sha256": "9f7fc37c207e9e5635795ea60166abb7281a9efb5355610db7180ec7da95ba24",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.organization.washbag",
+      "rendererKey": "org.washbag",
+      "path": "assets/p1r/organization/washbag.png",
+      "paths": [
+        "assets/p1r/organization/washbag.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-99cea432-6df9-426e-a05f-2141247582dc.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "washbag",
+        "copyMatchesOriginal": true,
+        "originalSha256": "f0ad67683463d9a84af517ed7ef487f5a4ba40778e5374535fcd864b6fb80b9c",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Produce ONE independent production sprite for the approved P1-01R organizing-game art direction. Original gently outlined storybook game illustration, clean ink contours, simple soft shading, warm restrained colors, readable at 64 pixels. A single object centered with generous clear margins, nearly frontal with a small visible top edge, same neutral upper-left light across the set. True transparent background/alpha. No floor, backdrop, frame, lettering, numbers, label, watermark, UI, collage or other objects. This is a retainable AI game-art candidate, not a final approved asset.\nSubject: A small teal zipped toiletry washbag, compact soft rectangular shape, one little zipper pull and a modest carry loop, NO large duffel handles. Clearly a washbag, not a backpack.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#washbag"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1536,
+          1024
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "transparentFraction": 0.5269,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "ui/organization_item.gd art_rect aspect-fit center"
+      },
+      "layers": [
+        "organization_item_icon",
+        "drag_ghost"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Small-screen icon readability still subject to human/device acceptance."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 2070366,
+      "sha256": "f0ad67683463d9a84af517ed7ef487f5a4ba40778e5374535fcd864b6fb80b9c",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.story.arrival",
+      "rendererKey": "story.arrival",
+      "path": "assets/p1r/story/arrival.png",
+      "paths": [
+        "assets/p1r/story/arrival.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-543b93b2-54a9-4bd4-9f05-10a871bb0a07.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "arrival",
+        "copyMatchesOriginal": true,
+        "originalSha256": "9d060c74281220534b3755c99c35ca9487432012dfe6ced1a19eb1fe94fc806e",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Original illustrated game art, coherent warm softly shaded line-and-wash storybook treatment, restrained ink outlines, readable shapes; this is retainable AI art for an approved P1-01R visual direction but not final character approval. No text, lettering, logo, watermark or UI baked into the image. Landscape background only: first-person student arrival beside a broad quiet Saint Petersburg river embankment, low classical northern European facades, a small bridge in the distance, soft overcast daylight. Generic credible atmosphere, not an exact real street reproduction. No people, no suitcase in foreground (those are separate layers), no Moscow/Kremlin/Saint Basil structures, no buses or train interior. Usable empty foreground at lower third, open space toward right for a character portrait. Landscape 16:9 composition.",
+        "transparentRequested": false,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#arrival"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1672,
+          941
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "transparentFraction": 0,
+        "required": "OPAQUE_BACKGROUND_OR_MATERIAL",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_image",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "scripts/p1/story_stage.gd centered aspect-fill"
+      },
+      "layers": [
+        "story_background"
+      ],
+      "module": "q00_story",
+      "replacementRequired": false,
+      "issues": [
+        "Atmospheric background, not an approved geographic reconstruction."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 2798171,
+      "sha256": "9d060c74281220534b3755c99c35ca9487432012dfe6ced1a19eb1fe94fc806e",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.story.reception",
+      "rendererKey": "story.reception",
+      "path": "assets/p1r/story/reception.png",
+      "paths": [
+        "assets/p1r/story/reception.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-84240f2f-8f97-43a3-a6cd-2ab9c0605fc9.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "reception",
+        "copyMatchesOriginal": true,
+        "originalSha256": "62db9ba9d53dc7a7b7df4ee9088ab45f0afad3ccf288620b68b758471043f33c",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Original illustrated game art, coherent warm softly shaded line-and-wash storybook treatment, restrained ink outlines, readable shapes; this is retainable AI art for an approved P1-01R visual direction but not final character approval. No text, lettering, logo, watermark or UI baked into the image. Landscape background only: a small comfortable university dormitory reception lobby. Wooden reception desk at middle-bottom, organized key pigeonholes with no writing at back, gentle wall lamp, open doorway at right suggesting a student room corridor. No people, no text or numbers on keys, no signage, no official insignia. Leave clear space to place a separate waist-up administrator character in front of the desk. Basically frontal view, quiet warm light, 16:9 composition.",
+        "transparentRequested": false,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#reception"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1672,
+          941
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "transparentFraction": 0,
+        "required": "OPAQUE_BACKGROUND_OR_MATERIAL",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_image",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "scripts/p1/story_stage.gd centered aspect-fill"
+      },
+      "layers": [
+        "story_background"
+      ],
+      "module": "q00_story",
+      "replacementRequired": false,
+      "issues": [
+        "Atmospheric background, not an approved geographic reconstruction."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 2092517,
+      "sha256": "62db9ba9d53dc7a7b7df4ee9088ab45f0afad3ccf288620b68b758471043f33c",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.story.anna",
+      "rendererKey": "story.anna",
+      "path": "assets/p1r/story/anna.png",
+      "paths": [
+        "assets/p1r/story/anna.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-dbb53c8b-cafb-4290-abc4-e08cc45b538f.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "anna",
+        "copyMatchesOriginal": true,
+        "originalSha256": "03637e7c28dd38b2071d8ccd8b80e244fa891f7e21719b27bf7cf0aaf2701ad6",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Original illustrated game art, coherent warm softly shaded line-and-wash storybook treatment, restrained ink outlines, readable shapes; this is retainable AI art for an approved P1-01R visual direction but not final character approval. No text, lettering, logo, watermark or UI baked into the image. ONE isolated waist-up portrait of a friendly adult woman Anna, an unapproved character-detail candidate: brunette loosely tied hair, beige sweater and modest warm brown coat, welcoming open-handed gesture with anatomically plausible five fingers, normal adult proportions, facing slightly left toward viewer. Fully visible head and arms, clean silhouette with margins. TRUE TRANSPARENT BACKGROUND, no environment, floor, frame or props. No speech balloon or text.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#anna"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1213,
+          1296
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.4717,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_sprite_pivot",
+        "value": [
+          0.25,
+          1.0
+        ],
+        "targetStageNormalized": [
+          0.56,
+          1.0
+        ],
+        "binding": "scripts/p1/story_stage.gd; height=stage.height*1.03, clipped to stage"
+      },
+      "layers": [
+        "portrait_foreground"
+      ],
+      "module": "q00_story",
+      "replacementRequired": false,
+      "issues": [
+        "Character details remain editable; direction approval is not final character approval."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 1785259,
+      "sha256": "03637e7c28dd38b2071d8ccd8b80e244fa891f7e21719b27bf7cf0aaf2701ad6",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.story.admin",
+      "rendererKey": "story.admin",
+      "path": "assets/p1r/story/admin.png",
+      "paths": [
+        "assets/p1r/story/admin.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-9b691d6b-6a26-4166-bb90-102d615a4de1.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "admin",
+        "copyMatchesOriginal": true,
+        "originalSha256": "6e23a47af2720236c9a3056b018e1c743c35a39dce13c1e92752f543a4050665",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Original illustrated game art, coherent warm softly shaded line-and-wash storybook treatment, restrained ink outlines, readable shapes; this is retainable AI art for an approved P1-01R visual direction but not final character approval. No text, lettering, logo, watermark or UI baked into the image. ONE isolated waist-up portrait of an older adult female dormitory administrator, an unapproved character-detail candidate: simple glasses, neat brown-gray hair, plain plum cardigan over light blouse, gently offering one small plain room key. Calm polite expression, plausible hands and five fingers, facing slightly left toward viewer. Fully visible head and hands with clean margins. TRUE TRANSPARENT BACKGROUND, no environment, desk, floor, frame or speech balloon. No names or numbers on key.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#admin"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1145,
+          1374
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.5104,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "normalized_sprite_pivot",
+        "value": [
+          0.25,
+          1.0
+        ],
+        "targetStageNormalized": [
+          0.56,
+          1.0
+        ],
+        "binding": "scripts/p1/story_stage.gd; height=stage.height*1.03, clipped to stage"
+      },
+      "layers": [
+        "portrait_foreground"
+      ],
+      "module": "q00_story",
+      "replacementRequired": false,
+      "issues": [
+        "Character details remain editable; direction approval is not final character approval."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 1575648,
+      "sha256": "6e23a47af2720236c9a3056b018e1c743c35a39dce13c1e92752f543a4050665",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.home.background",
+      "rendererKey": "home.background",
+      "path": "assets/p1r/home/background.png",
+      "paths": [
+        "assets/p1r/home/background.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-c8154be2-5e5c-48c8-9f9f-464701c82b5b.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "background",
+        "copyMatchesOriginal": true,
+        "originalSha256": "b3a8ac8980157d9a7d370278f431f787a85558250bdf35173b4ac46b0131c4b1",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Original storybook-painted game environment background for a student dormitory, NO furniture and NO cat, people, signs, lettering or UI. Ultra-wide panorama about 3:1. A basically frontal long warm plaster rear wall with THREE evenly spaced modest windows, pale curtains, wooden skirting and a broad honey-toned wooden floor in the lower half. Small simple ceiling edge optional, no full ceiling requirement. Mild elevated viewpoint shows floor depth but not isometric/overhead. Soft daylight from left; windows show only blurred trees/sky, no city, tower or recognizable landmark. Clean warm illustrative line-and-wash, restrained texture and readable quiet surfaces so separate bed/desk/wardrobe sprites/geometry can later overlay. No extra furniture, plants or rugs blocking the floor.",
+        "transparentRequested": false,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#background"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          2135,
+          736
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "transparentFraction": 0,
+        "required": "OPAQUE_BACKGROUND_OR_MATERIAL",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "room_world",
+        "binding": "scripts/dormitory/room_view.gd::_draw projected room bounds; camera follows existing world projection"
+      },
+      "layers": [
+        "room_background"
+      ],
+      "module": "dormitory",
+      "replacementRequired": false,
+      "issues": [
+        "Room composition remains a P1-01R candidate; this background does not approve or replace furniture geometry."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 1790107,
+      "sha256": "b3a8ac8980157d9a7d370278f431f787a85558250bdf35173b4ac46b0131c4b1",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.home.wood",
+      "rendererKey": "home.wood",
+      "path": "assets/p1r/home/wood.png",
+      "paths": [
+        "assets/p1r/home/wood.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-b0132672-1ea6-4fee-ba08-13a850524876.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "wood",
+        "copyMatchesOriginal": true,
+        "originalSha256": "24d9aee1e6d323c3512c8d86447ee46acb133d7a70ebada421e484c218c0c332",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "ONE original warm medium oak wood texture for a cozy illustrated game, flat evenly lit surface, subtle fine vertical grain and restrained hand-painted shading, NOT a photo, no perspective edges, no planks crossing diagonally, no objects, text, symbols or hardware. Seamless-looking square material swatch. Consistent restrained ink-and-wash illustrative treatment. This will texture existing independently occluding furniture faces, no game UI.",
+        "transparentRequested": false,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#wood"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1254,
+          1254
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "transparentFraction": 0,
+        "required": "OPAQUE_BACKGROUND_OR_MATERIAL",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "furniture_face_uv",
+        "value": [
+          0,
+          0
+        ],
+        "binding": "scripts/dormitory/room_view.gd::_face; existing projected world geometry"
+      },
+      "layers": [
+        "furniture_face_material"
+      ],
+      "module": "dormitory",
+      "replacementRequired": false,
+      "issues": [
+        "Material swatch only; visible old furniture silhouettes remain MUST_REPLACE."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 2051124,
+      "sha256": "24d9aee1e6d323c3512c8d86447ee46acb133d7a70ebada421e484c218c0c332",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.home.fabric",
+      "rendererKey": "home.fabric",
+      "path": "assets/p1r/home/fabric.png",
+      "paths": [
+        "assets/p1r/home/fabric.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-85ed1977-9280-4ac0-aa49-b117b589d3ba.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "fabric",
+        "copyMatchesOriginal": true,
+        "originalSha256": "a9967f9c1e0a2c0e0152e38491777921d53344af36b397ef52e54abc935dee1f",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "ONE original softly illustrated woven quilt material swatch for a cozy student bed, subdued cream fabric with broad muted terracotta and soft-blue bands, gentle woven texture, flat evenly lit square pattern, no folds with baked directional perspective, no furniture or surroundings, no text or symbols. Readable low-frequency weave suited to scaling onto an existing bed surface. Warm storybook line-and-wash style, not glossy or photoreal.",
+        "transparentRequested": false,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#fabric"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1254,
+          1254
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "transparentFraction": 0,
+        "required": "OPAQUE_BACKGROUND_OR_MATERIAL",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "furniture_face_uv",
+        "value": [
+          0,
+          0
+        ],
+        "binding": "scripts/dormitory/room_view.gd::_face; existing projected world geometry"
+      },
+      "layers": [
+        "furniture_face_material"
+      ],
+      "module": "dormitory",
+      "replacementRequired": false,
+      "issues": [
+        "Material swatch only; visible old furniture silhouettes remain MUST_REPLACE."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 3660171,
+      "sha256": "a9967f9c1e0a2c0e0152e38491777921d53344af36b397ef52e54abc935dee1f",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.cat",
+      "rendererKey": "cat",
+      "path": "assets/p1r/home/cat.png",
+      "paths": [
+        "assets/p1r/home/cat.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-04abd0db-4088-4b29-8396-99a00838f991.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "cat",
+        "copyMatchesOriginal": true,
+        "originalSha256": "0cc42edb4f0420853b7cfcf8b8e6aed8f0cbb59eae091f8b3902af8976914e7b",
+        "referenceImageUsed": false,
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "ONE independent full-body sprite of a fluffy gray Siberian forest cat candidate for a cozy illustrated game. Side-on low standing/resting pose with head toward the RIGHT and face slightly toward viewer, horizontal body silhouette about 1.6 times as wide as high, visible ears/eyes/paws and tail curling LEFT. Gentle friendly adult cat, clean dark ink outlines, simple soft warm shading, same storybook illustration family as luggage icons. Entire cat comfortably inside canvas with clear margins. TRUE transparent background, no floor, shadow cloud, glow, room, collar, text, other animal or UI. Do not copy any existing game character. This sprite will move with an existing room-space anchor, not a new pet mechanic.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#cat"
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1586,
+          992
+        ],
+        "measurementStatus": "MEASURED_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.5311,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "anchor": {
+        "space": "room_world_cat_anchor",
+        "binding": "scripts/p1/cat_visual.gd; x[-0.62,+0.51], y[0,+0.72], z=anchor.z; peek head z-0.75",
+        "normalizedBodyGroundPivot": [
+          0.5486725664,
+          1.0
+        ]
+      },
+      "layers": [
+        "cat_body_depth_plane",
+        "cat_peek_head_depth_plane_shared_uv"
+      ],
+      "module": "dormitory",
+      "replacementRequired": false,
+      "issues": [
+        "One full-body sprite reused on two depth planes for peek cue; not a full articulated animation set."
+      ],
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "bytes": 1875939,
+      "sha256": "0cc42edb4f0420853b7cfcf8b8e6aed8f0cbb59eae091f8b3902af8976914e7b",
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+    },
+    {
+      "assetId": "p1r.ui.organization_board",
+      "path": "scripts/p1/organization_board.gd",
+      "paths": [
+        "scripts/p1/organization_board.gd",
+        "ui/organization_item.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "IMPLEMENTED_AND_INTEGRATED",
+      "retentionReason": "Scalable code-drawn compartments, occupancy cells and drag feedback can remain long term because they follow real puzzle data and adapt to orientation; independent item art is replaceable.",
+      "sourceRecord": {
+        "type": "project_original_code_visual",
+        "paths": [
+          "scripts/p1/organization_board.gd",
+          "ui/organization_item.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P1-01R implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_VISUAL",
+        "note": "No bundled third-party art or font binary is implied."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING"
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBases": [
+          [
+            1280,
+            720
+          ],
+          [
+            360,
+            780
+          ]
+        ],
+        "measurementStatus": "RESPONSIVE_CODE_LAYOUT_NOT_FIXED_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_UI",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "ui_control_or_projected_world",
+        "value": null
+      },
+      "layers": [
+        "code_drawn_surface",
+        "engine_text",
+        "interactive_control"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Final visual/input acceptance remains pending; no mandatory replacement obligation."
+      ],
+      "usageScope": "Active scalable P1-01R code-drawn UI; retainable based on existing retentionReason, subject to final visual/input acceptance.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+    },
+    {
+      "assetId": "p1r.ui.dialogue_frame",
+      "path": "scripts/p1/flow.gd",
+      "paths": [
+        "scripts/p1/flow.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "IMPLEMENTED_AND_INTEGRATED",
+      "retentionReason": "Responsive dialogue/name/message controls with engine-rendered Russian/Chinese text need no baked art and can be retained after actual visual/input checks.",
+      "sourceRecord": {
+        "type": "project_original_code_visual",
+        "paths": [
+          "scripts/p1/flow.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P1-01R implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_VISUAL",
+        "note": "No bundled third-party art or font binary is implied."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING"
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBases": [
+          [
+            1280,
+            720
+          ],
+          [
+            360,
+            780
+          ]
+        ],
+        "measurementStatus": "RESPONSIVE_CODE_LAYOUT_NOT_FIXED_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_UI",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "ui_control_or_projected_world",
+        "value": null
+      },
+      "layers": [
+        "code_drawn_surface",
+        "engine_text",
+        "interactive_control"
+      ],
+      "module": "q00_story",
+      "replacementRequired": false,
+      "issues": [
+        "Final visual/input acceptance remains pending; no mandatory replacement obligation."
+      ],
+      "usageScope": "Active scalable P1-01R code-drawn UI; retainable based on existing retentionReason, subject to final visual/input acceptance.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+    },
+    {
+      "assetId": "p1r.ui.world_labels",
+      "path": "ui/p1_world_label.gd",
+      "paths": [
+        "ui/p1_world_label.gd",
+        "scripts/p1/home_controller.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "IMPLEMENTED_AND_INTEGRATED",
+      "retentionReason": "Projected text controls and >=48 logical unit hit areas can be retained because they stay tied to object IDs and camera projection, not baked into art.",
+      "sourceRecord": {
+        "type": "project_original_code_visual",
+        "paths": [
+          "ui/p1_world_label.gd",
+          "scripts/p1/home_controller.gd"
+        ]
+      },
+      "generationRecord": null,
+      "author": "project P1-01R implementation",
+      "licenseReview": {
+        "status": "PROJECT_CODE_VISUAL",
+        "note": "No bundled third-party art or font binary is implied."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING"
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBases": [
+          [
+            1280,
+            720
+          ],
+          [
+            360,
+            780
+          ]
+        ],
+        "measurementStatus": "RESPONSIVE_CODE_LAYOUT_NOT_FIXED_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_UI",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "ui_control_or_projected_world",
+        "value": null
+      },
+      "layers": [
+        "code_drawn_surface",
+        "engine_text",
+        "interactive_control"
+      ],
+      "module": "dormitory",
+      "replacementRequired": false,
+      "issues": [
+        "Final visual/input acceptance remains pending; no mandatory replacement obligation."
+      ],
+      "usageScope": "Active scalable P1-01R code-drawn UI; retainable based on existing retentionReason, subject to final visual/input acceptance.",
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+    },
+    {
+      "assetId": "p1r.organization.caseA",
+      "rendererKey": "org.caseA",
+      "path": "assets/p1r/organization/caseA.png",
+      "paths": [
+        "assets/p1r/organization/caseA.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Empty container sprite behind code-drawn capacity cells, labels, items and interaction feedback; no puzzle data or text baked into the image.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-6bd1c1c9-794b-46b9-8b50-96df3aad6fff.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "caseA",
+        "copyMatchesOriginal": true,
+        "originalSha256": "21f94adb1c96820a443f042573c3adc566e17544bd84ec8e7a91186100af3035",
+        "referenceImageUsed": true,
+        "referenceImages": [
+          {
+            "assetId": "p1r.organization.caseB",
+            "path": "assets/p1r/organization/caseB.png",
+            "source": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-acf79bc1-3c5c-478d-8bba-28c23d278008.png",
+            "purpose": "Independent generated production sprite used only to match drawing language/viewpoint; not extracted from a concept board."
+          }
+        ],
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Use case: illustration-story. Asset type: one independent transparent game container sprite for a cozy luggage-organizing puzzle. Primary request: a single EMPTY OPEN suitcase compartment viewed nearly front-on from slightly above, shallow depth, broad horizontal rounded rectangle, interior fills most of silhouette, no upright lid, handle below, small hinges and leather trim. Match a polished softly outlined hand-painted storybook game illustration, warm light from upper left, simple clean shading, crisp readable shape. Warm caramel-brown leather exterior shell with warm honey-tan fabric lining and a soft stitched rim. It is ONE container only, centered, width about twice height, full silhouette visible and generous transparent margin. Interior is empty, flat and unobstructed so game code can overlay two horizontal placement cells. No contents, no book, no letters, no A/B/C labels, no numbers, no grid, no UI buttons, no arrows, no scenery, no floor shadow, no frame, no collage, no watermark. True RGBA transparent background. This is retainable AI game-art candidate for P1-01R, not final art approval. Match the attached independently generated container's drawing language and viewpoint; the attached image is a production style reference, not a collage to crop.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#caseA",
+        "referenceImageUsed": true,
+        "referenceImages": [
+          {
+            "assetId": "p1r.organization.caseB",
+            "path": "assets/p1r/organization/caseB.png",
+            "source": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-acf79bc1-3c5c-478d-8bba-28c23d278008.png",
+            "purpose": "Independent generated production sprite used only to match drawing language/viewpoint; not extracted from a concept board."
+          }
+        ]
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1774,
+          887
+        ],
+        "measurementStatus": "MEASURED_PILLOW_AND_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.2703,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED_PILLOW_ALPHA",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json",
+        "transparentFractionDefinition": "alpha == 0",
+        "nonOpaqueFraction": 0.9996
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "scripts/p1/organization_board.gd::_draw draw_texture_rect into bin_regions[bin id]; original independent bin hit controls and unit_rects overlays remain code-driven"
+      },
+      "layers": [
+        "organization_empty_container_background",
+        "code_capacity_grid_above",
+        "interactive_items_above"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Final in-engine PC/portrait composition and human acceptance remain pending; source is retainable candidate, not final approval."
+      ],
+      "usageVerifiedAt": "P1-01R working-tree static binding scripts/p1/organization_board.gd::_draw -> org.case + bin id",
+      "bytes": 2233998,
+      "sha256": "21f94adb1c96820a443f042573c3adc566e17544bd84ec8e7a91186100af3035",
+      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review."
+    },
+    {
+      "assetId": "p1r.organization.caseB",
+      "rendererKey": "org.caseB",
+      "path": "assets/p1r/organization/caseB.png",
+      "paths": [
+        "assets/p1r/organization/caseB.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Empty container sprite behind code-drawn capacity cells, labels, items and interaction feedback; no puzzle data or text baked into the image.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-acf79bc1-3c5c-478d-8bba-28c23d278008.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "caseB",
+        "copyMatchesOriginal": true,
+        "originalSha256": "5f124f67434cb7d0bbb532536de026bfdd9124ef74f7619a46205f9e23a7c230",
+        "referenceImageUsed": false,
+        "referenceImages": [],
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Use case: illustration-story. Asset type: one independent transparent game container sprite for a cozy luggage-organizing puzzle. Primary request: a single EMPTY OPEN suitcase compartment viewed nearly front-on from slightly above, shallow depth, broad horizontal rounded rectangle, interior fills most of silhouette, no upright lid, handle below, small hinges and leather trim. Match a polished softly outlined hand-painted storybook game illustration, warm light from upper left, simple clean shading, crisp readable shape. Navy-blue exterior shell with warm honey-tan fabric lining and a soft stitched rim. It is ONE container only, centered, width about twice height, full silhouette visible and generous transparent margin. Interior is empty, flat and unobstructed so game code can overlay two horizontal placement cells. No contents, no book, no letters, no A/B/C labels, no numbers, no grid, no UI buttons, no arrows, no scenery, no floor shadow, no frame, no collage, no watermark. True RGBA transparent background. This is retainable AI game-art candidate for P1-01R, not final art approval.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#caseB",
+        "referenceImageUsed": false,
+        "referenceImages": []
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1774,
+          887
+        ],
+        "measurementStatus": "MEASURED_PILLOW_AND_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.2772,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED_PILLOW_ALPHA",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json",
+        "transparentFractionDefinition": "alpha == 0",
+        "nonOpaqueFraction": 0.9996
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "scripts/p1/organization_board.gd::_draw draw_texture_rect into bin_regions[bin id]; original independent bin hit controls and unit_rects overlays remain code-driven"
+      },
+      "layers": [
+        "organization_empty_container_background",
+        "code_capacity_grid_above",
+        "interactive_items_above"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Final in-engine PC/portrait composition and human acceptance remain pending; source is retainable candidate, not final approval."
+      ],
+      "usageVerifiedAt": "P1-01R working-tree static binding scripts/p1/organization_board.gd::_draw -> org.case + bin id",
+      "bytes": 2310981,
+      "sha256": "5f124f67434cb7d0bbb532536de026bfdd9124ef74f7619a46205f9e23a7c230",
+      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review."
+    },
+    {
+      "assetId": "p1r.organization.caseC",
+      "rendererKey": "org.caseC",
+      "path": "assets/p1r/organization/caseC.png",
+      "paths": [
+        "assets/p1r/organization/caseC.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "PLAYTEST_P1R",
+        "DEV_P1R"
+      ],
+      "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
+      "usageScope": "Empty container sprite behind code-drawn capacity cells, labels, items and interaction feedback; no puzzle data or text baked into the image.",
+      "sourceRecord": {
+        "type": "builtin_imagegen_independent_output",
+        "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-00599099-bc40-4d24-af84-7bbfb8aa4a48.png",
+        "generationLog": "docs/production/p1r_generation_records.json",
+        "generationRecordId": "caseC",
+        "copyMatchesOriginal": true,
+        "originalSha256": "ad3a5fa5fcf8cc38d6573034c787c537bbc15210e729b78e0fe7b6717c5d46db",
+        "referenceImageUsed": true,
+        "referenceImages": [
+          {
+            "assetId": "p1r.organization.caseB",
+            "path": "assets/p1r/organization/caseB.png",
+            "source": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-acf79bc1-3c5c-478d-8bba-28c23d278008.png",
+            "purpose": "Independent generated production sprite used only to match drawing language/viewpoint; not extracted from a concept board."
+          }
+        ],
+        "sourceRetention": "Original files remain under CODEX_HOME; project files copied to E drive"
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "not exposed by tool",
+        "prompt": "Use case: illustration-story. Asset type: one independent transparent game container sprite for a cozy luggage-organizing puzzle. Primary request: a single EMPTY OPEN suitcase compartment viewed nearly front-on from slightly above, shallow depth, broad horizontal rounded rectangle, interior fills most of silhouette, no upright lid, handle below, small hinges and leather trim. Match a polished softly outlined hand-painted storybook game illustration, warm light from upper left, simple clean shading, crisp readable shape. Muted sage-green exterior shell with soft olive-green fabric lining and a soft stitched rim. It is ONE container only, centered, width about one and a half times height, full silhouette visible and generous transparent margin. Interior is empty, flat and unobstructed so game code can overlay one large placement cell. No contents, no book, no letters, no A/B/C labels, no numbers, no grid, no UI buttons, no arrows, no scenery, no floor shadow, no frame, no collage, no watermark. True RGBA transparent background. This is retainable AI game-art candidate for P1-01R, not final art approval. Match the attached independently generated container's drawing language and viewpoint. Produce a new individual one-compartment green toiletry storage case, not a multi-view sheet.",
+        "transparentRequested": true,
+        "actualCallRecord": "docs/production/p1r_generation_records.json#caseC",
+        "referenceImageUsed": true,
+        "referenceImages": [
+          {
+            "assetId": "p1r.organization.caseB",
+            "path": "assets/p1r/organization/caseB.png",
+            "source": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-acf79bc1-3c5c-478d-8bba-28c23d278008.png",
+            "purpose": "Independent generated production sprite used only to match drawing language/viewpoint; not extracted from a concept board."
+          }
+        ]
+      },
+      "author": "OpenAI imagegen output directed for this project",
+      "licenseReview": {
+        "status": "SOURCE_AND_DIRECTION_CHECKED_FOR_CONTROLLED_P1R_USE",
+        "license": "NOT_DECLARED_CC0",
+        "note": "User permits generated game-art candidates and later retention; not an assertion of CC0, exclusive copyright, or completed commercial clearance."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Final visual acceptance and applicable terms/risk review remain required before FINAL_APPROVED."
+      },
+      "dimensions": {
+        "pixels": [
+          1774,
+          887
+        ],
+        "measurementStatus": "MEASURED_PILLOW_AND_PNG_IHDR",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json"
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "hasAlpha": true,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentFraction": 0.2747,
+        "required": "REAL_RGBA_WITH_TRANSPARENT_PIXELS",
+        "measurementStatus": "MEASURED_PILLOW_ALPHA",
+        "evidence": "docs/evidence/p1-01r/asset_measurements.json",
+        "transparentFractionDefinition": "alpha == 0",
+        "nonOpaqueFraction": 0.9996
+      },
+      "anchor": {
+        "space": "normalized_sprite",
+        "value": [
+          0.5,
+          0.5
+        ],
+        "binding": "scripts/p1/organization_board.gd::_draw draw_texture_rect into bin_regions[bin id]; original independent bin hit controls and unit_rects overlays remain code-driven"
+      },
+      "layers": [
+        "organization_empty_container_background",
+        "code_capacity_grid_above",
+        "interactive_items_above"
+      ],
+      "module": "organization",
+      "replacementRequired": false,
+      "issues": [
+        "Final in-engine PC/portrait composition and human acceptance remain pending; source is retainable candidate, not final approval."
+      ],
+      "usageVerifiedAt": "P1-01R working-tree static binding scripts/p1/organization_board.gd::_draw -> org.case + bin id",
+      "bytes": 2296445,
+      "sha256": "ad3a5fa5fcf8cc38d6573034c787c537bbc15210e729b78e0fe7b6717c5d46db",
+      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review."
+    },
+    {
+      "assetId": "reference.p1r.organization_layout",
+      "path": "docs/art-prep/p1-01r/owner_organization_layout_reference.png",
+      "paths": [
+        "docs/art-prep/p1-01r/owner_organization_layout_reference.png"
+      ],
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+      "permanentApproval": false,
+      "usedInGame": false,
+      "activeProfiles": [],
+      "productionStatus": "OWNER_SUPPLIED_LAYOUT_REFERENCE_ONLY",
+      "usageScope": "Owner-supplied organizing UI layout/operation reference, distinct from candidate_organization_v02.png. Documentation only, excluded by docs/.gdignore. Not story/geographic reference, production asset, sprite sheet or a renderer path.",
+      "sourceRecord": {
+        "type": "owner_supplied_builtin_imagegen_reference",
+        "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-12193dca-0ca9-4fb9-ba67-3045824071c7.png",
+        "projectCopy": "docs/art-prep/p1-01r/owner_organization_layout_reference.png",
+        "copyMatchesOriginal": true,
+        "originalSha256": "87cb9449a191070c54c409701b1e0eb4328d7a9d5346bdba94e0ac30ac037e73",
+        "sourceRetention": "Original remains in CODEX_HOME; unchanged documentation copy retained in E-drive project."
+      },
+      "generationRecord": {
+        "tool": "image_gen.imagegen",
+        "model": "UNKNOWN_NOT_EXPOSED",
+        "prompt": "UNKNOWN_NOT_TRACEABLE_FROM_AVAILABLE_RECORDS",
+        "note": "Generation prompt unavailable; no reconstruction or attribution to the older v02 prompt."
+      },
+      "author": "AI generation; exact original generation instruction not traceable from available records",
+      "licenseReview": {
+        "status": "AI_OUTPUT_NOT_CC0_OR_EXCLUSIVE",
+        "note": "Owner supplied and direction approved as layout reference. Not CC0 or an assertion of exclusive copyright."
+      },
+      "commercialUseReview": {
+        "status": "FINAL_DISTRIBUTION_REVIEW_PENDING",
+        "note": "Documentation reference not integrated into game; direction approval does not establish final commercial clearance."
+      },
+      "dimensions": {
+        "pixels": [
+          1536,
+          1024
+        ],
+        "measurementStatus": "MEASURED_PILLOW_AND_PNG_IHDR"
+      },
+      "transparency": {
+        "mode": "RGB",
+        "hasAlpha": false,
+        "alphaExtrema": null,
+        "measurementStatus": "MEASURED_PILLOW"
+      },
+      "bytes": 1809319,
+      "sha256": "87cb9449a191070c54c409701b1e0eb4328d7a9d5346bdba94e0ac30ac037e73",
+      "anchor": {
+        "space": "documentation_layout_reference",
+        "value": null
+      },
+      "layers": [
+        "flattened_layout_reference_not_production_layers"
+      ],
+      "module": "organization",
+      "replacementRequired": null,
+      "issues": [
+        "Flattened RGB owner layout reference; not independent interactive game assets.",
+        "Original prompt unavailable; must not substitute the older candidate_organization_v02 prompt.",
+        "Direction approved for P1-01R UI layout/interaction; not permanent final art approval."
+      ]
+    }
+  ],
+  "measurementEvidence": "docs/evidence/p1-01r/asset_measurements.json",
+  "generationEvidence": "docs/production/p1r_generation_records.json"
+}

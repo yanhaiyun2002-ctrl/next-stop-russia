@@ -1,6 +1,6 @@
 class_name P1CatEncounter
 extends Node
-## TEMP_REPLACE_REQUIRED: continuous room-coordinate motion using existing cat.
+## Continuous room-coordinate motion; visual retention is recorded independently.
 signal phase_changed
 signal pet_finished
 var world: DormitoryWorld
@@ -137,6 +137,8 @@ func pet() -> bool:
 func parts() -> Array[Dictionary]:
 	if phase == "idle":
 		return []
+	if P1Art.texture("cat") != null:
+		return P1CatVisual.parts(anchor + Vector3(0,pet_bob,0),not spot.is_empty() and spot.peek and phase == "guessing")
 	return GrayboxCat.parts(anchor + Vector3(0, pet_bob, 0), not spot.is_empty() and spot.peek and phase == "guessing")
 
 func prompt() -> String:

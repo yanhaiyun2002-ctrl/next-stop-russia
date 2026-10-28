@@ -1,18 +1,26 @@
 ---
 name: game-art-pipeline
-description: 为《下一站，俄罗斯！》准备、筛选和交接可替换临时美术，核验素材授权、相机一致性与 Godot 资源规格；用于美术候选、视觉提案和经批准的素材接入，不修改玩法、剧情或存档合同。
+description: 为《下一站，俄罗斯！》准备、筛选和交接游戏美术，按来源与保留状态核验素材、相机一致性和 Godot 规格；用于视觉提案及经批准的美术接入，不修改玩法、剧情或存档合同。
 ---
 
 # 项目临时美术流程
 
-先读取根目录 AGENTS.md 与本轮用户授权，按需读 `docs/design/TEMP_ART_GUIDE.md`、`docs/design/DESIGN_HANDOFF_CONTRACT.md`、`docs/production/E_DRIVE_STORAGE_POLICY.md`。本轮候选记录见 `docs/reports/P1_ART_PREP_SUMMARY.md`，它不是正式画风规范。
+先读取根目录 AGENTS.md 与最新用户授权，按需读 `docs/design/TEMP_ART_GUIDE.md`、`docs/design/DESIGN_HANDOFF_CONTRACT.md`、`docs/production/E_DRIVE_STORAGE_POLICY.md`。`assets/art_registry.json` 是资产状态的单一权威登记；旧 manifest 是有明确 registry 引用的兼容视图。历史候选报告 `docs/reports/P1_ART_PREP_SUMMARY.md` 不是现行审批状态或正式画风规范。
 
 ## 选择与确认
 
 - 从当前模块的实际物品/家具/NPC ID 出发，不为适配素材改变规则或新增剧情。整理沿用 `org_tutorial_01`、四物品及 2/2/1 容量；图形占用提示不增加新的旋转或格坐标存档。
 - 先交少量视觉候选/布局，分别表现 PC 1280×720 与手机 360×780 的构图意图；生成的概念拼板不能冒充像素精确布局或实际 Godot 截图。
 - 宿舍参考 JFIF 只用于空间与相机方向，先按真实格式查看。保留近正视、轻微俯视、家具纵深与横拖；不把俯视/等距家具图混入现有投影。家具、猫、遮挡与 UI 分层。
-- 状态用 `CANDIDATE / REVIEW_PENDING`；临时美术持续标 `TEMP_REPLACE_REQUIRED`。负责人确认具体布局/候选后，才按该确认生产与接入素材；布局确认不等于正式画风批准。缺少确认时可做独立逻辑/资源接口，不替换场景。
+- P1-01R 的整理、剧情、宿舍三组候选已获负责人批准作为本轮制作方向，可以继续生产和接入必要素材，不重复索取同一方向的许可。批准方向不代表概念拼板已成为分层工程资源，也不代表永久锁定角色细节或正式画风；明显超出已批准方向时再提出具体差异。
+
+## 双维度资产状态
+
+- `sourceType` 独立记录 `EXISTING_PLACEHOLDER / AI_GENERATED / THIRD_PARTY / PROJECT_ORIGINAL`；来源不决定是否保留。
+- `retentionStatus` 独立记录 `MUST_REPLACE / RETAIN_CANDIDATE / FINAL_APPROVED / REVIEW_REQUIRED`。旧几何、测试文字、美术明显不符方向时为 MUST_REPLACE；符合已批准方向、规格和本轮来源检查的新 AI 图或原创 UI 可为 RETAIN_CANDIDATE，无强制替换义务。
+- `FINAL_APPROVED` 仅在负责人最终视觉验收及必要授权检查完成后使用；只有该状态可设 `permanentApproval=true`。不得把 AI 图自动声明 CC0、排他版权或已完成全部商业审查。
+- 兼容旧字段：MUST_REPLACE 对应 `status/replaceStatus=TEMP_REPLACE_REQUIRED`；RETAIN_CANDIDATE 对应 `status=RETAIN_CANDIDATE, replaceStatus=OPTIONAL_REPLACEMENT`；REVIEW_REQUIRED 对应同名状态。不要给所有资源加 TEMP_REPLACE_REQUIRED，也不能凭文件夹或文件名推断状态。
+- 概念拼板保留 `AI_GENERATED + REVIEW_REQUIRED`、`visualApproval=APPROVED_FOR_P1R_DIRECTION`、`usedInGame=false`，到独立 PNG 的转换、alpha 与接入核验完成前不把概念图当成成品。
 
 ## 取得素材
 
@@ -24,7 +32,7 @@ description: 为《下一站，俄罗斯！》准备、筛选和交接可替换�
 
 ## 资源交接
 
-候选先放 `docs/art-prep/<阶段>/`（文档 `.gdignore` 范围）；批准用于工程的独立资源才放 `assets/temp/<阶段>/<模块>/`。不覆盖旧版，文件名带版本，保留作者许可及修改记录。
+概念与候选先放 `docs/art-prep/<阶段>/`（文档 `.gdignore` 范围）；批准用于工程的独立资源放本轮既定资源目录（P1-01R 为 `assets/p1r/<模块>/`）。保留来源、版本与修改记录，不靠 temp 目录名决定必须替换。统一登记路径、使用模块、实际是否接入、来源/提示词、审批、尺寸/alpha、锚点/层、后续替换义务和待改问题。
 
 工程资源以独立 PNG、sRGB、RGBA8 交接：物品/人物/家具/遮挡层真实透明，背景可全不透明；不使用伪透明棋盘格。SVG/PSD/ASE 可留作编辑源，不假称已是游戏 PNG。文字、容量数字、俄中字幕和家具标签由 Godot 控件绘制，不烘焙进最终素材。
 
@@ -32,9 +40,13 @@ description: 为《下一站，俄罗斯！》准备、筛选和交接可替换�
 
 ```json
 {
-  "assetId": "temp.p1r.organize.item.textbook",
-  "status": "TEMP_REPLACE_REQUIRED",
-  "approval": "REVIEW_PENDING",
+  "assetId": "p1r.organization.textbook",
+  "sourceType": "AI_GENERATED",
+  "retentionStatus": "RETAIN_CANDIDATE",
+  "status": "RETAIN_CANDIDATE",
+  "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
+  "usedInGame": false,
+  "replacementRequired": false,
   "sourceUrl": "builtin_generation_or_verified_author_url",
   "author": "actual_creator_or_builtin_generation",
   "licenseNote": "actual_terms_and_review_scope",
@@ -54,4 +66,4 @@ description: 为《下一站，俄罗斯！》准备、筛选和交接可替换�
 
 候选期只核验来源、PNG 解码/实际尺寸/透明度、Skill 有效性及修改范围，不宣称游戏/拖放/平台测试通过。实际接入后再测标签随投影移动、猫线索不被挡、鼠标/触摸拖放与替代点击、横竖屏和既有 P0/P1 回归；记录失败，保留历史触摸风险。
 
-遵守本轮单份汇总约定：报告链接到候选与原始证据，说明已测、未测、授权/审批待办和 Git 状态；不自动进入下一阶段。
+遵守本轮单份汇总约定。P1-01R 汇总需含《美术资源来源与保留清单》，区分仍在游戏的 MUST_REPLACE、已接入的 AI 可保留资源、第三方资源、未用概念和后续缺项；提供真实 Godot 横竖屏图，不用概念图冒充运行截图。说明已测、未测、授权/审批待办和 Git 状态，不自动进入下一阶段。

@@ -19,10 +19,11 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 	flow = story_flow
 	room.p1_controller = self
 	room.debug_button.hide()
-	room.mode_label.text = "TEMP_REPLACE_REQUIRED · 几何占位，正式视觉待集成"
+	room.mode_label.text = "小屋 · 美术方向试用"
+	room.mode_label.hide()
 	room.hunt_action.hide()
 	room.hunt_panel.show()
-	room.hunt_prompt.custom_minimum_size.y = 58
+	room.hunt_prompt.custom_minimum_size.y = 38
 	room.hunt_prompt.text = ""
 	# Shared room canvas, with a genuinely separate life-activity sidebar.
 	var index: int = room.room_view.get_index()
@@ -48,6 +49,28 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 		room.room_view.set_browse_center(room.room_view.project_base(P1Content.object_anchor(room.world, "window")).x))
 	room.selection_bar.add_child(window_button)
 	room.selection_bar.move_child(window_button, 1)
+	# Player-facing browse arrows; the historical furniture/test bar stays in DEV/P0.
+	room.selection_bar.hide()
+	var browse_bar := HBoxContainer.new()
+	room.add_child(browse_bar)
+	room.move_child(browse_bar,room.feedback.get_index())
+	var left: Button = room._make_button("‹")
+	left.custom_minimum_size.x = 64
+	left.pressed.connect(room.room_view.pan.bind(-1.0))
+	flow.style_button(left)
+	browse_bar.add_child(left)
+	var browse_hint := Label.new()
+	browse_hint.text = "左右拖动 · 探索小屋"
+	browse_hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	browse_hint.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	browse_hint.add_theme_font_size_override("font_size",14)
+	browse_bar.add_child(browse_hint)
+	var right: Button = room._make_button("›")
+	right.custom_minimum_size.x = 64
+	right.pressed.connect(room.room_view.pan.bind(1.0))
+	flow.style_button(right)
+	browse_bar.add_child(right)
+	flow.style_button(room.back_button)
 	for entry in P1Content.data().spots:
 		var label = WORLD_LABEL.new()
 		label.object_id = entry.roomObjectId
@@ -79,6 +102,7 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 
 func _side_button(text: String, callback: Callable) -> Button:
 	var button: Button = room._make_button(text)
+	flow.style_button(button)
 	button.pressed.connect(callback)
 	sidebar.add_child(button)
 	return button
@@ -111,6 +135,7 @@ func _refresh() -> void:
 	for entry in P1Content.data().spots:
 		var label: Control = labels[entry.roomObjectId]
 		label.caption.text = entry.ru + ("\n" + entry.zh if not session.state.cat.firstPetCompleted or show_chinese else "")
+		label.queue_redraw()
 	_position_labels()
 
 func _position_labels() -> void:

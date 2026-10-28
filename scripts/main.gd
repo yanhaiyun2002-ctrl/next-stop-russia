@@ -30,7 +30,7 @@ func _ready() -> void:
 	map_view = MAP_SCENE.instantiate()
 	safe_layout.add_child(map_view)
 	map_view.configure(CATALOG)
-	map_view.building_requested.connect(enter_building)
+	map_view.building_requested.connect(_request_building)
 	if not technical_mode:
 		var channel := "DEV" if "--dev" in OS.get_cmdline_user_args() else "PLAYTEST"
 		session = P1Session.new(channel)
@@ -40,7 +40,6 @@ func _ready() -> void:
 					break
 			if session.enter_home() and session.choose_spot("by_window"):
 				session.pet_reaction_completed()
-		map_view.hide()
 		story_flow = load("res://scripts/p1/flow.gd").new()
 		add_child(story_flow)
 		story_flow.setup(self, session)
@@ -52,6 +51,13 @@ func _ready() -> void:
 			technical_mode = true
 			story_flow._clear()
 			map_view.show()
+
+func _request_building(id: StringName) -> void:
+	if not technical_mode and id == &"dormitory" and not session.state.story.homeEntered:
+		if not transitioning and not is_instance_valid(active_room):
+			story_flow.start()
+		return
+	enter_building(id)
 
 func enter_building(id: StringName) -> bool:
 	if transitioning or is_instance_valid(active_room):
@@ -93,6 +99,8 @@ func _enter_room(room: BuildingRoom, id: StringName) -> void:
 	room.back_button.grab_focus()
 	transitioning = false
 	room_entered.emit(id)
+	if not technical_mode and id == &"dormitory":
+		story_flow.home_entered()
 
 func return_to_map() -> bool:
 	if not technical_mode and story_flow != null and story_flow.block_return():
@@ -111,6 +119,8 @@ func _restore_map() -> void:
 	map_view.show()
 	map_view.show_feedback("已返回地图，保留上次建筑位置与选择。")
 	map_view.restore_focus()
+	if not technical_mode:
+		story_flow.refresh_map_entry()
 	await get_tree().process_frame
 	transitioning = false
 	map_returned.emit()

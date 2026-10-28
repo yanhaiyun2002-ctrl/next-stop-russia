@@ -213,7 +213,7 @@ func _framing_text() -> void:
 	if not mode_label or not room_view:
 		return
 	if p1_controller != null:
-		mode_label.text = "TEMP_REPLACE_REQUIRED · 正式视觉待集成"
+		mode_label.text = "小屋 · 左右拖动探索"
 		return
 	var mode := room_view.effective_framing()
 	var portrait := room_view.is_portrait()

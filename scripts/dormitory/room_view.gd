@@ -175,6 +175,9 @@ func rebuild(preserve_pointer := false) -> void:
 	else:
 		for part in cat_parts:
 			_face(part.points, &"cat", part.color, part.depth, part.tie)
+			if part.has("texture"):
+				commands.back().texture = part.texture
+				commands.back().uv = part.uv
 	commands.sort_custom(func(a, b):
 		if not is_equal_approx(a.depth, b.depth):
 			return a.depth > b.depth
@@ -212,9 +215,10 @@ func _face(points: Array[Vector3], owner: StringName, color: Color, depth: float
 	var polygon := PackedVector2Array()
 	for point in points:
 		polygon.append(project(point))
-	commands.append({"polygon": polygon, "owner": owner, "color": color, "depth": depth, "tie": tie})
+	commands.append({"polygon": polygon, "owner": owner, "color": color, "depth": depth, "tie": tie,"world_points":points})
 
 func _box_faces(box: Dictionary, cuts: Array[float]) -> void:
+	var first_command := commands.size()
 	var p: Vector3 = box.origin
 	var end: Vector3 = p + box.size
 	var color: Color = box.color
@@ -234,6 +238,23 @@ func _box_faces(box: Dictionary, cuts: Array[float]) -> void:
 			_face([Vector3(p.x, end.y, a), Vector3(end.x, end.y, a), Vector3(end.x, end.y, b), Vector3(p.x, end.y, b)], owner, color.lightened(0.17), (a + b) / 2, end.y)
 		if side_x * (p.x + end.x) > 0:
 			_face([Vector3(side_x, p.y, a), Vector3(side_x, end.y, a), Vector3(side_x, end.y, b), Vector3(side_x, p.y, b)], owner, color.darkened(0.18), (a + b) / 2, -absf(side_x))
+	if is_instance_valid(world.encounter):
+		for index in range(first_command,commands.size()):
+			var command: Dictionary = commands[index]
+			command.texture = "home.fabric" if owner == &"bed" and p.y >= 0.5 and p.y < 0.8 else "home.wood"
+			var uv := PackedVector2Array()
+			var points: Array = command.world_points
+			var top_face: bool = is_equal_approx(points[0].y,points[1].y) and is_equal_approx(points[0].y,points[2].y)
+			var side_face: bool = is_equal_approx(points[0].x,points[1].x) and is_equal_approx(points[0].x,points[2].x)
+			for point in points:
+				if top_face:
+					uv.append(Vector2((point.x-p.x)/box.size.x,(point.z-p.z)/box.size.z))
+				elif side_face:
+					uv.append(Vector2((point.z-p.z)/box.size.z,1-(point.y-p.y)/box.size.y))
+				else:
+					uv.append(Vector2((point.x-p.x)/box.size.x,1-(point.y-p.y)/box.size.y))
+			command.uv = uv
+			command.color = Color(1.04,1.02,0.98) if top_face else (Color(0.74,0.72,0.68) if side_face else Color(0.94,0.91,0.85))
 
 func _marker() -> void:
 	var x := world.marker_position.x
@@ -251,6 +272,8 @@ func pick(point: Vector2) -> StringName:
 		return &""
 	for i in range(commands.size() - 1, -1, -1):
 		if Geometry2D.is_point_in_polygon(point, commands[i].polygon):
+			if commands[i].get("texture","") == "cat" and not _sprite_hit(commands[i],point):
+				continue
 			return commands[i].owner
 	return &""
 
@@ -333,11 +356,47 @@ func _draw() -> void:
 	draw_rect(Rect2(Vector2.ZERO, size), Color("17242b"))
 	if not is_instance_valid(world):
 		return
-	_room_shell()
-	if composition == "ribbon":
-		_architecture()
+	if is_instance_valid(world.encounter) and P1Art.texture("home.background"):
+		draw_rect(Rect2(Vector2.ZERO,size),Color("cbb28e"))
+		var left := project(Vector3(-world.room_half_width,world.room_height,world.room_depth))
+		left.y = minf(0.0,left.y)
+		var right := Vector2(project(Vector3(world.room_half_width,0,world.room_depth)).x,project(Vector3(0,0,world.room_front)).y)
+		# Room-space rectangle: panning and window changes use the same projection.
+		draw_texture_rect(P1Art.texture("home.background"),Rect2(left,Vector2(right.x-left.x,right.y-left.y)),false)
+	else:
+		_room_shell()
+		if composition == "ribbon":
+			_architecture()
 	for command in commands:
-		draw_colored_polygon(command.polygon, command.color)
+		var texture: Texture2D = P1Art.texture(command.get("texture",""))
+		if texture:
+			draw_polygon(command.polygon,PackedColorArray([command.color]),command.uv,texture)
+		else:
+			draw_colored_polygon(command.polygon, command.color)
+	if is_instance_valid(world.encounter):
+		_draw_furniture_details()
+
+func _sprite_hit(command: Dictionary, point: Vector2) -> bool:
+	var image := P1Art.alpha_image("cat")
+	if image == null:
+		return true
+	var bounds := Rect2(command.polygon[0],Vector2.ZERO)
+	for vertex in command.polygon:
+		bounds = bounds.expand(vertex)
+	var uv: Vector2 = (point-bounds.position)/bounds.size
+	var uv_min := Vector2(1,1)
+	var uv_max := Vector2.ZERO
+	for vertex in command.uv:
+		uv_min = uv_min.min(vertex)
+		uv_max = uv_max.max(vertex)
+	uv = uv_min + uv*(uv_max-uv_min)
+	return image.get_pixel(clampi(int(uv.x*image.get_width()),0,image.get_width()-1),clampi(int(uv.y*image.get_height()),0,image.get_height()-1)).a > 0.15
+
+func _draw_furniture_details() -> void:
+	# Small original hardware lines follow world objects, no new collision objects.
+	var cupboard: Vector2 = world.furniture[&"wardrobe"].floor_position
+	for offset in [-0.11,0.11]:
+		draw_line(project(Vector3(cupboard.x+offset,0.95,cupboard.y-0.008)),project(Vector3(cupboard.x+offset,1.18,cupboard.y-0.008)),Color("5f4930"),maxf(2,view_scale*3),true)
 
 func _room_polygon(points: Array[Vector3], color: Color) -> void:
 	var polygon := PackedVector2Array()

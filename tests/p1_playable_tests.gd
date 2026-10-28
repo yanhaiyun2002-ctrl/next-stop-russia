@@ -106,11 +106,14 @@ func _pet(touch := false) -> void:
 	check(home.p1_controller.encounter.phase == "pet_reaction", "点击猫进入摸猫反馈")
 
 func _restart() -> void:
+	var revision_before: float = app.session.state.revision
 	app.queue_free()
 	await _frames(5)
 	app = MAIN.instantiate()
 	root.add_child(app)
 	await _settle()
+	check(app.map_view.visible and app.active_room == null and app.story_flow.modal_kind.is_empty(), "每次重启先到一级地图")
+	check(app.session.state.revision == revision_before, "地图启动不改变既有存档状态")
 	await _click(app.story_flow.primary_button)
 	await _settle()
 
@@ -137,6 +140,8 @@ func _drag(control: Control, delta: Vector2, touch: bool) -> void:
 			event.button_mask = MOUSE_BUTTON_MASK_LEFT
 			root.push_input(event, true)
 		await _frames(3)
+	if control.get_parent() is P1OrganizationBoard:
+		await _picture("06_drag_%s_%s" % [control.item_id,"touch" if touch else "mouse"])
 	if touch:
 		_touch(origin + delta, false)
 	else:
@@ -153,15 +158,19 @@ func _run() -> void:
 	app = MAIN.instantiate()
 	root.add_child(app)
 	await _settle()
-	check(not app.technical_mode and app.story_flow.modal_kind == "title" and not app.map_view.visible, "默认主入口为玩家旅程，技术地图和 QA 隐藏")
+	check(not app.technical_mode and app.story_flow.modal_kind.is_empty() and app.map_view.visible and app.active_room == null, "默认玩家入口为一级地图；QA仍隐藏")
+	check(not app.enter_building(&"school") and app.last_rejection == &"story_locked", "地图入口不绕过首日其他地点门禁")
 	await _picture("01_title")
 	await _click(app.story_flow.primary_button)
 	for i in range(5):
 		check(app.story_flow.modal_kind == "arrival", "Q00 正常对白 %d" % i)
 		var line: Dictionary = P1Content.data().arrival[i]
-		check(app.story_flow.body.get_child(1).text == line.ru and app.story_flow.body.get_child(2).text == line.zhSubtitle, "俄语与中文字幕同显 " + line.id)
+		check(app.story_flow.russian_line.text == line.ru and app.story_flow.chinese_line.text == line.zhSubtitle, "俄语与中文字幕同显 " + line.id)
+		check(app.story_flow.stage != null and P1Art.texture(app.story_flow.stage.background_id) != null and P1Art.texture(app.story_flow.stage.character_id) != null, "Q00真实背景与独立人物 " + line.id)
 		if i == 2:
 			await _picture("02_admin_key")
+		elif i == 0:
+			await _picture("02_arrival_anna")
 		await _click(app.story_flow.primary_button, i % 2 == 0)
 	check(app.session.state.story.hasHomeKey and not app.session.state.story.homeEntered, "对白结束持钥匙，尚未直接跳猫任务")
 	await _click(app.story_flow.primary_button)
@@ -222,15 +231,59 @@ func _run() -> void:
 	check(not app.session.state.organization.tutorialCompleted, "实际非法/不完整摆放不能推进")
 	check(app.return_to_map() == false and app.story_flow.modal_kind.is_empty(), "整理退出保留进度且不出门")
 	await _click(app.active_room.p1_controller.organize_button)
-	check(app.session.state.organization.placements.textbook == "B", "重进整理恢复摆放")
+	check(not app.session.state.organization.placements.has("textbook") and not app.story_flow.org_status.text.is_empty(), "非法放置保持原状态且重进不丢合法数据")
 	check(app.story_flow.selected_item.is_empty(), "重进整理清除旧选择，提示与操作一致")
+	var board: P1OrganizationBoard = app.story_flow.organization_board
+	await _drag(board.item_controls.textbook, board.bin_rect("A").get_center()-board.item_rect("textbook").get_center(), false)
+	check(app.session.state.organization.placements.get("textbook") == "A", "实际剧情弹窗内鼠标拖放吸附并保存")
+	await _click(app.story_flow.undo_button)
+	check(app.session.state.organization.placements.is_empty(), "实际撤销按钮恢复拖放前状态")
+	await _drag(board.item_controls.washbag, board.bin_rect("C").get_center()-board.item_rect("washbag").get_center(), true)
+	check(app.session.state.organization.placements.get("washbag") == "C", "实际剧情弹窗内合成触摸拖放")
+	await _click(app.story_flow.reset_button, true)
+	check(app.session.state.organization.placements.is_empty(), "实际重置按钮清空摆放")
+	await _click(board.item_controls.passport, true)
+	var empty_slot := board.bin_rect("B").get_center()
+	_touch(empty_slot,true)
+	await _frames(2)
+	_touch(empty_slot,false)
+	await _frames(4)
+	check(app.session.state.organization.placements.get("passport") == "B", "选择物品后触摸空格位也可放置")
+	await _drag(board.item_controls.passport, board.bin_rect("C").get_center()-board.item_rect("passport").get_center(), false)
+	check(app.session.state.organization.placements.get("passport") == "B" and not board.last_drop_valid, "已放置物品可重拖；非法目标反馈并保留原位")
+	await _click(app.story_flow.reset_button)
+	# Exercise the actual Flow ScrollContainer, including content that requires scrolling.
+	var scroll: ScrollContainer = app.story_flow.body.get_parent()
+	var overflow := Control.new()
+	overflow.custom_minimum_size.y = 300
+	app.story_flow.body.add_child(overflow)
+	scroll.scroll_vertical = 0
+	await _frames(6)
+	var drag_origin := board.item_rect("passport").get_center()
+	_mouse(drag_origin,true)
+	await _frames(2)
+	var move := InputEventMouseMotion.new()
+	move.position = drag_origin+Vector2(12,0)
+	move.relative = Vector2(12,0)
+	move.button_mask = MOUSE_BUTTON_MASK_LEFT
+	root.push_input(move,true)
+	await _frames(2)
+	check(board.pointer_active and board.dragging, "实际整理弹窗开始拖动")
+	scroll.scroll_vertical = 24
+	await _frames(3)
+	_mouse(board.bin_rect("B").get_center(),false)
+	await _frames(3)
+	check(scroll.scroll_vertical > 0 and not board.pointer_active and app.session.state.organization.placements.is_empty(), "实际弹窗滚动取消旧拖放且不误存档")
+	overflow.queue_free()
+	scroll.scroll_vertical = 0
+	await _frames(6)
 	for pair in [["textbook","A"],["passport","B"],["scarf","B"],["washbag","C"]]:
 		await _click(app.story_flow.item_buttons[pair[0]], true)
 		await _click(app.story_flow.bin_buttons[pair[1]], true)
 	await _picture("06_organization")
 	await _click(app.story_flow.primary_button)
 	check(app.story_flow.modal_kind == "message" and not app.session.state.story.cityUnlocked, "Q02 完成进入安娜消息但未提前开放城市")
-	check(app.story_flow.body.get_child(1).text == P1Content.data().annaMessage[0].ru and app.story_flow.body.get_child(2).text == P1Content.data().annaMessage[0].zhSubtitle, "安娜消息俄语和中文同显")
+	check(app.story_flow.russian_line.text == P1Content.data().annaMessage[0].ru and app.story_flow.chinese_line.text == P1Content.data().annaMessage[0].zhSubtitle, "安娜消息俄语和中文同显")
 	await _picture("07_anna_message")
 	await _click(app.story_flow.primary_button)
 	await _click(app.story_flow.primary_button, true)

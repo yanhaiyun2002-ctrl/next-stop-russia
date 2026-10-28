@@ -67,8 +67,9 @@ func _run() -> void:
 	_record(OS.has_feature("template") and not OS.has_feature("editor"),"实际 Windows 导出模板运行")
 	_record(not DirAccess.dir_exists_absolute("res://docs") and not DirAccess.dir_exists_absolute("res://.tools") and not DirAccess.dir_exists_absolute("res://tests"),"包内无策划参考/证据/工具密钥/原测试目录")
 	_record(FileAccess.file_exists("res://data/p1/content.json") and FileAccess.file_exists("res://data/p1/organization_tutorial.json"),"独立内容 JSON 已打包")
+	_record(P1Art.texture("org.textbook") != null and P1Art.texture("story.anna") != null and P1Art.texture("home.background") != null and P1Art.texture("cat") != null,"统一登记表与生成素材在独立包可加载")
 	_record(JSON.parse_string(FileAccess.get_file_as_string("res://assets/temp/p1_manifest.json")).releaseStatus == "ART_PENDING","TEMP 清单打包且明确 ART_PENDING")
-	_record(app.story_flow.modal_kind == "title" and not app.technical_mode,"包默认正常 P1 玩家入口")
+	_record(app.map_view.visible and app.active_room == null and not app.technical_mode,"包默认正常地图玩家入口")
 	await _picture("standalone_title")
 	await _click(app.story_flow.primary_button)
 	for i in range(6):

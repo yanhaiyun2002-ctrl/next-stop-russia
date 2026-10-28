@@ -11,6 +11,9 @@ var marker_position := MARKER_POINTS[0]
 var marker_index := 0
 var desk_slot := 0
 var depth_direction := 1.0
+var room_half_width := 3.0
+var room_depth := 5.4
+var room_height := 2.8
 
 func _ready() -> void:
 	for packed in [preload("res://scenes/dormitory/bed.tscn"), preload("res://scenes/dormitory/desk.tscn"), preload("res://scenes/dormitory/wardrobe.tscn")]:
@@ -25,7 +28,7 @@ func all_boxes() -> Array[Dictionary]:
 	return result
 
 func set_marker(point: Vector2) -> void:
-	marker_position = point.clamp(Vector2(-3.1, 0.4), Vector2(3.1, 5.35))
+	marker_position = point.clamp(Vector2(-room_half_width + 0.3, 0.4), Vector2(room_half_width - 0.3, room_depth - 0.05))
 	changed.emit()
 
 func cycle_marker() -> void:
@@ -46,7 +49,7 @@ func move_furniture(id: StringName, point: Vector2) -> bool:
 	var old := item.floor_position
 	item.floor_position = point
 	var footprint := item.footprint()
-	var valid := Rect2(-3.35, 0.05, 6.7, 5.4).encloses(footprint)
+	var valid := Rect2(-room_half_width + 0.05, 0.05, room_half_width * 2 - 0.1, room_depth - 0.1).encloses(footprint)
 	for other in furniture.values():
 		if other != item and footprint.intersects(other.footprint()):
 			valid = false

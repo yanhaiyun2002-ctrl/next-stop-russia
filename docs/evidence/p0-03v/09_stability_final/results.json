@@ -1,0 +1,47 @@
+[
+  {
+    "round": 1,
+    "passed": 268,
+    "failed": 0,
+    "exit_code": 0,
+    "clean_logs": true,
+    "accepted": true,
+    "evidence": "docs/evidence/p0-03v/09_stability_final/round_1"
+  },
+  {
+    "round": 2,
+    "passed": 268,
+    "failed": 0,
+    "exit_code": 0,
+    "clean_logs": true,
+    "accepted": true,
+    "evidence": "docs/evidence/p0-03v/09_stability_final/round_2"
+  },
+  {
+    "round": 3,
+    "passed": 268,
+    "failed": 0,
+    "exit_code": 0,
+    "clean_logs": true,
+    "accepted": true,
+    "evidence": "docs/evidence/p0-03v/09_stability_final/round_3"
+  },
+  {
+    "round": 4,
+    "passed": 268,
+    "failed": 0,
+    "exit_code": 0,
+    "clean_logs": true,
+    "accepted": true,
+    "evidence": "docs/evidence/p0-03v/09_stability_final/round_4"
+  },
+  {
+    "round": 5,
+    "passed": 268,
+    "failed": 0,
+    "exit_code": 0,
+    "clean_logs": true,
+    "accepted": true,
+    "evidence": "docs/evidence/p0-03v/09_stability_final/round_5"
+  }
+]

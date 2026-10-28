@@ -1,0 +1,4396 @@
+{
+	"checks": [
+		{
+			"name": "进入宿舍先完整展示，调试默认收起",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1920x1080_original_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_original_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_original_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_original_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1920x1080_original_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_original_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1920x1080_original_soft",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_original_soft bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_original_soft desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_original_soft wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1920x1080_original_soft",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 pc_1920x1080_original_soft",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_original_soft[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1920x1080_balanced_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_balanced_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_balanced_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_balanced_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1920x1080_balanced_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_balanced_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1920x1080_balanced_soft",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_balanced_soft bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_balanced_soft desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_balanced_soft wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1920x1080_balanced_soft",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 pc_1920x1080_balanced_soft",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_balanced_soft[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1920x1080_compact_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_compact_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_compact_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_compact_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1920x1080_compact_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_compact_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1920x1080_compact_soft",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_compact_soft bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_compact_soft desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1920x1080_compact_soft wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1920x1080_compact_soft",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 pc_1920x1080_compact_soft",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1920x1080_compact_soft[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1280x800_original_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_original_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_original_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_original_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1280x800_original_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_original_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1280x800_original_soft",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_original_soft bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_original_soft desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_original_soft wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1280x800_original_soft",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 pc_1280x800_original_soft",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_original_soft[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1280x800_balanced_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_balanced_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_balanced_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_balanced_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1280x800_balanced_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_balanced_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1280x800_balanced_soft",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_balanced_soft bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_balanced_soft desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_balanced_soft wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1280x800_balanced_soft",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 pc_1280x800_balanced_soft",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_balanced_soft[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1280x800_compact_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_compact_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_compact_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_compact_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1280x800_compact_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_compact_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_1280x800_compact_soft",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_compact_soft bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_compact_soft desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_1280x800_compact_soft wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_1280x800_compact_soft",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 pc_1280x800_compact_soft",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_1280x800_compact_soft[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 pc_compact_eye150_ceiling",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_compact_eye150_ceiling bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_compact_eye150_ceiling desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 pc_compact_eye150_ceiling wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 pc_compact_eye150_ceiling",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 pc_compact_eye150_ceiling[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_A_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_A_ceiling_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_A_ceiling_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_A_ceiling_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1080x1920_A_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_A_ceiling_entry[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_A_soft_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_A_soft_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_A_soft_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1080x1920_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 phone_1080x1920_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_A_soft_entry[]",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1080, 1920) A bed",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1080, 1920) A bed",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (1080, 1920) bed",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_A_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1080, 1920) A bed",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1080, 1920) A desk",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1080, 1920) A desk",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (1080, 1920) desk",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_A_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1080, 1920) A desk",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1080, 1920) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1080, 1920) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (1080, 1920) wardrobe",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_A_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1080, 1920) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1080, 1920) A 0",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1080, 1920) A 1",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1080, 1920) A 2",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_B_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_B_ceiling_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_B_ceiling_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_B_ceiling_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1080x1920_B_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_B_ceiling_entry[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_B_soft_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_B_soft_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1080x1920_B_soft_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1080x1920_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 phone_1080x1920_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1080x1920_B_soft_entry[]",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1080, 1920) B bed",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1080, 1920) B bed",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_B_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1080, 1920) B bed",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1080, 1920) B desk",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1080, 1920) B desk",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_B_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1080, 1920) B desk",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1080, 1920) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1080, 1920) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1080x1920_B_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1080, 1920) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1080, 1920) B 0",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1080, 1920) B 1",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1080, 1920) B 2",
+			"passed": true
+		},
+		{
+			"name": "真实控件展开测试面板 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1080, 1920) ← 横移",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1080, 1920) 横移 →",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1080, 1920) 标记换点",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1080, 1920) 标记前后",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1080, 1920) 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1080, 1920) 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "展开后可移动标记 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "展开后可换位 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 portrait_desk_front_(1080, 1920)[]",
+			"passed": true
+		},
+		{
+			"name": "收起测试面板恢复画布 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_A_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_A_ceiling_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_A_ceiling_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_A_ceiling_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1170x2532_A_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_A_ceiling_entry[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_A_soft_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_A_soft_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_A_soft_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1170x2532_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 phone_1170x2532_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_A_soft_entry[]",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1170, 2532) A bed",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1170, 2532) A bed",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (1170, 2532) bed",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_A_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1170, 2532) A bed",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1170, 2532) A desk",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1170, 2532) A desk",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (1170, 2532) desk",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_A_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1170, 2532) A desk",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1170, 2532) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1170, 2532) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (1170, 2532) wardrobe",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_A_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1170, 2532) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1170, 2532) A 0",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1170, 2532) A 1",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1170, 2532) A 2",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_B_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_B_ceiling_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_B_ceiling_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_B_ceiling_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1170x2532_B_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_B_ceiling_entry[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_B_soft_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_B_soft_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_1170x2532_B_soft_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_1170x2532_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 phone_1170x2532_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_1170x2532_B_soft_entry[]",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1170, 2532) B bed",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1170, 2532) B bed",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_B_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1170, 2532) B bed",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1170, 2532) B desk",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1170, 2532) B desk",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_B_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1170, 2532) B desk",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (1170, 2532) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (1170, 2532) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_1170x2532_B_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (1170, 2532) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1170, 2532) B 0",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1170, 2532) B 1",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (1170, 2532) B 2",
+			"passed": true
+		},
+		{
+			"name": "真实控件展开测试面板 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1170, 2532) ← 横移",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1170, 2532) 横移 →",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1170, 2532) 标记换点",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1170, 2532) 标记前后",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1170, 2532) 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (1170, 2532) 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "展开后可移动标记 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "展开后可换位 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 portrait_desk_front_(1170, 2532)[]",
+			"passed": true
+		},
+		{
+			"name": "收起测试面板恢复画布 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_A_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_A_ceiling_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_A_ceiling_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_A_ceiling_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_360x780_A_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_A_ceiling_entry[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_A_soft_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_A_soft_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_A_soft_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_360x780_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 phone_360x780_A_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_A_soft_entry[]",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (360, 780) A bed",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (360, 780) A bed",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (360, 780) bed",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_A_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (360, 780) A bed",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (360, 780) A desk",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (360, 780) A desk",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (360, 780) desk",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_A_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (360, 780) A desk",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (360, 780) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (360, 780) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "A 可明确按聚焦放大已选家具 (360, 780) wardrobe",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_A_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (360, 780) A wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (360, 780) A 0",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (360, 780) A 1",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (360, 780) A 2",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_B_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_B_ceiling_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_B_ceiling_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_B_ceiling_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_360x780_B_ceiling_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_B_ceiling_entry[]",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_B_soft_entry bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_B_soft_entry desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_360x780_B_soft_entry wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_360x780_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "弱化方案确实减少天花板可见面积 phone_360x780_B_soft_entry",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 phone_360x780_B_soft_entry[]",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (360, 780) B bed",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (360, 780) B bed",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_B_focus_bed",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (360, 780) B bed",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (360, 780) B desk",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (360, 780) B desk",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_B_focus_desk",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (360, 780) B desk",
+			"passed": true
+		},
+		{
+			"name": "全景合成触摸单次命中 (360, 780) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "手机方案点击策略 (360, 780) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_360x780_B_focus_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 测试",
+			"passed": true
+		},
+		{
+			"name": "常驻全景一键返回 (360, 780) B wardrobe",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (360, 780) B 0",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (360, 780) B 1",
+			"passed": true
+		},
+		{
+			"name": "具名触摸入口 (360, 780) B 2",
+			"passed": true
+		},
+		{
+			"name": "真实控件展开测试面板 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (360, 780) ← 横移",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (360, 780) 横移 →",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (360, 780) 标记换点",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (360, 780) 标记前后",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (360, 780) 书桌换位",
+			"passed": true
+		},
+		{
+			"name": "测试操作仍可访问 (360, 780) 天花强弱",
+			"passed": true
+		},
+		{
+			"name": "展开后可移动标记 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "展开后可换位 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "独立射线与可见面拾取一致 portrait_desk_front_(360, 780)[]",
+			"passed": true
+		},
+		{
+			"name": "收起测试面板恢复画布 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "横竖屏与两方案未复制房间实例",
+			"passed": true
+		},
+		{
+			"name": "家具 bed 实例/数据共享",
+			"passed": true
+		},
+		{
+			"name": "家具 desk 实例/数据共享",
+			"passed": true
+		},
+		{
+			"name": "家具 wardrobe 实例/数据共享",
+			"passed": true
+		},
+		{
+			"name": "模拟安全区内全景和返回",
+			"passed": true
+		},
+		{
+			"name": "画布/常驻控件/反馈不溢出 phone_simulated_safe_area",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_simulated_safe_area 床",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_simulated_safe_area 书桌",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_simulated_safe_area 衣柜",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_simulated_safe_area 全景",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_simulated_safe_area 聚焦",
+			"passed": true
+		},
+		{
+			"name": "常驻触摸按钮至少 48 单位 phone_simulated_safe_area 测试",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_simulated_safe_area bed",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_simulated_safe_area desk",
+			"passed": true
+		},
+		{
+			"name": "全景家具完整可见 phone_simulated_safe_area wardrobe",
+			"passed": true
+		},
+		{
+			"name": "全景天花板可见且占画布不足三成 phone_simulated_safe_area",
+			"passed": true
+		},
+		{
+			"name": "构图实验结束可返回同一地图",
+			"passed": true
+		},
+		{
+			"name": "返回焦点恢复且无空间节点残留",
+			"passed": true
+		}
+	],
+	"display_server": "headless",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": 0,
+	"measurements": [
+		{
+			"camera_distance": 3.8,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.155253801551481,
+			"composition": "original",
+			"debug_visible": false,
+			"eye_height": 1.55,
+			"focal": 780.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 130.270202636719,
+					"rect": "[P: (366.3652, 276.7711), S: (214.8403, 130.2702)]",
+					"visible": true,
+					"width": 214.840347290039
+				},
+				"desk": {
+					"height": 82.6477279663086,
+					"rect": "[P: (620.0092, 275.922), S: (117.4304, 82.64773)]",
+					"visible": true,
+					"width": 117.430358886719
+				},
+				"wardrobe": {
+					"height": 154.930633544922,
+					"rect": "[P: (742.4298, 187.2658), S: (101.6126, 154.9306)]",
+					"visible": true,
+					"width": 101.612571716309
+				}
+			},
+			"overview_bounds": "[P: (237.2277, -99.63159), S: (699.9335, 639.7895)]",
+			"room": [
+				6.8,
+				5.5,
+				3.0
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.726801561220613,
+			"scene": "pc_1920x1080_original_ceiling",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 3.8,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0727601596311385,
+			"composition": "original",
+			"debug_visible": false,
+			"eye_height": 1.55,
+			"focal": 780.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 158.63932800293,
+					"rect": "[P: (312.873, 234.0381), S: (261.6264, 158.6393)]",
+					"visible": true,
+					"width": 261.626434326172
+				},
+				"desk": {
+					"height": 100.646041870117,
+					"rect": "[P: (621.7534, 233.0041), S: (143.0033, 100.646)]",
+					"visible": true,
+					"width": 143.003326416016
+				},
+				"wardrobe": {
+					"height": 188.67008972168,
+					"rect": "[P: (770.8337, 125.041), S: (123.7409, 188.6701)]",
+					"visible": true,
+					"width": 123.74089050293
+				}
+			},
+			"overview_bounds": "[P: (237.2277, 14.78056), S: (699.9335, 525.3773)]",
+			"room": [
+				6.8,
+				5.5,
+				3.0
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.885078176933384,
+			"scene": "pc_1920x1080_original_soft",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 8.0,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.12184496436349,
+			"composition": "balanced",
+			"debug_visible": false,
+			"eye_height": 1.4,
+			"focal": 1200.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 145.842681884766,
+					"rect": "[P: (291.1811, 284.8692), S: (247.237, 145.8427)]",
+					"visible": true,
+					"width": 247.236968994141
+				},
+				"desk": {
+					"height": 111.01350402832,
+					"rect": "[P: (592.8421, 286.5811), S: (162.7051, 111.0135)]",
+					"visible": true,
+					"width": 162.705139160156
+				},
+				"wardrobe": {
+					"height": 225.703247070313,
+					"rect": "[P: (773.7098, 158.4261), S: (143.3402, 225.7032)]",
+					"visible": true,
+					"width": 143.340240478516
+				}
+			},
+			"overview_bounds": "[P: (299.7838, -12.0), S: (636.6606, 444.0)]",
+			"room": [
+				6.4,
+				5.5,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.0472972972973,
+			"scene": "pc_1920x1080_balanced_ceiling",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 8.0,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0678869805725993,
+			"composition": "balanced",
+			"debug_visible": false,
+			"eye_height": 1.4,
+			"focal": 1200.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 166.725036621094,
+					"rect": "[P: (245.2449, 257.9318), S: (282.6374, 166.725)]",
+					"visible": true,
+					"width": 282.637390136719
+				},
+				"desk": {
+					"height": 126.908882141113,
+					"rect": "[P: (590.099, 259.8889), S: (186.0019, 126.9089)]",
+					"visible": true,
+					"width": 186.001937866211
+				},
+				"wardrobe": {
+					"height": 258.020355224609,
+					"rect": "[P: (796.8641, 113.3841), S: (163.8643, 258.0204)]",
+					"visible": true,
+					"width": 163.864288330078
+				}
+			},
+			"overview_bounds": "[P: (299.7838, 43.61111), S: (636.6606, 388.3889)]",
+			"room": [
+				6.4,
+				5.5,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.19725362223924,
+			"scene": "pc_1920x1080_balanced_soft",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0968080095349167,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 146.48193359375,
+					"rect": "[P: (273.1743, 292.538), S: (250.2644, 146.4819)]",
+					"visible": true,
+					"width": 250.264358520508
+				},
+				"desk": {
+					"height": 119.873626708984,
+					"rect": "[P: (583.2678, 295.6721), S: (177.9086, 119.8736)]",
+					"visible": true,
+					"width": 177.908615112305
+				},
+				"wardrobe": {
+					"height": 252.488677978516,
+					"rect": "[P: (787.1426, 152.7506), S: (157.7469, 252.4887)]",
+					"visible": true,
+					"width": 157.746856689453
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.24331550802139,
+			"scene": "pc_1920x1080_compact_ceiling",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.061212757665179,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 162.962631225586,
+					"rect": "[P: (235.053, 272.2342), S: (278.4216, 162.9626)]",
+					"visible": true,
+					"width": 278.421630859375
+				},
+				"desk": {
+					"height": 133.360626220703,
+					"rect": "[P: (580.0351, 275.7209), S: (197.9251, 133.3606)]",
+					"visible": true,
+					"width": 197.925140380859
+				},
+				"wardrobe": {
+					"height": 280.896209716797,
+					"rect": "[P: (806.848, 116.7193), S: (175.495, 280.8962)]",
+					"visible": true,
+					"width": 175.494979858398
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.38320104351561,
+			"scene": "pc_1920x1080_compact_soft",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 3.8,
+			"canvas": "(1224.0, 561.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.182622507890049,
+			"composition": "original",
+			"debug_visible": false,
+			"eye_height": 1.55,
+			"focal": 780.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 152.682281494141,
+					"rect": "[P: (324.1055, 323.0114), S: (251.8021, 152.6823)]",
+					"visible": true,
+					"width": 251.802139282227
+				},
+				"desk": {
+					"height": 96.8666915893555,
+					"rect": "[P: (621.3871, 322.0161), S: (137.6334, 96.86669)]",
+					"visible": true,
+					"width": 137.633422851563
+				},
+				"wardrobe": {
+					"height": 181.585357666016,
+					"rect": "[P: (764.8694, 218.1072), S: (119.0943, 181.5854)]",
+					"visible": true,
+					"width": 119.094306945801
+				}
+			},
+			"overview_bounds": "[P: (237.2277, -99.63159), S: (699.9335, 639.7895)]",
+			"room": [
+				6.8,
+				5.5,
+				3.0
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.851842690032761,
+			"scene": "pc_1280x800_original_ceiling",
+			"scheme": "B",
+			"window": "(1280, 800)"
+		},
+		{
+			"camera_distance": 3.8,
+			"canvas": "(1224.0, 561.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0856964561804882,
+			"composition": "original",
+			"debug_visible": false,
+			"eye_height": 1.55,
+			"focal": 780.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 185.932113647461,
+					"rect": "[P: (261.4103, 272.9264), S: (306.6375, 185.9321)]",
+					"visible": true,
+					"width": 306.637451171875
+				},
+				"desk": {
+					"height": 117.961486816406,
+					"rect": "[P: (623.4314, 271.7145), S: (167.606, 117.9615)]",
+					"visible": true,
+					"width": 167.606048583984
+				},
+				"wardrobe": {
+					"height": 221.129455566406,
+					"rect": "[P: (798.16, 145.1771), S: (145.0296, 221.1295)]",
+					"visible": true,
+					"width": 145.029647827148
+				}
+			},
+			"overview_bounds": "[P: (237.2277, 14.78056), S: (699.9335, 525.3773)]",
+			"room": [
+				6.8,
+				5.5,
+				3.0
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.0373496912445,
+			"scene": "pc_1280x800_original_soft",
+			"scheme": "B",
+			"window": "(1280, 800)"
+		},
+		{
+			"camera_distance": 8.0,
+			"canvas": "(1224.0, 561.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.143503038757629,
+			"composition": "balanced",
+			"debug_visible": false,
+			"eye_height": 1.4,
+			"focal": 1200.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 170.933898925781,
+					"rect": "[P: (235.9864, 332.5026), S: (289.7724, 170.9339)]",
+					"visible": true,
+					"width": 289.772369384766
+				},
+				"desk": {
+					"height": 130.112609863281,
+					"rect": "[P: (589.5461, 334.509), S: (190.6974, 130.1126)]",
+					"visible": true,
+					"width": 190.69743347168
+				},
+				"wardrobe": {
+					"height": 264.533905029297,
+					"rect": "[P: (801.5309, 184.3058), S: (168.0009, 264.5339)]",
+					"visible": true,
+					"width": 168.000930786133
+				}
+			},
+			"overview_bounds": "[P: (299.7838, -12.0), S: (636.6606, 444.0)]",
+			"room": [
+				6.4,
+				5.5,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.22747747747748,
+			"scene": "pc_1280x800_balanced_ceiling",
+			"scheme": "B",
+			"window": "(1280, 800)"
+		},
+		{
+			"camera_distance": 8.0,
+			"canvas": "(1224.0, 561.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0799568802652662,
+			"composition": "balanced",
+			"debug_visible": false,
+			"eye_height": 1.4,
+			"focal": 1200.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 195.408905029297,
+					"rect": "[P: (182.1472, 300.9308), S: (331.2632, 195.4089)]",
+					"visible": true,
+					"width": 331.263153076172
+				},
+				"desk": {
+					"height": 148.742660522461,
+					"rect": "[P: (586.3311, 303.2246), S: (218.0023, 148.7427)]",
+					"visible": true,
+					"width": 218.00227355957
+				},
+				"wardrobe": {
+					"height": 302.410980224609,
+					"rect": "[P: (828.6687, 131.5147), S: (192.056, 302.411)]",
+					"visible": true,
+					"width": 192.055999755859
+				}
+			},
+			"overview_bounds": "[P: (299.7838, 43.61111), S: (636.6606, 388.3889)]",
+			"room": [
+				6.4,
+				5.5,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.40323274004385,
+			"scene": "pc_1280x800_balanced_soft",
+			"scheme": "B",
+			"window": "(1280, 800)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(1224.0, 561.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.114019888952011,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 171.683135986328,
+					"rect": "[P: (214.8817, 341.4908), S: (293.3206, 171.6831)]",
+					"visible": true,
+					"width": 293.320617675781
+				},
+				"desk": {
+					"height": 140.497055053711,
+					"rect": "[P: (578.3246, 345.1641), S: (208.5166, 140.4971)]",
+					"visible": true,
+					"width": 208.516571044922
+				},
+				"wardrobe": {
+					"height": 295.927581787109,
+					"rect": "[P: (817.2747, 177.654), S: (184.8861, 295.9276)]",
+					"visible": true,
+					"width": 184.886108398438
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.4572192513369,
+			"scene": "pc_1280x800_compact_ceiling",
+			"scheme": "B",
+			"window": "(1280, 800)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(1224.0, 561.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0720960093012876,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 190.999221801758,
+					"rect": "[P: (170.2019, 317.6938), S: (326.3221, 190.9992)]",
+					"visible": true,
+					"width": 326.322143554688
+				},
+				"desk": {
+					"height": 156.304382324219,
+					"rect": "[P: (574.5358, 321.7805), S: (231.9768, 156.3044)]",
+					"visible": true,
+					"width": 231.976776123047
+				},
+				"wardrobe": {
+					"height": 329.222442626953,
+					"rect": "[P: (840.3702, 135.4237), S: (205.6877, 329.2224)]",
+					"visible": true,
+					"width": 205.68766784668
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.6211711155183,
+			"scene": "pc_1280x800_compact_soft",
+			"scheme": "B",
+			"window": "(1280, 800)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(1224.0, 481.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0839002512658303,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.5,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 150.301498413086,
+					"rect": "[P: (273.1743, 285.7861), S: (250.2644, 150.3015)]",
+					"visible": true,
+					"width": 250.264358520508
+				},
+				"desk": {
+					"height": 121.100547790527,
+					"rect": "[P: (583.2678, 287.9014), S: (177.9086, 121.1005)]",
+					"visible": true,
+					"width": 177.908615112305
+				},
+				"wardrobe": {
+					"height": 252.488693237305,
+					"rect": "[P: (787.1426, 144.6212), S: (157.7469, 252.4887)]",
+					"visible": true,
+					"width": 157.746856689453
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 35.50002), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.24331550802139,
+			"scene": "pc_compact_eye150_ceiling",
+			"scheme": "B",
+			"window": "(1920, 1080)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0689436968869883,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 80.7472457885742,
+					"rect": "[P: (16.22446, 311.1856), S: (137.9567, 80.74725)]",
+					"visible": true,
+					"width": 137.956665039063
+				},
+				"desk": {
+					"height": 66.0795822143555,
+					"rect": "[P: (187.1615, 312.9133), S: (98.07101, 66.07958)]",
+					"visible": true,
+					"width": 98.0710144042969
+				},
+				"wardrobe": {
+					"height": 139.182800292969,
+					"rect": "[P: (299.5463, 234.1287), S: (86.95697, 139.1828)]",
+					"visible": true,
+					"width": 86.9569702148438
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.68536985029523,
+			"scene": "phone_1080x1920_A_ceiling_entry",
+			"scheme": "A",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0376189274236835,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 80.7472457885742,
+					"rect": "[P: (16.22446, 298.2242), S: (137.9567, 80.74725)]",
+					"visible": true,
+					"width": 137.956665039063
+				},
+				"desk": {
+					"height": 66.0795822143555,
+					"rect": "[P: (187.1615, 299.9518), S: (98.07101, 66.07958)]",
+					"visible": true,
+					"width": 98.0710144042969
+				},
+				"wardrobe": {
+					"height": 139.182800292969,
+					"rect": "[P: (299.5463, 221.1672), S: (86.95697, 139.1828)]",
+					"visible": true,
+					"width": 86.9569702148438
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.68536985029523,
+			"scene": "phone_1080x1920_A_soft_entry",
+			"scheme": "A",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "bed",
+			"furniture": {
+				"bed": {
+					"height": 169.64794921875,
+					"rect": "[P: (58.07825, 197.676), S: (289.8435, 169.6479)]",
+					"visible": true,
+					"width": 289.843505859375
+				},
+				"desk": {
+					"height": 138.831558227539,
+					"rect": "[P: (417.2128, 201.3058), S: (206.0448, 138.8316)]",
+					"visible": false,
+					"width": 206.04475402832
+				},
+				"wardrobe": {
+					"height": 292.419586181641,
+					"rect": "[P: (653.3303, 35.78134), S: (182.6944, 292.4196)]",
+					"visible": false,
+					"width": 182.694427490234
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.43994504054663,
+			"scene": "phone_1080x1920_A_focus_bed",
+			"scheme": "A",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "desk",
+			"furniture": {
+				"bed": {
+					"height": 217.321441650391,
+					"rect": "[P: (-389.0295, 188.9276), S: (371.2936, 217.3214)]",
+					"visible": false,
+					"width": 371.293640136719
+				},
+				"desk": {
+					"height": 177.845199584961,
+					"rect": "[P: (71.02693, 193.5774), S: (263.9463, 177.8452)]",
+					"visible": true,
+					"width": 263.946258544922
+				},
+				"wardrobe": {
+					"height": 374.593658447266,
+					"rect": "[P: (373.4969, -18.46176), S: (234.0341, 374.5937)]",
+					"visible": true,
+					"width": 234.034149169922
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.84458990090472,
+			"scene": "phone_1080x1920_A_focus_desk",
+			"scheme": "A",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "wardrobe",
+			"furniture": {
+				"bed": {
+					"height": 235.784286499023,
+					"rect": "[P: (-751.2663, 304.2995), S: (402.8374, 235.7843)]",
+					"visible": false,
+					"width": 402.83740234375
+				},
+				"desk": {
+					"height": 192.954284667969,
+					"rect": "[P: (-252.1252, 309.3444), S: (286.3702, 192.9543)]",
+					"visible": true,
+					"width": 286.370178222656
+				},
+				"wardrobe": {
+					"height": 406.417755126953,
+					"rect": "[P: (76.04158, 79.29114), S: (253.9168, 406.4178)]",
+					"visible": true,
+					"width": 253.916839599609
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 2.00129951856419,
+			"scene": "phone_1080x1920_A_focus_wardrobe",
+			"scheme": "A",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0689436968869883,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 80.7472457885742,
+					"rect": "[P: (16.22446, 311.1856), S: (137.9567, 80.74725)]",
+					"visible": true,
+					"width": 137.956665039063
+				},
+				"desk": {
+					"height": 66.0795822143555,
+					"rect": "[P: (187.1615, 312.9133), S: (98.07101, 66.07958)]",
+					"visible": true,
+					"width": 98.0710144042969
+				},
+				"wardrobe": {
+					"height": 139.182800292969,
+					"rect": "[P: (299.5463, 234.1287), S: (86.95697, 139.1828)]",
+					"visible": true,
+					"width": 86.9569702148438
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.68536985029523,
+			"scene": "phone_1080x1920_B_ceiling_entry",
+			"scheme": "B",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.0376189274236835,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 80.7472457885742,
+					"rect": "[P: (16.22446, 298.2242), S: (137.9567, 80.74725)]",
+					"visible": true,
+					"width": 137.956665039063
+				},
+				"desk": {
+					"height": 66.0795822143555,
+					"rect": "[P: (187.1615, 299.9518), S: (98.07101, 66.07958)]",
+					"visible": true,
+					"width": 98.0710144042969
+				},
+				"wardrobe": {
+					"height": 139.182800292969,
+					"rect": "[P: (299.5463, 221.1672), S: (86.95697, 139.1828)]",
+					"visible": true,
+					"width": 86.9569702148438
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.68536985029523,
+			"scene": "phone_1080x1920_B_soft_entry",
+			"scheme": "B",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "bed",
+			"furniture": {
+				"bed": {
+					"height": 169.64794921875,
+					"rect": "[P: (58.07825, 197.676), S: (289.8435, 169.6479)]",
+					"visible": true,
+					"width": 289.843505859375
+				},
+				"desk": {
+					"height": 138.831558227539,
+					"rect": "[P: (417.2128, 201.3058), S: (206.0448, 138.8316)]",
+					"visible": false,
+					"width": 206.04475402832
+				},
+				"wardrobe": {
+					"height": 292.419586181641,
+					"rect": "[P: (653.3303, 35.78134), S: (182.6944, 292.4196)]",
+					"visible": false,
+					"width": 182.694427490234
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.43994504054663,
+			"scene": "phone_1080x1920_B_focus_bed",
+			"scheme": "B",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "desk",
+			"furniture": {
+				"bed": {
+					"height": 217.321441650391,
+					"rect": "[P: (-389.0295, 188.9276), S: (371.2936, 217.3214)]",
+					"visible": false,
+					"width": 371.293640136719
+				},
+				"desk": {
+					"height": 177.845199584961,
+					"rect": "[P: (71.02693, 193.5774), S: (263.9463, 177.8452)]",
+					"visible": true,
+					"width": 263.946258544922
+				},
+				"wardrobe": {
+					"height": 374.593658447266,
+					"rect": "[P: (373.4969, -18.46176), S: (234.0341, 374.5937)]",
+					"visible": true,
+					"width": 234.034149169922
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.84458990090472,
+			"scene": "phone_1080x1920_B_focus_desk",
+			"scheme": "B",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(406.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "wardrobe",
+			"furniture": {
+				"bed": {
+					"height": 235.784286499023,
+					"rect": "[P: (-751.2663, 304.2995), S: (402.8374, 235.7843)]",
+					"visible": false,
+					"width": 402.83740234375
+				},
+				"desk": {
+					"height": 192.954284667969,
+					"rect": "[P: (-252.1252, 309.3444), S: (286.3702, 192.9543)]",
+					"visible": true,
+					"width": 286.370178222656
+				},
+				"wardrobe": {
+					"height": 406.417755126953,
+					"rect": "[P: (76.04158, 79.29114), S: (253.9168, 406.4178)]",
+					"visible": true,
+					"width": 253.916839599609
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 2.00129951856419,
+			"scene": "phone_1080x1920_B_focus_wardrobe",
+			"scheme": "B",
+			"window": "(1080, 1920)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0549830100151933,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_1170x2532_A_ceiling_entry",
+			"scheme": "A",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.029923219802234,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_1170x2532_A_soft_entry",
+			"scheme": "A",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0502471809378973,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "bed",
+			"furniture": {
+				"bed": {
+					"height": 135.007797241211,
+					"rect": "[P: (48.6696, 214.9961), S: (230.6608, 135.0078)]",
+					"visible": true,
+					"width": 230.660797119141
+				},
+				"desk": {
+					"height": 110.483757019043,
+					"rect": "[P: (334.473, 217.8847), S: (163.9728, 110.4838)]",
+					"visible": false,
+					"width": 163.972793579102
+				},
+				"wardrobe": {
+					"height": 232.710876464844,
+					"rect": "[P: (522.3781, 86.15845), S: (145.3903, 232.7109)]",
+					"visible": false,
+					"width": 145.390335083008
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.1459248490214,
+			"scene": "phone_1170x2532_A_focus_bed",
+			"scheme": "A",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "desk",
+			"furniture": {
+				"bed": {
+					"height": 172.946899414063,
+					"rect": "[P: (-307.1439, 208.034), S: (295.4798, 172.9469)]",
+					"visible": false,
+					"width": 295.479766845703
+				},
+				"desk": {
+					"height": 141.531265258789,
+					"rect": "[P: (58.97431, 211.7344), S: (210.0515, 141.5313)]",
+					"visible": true,
+					"width": 210.051467895508
+				},
+				"wardrobe": {
+					"height": 298.105926513672,
+					"rect": "[P: (299.6834, 42.99117), S: (186.2471, 298.1059)]",
+					"visible": true,
+					"width": 186.2470703125
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.46794588972522,
+			"scene": "phone_1170x2532_A_focus_desk",
+			"scheme": "A",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0793169205630801,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "wardrobe",
+			"furniture": {
+				"bed": {
+					"height": 187.639831542969,
+					"rect": "[P: (-595.4161, 299.8483), S: (320.5826, 187.6398)]",
+					"visible": false,
+					"width": 320.582641601563
+				},
+				"desk": {
+					"height": 153.555236816406,
+					"rect": "[P: (-198.1938, 303.8631), S: (227.8967, 153.5552)]",
+					"visible": true,
+					"width": 227.896667480469
+				},
+				"wardrobe": {
+					"height": 323.431915283203,
+					"rect": "[P: (62.96503, 120.7841), S: (202.0699, 323.4319)]",
+					"visible": true,
+					"width": 202.069931030273
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.59265720849087,
+			"scene": "phone_1170x2532_A_focus_wardrobe",
+			"scheme": "A",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0549830100151933,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_1170x2532_B_ceiling_entry",
+			"scheme": "B",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.029923219802234,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_1170x2532_B_soft_entry",
+			"scheme": "B",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0502471809378973,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "bed",
+			"furniture": {
+				"bed": {
+					"height": 135.007797241211,
+					"rect": "[P: (48.6696, 214.9961), S: (230.6608, 135.0078)]",
+					"visible": true,
+					"width": 230.660797119141
+				},
+				"desk": {
+					"height": 110.483757019043,
+					"rect": "[P: (334.473, 217.8847), S: (163.9728, 110.4838)]",
+					"visible": false,
+					"width": 163.972793579102
+				},
+				"wardrobe": {
+					"height": 232.710876464844,
+					"rect": "[P: (522.3781, 86.15845), S: (145.3903, 232.7109)]",
+					"visible": false,
+					"width": 145.390335083008
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.1459248490214,
+			"scene": "phone_1170x2532_B_focus_bed",
+			"scheme": "B",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "desk",
+			"furniture": {
+				"bed": {
+					"height": 172.946899414063,
+					"rect": "[P: (-307.1439, 208.034), S: (295.4798, 172.9469)]",
+					"visible": false,
+					"width": 295.479766845703
+				},
+				"desk": {
+					"height": 141.531265258789,
+					"rect": "[P: (58.97431, 211.7344), S: (210.0515, 141.5313)]",
+					"visible": true,
+					"width": 210.051467895508
+				},
+				"wardrobe": {
+					"height": 298.105926513672,
+					"rect": "[P: (299.6834, 42.99117), S: (186.2471, 298.1059)]",
+					"visible": true,
+					"width": 186.2470703125
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.46794588972522,
+			"scene": "phone_1170x2532_B_focus_desk",
+			"scheme": "B",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0793169205630801,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "wardrobe",
+			"furniture": {
+				"bed": {
+					"height": 187.639831542969,
+					"rect": "[P: (-595.4161, 299.8483), S: (320.5826, 187.6398)]",
+					"visible": false,
+					"width": 320.582641601563
+				},
+				"desk": {
+					"height": 153.555236816406,
+					"rect": "[P: (-198.1938, 303.8631), S: (227.8967, 153.5552)]",
+					"visible": true,
+					"width": 227.896667480469
+				},
+				"wardrobe": {
+					"height": 323.431915283203,
+					"rect": "[P: (62.96503, 120.7841), S: (202.0699, 323.4319)]",
+					"visible": true,
+					"width": 202.069931030273
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.59265720849087,
+			"scene": "phone_1170x2532_B_focus_wardrobe",
+			"scheme": "B",
+			"window": "(1170, 2532)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0549830100151933,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_360x780_A_ceiling_entry",
+			"scheme": "A",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.029923219802234,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_360x780_A_soft_entry",
+			"scheme": "A",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0502471809378973,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "bed",
+			"furniture": {
+				"bed": {
+					"height": 135.007797241211,
+					"rect": "[P: (48.6696, 214.9961), S: (230.6608, 135.0078)]",
+					"visible": true,
+					"width": 230.660797119141
+				},
+				"desk": {
+					"height": 110.483757019043,
+					"rect": "[P: (334.473, 217.8847), S: (163.9728, 110.4838)]",
+					"visible": false,
+					"width": 163.972793579102
+				},
+				"wardrobe": {
+					"height": 232.710876464844,
+					"rect": "[P: (522.3781, 86.15845), S: (145.3903, 232.7109)]",
+					"visible": false,
+					"width": 145.390335083008
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.1459248490214,
+			"scene": "phone_360x780_A_focus_bed",
+			"scheme": "A",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "desk",
+			"furniture": {
+				"bed": {
+					"height": 172.946899414063,
+					"rect": "[P: (-307.1439, 208.034), S: (295.4798, 172.9469)]",
+					"visible": false,
+					"width": 295.479766845703
+				},
+				"desk": {
+					"height": 141.531265258789,
+					"rect": "[P: (58.97431, 211.7344), S: (210.0515, 141.5313)]",
+					"visible": true,
+					"width": 210.051467895508
+				},
+				"wardrobe": {
+					"height": 298.105926513672,
+					"rect": "[P: (299.6834, 42.99117), S: (186.2471, 298.1059)]",
+					"visible": true,
+					"width": 186.2470703125
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.46794588972522,
+			"scene": "phone_360x780_A_focus_desk",
+			"scheme": "A",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0793169205630801,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "wardrobe",
+			"furniture": {
+				"bed": {
+					"height": 187.639831542969,
+					"rect": "[P: (-595.4161, 299.8483), S: (320.5826, 187.6398)]",
+					"visible": false,
+					"width": 320.582641601563
+				},
+				"desk": {
+					"height": 153.555236816406,
+					"rect": "[P: (-198.1938, 303.8631), S: (227.8967, 153.5552)]",
+					"visible": true,
+					"width": 227.896667480469
+				},
+				"wardrobe": {
+					"height": 323.431915283203,
+					"rect": "[P: (62.96503, 120.7841), S: (202.0699, 323.4319)]",
+					"visible": true,
+					"width": 202.069931030273
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.59265720849087,
+			"scene": "phone_360x780_A_focus_wardrobe",
+			"scheme": "A",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0549830100151933,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_360x780_B_ceiling_entry",
+			"scheme": "B",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": false,
+			"ceiling_screen_fraction": 0.029923219802234,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 48.32327), S: (569.0358, 336.1767)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_360x780_B_soft_entry",
+			"scheme": "B",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0502471809378973,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "bed",
+			"furniture": {
+				"bed": {
+					"height": 135.007797241211,
+					"rect": "[P: (48.6696, 214.9961), S: (230.6608, 135.0078)]",
+					"visible": true,
+					"width": 230.660797119141
+				},
+				"desk": {
+					"height": 110.483757019043,
+					"rect": "[P: (334.473, 217.8847), S: (163.9728, 110.4838)]",
+					"visible": false,
+					"width": 163.972793579102
+				},
+				"wardrobe": {
+					"height": 232.710876464844,
+					"rect": "[P: (522.3781, 86.15845), S: (145.3903, 232.7109)]",
+					"visible": false,
+					"width": 145.390335083008
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.1459248490214,
+			"scene": "phone_360x780_B_focus_bed",
+			"scheme": "B",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "desk",
+			"furniture": {
+				"bed": {
+					"height": 172.946899414063,
+					"rect": "[P: (-307.1439, 208.034), S: (295.4798, 172.9469)]",
+					"visible": false,
+					"width": 295.479766845703
+				},
+				"desk": {
+					"height": 141.531265258789,
+					"rect": "[P: (58.97431, 211.7344), S: (210.0515, 141.5313)]",
+					"visible": true,
+					"width": 210.051467895508
+				},
+				"wardrobe": {
+					"height": 298.105926513672,
+					"rect": "[P: (299.6834, 42.99117), S: (186.2471, 298.1059)]",
+					"visible": true,
+					"width": 186.2470703125
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.46794588972522,
+			"scene": "phone_360x780_B_focus_desk",
+			"scheme": "B",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 565.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0793169205630801,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "wardrobe",
+			"furniture": {
+				"bed": {
+					"height": 187.639831542969,
+					"rect": "[P: (-595.4161, 299.8483), S: (320.5826, 187.6398)]",
+					"visible": false,
+					"width": 320.582641601563
+				},
+				"desk": {
+					"height": 153.555236816406,
+					"rect": "[P: (-198.1938, 303.8631), S: (227.8967, 153.5552)]",
+					"visible": true,
+					"width": 227.896667480469
+				},
+				"wardrobe": {
+					"height": 323.431915283203,
+					"rect": "[P: (62.96503, 120.7841), S: (202.0699, 323.4319)]",
+					"visible": true,
+					"width": 202.069931030273
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 1.59265720849087,
+			"scene": "phone_360x780_B_focus_wardrobe",
+			"scheme": "B",
+			"window": "(360, 780)"
+		},
+		{
+			"camera_distance": 12.0,
+			"canvas": "(328.0, 486.0)",
+			"ceiling_emphasis": true,
+			"ceiling_screen_fraction": 0.0639205882076182,
+			"composition": "compact",
+			"debug_visible": false,
+			"eye_height": 1.3,
+			"focal": 1500.0,
+			"framing": "overview",
+			"furniture": {
+				"bed": {
+					"height": 64.5977935791016,
+					"rect": "[P: (14.57957, 265.9485), S: (110.3653, 64.59779)]",
+					"visible": true,
+					"width": 110.365325927734
+				},
+				"desk": {
+					"height": 52.8636665344238,
+					"rect": "[P: (151.3292, 267.3306), S: (78.45681, 52.86367)]",
+					"visible": true,
+					"width": 78.4568099975586
+				},
+				"wardrobe": {
+					"height": 111.346229553223,
+					"rect": "[P: (241.237, 204.303), S: (69.56557, 111.3462)]",
+					"visible": true,
+					"width": 69.5655746459961
+				}
+			},
+			"overview_bounds": "[P: (341.5849, 10.5), S: (569.0358, 374.0)]",
+			"room": [
+				6.0,
+				5.4,
+				2.8
+			],
+			"sampled_canvas_pixels": 0,
+			"sampled_ceiling_pixels": 0,
+			"scale": 0.548295880236184,
+			"scene": "phone_simulated_safe_area",
+			"scheme": "B",
+			"window": "(1170, 2532)"
+		}
+	],
+	"passed": 571,
+	"ray_samples": [
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1780,
+			"rendered_pixels": 0,
+			"scene": "pc_1920x1080_original_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1758,
+			"rendered_pixels": 0,
+			"scene": "pc_1920x1080_original_soft"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1755,
+			"rendered_pixels": 0,
+			"scene": "pc_1920x1080_balanced_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1783,
+			"rendered_pixels": 0,
+			"scene": "pc_1920x1080_balanced_soft"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1767,
+			"rendered_pixels": 0,
+			"scene": "pc_1920x1080_compact_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1785,
+			"rendered_pixels": 0,
+			"scene": "pc_1920x1080_compact_soft"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2090,
+			"rendered_pixels": 0,
+			"scene": "pc_1280x800_original_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2094,
+			"rendered_pixels": 0,
+			"scene": "pc_1280x800_original_soft"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2085,
+			"rendered_pixels": 0,
+			"scene": "pc_1280x800_balanced_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2068,
+			"rendered_pixels": 0,
+			"scene": "pc_1280x800_balanced_soft"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2092,
+			"rendered_pixels": 0,
+			"scene": "pc_1280x800_compact_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 2104,
+			"rendered_pixels": 0,
+			"scene": "pc_1280x800_compact_soft"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 1762,
+			"rendered_pixels": 0,
+			"scene": "pc_compact_eye150_ceiling"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 684,
+			"rendered_pixels": 0,
+			"scene": "phone_1080x1920_A_ceiling_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 692,
+			"rendered_pixels": 0,
+			"scene": "phone_1080x1920_A_soft_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 684,
+			"rendered_pixels": 0,
+			"scene": "phone_1080x1920_B_ceiling_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 692,
+			"rendered_pixels": 0,
+			"scene": "phone_1080x1920_B_soft_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 478,
+			"rendered_pixels": 0,
+			"scene": "portrait_desk_front_(1080, 1920)"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 555,
+			"rendered_pixels": 0,
+			"scene": "phone_1170x2532_A_ceiling_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 557,
+			"rendered_pixels": 0,
+			"scene": "phone_1170x2532_A_soft_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 555,
+			"rendered_pixels": 0,
+			"scene": "phone_1170x2532_B_ceiling_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 557,
+			"rendered_pixels": 0,
+			"scene": "phone_1170x2532_B_soft_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 412,
+			"rendered_pixels": 0,
+			"scene": "portrait_desk_front_(1170, 2532)"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 555,
+			"rendered_pixels": 0,
+			"scene": "phone_360x780_A_ceiling_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 557,
+			"rendered_pixels": 0,
+			"scene": "phone_360x780_A_soft_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 555,
+			"rendered_pixels": 0,
+			"scene": "phone_360x780_B_ceiling_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 557,
+			"rendered_pixels": 0,
+			"scene": "phone_360x780_B_soft_entry"
+		},
+		{
+			"first_mismatches": [],
+			"first_pixel_mismatches": [],
+			"rays": 414,
+			"rendered_pixels": 0,
+			"scene": "portrait_desk_front_(360, 780)"
+		}
+	],
+	"scope": "Windows rendered/synthetic touch only; no human playtest or mobile device validation",
+	"screenshots": []
+}

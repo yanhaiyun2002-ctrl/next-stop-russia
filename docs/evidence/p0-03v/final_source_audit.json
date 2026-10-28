@@ -1,0 +1,17 @@
+{
+  "_marker": true,
+  "pick": true,
+  "visible_point": true,
+  "_gui_input": true,
+  "box_faces_only_eye_height_parameter_changed": true,
+  "original_evidence_unchanged": true,
+  "source_sha256": {
+    "scripts/dormitory/dormitory.gd": "32e57cf1474bb81105571e2048df28360da5e8126f979b22f5d0691ed3d900c0",
+    "scripts/dormitory/room_view.gd": "3d4e63e8578b2ee48cf06b84d4b5165c42727f7cd8ce5494c0485df8ca076bcf",
+    "scripts/dormitory/room_world.gd": "08501e9ba0410fe143ea12f030e9e5fca10d41fb4bbd8e380e5c851f541d9007",
+    "tests/run_tests.gd": "162064ccfb99d1be46cf27850fa7e8f6993dd59a1a65c19716848532f2ce5f0e",
+    "tests/dormitory_tests.gd": "ee380a057c58d21eecc822bdfa656e452a25ca5b673abf95b790b37f8a5fba19",
+    "tests/composition_tests.gd": "c9f755319dbebdc16187a7064f926f68677cd78b89c35c36b106f1c64e9a2c96",
+    "tests/composition.ps1": "3aa78ad39c8c7c903fc18aaaa66a34773d931061e2e2f7a52f2bffc959f08e3d"
+  }
+}

@@ -5,11 +5,21 @@ extends Control
 signal object_selected(id: StringName)
 signal framing_changed
 
-const EYE_HEIGHT := 1.55
-const CAMERA_DISTANCE := 3.8
-const FOCAL := 780.0
 const HORIZON := Vector2(640, 210)
 const MARKER_COLOR := Color("ed795a")
+# Local composition trials only; the world/furniture and face-sorter stay shared.
+const COMPOSITIONS := {
+	"original": [3.4, 5.5, 3.0, 1.55, 3.8, 780.0],
+	"balanced": [3.2, 5.5, 2.8, 1.4, 8.0, 1200.0],
+	"compact": [3.0, 5.4, 2.8, 1.3, 12.0, 1500.0]
+}
+var composition := "compact"
+var eye_height := 1.3
+var camera_distance := 12.0
+var focal := 1500.0
+var ceiling_emphasis := true
+var overview_bounds := Rect2()
+var focus_y := 320.0
 var world: DormitoryWorld
 var commands: Array[Dictionary] = []
 var selected_id: StringName = &""
@@ -31,17 +41,36 @@ func configure(room_world: DormitoryWorld) -> void:
 	world.changed.connect(rebuild)
 	rebuild()
 
+func set_composition(id: String) -> void:
+	if not COMPOSITIONS.has(id):
+		return
+	composition = id
+	var values: Array = COMPOSITIONS[id]
+	world.room_half_width = values[0]
+	world.room_depth = values[1]
+	world.room_height = values[2]
+	eye_height = values[3]
+	camera_distance = values[4]
+	focal = values[5]
+	framing = "overview"
+	pan_offset = 0.0
+	world.changed.emit()
+
+func set_ceiling_emphasis(value: bool) -> void:
+	ceiling_emphasis = value
+	rebuild()
+
 func project_base(point: Vector3) -> Vector2:
-	return HORIZON + Vector2(point.x, EYE_HEIGHT - point.y) * FOCAL / (CAMERA_DISTANCE + point.z)
+	return HORIZON + Vector2(point.x, eye_height - point.y) * focal / (camera_distance + point.z)
 
 func project(point: Vector3) -> Vector2:
-	return size / 2.0 + (project_base(point) - Vector2(focus_x, 320)) * view_scale
+	return size / 2.0 + (project_base(point) - Vector2(focus_x, focus_y)) * view_scale
 
 func is_portrait() -> bool:
 	return get_viewport_rect().size.y > get_viewport_rect().size.x
 
 func effective_framing() -> String:
-	return ("desk" if is_portrait() else "overview") if framing == "auto" else framing
+	return "overview" if framing == "auto" else framing
 
 func frame_object(id: String) -> void:
 	if id != "overview" and not world.furniture.has(StringName(id)):
@@ -62,15 +91,17 @@ func rebuild() -> void:
 	view_revision += 1
 	_pressed_id = &""
 	var mode := effective_framing()
+	overview_bounds = _overview_bounds()
 	if mode == "overview":
-		view_scale = minf(size.x / 1280.0, size.y / 640.0)
-		focus_x = 640.0
+		view_scale = minf((size.x - 16) / overview_bounds.size.x, (size.y - 16) / overview_bounds.size.y)
+		focus_x = overview_bounds.get_center().x
+		focus_y = overview_bounds.get_center().y
 	else:
-		view_scale = minf(size.y / 560.0, size.x / 360.0) if is_portrait() else minf(size.x / 1000.0, size.y / 560.0)
 		var item: GrayboxFurniture = world.furniture[StringName(mode)]
-		focus_x = project_base(Vector3(item.floor_position.x, 0.7, item.floor_position.y + item.dimensions.z / 2)).x + pan_offset
-		var half_width := size.x / (2.0 * view_scale)
-		focus_x = clampf(focus_x, minf(half_width, 640.0), maxf(1280.0 - half_width, 640.0))
+		var bounds := _item_bounds(item).grow(32)
+		view_scale = minf((size.x - 24) / bounds.size.x, (size.y - 24) / bounds.size.y)
+		focus_x = clampf(bounds.get_center().x + pan_offset, overview_bounds.position.x, overview_bounds.end.x)
+		focus_y = bounds.get_center().y
 	commands.clear()
 	var boxes := world.all_boxes()
 	var cuts: Array[float] = [world.marker_position.y]
@@ -87,6 +118,32 @@ func rebuild() -> void:
 		return a.tie < b.tie)
 	queue_redraw()
 	framing_changed.emit()
+
+func _item_bounds(item: GrayboxFurniture, position_override := Vector2(INF, INF)) -> Rect2:
+	var point := item.floor_position if is_inf(position_override.x) else position_override
+	var bounds := Rect2(project_base(Vector3(point.x, 0, point.y)), Vector2.ZERO)
+	for x in [point.x - item.dimensions.x / 2, point.x + item.dimensions.x / 2]:
+		for y in [0.0, item.dimensions.y]:
+			for z in [point.y, point.y + item.dimensions.z]:
+				bounds = bounds.expand(project_base(Vector3(x, y, z)))
+	return bounds
+
+func _overview_bounds() -> Rect2:
+	# Frame the back wall and ALL furniture, including both desk slots. Empty
+	# peripheral front-wall corners may extend offscreen; furniture never does.
+	var w := world.room_half_width
+	var d := world.room_depth
+	var h := world.room_height
+	var front_top := project_base(Vector3(0, h, 0)).y
+	var rear_top := project_base(Vector3(0, h, d)).y
+	var top := front_top if ceiling_emphasis else lerpf(front_top, rear_top, 0.65)
+	var bounds := Rect2(Vector2(project_base(Vector3(-w, h, d)).x, top), Vector2.ZERO)
+	bounds = bounds.expand(Vector2(project_base(Vector3(w, h, d)).x, project_base(Vector3(0, 0, 0)).y))
+	for item in world.furniture.values():
+		bounds = bounds.merge(_item_bounds(item))
+	for point in world.DESK_SLOTS:
+		bounds = bounds.merge(_item_bounds(world.furniture[&"desk"], point))
+	return bounds.grow(12)
 
 func _face(points: Array[Vector3], owner: StringName, color: Color, depth: float, tie: float = 0) -> void:
 	var polygon := PackedVector2Array()
@@ -110,7 +167,7 @@ func _box_faces(box: Dictionary, cuts: Array[float]) -> void:
 	for i in range(depths.size() - 1):
 		var a := depths[i]
 		var b := depths[i + 1]
-		if end.y < EYE_HEIGHT:
+		if end.y < eye_height:
 			_face([Vector3(p.x, end.y, a), Vector3(end.x, end.y, a), Vector3(end.x, end.y, b), Vector3(p.x, end.y, b)], owner, color.lightened(0.17), (a + b) / 2, end.y)
 		if side_x * (p.x + end.x) > 0:
 			_face([Vector3(side_x, p.y, a), Vector3(side_x, end.y, a), Vector3(side_x, end.y, b), Vector3(side_x, p.y, b)], owner, color.darkened(0.18), (a + b) / 2, -absf(side_x))
@@ -177,16 +234,29 @@ func _room_polygon(points: Array[Vector3], color: Color) -> void:
 	var polygon := PackedVector2Array()
 	for point in points:
 		polygon.append(project(point))
-	draw_colored_polygon(polygon, color)
-	polygon.append(polygon[0])
-	draw_polyline(polygon, Color("566970"), maxf(1.0, view_scale * 2.0), true)
+	var clip := shell_clip_rect()
+	var boundary := PackedVector2Array([clip.position, Vector2(clip.end.x, clip.position.y), clip.end, Vector2(clip.position.x, clip.end.y)])
+	for visible in Geometry2D.intersect_polygons(polygon, boundary):
+		draw_colored_polygon(visible, color)
+		visible.append(visible[0])
+		draw_polyline(visible, Color("566970"), maxf(1.0, view_scale * 2.0), true)
+
+func shell_clip_rect() -> Rect2:
+	# Keep the weak-ceiling crop meaningful even in a tall letterboxed canvas.
+	var top := maxf(0, size.y / 2 + (overview_bounds.position.y - focus_y) * view_scale) if effective_framing() == "overview" else 0.0
+	return Rect2(Vector2(0, top), Vector2(size.x, size.y - top))
 
 func _room_shell() -> void:
-	_room_polygon([Vector3(-3.4, 0, 5.5), Vector3(3.4, 0, 5.5), Vector3(3.4, 3, 5.5), Vector3(-3.4, 3, 5.5)], Color("deded4"))
-	_room_polygon([Vector3(-3.4, 0, 0), Vector3(-3.4, 0, 5.5), Vector3(-3.4, 3, 5.5), Vector3(-3.4, 3, 0)], Color("a6b3b8"))
-	_room_polygon([Vector3(3.4, 0, 5.5), Vector3(3.4, 0, 0), Vector3(3.4, 3, 0), Vector3(3.4, 3, 5.5)], Color("bdc7c5"))
-	_room_polygon([Vector3(-3.4, 0, 0), Vector3(3.4, 0, 0), Vector3(3.4, 0, 5.5), Vector3(-3.4, 0, 5.5)], Color("c8c3b5"))
+	var w := world.room_half_width
+	var d := world.room_depth
+	var h := world.room_height
+	_room_polygon([Vector3(-w, 0, d), Vector3(w, 0, d), Vector3(w, h, d), Vector3(-w, h, d)], Color("deded4"))
+	_room_polygon([Vector3(-w, 0, 0), Vector3(-w, 0, d), Vector3(-w, h, d), Vector3(-w, h, 0)], Color("a6b3b8"))
+	_room_polygon([Vector3(w, 0, d), Vector3(w, 0, 0), Vector3(w, h, 0), Vector3(w, h, d)], Color("bdc7c5"))
+	_room_polygon([Vector3(-w, 0, 0), Vector3(w, 0, 0), Vector3(w, 0, d), Vector3(-w, 0, d)], Color("c8c3b5"))
+	# The ceiling shares exactly the same rear/side seam vertices as the walls.
+	_room_polygon([Vector3(-w, h, 0), Vector3(-w, h, d), Vector3(w, h, d), Vector3(w, h, 0)], Color("b8bdb7") if ceiling_emphasis else Color("d1d4cc"))
 	for x in [-2.5, -1.5, -0.5, 0.5, 1.5, 2.5]:
-		draw_line(project(Vector3(x, 0, 0)), project(Vector3(x, 0, 5.5)), Color("a6a69c"), maxf(0.7, view_scale), true)
+		draw_line(project(Vector3(x, 0, 0)), project(Vector3(x, 0, d)), Color("a6a69c"), maxf(0.7, view_scale), true)
 	for depth in [1.0, 2.0, 3.0, 4.0, 5.0]:
-		draw_line(project(Vector3(-3.4, 0, depth)), project(Vector3(3.4, 0, depth)), Color("a6a69c"), maxf(0.7, view_scale), true)
+		draw_line(project(Vector3(-w, 0, depth)), project(Vector3(w, 0, depth)), Color("a6a69c"), maxf(0.7, view_scale), true)

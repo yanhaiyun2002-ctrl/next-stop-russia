@@ -1,0 +1,6 @@
+{
+  "candidate_count": 996,
+  "forbidden_paths": [],
+  "credential_pattern_files": [],
+  "note": "Path and common-pattern check; not an exhaustive security guarantee."
+}

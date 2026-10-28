@@ -1,0 +1,102 @@
+{
+  "original_git": "c982212b5170dc1a5e2c4831054d78969cb9d23c",
+  "original_implementation": "fcf68db3915bae9b809a1b13019cd1bbf12e43ca",
+  "files": [
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/bed_boundary_z1.15.png",
+      "sha256": "ef5ec138d49b0385990674194952aa9562ccdfdc0ed5be655288a5c000126b06"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/bed_boundary_z2.10.png",
+      "sha256": "77077b6554870ac9e59dbbd772f5e1180011a8be2afcb9ad2b2616312612e10f"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/bed_boundary_z3.60.png",
+      "sha256": "55b3dd10eed9792380a174e1c053e360eacbc7a651743e433bda12a10e1f8765"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/desk_before_move.png",
+      "sha256": "6a787c40dc07ab1d9379c179c0ef28ad92311d6a23cdb110345503eb31e437b2"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/desk_front_overlap.png",
+      "sha256": "89cd884f4b4dd6ba2e80bbad6a4002c06040ffc1d6e7e4ad8d5ba548d38933c7"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/import.log",
+      "sha256": "96ce36feb6f99165ebd3ab8da7c17a103e0af01aa9745e588f4149130c46e093"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/marker_behind_bed.png",
+      "sha256": "cf4f40bc36e1b278880e8ce4b308ada0f3e4beb38ee35a31ba60bc2948c307c1"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/marker_desk_gap.png",
+      "sha256": "787d10bf1ef31e3a4cc8f118b4bae5d38454860ced393b54375cbdcfe9afd4e2"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/marker_front_bed.png",
+      "sha256": "b27de0f9e5bdd27c604853a932e66d4992426515a253ae912ecc3fda0e784834"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/portrait_focus_bed.png",
+      "sha256": "a07e14aec678a7dab9b03955c37b9e36f33155a68b0a057775b7de49aedbdca7"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/portrait_focus_desk.png",
+      "sha256": "0578de3280591bb93607fcaf8eb9b312b2ac34d1b2984126bb790f3c78a26c86"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/portrait_focus_wardrobe.png",
+      "sha256": "f2986af3d04fe26e35fa61513fa703c624eef1f06ef0e5d7d49d98e2152191cd"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/portrait_simulated_safe_area.png",
+      "sha256": "53ccb51062a1870377203f0e503e9daa671dd534940b531b9863b26572b230a4"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_1080x1920.png",
+      "sha256": "e785e0f4b39a439b634f791fb1e38a09fe03fee001dd9c6baf634aa1a73b9668"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_1170x2532.png",
+      "sha256": "e456fb18000d08557524e220a98efc72e950380507ab5e9067b7c7537d40ef52"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_1280x800.png",
+      "sha256": "b6802590a1cc2182e25b298211b1e5ae133eb274659de5cf3c840c0095b1979e"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_1920x1080.png",
+      "sha256": "224b6437a772ec3a83ff770168855764391bd517857c39ed070bc88a9d3afdb7"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_360x780.png",
+      "sha256": "d315ceded195d7b6ec5103bd7baa460484b263bce51730ff7d68ce050f7ab7a5"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_overview_1080x1920.png",
+      "sha256": "aaa78c5fe34a5a340f90955963ed158ed29b5d68fd2ae0c320a8ce59953235b6"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_overview_1170x2532.png",
+      "sha256": "26fcf1153377cc350a16599bc93dcf6f24b944287cca4c2c903316761053fed8"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_overview_360x780.png",
+      "sha256": "e745c4983a1dc19c7c63731463014eeb526ef60b433ba101bb0afdcf6a6ca147"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/spatial_results.json",
+      "sha256": "1403037e026124a3702744bb3ea59f3b39d275a5895ed65988a5a879ac2e7c46"
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/spatial.log",
+      "sha256": "3fb67074ac89ffdb109b0d4b309dd1a031d899cc6cfe314fea33e1cec4fcff3e"
+    },
+    {
+      "path": "docs/evidence/p0-03/P0-03_VISUAL_REVIEW.png",
+      "sha256": "1396c59a60f8e383c2e2d4cfbb665b1001511223892d1ddb292f33594dd49a52"
+    }
+  ]
+}

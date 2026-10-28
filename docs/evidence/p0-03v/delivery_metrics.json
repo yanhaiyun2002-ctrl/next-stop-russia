@@ -1,0 +1,856 @@
+{
+  "png": "docs\\evidence\\p0-03v\\P0-03V_VISUAL_REVIEW.png",
+  "dimensions": [
+    4080,
+    7520
+  ],
+  "source_count": 12,
+  "source_files_unchanged": true,
+  "paste_verification": true,
+  "exact_color_metrics": [
+    {
+      "scene": "pc_1920x1080_original_ceiling",
+      "exact_ceiling_color_pixels": 201118,
+      "ceiling_fraction_of_canvas": 0.151824524373544,
+      "furniture": {
+        "bed": {
+          "height": 130.270202636719,
+          "rect": "[P: (366.3652, 276.7711), S: (214.8403, 130.2702)]",
+          "visible": true,
+          "width": 214.840347290039
+        },
+        "desk": {
+          "height": 82.6477279663086,
+          "rect": "[P: (620.0092, 275.922), S: (117.4304, 82.64773)]",
+          "visible": true,
+          "width": 117.430358886719
+        },
+        "wardrobe": {
+          "height": 154.930633544922,
+          "rect": "[P: (742.4298, 187.2658), S: (101.6126, 154.9306)]",
+          "visible": true,
+          "width": 101.612571716309
+        }
+      }
+    },
+    {
+      "scene": "pc_1920x1080_original_soft",
+      "exact_ceiling_color_pixels": 91985,
+      "ceiling_fraction_of_canvas": 0.0694397263024714,
+      "furniture": {
+        "bed": {
+          "height": 158.63932800293,
+          "rect": "[P: (312.873, 234.0381), S: (261.6264, 158.6393)]",
+          "visible": true,
+          "width": 261.626434326172
+        },
+        "desk": {
+          "height": 100.646041870117,
+          "rect": "[P: (621.7534, 233.0041), S: (143.0033, 100.646)]",
+          "visible": true,
+          "width": 143.003326416016
+        },
+        "wardrobe": {
+          "height": 188.67008972168,
+          "rect": "[P: (770.8337, 125.041), S: (123.7409, 188.6701)]",
+          "visible": true,
+          "width": 123.74089050293
+        }
+      }
+    },
+    {
+      "scene": "pc_1920x1080_balanced_ceiling",
+      "exact_ceiling_color_pixels": 155059,
+      "ceiling_fraction_of_canvas": 0.11705446019171509,
+      "furniture": {
+        "bed": {
+          "height": 145.842681884766,
+          "rect": "[P: (291.1811, 284.8692), S: (247.237, 145.8427)]",
+          "visible": true,
+          "width": 247.236968994141
+        },
+        "desk": {
+          "height": 111.01350402832,
+          "rect": "[P: (592.8421, 286.5811), S: (162.7051, 111.0135)]",
+          "visible": true,
+          "width": 162.705139160156
+        },
+        "wardrobe": {
+          "height": 225.703247070313,
+          "rect": "[P: (773.7098, 158.4261), S: (143.3402, 225.7032)]",
+          "visible": true,
+          "width": 143.340240478516
+        }
+      }
+    },
+    {
+      "scene": "pc_1920x1080_balanced_soft",
+      "exact_ceiling_color_pixels": 84190,
+      "ceiling_fraction_of_canvas": 0.063555259633691,
+      "furniture": {
+        "bed": {
+          "height": 166.725036621094,
+          "rect": "[P: (245.2449, 257.9318), S: (282.6374, 166.725)]",
+          "visible": true,
+          "width": 282.637390136719
+        },
+        "desk": {
+          "height": 126.908882141113,
+          "rect": "[P: (590.099, 259.8889), S: (186.0019, 126.9089)]",
+          "visible": true,
+          "width": 186.001937866211
+        },
+        "wardrobe": {
+          "height": 258.020355224609,
+          "rect": "[P: (796.8641, 113.3841), S: (163.8643, 258.0204)]",
+          "visible": true,
+          "width": 163.864288330078
+        }
+      }
+    },
+    {
+      "scene": "pc_1920x1080_compact_ceiling",
+      "exact_ceiling_color_pixels": 121854,
+      "ceiling_fraction_of_canvas": 0.09198791551732728,
+      "furniture": {
+        "bed": {
+          "height": 146.48193359375,
+          "rect": "[P: (273.1743, 292.538), S: (250.2644, 146.4819)]",
+          "visible": true,
+          "width": 250.264358520508
+        },
+        "desk": {
+          "height": 119.873626708984,
+          "rect": "[P: (583.2678, 295.6721), S: (177.9086, 119.8736)]",
+          "visible": true,
+          "width": 177.908615112305
+        },
+        "wardrobe": {
+          "height": 252.488677978516,
+          "rect": "[P: (787.1426, 152.7506), S: (157.7469, 252.4887)]",
+          "visible": true,
+          "width": 157.746856689453
+        }
+      }
+    },
+    {
+      "scene": "pc_1920x1080_compact_soft",
+      "exact_ceiling_color_pixels": 74186,
+      "ceiling_fraction_of_canvas": 0.05600321286595796,
+      "furniture": {
+        "bed": {
+          "height": 162.962631225586,
+          "rect": "[P: (235.053, 272.2342), S: (278.4216, 162.9626)]",
+          "visible": true,
+          "width": 278.421630859375
+        },
+        "desk": {
+          "height": 133.360626220703,
+          "rect": "[P: (580.0351, 275.7209), S: (197.9251, 133.3606)]",
+          "visible": true,
+          "width": 197.925140380859
+        },
+        "wardrobe": {
+          "height": 280.896209716797,
+          "rect": "[P: (806.848, 116.7193), S: (175.495, 280.8962)]",
+          "visible": true,
+          "width": 175.494979858398
+        }
+      }
+    },
+    {
+      "scene": "pc_1280x800_original_ceiling",
+      "exact_ceiling_color_pixels": 122549,
+      "ceiling_fraction_of_canvas": 0.17847011056353618,
+      "furniture": {
+        "bed": {
+          "height": 152.682281494141,
+          "rect": "[P: (324.1055, 323.0114), S: (251.8021, 152.6823)]",
+          "visible": true,
+          "width": 251.802139282227
+        },
+        "desk": {
+          "height": 96.8666915893555,
+          "rect": "[P: (621.3871, 322.0161), S: (137.6334, 96.86669)]",
+          "visible": true,
+          "width": 137.633422851563
+        },
+        "wardrobe": {
+          "height": 181.585357666016,
+          "rect": "[P: (764.8694, 218.1072), S: (119.0943, 181.5854)]",
+          "visible": true,
+          "width": 119.094306945801
+        }
+      }
+    },
+    {
+      "scene": "pc_1280x800_original_soft",
+      "exact_ceiling_color_pixels": 56558,
+      "ceiling_fraction_of_canvas": 0.0823663392867545,
+      "furniture": {
+        "bed": {
+          "height": 185.932113647461,
+          "rect": "[P: (261.4103, 272.9264), S: (306.6375, 185.9321)]",
+          "visible": true,
+          "width": 306.637451171875
+        },
+        "desk": {
+          "height": 117.961486816406,
+          "rect": "[P: (623.4314, 271.7145), S: (167.606, 117.9615)]",
+          "visible": true,
+          "width": 167.606048583984
+        },
+        "wardrobe": {
+          "height": 221.129455566406,
+          "rect": "[P: (798.16, 145.1771), S: (145.0296, 221.1295)]",
+          "visible": true,
+          "width": 145.029647827148
+        }
+      }
+    },
+    {
+      "scene": "pc_1280x800_balanced_ceiling",
+      "exact_ceiling_color_pixels": 94837,
+      "ceiling_fraction_of_canvas": 0.13811267228222246,
+      "furniture": {
+        "bed": {
+          "height": 170.933898925781,
+          "rect": "[P: (235.9864, 332.5026), S: (289.7724, 170.9339)]",
+          "visible": true,
+          "width": 289.772369384766
+        },
+        "desk": {
+          "height": 130.112609863281,
+          "rect": "[P: (589.5461, 334.509), S: (190.6974, 130.1126)]",
+          "visible": true,
+          "width": 190.69743347168
+        },
+        "wardrobe": {
+          "height": 264.533905029297,
+          "rect": "[P: (801.5309, 184.3058), S: (168.0009, 264.5339)]",
+          "visible": true,
+          "width": 168.000930786133
+        }
+      }
+    },
+    {
+      "scene": "pc_1280x800_balanced_soft",
+      "exact_ceiling_color_pixels": 51898,
+      "ceiling_fraction_of_canvas": 0.07557990516468024,
+      "furniture": {
+        "bed": {
+          "height": 195.408905029297,
+          "rect": "[P: (182.1472, 300.9308), S: (331.2632, 195.4089)]",
+          "visible": true,
+          "width": 331.263153076172
+        },
+        "desk": {
+          "height": 148.742660522461,
+          "rect": "[P: (586.3311, 303.2246), S: (218.0023, 148.7427)]",
+          "visible": true,
+          "width": 218.00227355957
+        },
+        "wardrobe": {
+          "height": 302.410980224609,
+          "rect": "[P: (828.6687, 131.5147), S: (192.056, 302.411)]",
+          "visible": true,
+          "width": 192.055999755859
+        }
+      }
+    },
+    {
+      "scene": "pc_1280x800_compact_ceiling",
+      "exact_ceiling_color_pixels": 74289,
+      "ceiling_fraction_of_canvas": 0.1081882842263465,
+      "furniture": {
+        "bed": {
+          "height": 171.683135986328,
+          "rect": "[P: (214.8817, 341.4908), S: (293.3206, 171.6831)]",
+          "visible": true,
+          "width": 293.320617675781
+        },
+        "desk": {
+          "height": 140.497055053711,
+          "rect": "[P: (578.3246, 345.1641), S: (208.5166, 140.4971)]",
+          "visible": true,
+          "width": 208.516571044922
+        },
+        "wardrobe": {
+          "height": 295.927581787109,
+          "rect": "[P: (817.2747, 177.654), S: (184.8861, 295.9276)]",
+          "visible": true,
+          "width": 184.886108398438
+        }
+      }
+    },
+    {
+      "scene": "pc_1280x800_compact_soft",
+      "exact_ceiling_color_pixels": 44932,
+      "ceiling_fraction_of_canvas": 0.06543520557361387,
+      "furniture": {
+        "bed": {
+          "height": 190.999221801758,
+          "rect": "[P: (170.2019, 317.6938), S: (326.3221, 190.9992)]",
+          "visible": true,
+          "width": 326.322143554688
+        },
+        "desk": {
+          "height": 156.304382324219,
+          "rect": "[P: (574.5358, 321.7805), S: (231.9768, 156.3044)]",
+          "visible": true,
+          "width": 231.976776123047
+        },
+        "wardrobe": {
+          "height": 329.222442626953,
+          "rect": "[P: (840.3702, 135.4237), S: (205.6877, 329.2224)]",
+          "visible": true,
+          "width": 205.68766784668
+        }
+      }
+    },
+    {
+      "scene": "pc_compact_eye150_ceiling",
+      "exact_ceiling_color_pixels": 104331,
+      "ceiling_fraction_of_canvas": 0.07875975523034347,
+      "furniture": {
+        "bed": {
+          "height": 150.301498413086,
+          "rect": "[P: (273.1743, 285.7861), S: (250.2644, 150.3015)]",
+          "visible": true,
+          "width": 250.264358520508
+        },
+        "desk": {
+          "height": 121.100547790527,
+          "rect": "[P: (583.2678, 287.9014), S: (177.9086, 121.1005)]",
+          "visible": true,
+          "width": 177.908615112305
+        },
+        "wardrobe": {
+          "height": 252.488693237305,
+          "rect": "[P: (787.1426, 144.6212), S: (157.7469, 252.4887)]",
+          "visible": true,
+          "width": 157.746856689453
+        }
+      }
+    },
+    {
+      "scene": "phone_1080x1920_A_ceiling_entry",
+      "exact_ceiling_color_pixels": 89465,
+      "ceiling_fraction_of_canvas": 0.06436732083596712,
+      "furniture": {
+        "bed": {
+          "height": 80.7472457885742,
+          "rect": "[P: (16.22446, 311.1856), S: (137.9567, 80.74725)]",
+          "visible": true,
+          "width": 137.956665039063
+        },
+        "desk": {
+          "height": 66.0795822143555,
+          "rect": "[P: (187.1615, 312.9133), S: (98.07101, 66.07958)]",
+          "visible": true,
+          "width": 98.0710144042969
+        },
+        "wardrobe": {
+          "height": 139.182800292969,
+          "rect": "[P: (299.5463, 234.1287), S: (86.95697, 139.1828)]",
+          "visible": true,
+          "width": 86.9569702148438
+        }
+      }
+    },
+    {
+      "scene": "phone_1080x1920_A_soft_entry",
+      "exact_ceiling_color_pixels": 46637,
+      "ceiling_fraction_of_canvas": 0.033553889697948903,
+      "furniture": {
+        "bed": {
+          "height": 80.7472457885742,
+          "rect": "[P: (16.22446, 298.2242), S: (137.9567, 80.74725)]",
+          "visible": true,
+          "width": 137.956665039063
+        },
+        "desk": {
+          "height": 66.0795822143555,
+          "rect": "[P: (187.1615, 299.9518), S: (98.07101, 66.07958)]",
+          "visible": true,
+          "width": 98.0710144042969
+        },
+        "wardrobe": {
+          "height": 139.182800292969,
+          "rect": "[P: (299.5463, 221.1672), S: (86.95697, 139.1828)]",
+          "visible": true,
+          "width": 86.9569702148438
+        }
+      }
+    },
+    {
+      "scene": "phone_1080x1920_B_ceiling_entry",
+      "exact_ceiling_color_pixels": 89465,
+      "ceiling_fraction_of_canvas": 0.06436732083596712,
+      "furniture": {
+        "bed": {
+          "height": 80.7472457885742,
+          "rect": "[P: (16.22446, 311.1856), S: (137.9567, 80.74725)]",
+          "visible": true,
+          "width": 137.956665039063
+        },
+        "desk": {
+          "height": 66.0795822143555,
+          "rect": "[P: (187.1615, 312.9133), S: (98.07101, 66.07958)]",
+          "visible": true,
+          "width": 98.0710144042969
+        },
+        "wardrobe": {
+          "height": 139.182800292969,
+          "rect": "[P: (299.5463, 234.1287), S: (86.95697, 139.1828)]",
+          "visible": true,
+          "width": 86.9569702148438
+        }
+      }
+    },
+    {
+      "scene": "phone_1080x1920_B_soft_entry",
+      "exact_ceiling_color_pixels": 46637,
+      "ceiling_fraction_of_canvas": 0.033553889697948903,
+      "furniture": {
+        "bed": {
+          "height": 80.7472457885742,
+          "rect": "[P: (16.22446, 298.2242), S: (137.9567, 80.74725)]",
+          "visible": true,
+          "width": 137.956665039063
+        },
+        "desk": {
+          "height": 66.0795822143555,
+          "rect": "[P: (187.1615, 299.9518), S: (98.07101, 66.07958)]",
+          "visible": true,
+          "width": 98.0710144042969
+        },
+        "wardrobe": {
+          "height": 139.182800292969,
+          "rect": "[P: (299.5463, 221.1672), S: (86.95697, 139.1828)]",
+          "visible": true,
+          "width": 86.9569702148438
+        }
+      }
+    },
+    {
+      "scene": "phone_1170x2532_A_ceiling_entry",
+      "exact_ceiling_color_pixels": 100127,
+      "ceiling_fraction_of_canvas": 0.051273234505733095,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_1170x2532_A_soft_entry",
+      "exact_ceiling_color_pixels": 52335,
+      "ceiling_fraction_of_canvas": 0.026799811517947622,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_1170x2532_B_ceiling_entry",
+      "exact_ceiling_color_pixels": 100127,
+      "ceiling_fraction_of_canvas": 0.051273234505733095,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_1170x2532_B_soft_entry",
+      "exact_ceiling_color_pixels": 52335,
+      "ceiling_fraction_of_canvas": 0.026799811517947622,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_360x780_A_ceiling_entry",
+      "exact_ceiling_color_pixels": 9216,
+      "ceiling_fraction_of_canvas": 0.04973019641700842,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_360x780_A_soft_entry",
+      "exact_ceiling_color_pixels": 4957,
+      "ceiling_fraction_of_canvas": 0.02674832721778545,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_360x780_B_ceiling_entry",
+      "exact_ceiling_color_pixels": 9216,
+      "ceiling_fraction_of_canvas": 0.04973019641700842,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 305.4485), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 306.8306), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 243.803), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_360x780_B_soft_entry",
+      "exact_ceiling_color_pixels": 4957,
+      "ceiling_fraction_of_canvas": 0.02674832721778545,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 295.0793), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 296.4615), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 233.4338), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    },
+    {
+      "scene": "phone_simulated_safe_area",
+      "exact_ceiling_color_pixels": 101095,
+      "ceiling_fraction_of_canvas": 0.060184043999342116,
+      "furniture": {
+        "bed": {
+          "height": 64.5977935791016,
+          "rect": "[P: (14.57957, 265.9485), S: (110.3653, 64.59779)]",
+          "visible": true,
+          "width": 110.365325927734
+        },
+        "desk": {
+          "height": 52.8636665344238,
+          "rect": "[P: (151.3292, 267.3306), S: (78.45681, 52.86367)]",
+          "visible": true,
+          "width": 78.4568099975586
+        },
+        "wardrobe": {
+          "height": 111.346229553223,
+          "rect": "[P: (241.237, 204.303), S: (69.56557, 111.3462)]",
+          "visible": true,
+          "width": 69.5655746459961
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_1920x1080.png",
+      "sha256": "224b6437a772ec3a83ff770168855764391bd517857c39ed070bc88a9d3afdb7",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        80,
+        492
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/pc_1920x1080_balanced_ceiling.png",
+      "sha256": "dd54305ced9a1edac67fcad10422f6cff90d5f54385f5572498fbefd411816a6",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        2080,
+        492
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/pc_1920x1080_compact_ceiling.png",
+      "sha256": "0fe3ca54a54bd4a4e239fb48e2d40f8d7d4dfdb271e6b0765953d34c3e62b5dd",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        80,
+        2032
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/pc_1920x1080_compact_soft.png",
+      "sha256": "7f7d50ac2d067e90717aa110a5e7e2de3409839d213823e883522c750c497760",
+      "original": [
+        1920,
+        1080
+      ],
+      "placed": [
+        1920,
+        1080
+      ],
+      "position": [
+        2080,
+        2032
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_overview_1080x1920.png",
+      "sha256": "aaa78c5fe34a5a340f90955963ed158ed29b5d68fd2ae0c320a8ce59953235b6",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        90,
+        3572
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03/06_final_spatial_rendered/room_auto_1080x1920.png",
+      "sha256": "e785e0f4b39a439b634f791fb1e38a09fe03fee001dd9c6baf634aa1a73b9668",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        1090,
+        3572
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_A_ceiling_entry.png",
+      "sha256": "f60fcd303d0c892cae3cf8248b524be7f386851ade1ccafad5702d67caea067b",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        2090,
+        3572
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_B_ceiling_entry.png",
+      "sha256": "188bd6a6b2ef4b8fa48a4ed231dca45e3f45faf70db116caadc3b9a685750c3f",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        3090,
+        3572
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_B_focus_bed.png",
+      "sha256": "e2671d1a387d7f0eeea483d1b30d89ad082df90c8547162a4c4baa525fd0095c",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        90,
+        5622
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_B_focus_desk.png",
+      "sha256": "3b6c0ca7c9d834445b41a2e709af41945b3105466ee49ddd4e65155297269f1a",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        1090,
+        5622
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_A_soft_entry.png",
+      "sha256": "66c245aa54f4240055814152fd19e29373d449c57770161cdf65bc60a64bfb80",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        2090,
+        5622
+      ]
+    },
+    {
+      "path": "docs/evidence/p0-03v/10_composition_rendered_delivery/phone_1080x1920_B_soft_entry.png",
+      "sha256": "69e0b4f1807aee490539f931f676b092f9ccabcf15a25bdab5068236d3a5953d",
+      "original": [
+        1080,
+        1920
+      ],
+      "placed": [
+        900,
+        1600
+      ],
+      "position": [
+        3090,
+        5622
+      ]
+    }
+  ]
+}

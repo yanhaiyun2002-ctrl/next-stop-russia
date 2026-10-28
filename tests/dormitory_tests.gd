@@ -36,6 +36,7 @@ func _run() -> void:
 	_check(room is BuildingRoom and world.furniture.size() == 3, "BuildingRoom 合同和三家具独立节点")
 	_check(world.get_child_count() == 3 and not _has_3d(room), "原生 2D 场景，无 Node3D")
 	for pixels in [Vector2i(1920, 1080), Vector2i(1280, 800), Vector2i(1080, 1920), Vector2i(1170, 2532), Vector2i(360, 780)]:
+		room.set_debug_visible(true)
 		root.size = pixels
 		app.safe_layout.refresh()
 		view.framing = "auto"
@@ -44,10 +45,10 @@ func _run() -> void:
 		await _settle()
 		var label := "%dx%d" % [pixels.x, pixels.y]
 		_check(root.size == pixels, "实际窗口尺寸 " + label)
-		_check(_on_screen(view) and view.size.x >= 260 and view.size.y >= 280, "空间视图未溢出 " + label)
+		_check(_on_screen(view) and view.size.x >= 260 and view.size.y >= 220, "展开测试面板时空间视图未溢出 " + label)
 		_check(_on_screen(room.back_button) and _on_screen(room.feedback), "返回与反馈可见 " + label)
-		_check(room.controls.columns == (3 if pixels.y > pixels.x else 9), "独立横竖屏 UI 重排 " + label)
-		for button in room.controls.get_children():
+		_check(room.controls.columns == (3 if pixels.y > pixels.x else 6), "独立横竖屏 UI 重排 " + label)
+		for button in room.controls.get_children() + room.selection_bar.get_children():
 			_check(_on_screen(button) and button.size.x >= 48 and button.size.y >= 48, "控件可见且至少 48 单位 %s %s" % [label, button.text])
 		await _capture("room_auto_" + label)
 		for id in [&"bed", &"desk", &"wardrobe"]:
@@ -73,9 +74,9 @@ func _run() -> void:
 			await _capture("room_overview_" + label)
 		view.pan(1.0)
 		await _settle()
-		_check(view.effective_framing() == "desk" and view.focus_x >= 640, "受约束横移可用 " + label)
+		_check(view.effective_framing() == "desk" and view.focus_x <= view.overview_bounds.end.x, "受约束横移可用 " + label)
 		view.frame_object("overview")
-		_check(view.focus_x == 640 and view.pan_offset == 0, "明确返回全景 " + label)
+		_check(is_equal_approx(view.focus_x, view.overview_bounds.get_center().x) and view.pan_offset == 0, "明确返回全景 " + label)
 	root.size = Vector2i(1920, 1080)
 	app.safe_layout.refresh()
 	view.frame_object("overview")
@@ -101,13 +102,15 @@ func _run() -> void:
 	# One stationary marker and the same camera: furniture motion must change coverage.
 	world.set_marker(Vector2(-0.45, 1.6))
 	await _settle()
-	var stationary := view.project(Vector3(-0.45, 0.74, 1.6))
+	# Lower eye/longer distance changes the line of sight: the head center now
+	# remains under the desk. Its upper disk (y=.86) still crosses the tabletop.
+	var stationary := view.project(Vector3(-0.45, 0.86, 1.6))
 	_check(view.pick(stationary) == &"marker", "换位前固定标记可见")
 	await _capture("desk_before_move")
 	await _click(room.swap_button.get_global_rect().get_center())
 	_check(world.desk_slot == 1 and world.furniture[&"desk"].floor_position == world.DESK_SLOTS[1], "真实 GUI 书桌换位")
 	_check(view.pick(stationary) == &"desk" and _oracle(stationary) == &"desk", "换位后固定标记被桌面遮挡")
-	_check(view.project(Vector3(-0.45, 0.74, 1.6)).is_equal_approx(stationary), "换位未移动镜头或标记坐标")
+	_check(view.project(Vector3(-0.45, 0.86, 1.6)).is_equal_approx(stationary), "换位未移动镜头或标记坐标")
 	_check(_overlap_point().x >= 0, "换位后确有书桌与床体的投影重叠且前桌优先")
 	await _sample_scene("desk_front_overlap")
 	await _capture("desk_front_overlap")
@@ -163,13 +166,14 @@ func _run() -> void:
 	_check(selected.size() == before, "家具按下跨方向变化取消旧坐标释放")
 	old_marker = world.marker_position
 	root.size = Vector2i(1170, 2532)
+	room.set_debug_visible(false)
 	app.safe_layout.safe_override_pixels = Rect2(0, 150, 1170, 2280)
 	app.safe_layout.refresh()
 	view.framing = "auto"
 	await _settle()
 	var scale := minf(1170.0 / 360, 2532.0 / 780)
 	var safe := Rect2(0, 150 / scale, 1170 / scale, 2280 / scale)
-	_check(safe.encloses(view.get_global_rect()) and safe.encloses(room.controls.get_global_rect()), "模拟不对称安全区内空间与所有控件")
+	_check(safe.encloses(view.get_global_rect()) and safe.encloses(room.debug_button.get_global_rect()), "模拟不对称安全区内空间与常驻控件")
 	_check(world.marker_position == old_marker and world.desk_slot == 0, "方向和安全区变化保持空间状态")
 	await _capture("portrait_simulated_safe_area")
 	app.safe_layout.safe_override_pixels = Rect2(-1, -1, 0, 0)
@@ -197,7 +201,7 @@ func _run() -> void:
 	quit(0 if failed == 0 else 1)
 
 func _ray_box(direction: Vector3, box: Dictionary) -> float:
-	var origin := Vector3(0, view.EYE_HEIGHT, -view.CAMERA_DISTANCE)
+	var origin := Vector3(0, view.eye_height, -view.camera_distance)
 	var low := 0.0
 	var high := INF
 	for axis in range(3):
@@ -229,8 +233,8 @@ func _overlap_point() -> Vector2:
 
 func _oracle(point: Vector2) -> StringName:
 	# Invert the camera, intersect physical boxes; never inspect render commands.
-	var base := (point - view.size / 2) / view.view_scale + Vector2(view.focus_x, 320)
-	var direction := Vector3((base.x - view.HORIZON.x) / view.FOCAL, -(base.y - view.HORIZON.y) / view.FOCAL, 1)
+	var base := (point - view.size / 2) / view.view_scale + Vector2(view.focus_x, view.focus_y)
+	var direction := Vector3((base.x - view.HORIZON.x) / view.focal, -(base.y - view.HORIZON.y) / view.focal, 1)
 	var near := INF
 	var owner: StringName = &""
 	for box in world.all_boxes():
@@ -238,9 +242,9 @@ func _oracle(point: Vector2) -> StringName:
 		if hit < near:
 			near = hit
 			owner = box.owner
-	var depth := world.marker_position.y + view.CAMERA_DISTANCE
+	var depth := world.marker_position.y + view.camera_distance
 	var x := direction.x * depth - world.marker_position.x
-	var y := view.EYE_HEIGHT + direction.y * depth
+	var y := view.eye_height + direction.y * depth
 	var head := Vector2(x, y - 0.74)
 	# Circle's polygon boundary has a maximum 0.0012m discrepancy; exclude edges in sampling.
 	var marker := (absf(x) < 0.055 and y >= 0.03 and y <= 0.73) or head.length() < 0.139

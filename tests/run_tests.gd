@@ -141,6 +141,7 @@ func _check_layout(pixels: Vector2i) -> void:
 		else:
 			_check(app.active_id == id, "比例内点击进入 %s %s" % [pixels, id])
 			if app.active_room != null:
+				await _show_room_controls()
 				_check(_on_screen(app.active_room.back_button) and _on_screen(app.active_room.action_button), "室内控件可见 %s %s" % [pixels, id])
 				await _mouse_click(app.active_room.action_button)
 				_check(app.active_room.interaction_count == 1, "GUI 交互 %s %s" % [pixels, id])
@@ -229,6 +230,8 @@ func _input_checks() -> void:
 	_check(entries == before and app.active_room == null, "拖出热点取消点击")
 
 func _mouse_click(button: Button) -> void:
+	if not button.is_visible_in_tree():
+		await _show_room_controls()
 	await _wait_layout()
 	# A click is one pair at a single observed coordinate; native mouse motion must
 	# not be interleaved by artificial frame waits between synthetic down/up.
@@ -241,6 +244,11 @@ func _mouse_click(button: Button) -> void:
 		root.push_input(event, true)
 	await _frames()
 	await _wait_layout()
+
+func _show_room_controls() -> void:
+	# P0-03V intentionally folds diagnostic actions. Exercise the real toggle.
+	if app.active_room and app.active_room.has_method("set_debug_visible") and not app.active_room.debug_panel.visible:
+		await _mouse_click(app.active_room.debug_button)
 
 func _wait_layout() -> void:
 	var deadline := Time.get_ticks_msec() + 3000

@@ -1,0 +1,660 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 正在注册全局类…… (3 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 正在加载编辑器 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 正在加载编辑器布局……[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 正在加载停靠面板……[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+PASS: 进入宿舍先完整展示，调试默认收起
+PASS: 画布/常驻控件/反馈不溢出 pc_1920x1080_original_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_ceiling 测试
+PASS: 全景家具完整可见 pc_1920x1080_original_ceiling bed
+PASS: 全景家具完整可见 pc_1920x1080_original_ceiling desk
+PASS: 全景家具完整可见 pc_1920x1080_original_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_1920x1080_original_ceiling
+PASS: 保存实际渲染截图 pc_1920x1080_original_ceiling
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_original_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_original_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1920x1080_original_soft
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_original_soft 测试
+PASS: 全景家具完整可见 pc_1920x1080_original_soft bed
+PASS: 全景家具完整可见 pc_1920x1080_original_soft desk
+PASS: 全景家具完整可见 pc_1920x1080_original_soft wardrobe
+PASS: 全景天花板实际落入视口 pc_1920x1080_original_soft
+PASS: 保存实际渲染截图 pc_1920x1080_original_soft
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_original_soft[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_original_soft[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1920x1080_balanced_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_ceiling 测试
+PASS: 全景家具完整可见 pc_1920x1080_balanced_ceiling bed
+PASS: 全景家具完整可见 pc_1920x1080_balanced_ceiling desk
+PASS: 全景家具完整可见 pc_1920x1080_balanced_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_1920x1080_balanced_ceiling
+PASS: 保存实际渲染截图 pc_1920x1080_balanced_ceiling
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_balanced_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_balanced_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1920x1080_balanced_soft
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_balanced_soft 测试
+PASS: 全景家具完整可见 pc_1920x1080_balanced_soft bed
+PASS: 全景家具完整可见 pc_1920x1080_balanced_soft desk
+PASS: 全景家具完整可见 pc_1920x1080_balanced_soft wardrobe
+PASS: 全景天花板实际落入视口 pc_1920x1080_balanced_soft
+PASS: 保存实际渲染截图 pc_1920x1080_balanced_soft
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_balanced_soft[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_balanced_soft[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1920x1080_compact_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_ceiling 测试
+PASS: 全景家具完整可见 pc_1920x1080_compact_ceiling bed
+PASS: 全景家具完整可见 pc_1920x1080_compact_ceiling desk
+PASS: 全景家具完整可见 pc_1920x1080_compact_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_1920x1080_compact_ceiling
+PASS: 保存实际渲染截图 pc_1920x1080_compact_ceiling
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_compact_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_compact_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1920x1080_compact_soft
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1920x1080_compact_soft 测试
+PASS: 全景家具完整可见 pc_1920x1080_compact_soft bed
+PASS: 全景家具完整可见 pc_1920x1080_compact_soft desk
+PASS: 全景家具完整可见 pc_1920x1080_compact_soft wardrobe
+PASS: 全景天花板实际落入视口 pc_1920x1080_compact_soft
+PASS: 保存实际渲染截图 pc_1920x1080_compact_soft
+PASS: 独立射线与可见面拾取一致 pc_1920x1080_compact_soft[]
+PASS: 实际渲染像素与独立深度一致 pc_1920x1080_compact_soft[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1280x800_original_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_ceiling 测试
+PASS: 全景家具完整可见 pc_1280x800_original_ceiling bed
+PASS: 全景家具完整可见 pc_1280x800_original_ceiling desk
+PASS: 全景家具完整可见 pc_1280x800_original_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_1280x800_original_ceiling
+PASS: 保存实际渲染截图 pc_1280x800_original_ceiling
+PASS: 独立射线与可见面拾取一致 pc_1280x800_original_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_original_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1280x800_original_soft
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_original_soft 测试
+PASS: 全景家具完整可见 pc_1280x800_original_soft bed
+PASS: 全景家具完整可见 pc_1280x800_original_soft desk
+PASS: 全景家具完整可见 pc_1280x800_original_soft wardrobe
+PASS: 全景天花板实际落入视口 pc_1280x800_original_soft
+PASS: 保存实际渲染截图 pc_1280x800_original_soft
+PASS: 独立射线与可见面拾取一致 pc_1280x800_original_soft[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_original_soft[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1280x800_balanced_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_ceiling 测试
+PASS: 全景家具完整可见 pc_1280x800_balanced_ceiling bed
+PASS: 全景家具完整可见 pc_1280x800_balanced_ceiling desk
+PASS: 全景家具完整可见 pc_1280x800_balanced_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_1280x800_balanced_ceiling
+PASS: 保存实际渲染截图 pc_1280x800_balanced_ceiling
+PASS: 独立射线与可见面拾取一致 pc_1280x800_balanced_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_balanced_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1280x800_balanced_soft
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_balanced_soft 测试
+PASS: 全景家具完整可见 pc_1280x800_balanced_soft bed
+PASS: 全景家具完整可见 pc_1280x800_balanced_soft desk
+PASS: 全景家具完整可见 pc_1280x800_balanced_soft wardrobe
+PASS: 全景天花板实际落入视口 pc_1280x800_balanced_soft
+PASS: 保存实际渲染截图 pc_1280x800_balanced_soft
+PASS: 独立射线与可见面拾取一致 pc_1280x800_balanced_soft[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_balanced_soft[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1280x800_compact_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_ceiling 测试
+PASS: 全景家具完整可见 pc_1280x800_compact_ceiling bed
+PASS: 全景家具完整可见 pc_1280x800_compact_ceiling desk
+PASS: 全景家具完整可见 pc_1280x800_compact_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_1280x800_compact_ceiling
+PASS: 保存实际渲染截图 pc_1280x800_compact_ceiling
+PASS: 独立射线与可见面拾取一致 pc_1280x800_compact_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_compact_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 pc_1280x800_compact_soft
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 床
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_1280x800_compact_soft 测试
+PASS: 全景家具完整可见 pc_1280x800_compact_soft bed
+PASS: 全景家具完整可见 pc_1280x800_compact_soft desk
+PASS: 全景家具完整可见 pc_1280x800_compact_soft wardrobe
+PASS: 全景天花板实际落入视口 pc_1280x800_compact_soft
+PASS: 保存实际渲染截图 pc_1280x800_compact_soft
+PASS: 独立射线与可见面拾取一致 pc_1280x800_compact_soft[]
+PASS: 实际渲染像素与独立深度一致 pc_1280x800_compact_soft[]
+PASS: 画布/常驻控件/反馈不溢出 pc_compact_eye150_ceiling
+PASS: 常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 床
+PASS: 常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 书桌
+PASS: 常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 衣柜
+PASS: 常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 全景
+PASS: 常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 聚焦
+PASS: 常驻触摸按钮至少 48 单位 pc_compact_eye150_ceiling 测试
+PASS: 全景家具完整可见 pc_compact_eye150_ceiling bed
+PASS: 全景家具完整可见 pc_compact_eye150_ceiling desk
+PASS: 全景家具完整可见 pc_compact_eye150_ceiling wardrobe
+PASS: 全景天花板实际落入视口 pc_compact_eye150_ceiling
+PASS: 保存实际渲染截图 pc_compact_eye150_ceiling
+PASS: 独立射线与可见面拾取一致 pc_compact_eye150_ceiling[]
+PASS: 实际渲染像素与独立深度一致 pc_compact_eye150_ceiling[]
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_A_ceiling_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_ceiling_entry 测试
+PASS: 全景家具完整可见 phone_1080x1920_A_ceiling_entry bed
+PASS: 全景家具完整可见 phone_1080x1920_A_ceiling_entry desk
+PASS: 全景家具完整可见 phone_1080x1920_A_ceiling_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1080x1920_A_ceiling_entry
+PASS: 保存实际渲染截图 phone_1080x1920_A_ceiling_entry
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_A_ceiling_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_A_ceiling_entry[]
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_A_soft_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_soft_entry 测试
+PASS: 全景家具完整可见 phone_1080x1920_A_soft_entry bed
+PASS: 全景家具完整可见 phone_1080x1920_A_soft_entry desk
+PASS: 全景家具完整可见 phone_1080x1920_A_soft_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1080x1920_A_soft_entry
+PASS: 保存实际渲染截图 phone_1080x1920_A_soft_entry
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_A_soft_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_A_soft_entry[]
+PASS: 全景合成触摸单次命中 (1080, 1920) A bed
+PASS: 手机方案点击策略 (1080, 1920) A bed
+PASS: A 可明确按聚焦放大已选家具 (1080, 1920) bed
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_A_focus_bed
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_bed 测试
+PASS: 保存实际渲染截图 phone_1080x1920_A_focus_bed
+PASS: 常驻全景一键返回 (1080, 1920) A bed
+PASS: 全景合成触摸单次命中 (1080, 1920) A desk
+PASS: 手机方案点击策略 (1080, 1920) A desk
+PASS: A 可明确按聚焦放大已选家具 (1080, 1920) desk
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_A_focus_desk
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_desk 测试
+PASS: 保存实际渲染截图 phone_1080x1920_A_focus_desk
+PASS: 常驻全景一键返回 (1080, 1920) A desk
+PASS: 全景合成触摸单次命中 (1080, 1920) A wardrobe
+PASS: 手机方案点击策略 (1080, 1920) A wardrobe
+PASS: A 可明确按聚焦放大已选家具 (1080, 1920) wardrobe
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_A_focus_wardrobe
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_A_focus_wardrobe 测试
+PASS: 保存实际渲染截图 phone_1080x1920_A_focus_wardrobe
+PASS: 常驻全景一键返回 (1080, 1920) A wardrobe
+PASS: 具名触摸入口 (1080, 1920) A 0
+PASS: 具名触摸入口 (1080, 1920) A 1
+PASS: 具名触摸入口 (1080, 1920) A 2
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_B_ceiling_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_ceiling_entry 测试
+PASS: 全景家具完整可见 phone_1080x1920_B_ceiling_entry bed
+PASS: 全景家具完整可见 phone_1080x1920_B_ceiling_entry desk
+PASS: 全景家具完整可见 phone_1080x1920_B_ceiling_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1080x1920_B_ceiling_entry
+PASS: 保存实际渲染截图 phone_1080x1920_B_ceiling_entry
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_B_ceiling_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_B_ceiling_entry[]
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_B_soft_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_soft_entry 测试
+PASS: 全景家具完整可见 phone_1080x1920_B_soft_entry bed
+PASS: 全景家具完整可见 phone_1080x1920_B_soft_entry desk
+PASS: 全景家具完整可见 phone_1080x1920_B_soft_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1080x1920_B_soft_entry
+PASS: 保存实际渲染截图 phone_1080x1920_B_soft_entry
+PASS: 独立射线与可见面拾取一致 phone_1080x1920_B_soft_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1080x1920_B_soft_entry[]
+PASS: 全景合成触摸单次命中 (1080, 1920) B bed
+PASS: 手机方案点击策略 (1080, 1920) B bed
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_B_focus_bed
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_bed 测试
+PASS: 保存实际渲染截图 phone_1080x1920_B_focus_bed
+PASS: 常驻全景一键返回 (1080, 1920) B bed
+PASS: 全景合成触摸单次命中 (1080, 1920) B desk
+PASS: 手机方案点击策略 (1080, 1920) B desk
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_B_focus_desk
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_desk 测试
+PASS: 保存实际渲染截图 phone_1080x1920_B_focus_desk
+PASS: 常驻全景一键返回 (1080, 1920) B desk
+PASS: 全景合成触摸单次命中 (1080, 1920) B wardrobe
+PASS: 手机方案点击策略 (1080, 1920) B wardrobe
+PASS: 画布/常驻控件/反馈不溢出 phone_1080x1920_B_focus_wardrobe
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1080x1920_B_focus_wardrobe 测试
+PASS: 保存实际渲染截图 phone_1080x1920_B_focus_wardrobe
+PASS: 常驻全景一键返回 (1080, 1920) B wardrobe
+PASS: 具名触摸入口 (1080, 1920) B 0
+PASS: 具名触摸入口 (1080, 1920) B 1
+PASS: 具名触摸入口 (1080, 1920) B 2
+PASS: 真实控件展开测试面板 (1080, 1920)
+PASS: 测试操作仍可访问 (1080, 1920) ← 横移
+PASS: 测试操作仍可访问 (1080, 1920) 横移 →
+PASS: 测试操作仍可访问 (1080, 1920) 标记换点
+PASS: 测试操作仍可访问 (1080, 1920) 标记前后
+PASS: 测试操作仍可访问 (1080, 1920) 书桌换位
+PASS: 测试操作仍可访问 (1080, 1920) 天花强弱
+PASS: 展开后可移动标记 (1080, 1920)
+PASS: 展开后可换位 (1080, 1920)
+PASS: 独立射线与可见面拾取一致 portrait_desk_front_(1080, 1920)[]
+PASS: 实际渲染像素与独立深度一致 portrait_desk_front_(1080, 1920)[]
+PASS: 保存实际渲染截图 debug_expanded_1080x1920
+PASS: 收起测试面板恢复画布 (1080, 1920)
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_A_ceiling_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_ceiling_entry 测试
+PASS: 全景家具完整可见 phone_1170x2532_A_ceiling_entry bed
+PASS: 全景家具完整可见 phone_1170x2532_A_ceiling_entry desk
+PASS: 全景家具完整可见 phone_1170x2532_A_ceiling_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1170x2532_A_ceiling_entry
+PASS: 保存实际渲染截图 phone_1170x2532_A_ceiling_entry
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_A_ceiling_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_A_ceiling_entry[]
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_A_soft_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_soft_entry 测试
+PASS: 全景家具完整可见 phone_1170x2532_A_soft_entry bed
+PASS: 全景家具完整可见 phone_1170x2532_A_soft_entry desk
+PASS: 全景家具完整可见 phone_1170x2532_A_soft_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1170x2532_A_soft_entry
+PASS: 保存实际渲染截图 phone_1170x2532_A_soft_entry
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_A_soft_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_A_soft_entry[]
+PASS: 全景合成触摸单次命中 (1170, 2532) A bed
+PASS: 手机方案点击策略 (1170, 2532) A bed
+PASS: A 可明确按聚焦放大已选家具 (1170, 2532) bed
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_A_focus_bed
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_bed 测试
+PASS: 保存实际渲染截图 phone_1170x2532_A_focus_bed
+PASS: 常驻全景一键返回 (1170, 2532) A bed
+PASS: 全景合成触摸单次命中 (1170, 2532) A desk
+PASS: 手机方案点击策略 (1170, 2532) A desk
+PASS: A 可明确按聚焦放大已选家具 (1170, 2532) desk
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_A_focus_desk
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_desk 测试
+PASS: 保存实际渲染截图 phone_1170x2532_A_focus_desk
+PASS: 常驻全景一键返回 (1170, 2532) A desk
+PASS: 全景合成触摸单次命中 (1170, 2532) A wardrobe
+PASS: 手机方案点击策略 (1170, 2532) A wardrobe
+PASS: A 可明确按聚焦放大已选家具 (1170, 2532) wardrobe
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_A_focus_wardrobe
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_A_focus_wardrobe 测试
+PASS: 保存实际渲染截图 phone_1170x2532_A_focus_wardrobe
+PASS: 常驻全景一键返回 (1170, 2532) A wardrobe
+PASS: 具名触摸入口 (1170, 2532) A 0
+PASS: 具名触摸入口 (1170, 2532) A 1
+PASS: 具名触摸入口 (1170, 2532) A 2
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_B_ceiling_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_ceiling_entry 测试
+PASS: 全景家具完整可见 phone_1170x2532_B_ceiling_entry bed
+PASS: 全景家具完整可见 phone_1170x2532_B_ceiling_entry desk
+PASS: 全景家具完整可见 phone_1170x2532_B_ceiling_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1170x2532_B_ceiling_entry
+PASS: 保存实际渲染截图 phone_1170x2532_B_ceiling_entry
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_B_ceiling_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_B_ceiling_entry[]
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_B_soft_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_soft_entry 测试
+PASS: 全景家具完整可见 phone_1170x2532_B_soft_entry bed
+PASS: 全景家具完整可见 phone_1170x2532_B_soft_entry desk
+PASS: 全景家具完整可见 phone_1170x2532_B_soft_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_1170x2532_B_soft_entry
+PASS: 保存实际渲染截图 phone_1170x2532_B_soft_entry
+PASS: 独立射线与可见面拾取一致 phone_1170x2532_B_soft_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_1170x2532_B_soft_entry[]
+PASS: 全景合成触摸单次命中 (1170, 2532) B bed
+PASS: 手机方案点击策略 (1170, 2532) B bed
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_B_focus_bed
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_bed 测试
+PASS: 保存实际渲染截图 phone_1170x2532_B_focus_bed
+PASS: 常驻全景一键返回 (1170, 2532) B bed
+PASS: 全景合成触摸单次命中 (1170, 2532) B desk
+PASS: 手机方案点击策略 (1170, 2532) B desk
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_B_focus_desk
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_desk 测试
+PASS: 保存实际渲染截图 phone_1170x2532_B_focus_desk
+PASS: 常驻全景一键返回 (1170, 2532) B desk
+PASS: 全景合成触摸单次命中 (1170, 2532) B wardrobe
+PASS: 手机方案点击策略 (1170, 2532) B wardrobe
+PASS: 画布/常驻控件/反馈不溢出 phone_1170x2532_B_focus_wardrobe
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 床
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_1170x2532_B_focus_wardrobe 测试
+PASS: 保存实际渲染截图 phone_1170x2532_B_focus_wardrobe
+PASS: 常驻全景一键返回 (1170, 2532) B wardrobe
+PASS: 具名触摸入口 (1170, 2532) B 0
+PASS: 具名触摸入口 (1170, 2532) B 1
+PASS: 具名触摸入口 (1170, 2532) B 2
+PASS: 真实控件展开测试面板 (1170, 2532)
+PASS: 测试操作仍可访问 (1170, 2532) ← 横移
+PASS: 测试操作仍可访问 (1170, 2532) 横移 →
+PASS: 测试操作仍可访问 (1170, 2532) 标记换点
+PASS: 测试操作仍可访问 (1170, 2532) 标记前后
+PASS: 测试操作仍可访问 (1170, 2532) 书桌换位
+PASS: 测试操作仍可访问 (1170, 2532) 天花强弱
+PASS: 展开后可移动标记 (1170, 2532)
+PASS: 展开后可换位 (1170, 2532)
+PASS: 独立射线与可见面拾取一致 portrait_desk_front_(1170, 2532)[]
+PASS: 实际渲染像素与独立深度一致 portrait_desk_front_(1170, 2532)[]
+PASS: 保存实际渲染截图 debug_expanded_1170x2532
+PASS: 收起测试面板恢复画布 (1170, 2532)
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_A_ceiling_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_ceiling_entry 测试
+PASS: 全景家具完整可见 phone_360x780_A_ceiling_entry bed
+PASS: 全景家具完整可见 phone_360x780_A_ceiling_entry desk
+PASS: 全景家具完整可见 phone_360x780_A_ceiling_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_360x780_A_ceiling_entry
+PASS: 保存实际渲染截图 phone_360x780_A_ceiling_entry
+PASS: 独立射线与可见面拾取一致 phone_360x780_A_ceiling_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_A_ceiling_entry[]
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_A_soft_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_soft_entry 测试
+PASS: 全景家具完整可见 phone_360x780_A_soft_entry bed
+PASS: 全景家具完整可见 phone_360x780_A_soft_entry desk
+PASS: 全景家具完整可见 phone_360x780_A_soft_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_360x780_A_soft_entry
+PASS: 保存实际渲染截图 phone_360x780_A_soft_entry
+PASS: 独立射线与可见面拾取一致 phone_360x780_A_soft_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_A_soft_entry[]
+PASS: 全景合成触摸单次命中 (360, 780) A bed
+PASS: 手机方案点击策略 (360, 780) A bed
+PASS: A 可明确按聚焦放大已选家具 (360, 780) bed
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_A_focus_bed
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_bed 测试
+PASS: 保存实际渲染截图 phone_360x780_A_focus_bed
+PASS: 常驻全景一键返回 (360, 780) A bed
+PASS: 全景合成触摸单次命中 (360, 780) A desk
+PASS: 手机方案点击策略 (360, 780) A desk
+PASS: A 可明确按聚焦放大已选家具 (360, 780) desk
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_A_focus_desk
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_desk 测试
+PASS: 保存实际渲染截图 phone_360x780_A_focus_desk
+PASS: 常驻全景一键返回 (360, 780) A desk
+PASS: 全景合成触摸单次命中 (360, 780) A wardrobe
+PASS: 手机方案点击策略 (360, 780) A wardrobe
+PASS: A 可明确按聚焦放大已选家具 (360, 780) wardrobe
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_A_focus_wardrobe
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_A_focus_wardrobe 测试
+PASS: 保存实际渲染截图 phone_360x780_A_focus_wardrobe
+PASS: 常驻全景一键返回 (360, 780) A wardrobe
+PASS: 具名触摸入口 (360, 780) A 0
+PASS: 具名触摸入口 (360, 780) A 1
+PASS: 具名触摸入口 (360, 780) A 2
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_B_ceiling_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_ceiling_entry 测试
+PASS: 全景家具完整可见 phone_360x780_B_ceiling_entry bed
+PASS: 全景家具完整可见 phone_360x780_B_ceiling_entry desk
+PASS: 全景家具完整可见 phone_360x780_B_ceiling_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_360x780_B_ceiling_entry
+PASS: 保存实际渲染截图 phone_360x780_B_ceiling_entry
+PASS: 独立射线与可见面拾取一致 phone_360x780_B_ceiling_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_B_ceiling_entry[]
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_B_soft_entry
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_soft_entry 测试
+PASS: 全景家具完整可见 phone_360x780_B_soft_entry bed
+PASS: 全景家具完整可见 phone_360x780_B_soft_entry desk
+PASS: 全景家具完整可见 phone_360x780_B_soft_entry wardrobe
+PASS: 全景天花板实际落入视口 phone_360x780_B_soft_entry
+PASS: 保存实际渲染截图 phone_360x780_B_soft_entry
+PASS: 独立射线与可见面拾取一致 phone_360x780_B_soft_entry[]
+PASS: 实际渲染像素与独立深度一致 phone_360x780_B_soft_entry[]
+PASS: 全景合成触摸单次命中 (360, 780) B bed
+PASS: 手机方案点击策略 (360, 780) B bed
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_B_focus_bed
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_bed 测试
+PASS: 保存实际渲染截图 phone_360x780_B_focus_bed
+PASS: 常驻全景一键返回 (360, 780) B bed
+PASS: 全景合成触摸单次命中 (360, 780) B desk
+PASS: 手机方案点击策略 (360, 780) B desk
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_B_focus_desk
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_desk 测试
+PASS: 保存实际渲染截图 phone_360x780_B_focus_desk
+PASS: 常驻全景一键返回 (360, 780) B desk
+PASS: 全景合成触摸单次命中 (360, 780) B wardrobe
+PASS: 手机方案点击策略 (360, 780) B wardrobe
+PASS: 画布/常驻控件/反馈不溢出 phone_360x780_B_focus_wardrobe
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 床
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_360x780_B_focus_wardrobe 测试
+PASS: 保存实际渲染截图 phone_360x780_B_focus_wardrobe
+PASS: 常驻全景一键返回 (360, 780) B wardrobe
+PASS: 具名触摸入口 (360, 780) B 0
+PASS: 具名触摸入口 (360, 780) B 1
+PASS: 具名触摸入口 (360, 780) B 2
+PASS: 真实控件展开测试面板 (360, 780)
+PASS: 测试操作仍可访问 (360, 780) ← 横移
+PASS: 测试操作仍可访问 (360, 780) 横移 →
+PASS: 测试操作仍可访问 (360, 780) 标记换点
+PASS: 测试操作仍可访问 (360, 780) 标记前后
+PASS: 测试操作仍可访问 (360, 780) 书桌换位
+PASS: 测试操作仍可访问 (360, 780) 天花强弱
+PASS: 展开后可移动标记 (360, 780)
+PASS: 展开后可换位 (360, 780)
+PASS: 独立射线与可见面拾取一致 portrait_desk_front_(360, 780)[]
+PASS: 实际渲染像素与独立深度一致 portrait_desk_front_(360, 780)[]
+PASS: 保存实际渲染截图 debug_expanded_360x780
+PASS: 收起测试面板恢复画布 (360, 780)
+PASS: 横竖屏与两方案未复制房间实例
+PASS: 家具 bed 实例/数据共享
+PASS: 家具 desk 实例/数据共享
+PASS: 家具 wardrobe 实例/数据共享
+PASS: 模拟安全区内全景和返回
+PASS: 画布/常驻控件/反馈不溢出 phone_simulated_safe_area
+PASS: 常驻触摸按钮至少 48 单位 phone_simulated_safe_area 床
+PASS: 常驻触摸按钮至少 48 单位 phone_simulated_safe_area 书桌
+PASS: 常驻触摸按钮至少 48 单位 phone_simulated_safe_area 衣柜
+PASS: 常驻触摸按钮至少 48 单位 phone_simulated_safe_area 全景
+PASS: 常驻触摸按钮至少 48 单位 phone_simulated_safe_area 聚焦
+PASS: 常驻触摸按钮至少 48 单位 phone_simulated_safe_area 测试
+PASS: 全景家具完整可见 phone_simulated_safe_area bed
+PASS: 全景家具完整可见 phone_simulated_safe_area desk
+PASS: 全景家具完整可见 phone_simulated_safe_area wardrobe
+PASS: 全景天花板实际落入视口 phone_simulated_safe_area
+PASS: 保存实际渲染截图 phone_simulated_safe_area
+PASS: 构图实验结束可返回同一地图
+PASS: 返回焦点恢复且无空间节点残留
+P0_COMPOSITION_RESULT passed=634 failed=0 display=Windows

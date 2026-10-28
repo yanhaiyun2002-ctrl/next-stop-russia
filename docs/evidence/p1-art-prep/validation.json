@@ -1,0 +1,29 @@
+{
+  "checkedOn": "2026-10-29",
+  "baselineSHA": "78a792acf35f9942343e181cec23998ce9129d70",
+  "officialValidator": "NOT_COMPLETED: missing PyYAML; see official_validator.log",
+  "method": "stdlib structural checks plus Pillow metadata and hashes; not a substitute for official YAML validation or runtime skill discovery",
+  "passed": 17,
+  "failed": 0,
+  "checks": {
+    "frontmatter_delimiters": true,
+    "required_fields_only": true,
+    "skill_name": true,
+    "description_present": true,
+    "no_unfinished_scaffold": true,
+    "project_references_exist": true,
+    "three_candidates_unapproved": true,
+    "three_generations_two_corrections": true,
+    "prompts_preserved": true,
+    "no_reference_image_passed": true,
+    "copy_matches_tool_output_candidate.p1r.organization": true,
+    "alpha_report_honest_candidate.p1r.organization": true,
+    "copy_matches_tool_output_candidate.p1r.story": true,
+    "alpha_report_honest_candidate.p1r.story": true,
+    "copy_matches_tool_output_candidate.p1r.dormitory": true,
+    "alpha_report_honest_candidate.p1r.dormitory": true,
+    "tracked_files_unchanged": true
+  },
+  "changedTrackedFiles": [],
+  "candidateBytes": 5712739
+}

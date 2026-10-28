@@ -1,0 +1,69 @@
+{
+  "checkedOn": "2026-10-29",
+  "approval": "REVIEW_PENDING",
+  "assets": [
+    {
+      "assetId": "candidate.p1r.organization",
+      "file": "candidate_organization_v02.png",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "approval": "REVIEW_PENDING",
+      "permanentApproval": false,
+      "targetSlot": "review_board_only",
+      "source": "builtin_imagegen",
+      "licenseNote": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "layers": [
+        "flattened_preview_not_production_layers"
+      ],
+      "bytes": 1749458,
+      "sha256": "593fb0f539ad8232f9ea54d4eebfebf6297f73aaff35e26c47dddeabb85570a1"
+    },
+    {
+      "assetId": "candidate.p1r.story",
+      "file": "candidate_story_v01.png",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "approval": "REVIEW_PENDING",
+      "permanentApproval": false,
+      "targetSlot": "review_board_only",
+      "source": "builtin_imagegen",
+      "licenseNote": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "layers": [
+        "flattened_preview_not_production_layers"
+      ],
+      "bytes": 1875859,
+      "sha256": "40917d7e2c6be84809e47f28d41c82dc4b71dae05d8a27829240fa42304a2f66"
+    },
+    {
+      "assetId": "candidate.p1r.dormitory",
+      "file": "candidate_dormitory_v02.png",
+      "status": "TEMP_REPLACE_REQUIRED",
+      "approval": "REVIEW_PENDING",
+      "permanentApproval": false,
+      "targetSlot": "review_board_only",
+      "source": "builtin_imagegen",
+      "licenseNote": "AI-generated candidate; not CC0; no claim of exclusive copyright or final distribution approval",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "layers": [
+        "flattened_preview_not_production_layers"
+      ],
+      "bytes": 2087422,
+      "sha256": "a39983fab91fc888429529a389ce8686ca46b189d2666e5e57f8d45564119b40"
+    }
+  ]
+}

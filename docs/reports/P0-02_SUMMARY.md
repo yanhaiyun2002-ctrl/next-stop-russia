@@ -56,7 +56,9 @@
 
 稳定性通过后使用已授权的 `yanhaiyun2002` / 用户提供的邮箱，仅本仓库配置。**稳定基线完整 ID：`de6e08d9eaed506c2cf80a3dda43b3da58818ceb`**，提交说明 `P0-02: fix layout input stability and establish baseline`。该提交发生在任何平台构建之前，保留稳定修复与证据。
 
-本报告随阶段最终本地提交保存，包含后续构建配置与验证证据。最终提交自身的哈希不能预先写入其包含的报告而保持同一哈希；完整最终 ID 在主线交付消息提供，项目内可用 `git log -1 --format=%H` 核对。无远程、不推送；原始日志为必要证据，不是游戏资产。基线门检查见 `docs/evidence/p0-02/baseline_gate.json`，最终检查为同目录 `final_audit.json`。
+**本阶段最终实现与构建验证提交完整 ID：`d9503390fe109cb24f3b60adfa925e82b1cce8b5`**，说明为 `P0-02: verify standalone Windows and Android debug builds`。包含本阶段全部实现、构建配置与测试证据。本报告和审计随后仅作提交 ID 登记，不改变代码或产物；最新文档登记提交的完整 ID 在主线交付消息提供，项目内可用 `git log -1 --format=%H` 核对。
+
+无远程、不推送；原始日志为必要证据，不是游戏资产。基线门检查见 `docs/evidence/p0-02/baseline_gate.json`，最终检查为同目录 `final_audit.json`。
 
 ## Windows 独立包
 

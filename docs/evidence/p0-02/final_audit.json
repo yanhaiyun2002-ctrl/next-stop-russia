@@ -67,5 +67,6 @@
   "credentials_pattern_matches": 0,
   "forbidden_candidate_artifacts": 0,
   "remote_count": 0,
-  "candidate_file_count": 545
+  "candidate_file_count": 545,
+  "implementation_commit": "d9503390fe109cb24f3b60adfa925e82b1cce8b5"
 }

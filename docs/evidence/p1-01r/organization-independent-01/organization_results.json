@@ -1,0 +1,268 @@
+{
+	"checks": [
+		{
+			"name": "四件独立物品与三仓",
+			"passed": true
+		},
+		{
+			"name": "2/2/1 可视格位",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 1",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 2",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 3",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 4",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 5",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 6",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 7",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 8",
+			"passed": true
+		},
+		{
+			"name": "鼠标非法仓位拒绝且不改存档",
+			"passed": true
+		},
+		{
+			"name": "非法原因可读",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 1",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 2",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 3",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 4",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 5",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 6",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 7",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 8",
+			"passed": true
+		},
+		{
+			"name": "鼠标真正拖放放教材入A",
+			"passed": true
+		},
+		{
+			"name": "ghost 跟随期间可观察，松开清理",
+			"passed": true
+		},
+		{
+			"name": "撤销复用领域历史",
+			"passed": true
+		},
+		{
+			"name": "鼠标点击选择替代路径",
+			"passed": true
+		},
+		{
+			"name": "点选仓位也能放置",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 1",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 2",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 3",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 4",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 5",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 6",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 7",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 textbook 8",
+			"passed": true
+		},
+		{
+			"name": "已放物拖出有效区仍保留原位",
+			"passed": true
+		},
+		{
+			"name": "手机物品未裁切 textbook",
+			"passed": true
+		},
+		{
+			"name": "手机物品未裁切 passport",
+			"passed": true
+		},
+		{
+			"name": "手机物品未裁切 scarf",
+			"passed": true
+		},
+		{
+			"name": "手机物品未裁切 washbag",
+			"passed": true
+		},
+		{
+			"name": "手机放置目标大于48 A",
+			"passed": true
+		},
+		{
+			"name": "手机放置目标大于48 B",
+			"passed": true
+		},
+		{
+			"name": "手机放置目标大于48 C",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 1",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 2",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 3",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 4",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 5",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 6",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 7",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 passport 8",
+			"passed": true
+		},
+		{
+			"name": "合成触摸真正拖放护照入B",
+			"passed": true
+		},
+		{
+			"name": "手机点选替代操作可放围巾",
+			"passed": false
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 1",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 2",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 3",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 4",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 5",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 6",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 7",
+			"passed": true
+		},
+		{
+			"name": "拖动只画 ghost，不改变 Control 几何 washbag 8",
+			"passed": true
+		},
+		{
+			"name": "合成触摸真正拖放洗漱包入C",
+			"passed": true
+		},
+		{
+			"name": "完整合法摆放复用原判题完成教程",
+			"passed": false
+		},
+		{
+			"name": "重置不清除既有教程完成事件",
+			"passed": true
+		},
+		{
+			"name": "partial 允许多个合法仓位，不匹配唯一示例",
+			"passed": true
+		},
+		{
+			"name": "partial 容量超出拒绝",
+			"passed": true
+		},
+		{
+			"name": "partial 禁止共仓拒绝",
+			"passed": true
+		}
+	],
+	"display": "headless",
+	"failed": 2,
+	"note": "actual engine synthetic mouse/touch; no physical device or human acceptance",
+	"passed": 63
+}

@@ -1,0 +1,54 @@
+{
+  "output": "docs\\reports\\P1-01R_VISUAL_REVIEW.png",
+  "sources": [
+    {
+      "path": "docs/evidence/p1-01r/reference-final-pc-05/02_arrival_anna.png",
+      "originalPixels": [
+        1280,
+        720
+      ],
+      "panel": "Q00 开场 · 独立背景、人物与俄中对白"
+    },
+    {
+      "path": "docs/evidence/p1-01r/reference-final-phone-06/02_arrival_anna.png",
+      "originalPixels": [
+        360,
+        780
+      ],
+      "panel": "Q00 开场 · 独立背景、人物与俄中对白"
+    },
+    {
+      "path": "docs/evidence/p1-01r/reference-final-pc-05/spot_1280x720_under_bed.png",
+      "originalPixels": [
+        1280,
+        720
+      ],
+      "panel": "宿舍 · 世界坐标家具标签与横向浏览"
+    },
+    {
+      "path": "docs/evidence/p1-01r/reference-final-phone-06/spot_360x780_under_bed.png",
+      "originalPixels": [
+        360,
+        780
+      ],
+      "panel": "宿舍 · 世界坐标家具标签与横向浏览"
+    },
+    {
+      "path": "docs/evidence/p1-01r/reference-final-pc-05/06_organization.png",
+      "originalPixels": [
+        1280,
+        720
+      ],
+      "panel": "首次整理 · 物品、容量格位与操作反馈"
+    },
+    {
+      "path": "docs/evidence/p1-01r/reference-final-phone-06/06_organization.png",
+      "originalPixels": [
+        360,
+        780
+      ],
+      "panel": "首次整理 · 物品、容量格位与操作反馈"
+    }
+  ],
+  "operation": "fit/resize only; actual Godot images; no concept compositing"
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "path": "assets/p1r/home/background.png",
+    "size": [
+      2135,
+      736
+    ],
+    "mode": "RGB",
+    "alphaExtrema": null,
+    "transparentFraction": 0,
+    "bytes": 1790107,
+    "sha256": "b3a8ac8980157d9a7d370278f431f787a85558250bdf35173b4ac46b0131c4b1"
+  },
+  {
+    "path": "assets/p1r/home/cat.png",
+    "size": [
+      1586,
+      992
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.5311,
+    "bytes": 1875939,
+    "sha256": "0cc42edb4f0420853b7cfcf8b8e6aed8f0cbb59eae091f8b3902af8976914e7b"
+  },
+  {
+    "path": "assets/p1r/home/fabric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "alphaExtrema": null,
+    "transparentFraction": 0,
+    "bytes": 3660171,
+    "sha256": "a9967f9c1e0a2c0e0152e38491777921d53344af36b397ef52e54abc935dee1f"
+  },
+  {
+    "path": "assets/p1r/home/wood.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "alphaExtrema": null,
+    "transparentFraction": 0,
+    "bytes": 2051124,
+    "sha256": "24d9aee1e6d323c3512c8d86447ee46acb133d7a70ebada421e484c218c0c332"
+  },
+  {
+    "path": "assets/p1r/organization/passport.png",
+    "size": [
+      1236,
+      1273
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.627,
+    "bytes": 975885,
+    "sha256": "dfbe9fc38befb2254c7bc42f22808d6d6db5b7c58e9034ac2feaa4e00786c619"
+  },
+  {
+    "path": "assets/p1r/organization/scarf.png",
+    "size": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.5017,
+    "bytes": 1689322,
+    "sha256": "9f7fc37c207e9e5635795ea60166abb7281a9efb5355610db7180ec7da95ba24"
+  },
+  {
+    "path": "assets/p1r/organization/textbook.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "transparentFraction": 0.5024,
+    "bytes": 1695271,
+    "sha256": "706dca063f05906e8d224f07a856d4ad9d423cfbb325516bd20d4a5614cc6392"
+  },
+  {
+    "path": "assets/p1r/organization/washbag.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "transparentFraction": 0.5269,
+    "bytes": 2070366,
+    "sha256": "f0ad67683463d9a84af517ed7ef487f5a4ba40778e5374535fcd864b6fb80b9c"
+  },
+  {
+    "path": "assets/p1r/story/admin.png",
+    "size": [
+      1145,
+      1374
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.5104,
+    "bytes": 1575648,
+    "sha256": "6e23a47af2720236c9a3056b018e1c743c35a39dce13c1e92752f543a4050665"
+  },
+  {
+    "path": "assets/p1r/story/anna.png",
+    "size": [
+      1213,
+      1296
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.4717,
+    "bytes": 1785259,
+    "sha256": "03637e7c28dd38b2071d8ccd8b80e244fa891f7e21719b27bf7cf0aaf2701ad6"
+  },
+  {
+    "path": "assets/p1r/story/arrival.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alphaExtrema": null,
+    "transparentFraction": 0,
+    "bytes": 2798171,
+    "sha256": "9d060c74281220534b3755c99c35ca9487432012dfe6ced1a19eb1fe94fc806e"
+  },
+  {
+    "path": "assets/p1r/story/reception.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alphaExtrema": null,
+    "transparentFraction": 0,
+    "bytes": 2092517,
+    "sha256": "62db9ba9d53dc7a7b7df4ee9088ab45f0afad3ccf288620b68b758471043f33c"
+  },
+  {
+    "path": "assets/p1r/organization/caseA.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.2703,
+    "bytes": 2233998,
+    "sha256": "21f94adb1c96820a443f042573c3adc566e17544bd84ec8e7a91186100af3035",
+    "transparentFractionDefinition": "alpha == 0",
+    "nonOpaqueFraction": 0.9996
+  },
+  {
+    "path": "assets/p1r/organization/caseB.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.2772,
+    "bytes": 2310981,
+    "sha256": "5f124f67434cb7d0bbb532536de026bfdd9124ef74f7619a46205f9e23a7c230",
+    "transparentFractionDefinition": "alpha == 0",
+    "nonOpaqueFraction": 0.9996
+  },
+  {
+    "path": "assets/p1r/organization/caseC.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentFraction": 0.2747,
+    "bytes": 2296445,
+    "sha256": "ad3a5fa5fcf8cc38d6573034c787c537bbc15210e729b78e0fe7b6717c5d46db",
+    "transparentFractionDefinition": "alpha == 0",
+    "nonOpaqueFraction": 0.9996
+  }
+]

@@ -1,0 +1,49 @@
+{
+	"cat": {
+		"breedId": "siberian_forest",
+		"displayName": "测试猫",
+		"firstPetCompleted": true,
+		"namePending": false,
+		"petRoundId": 1,
+		"roundId": 1,
+		"rounds": 1,
+		"spotId": "by_window"
+	},
+	"organization": {
+		"history": [
+			{},
+			{
+				"textbook": "A"
+			},
+			{
+				"passport": "B",
+				"textbook": "A"
+			}
+		],
+		"journalDate": "",
+		"placements": {
+			"passport": "B",
+			"textbook": "A",
+			"washbag": "C"
+		},
+		"tutorialCompleted": false
+	},
+	"quests": {
+		"q00_arrival": "completed",
+		"q01_cat": "completed",
+		"q02_organize": "active",
+		"q03_anna_message": "locked"
+	},
+	"revision": 14,
+	"rewards": {
+		"cat_first_meeting_v1": true
+	},
+	"schemaVersion": 1,
+	"story": {
+		"annaMessageIndex": 0,
+		"arrivalIndex": 5,
+		"cityUnlocked": false,
+		"hasHomeKey": true,
+		"homeEntered": true
+	}
+}

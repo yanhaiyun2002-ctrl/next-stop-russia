@@ -1,6 +1,6 @@
 {
   "registrySchemaVersion": 1,
-  "revision": "p1-01r-plus-arrival-luggage-dev-prototype",
+  "revision": "p1-gameplay-map-integration",
   "authority": "Single authoritative art classification and rendererKey-to-path lookup; does not change gameplay/save schema.",
   "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
   "approvalRecord": {
@@ -38,7 +38,8 @@
     "Project PNGs are on E drive; original imagegen outputs may remain in CODEX_HOME on C drive.",
     "No third-party art files were imported.",
     "caseA/caseC use independent generated caseB only as drawing-language/viewpoint reference; empty containers carry no baked labels, grid or buttons; overlays remain code-drawn.",
-    "Owner organization layout reference is a separate non-game REVIEW_REQUIRED documentation asset; it is not candidate_organization_v02 and not a story/geography reference."
+    "Owner organization layout reference is a separate non-game REVIEW_REQUIRED documentation asset; it is not candidate_organization_v02 and not a story/geography reference.",
+    "Current integration supersedes historical ABC usage: seven organization PNGs and old board are inactive, renderer keys retired, shared procedural art and owner city map now active."
   ],
   "assets": [
     {
@@ -735,12 +736,9 @@
       "replaceStatus": "TEMP_REPLACE_REQUIRED",
       "visualApproval": "PLACEHOLDER_NOT_APPROVED_AS_FINAL",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "DEV_TECHNICAL",
-        "PLAYTEST_P1R"
-      ],
-      "usageScope": "Technical city map remains the launch entry; no formal six-entry map asset produced.",
+      "usedInGame": false,
+      "activeProfiles": [],
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
       "sourceRecord": {
         "type": "existing_code_or_svg",
@@ -778,7 +776,7 @@
       "module": "city_map",
       "replacementRequired": true,
       "issues": [
-        "Technical three-building map appearance remains allowed as a placeholder; it is not an approved final Saint Petersburg layout."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ]
     },
     {
@@ -1180,7 +1178,6 @@
     },
     {
       "assetId": "p1r.organization.textbook",
-      "rendererKey": "org.textbook",
       "path": "assets/p1r/organization/textbook.png",
       "paths": [
         "assets/p1r/organization/textbook.png"
@@ -1191,13 +1188,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-df58c8a8-df74-4eec-a519-6c10fb864ec4.png",
@@ -1260,16 +1254,16 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Small-screen icon readability still subject to human/device acceptance."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
       "bytes": 1695271,
       "sha256": "706dca063f05906e8d224f07a856d4ad9d423cfbb325516bd20d4a5614cc6392",
-      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance.",
+      "legacyRendererKey": "org.textbook"
     },
     {
       "assetId": "p1r.organization.passport",
-      "rendererKey": "org.passport",
       "path": "assets/p1r/organization/passport.png",
       "paths": [
         "assets/p1r/organization/passport.png"
@@ -1280,13 +1274,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-3f532df8-fec4-4ce1-990a-705ebf5f8de0.png",
@@ -1349,16 +1340,16 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Small-screen icon readability still subject to human/device acceptance."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
       "bytes": 975885,
       "sha256": "dfbe9fc38befb2254c7bc42f22808d6d6db5b7c58e9034ac2feaa4e00786c619",
-      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance.",
+      "legacyRendererKey": "org.passport"
     },
     {
       "assetId": "p1r.organization.scarf",
-      "rendererKey": "org.scarf",
       "path": "assets/p1r/organization/scarf.png",
       "paths": [
         "assets/p1r/organization/scarf.png"
@@ -1369,13 +1360,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-81cdcd66-f4b9-4678-9c2c-4f68491d2c33.png",
@@ -1438,16 +1426,16 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Small-screen icon readability still subject to human/device acceptance."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
       "bytes": 1689322,
       "sha256": "9f7fc37c207e9e5635795ea60166abb7281a9efb5355610db7180ec7da95ba24",
-      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance.",
+      "legacyRendererKey": "org.scarf"
     },
     {
       "assetId": "p1r.organization.washbag",
-      "rendererKey": "org.washbag",
       "path": "assets/p1r/organization/washbag.png",
       "paths": [
         "assets/p1r/organization/washbag.png"
@@ -1458,13 +1446,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Independent production PNG loaded by P1Art rendererKey lookup; approved P1-01R direction, editable retainable candidate, not final approval.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:\\Users\\yyy\\.codex\\generated_images\\01a183bb-5cde-7040-9648-1da9ff19faa0\\exec-99cea432-6df9-426e-a05f-2141247582dc.png",
@@ -1527,12 +1512,13 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Small-screen icon readability still subject to human/device acceptance."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
       "bytes": 2070366,
       "sha256": "f0ad67683463d9a84af517ed7ef487f5a4ba40778e5374535fcd864b6fb80b9c",
-      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance."
+      "retentionReason": "Approved P1-01R direction, independent actual production output, measured format/alpha and active loading; may remain without mandatory replacement, subject to final acceptance.",
+      "legacyRendererKey": "org.washbag"
     },
     {
       "assetId": "p1r.story.arrival",
@@ -2241,11 +2227,8 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "IMPLEMENTED_AND_INTEGRATED",
       "retentionReason": "Scalable code-drawn compartments, occupancy cells and drag feedback can remain long term because they follow real puzzle data and adapt to orientation; independent item art is replaceable.",
       "sourceRecord": {
@@ -2295,9 +2278,9 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Final visual/input acceptance remains pending; no mandatory replacement obligation."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
-      "usageScope": "Active scalable P1-01R code-drawn UI; retainable based on existing retentionReason, subject to final visual/input acceptance.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
     },
     {
@@ -2444,7 +2427,6 @@
     },
     {
       "assetId": "p1r.organization.caseA",
-      "rendererKey": "org.caseA",
       "path": "assets/p1r/organization/caseA.png",
       "paths": [
         "assets/p1r/organization/caseA.png"
@@ -2455,13 +2437,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Empty container sprite behind code-drawn capacity cells, labels, items and interaction feedback; no puzzle data or text baked into the image.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-6bd1c1c9-794b-46b9-8b50-96df3aad6fff.png",
@@ -2544,16 +2523,16 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Final in-engine PC/portrait composition and human acceptance remain pending; source is retainable candidate, not final approval."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R working-tree static binding scripts/p1/organization_board.gd::_draw -> org.case + bin id",
       "bytes": 2233998,
       "sha256": "21f94adb1c96820a443f042573c3adc566e17544bd84ec8e7a91186100af3035",
-      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review."
+      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review.",
+      "legacyRendererKey": "org.caseA"
     },
     {
       "assetId": "p1r.organization.caseB",
-      "rendererKey": "org.caseB",
       "path": "assets/p1r/organization/caseB.png",
       "paths": [
         "assets/p1r/organization/caseB.png"
@@ -2564,13 +2543,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Empty container sprite behind code-drawn capacity cells, labels, items and interaction feedback; no puzzle data or text baked into the image.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-acf79bc1-3c5c-478d-8bba-28c23d278008.png",
@@ -2639,16 +2615,16 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Final in-engine PC/portrait composition and human acceptance remain pending; source is retainable candidate, not final approval."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R working-tree static binding scripts/p1/organization_board.gd::_draw -> org.case + bin id",
       "bytes": 2310981,
       "sha256": "5f124f67434cb7d0bbb532536de026bfdd9124ef74f7619a46205f9e23a7c230",
-      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review."
+      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review.",
+      "legacyRendererKey": "org.caseB"
     },
     {
       "assetId": "p1r.organization.caseC",
-      "rendererKey": "org.caseC",
       "path": "assets/p1r/organization/caseC.png",
       "paths": [
         "assets/p1r/organization/caseC.png"
@@ -2659,13 +2635,10 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "GENERATED_MEASURED_AND_INTEGRATED",
-      "usageScope": "Empty container sprite behind code-drawn capacity cells, labels, items and interaction feedback; no puzzle data or text baked into the image.",
+      "usageScope": "Historical P1-01R map/ABC art retired from current runtime; retained in project/history only.",
       "sourceRecord": {
         "type": "builtin_imagegen_independent_output",
         "actualOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-00599099-bc40-4d24-af84-7bbfb8aa4a48.png",
@@ -2748,12 +2721,13 @@
       "module": "organization",
       "replacementRequired": false,
       "issues": [
-        "Final in-engine PC/portrait composition and human acceptance remain pending; source is retainable candidate, not final approval."
+        "旧地图或 A/B/C 表现已停用，历史保留；不再用于当前 Q02/城市地图。"
       ],
       "usageVerifiedAt": "P1-01R working-tree static binding scripts/p1/organization_board.gd::_draw -> org.case + bin id",
       "bytes": 2296445,
       "sha256": "ad3a5fa5fcf8cc38d6573034c787c537bbc15210e729b78e0fe7b6717c5d46db",
-      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review."
+      "retentionReason": "Independent empty suitcase container matching the approved P1-01R organizing direction and requested visual refinement; measured real-alpha output, current board loading; may be retained without mandatory replacement pending final review.",
+      "legacyRendererKey": "org.caseC"
     },
     {
       "assetId": "reference.p1r.organization_layout",
@@ -2826,26 +2800,29 @@
     },
     {
       "assetId": "prototype.arrival_luggage.passport",
-      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "path": "scripts/p1/luggage_tidy/view.gd",
       "paths": [
-        "scripts/dev_tools/luggage_tidy/view.gd"
+        "scripts/p1/luggage_tidy/view.gd"
       ],
       "sourceType": "PROJECT_ORIGINAL",
-      "retentionStatus": "REVIEW_REQUIRED",
-      "status": "REVIEW_REQUIRED",
-      "replaceStatus": "REVIEW_REQUIRED",
-      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "OWNER_PLAYED_MECHANISM_1_APPROVED_FOR_Q02_TEMP_USE",
       "permanentApproval": false,
       "usedInGame": true,
       "activeProfiles": [
-        "DEV_LUGGAGE_EXPERIMENT"
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
       ],
       "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
-      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "usageScope": "Shared runtime Q02 in DEV/PLAYTEST/RELEASE and isolated DEV replay. Stable assetId retained from prototype.",
       "sourceRecord": {
         "type": "original_procedural_drawing_or_sound",
         "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
-        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+        "ownerDecision": "Owner human-play accepted mechanism 1; formal Q02 integration explicitly approved in current instruction.",
+        "prototypeHistory": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
       },
       "generationRecord": null,
       "author": "project original code prototype",
@@ -2883,35 +2860,37 @@
         "selection"
       ],
       "sceneBinding": "view._draw_item/passport",
-      "module": "DEV_arrival_luggage_experiment",
-      "replacementRequired": null,
+      "module": "q02_arrival_luggage_shared_runtime",
+      "replacementRequired": false,
       "issues": [
-        "Owner human play/retain decision pending; not FINAL_APPROVED.",
-        "Four-item code-drawn prototype visual only; no art expansion authorized."
+        "程序化原型美术允许当前正式 Q02 使用；本轮不打磨；不是最终美术验收。"
       ]
     },
     {
       "assetId": "prototype.arrival_luggage.washbag",
-      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "path": "scripts/p1/luggage_tidy/view.gd",
       "paths": [
-        "scripts/dev_tools/luggage_tidy/view.gd"
+        "scripts/p1/luggage_tidy/view.gd"
       ],
       "sourceType": "PROJECT_ORIGINAL",
-      "retentionStatus": "REVIEW_REQUIRED",
-      "status": "REVIEW_REQUIRED",
-      "replaceStatus": "REVIEW_REQUIRED",
-      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "OWNER_PLAYED_MECHANISM_1_APPROVED_FOR_Q02_TEMP_USE",
       "permanentApproval": false,
       "usedInGame": true,
       "activeProfiles": [
-        "DEV_LUGGAGE_EXPERIMENT"
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
       ],
       "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
-      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "usageScope": "Shared runtime Q02 in DEV/PLAYTEST/RELEASE and isolated DEV replay. Stable assetId retained from prototype.",
       "sourceRecord": {
         "type": "original_procedural_drawing_or_sound",
         "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
-        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+        "ownerDecision": "Owner human-play accepted mechanism 1; formal Q02 integration explicitly approved in current instruction.",
+        "prototypeHistory": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
       },
       "generationRecord": null,
       "author": "project original code prototype",
@@ -2949,35 +2928,37 @@
         "selection"
       ],
       "sceneBinding": "view._draw_item/washbag",
-      "module": "DEV_arrival_luggage_experiment",
-      "replacementRequired": null,
+      "module": "q02_arrival_luggage_shared_runtime",
+      "replacementRequired": false,
       "issues": [
-        "Owner human play/retain decision pending; not FINAL_APPROVED.",
-        "Four-item code-drawn prototype visual only; no art expansion authorized."
+        "程序化原型美术允许当前正式 Q02 使用；本轮不打磨；不是最终美术验收。"
       ]
     },
     {
       "assetId": "prototype.arrival_luggage.textbook",
-      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "path": "scripts/p1/luggage_tidy/view.gd",
       "paths": [
-        "scripts/dev_tools/luggage_tidy/view.gd"
+        "scripts/p1/luggage_tidy/view.gd"
       ],
       "sourceType": "PROJECT_ORIGINAL",
-      "retentionStatus": "REVIEW_REQUIRED",
-      "status": "REVIEW_REQUIRED",
-      "replaceStatus": "REVIEW_REQUIRED",
-      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "OWNER_PLAYED_MECHANISM_1_APPROVED_FOR_Q02_TEMP_USE",
       "permanentApproval": false,
       "usedInGame": true,
       "activeProfiles": [
-        "DEV_LUGGAGE_EXPERIMENT"
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
       ],
       "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
-      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "usageScope": "Shared runtime Q02 in DEV/PLAYTEST/RELEASE and isolated DEV replay. Stable assetId retained from prototype.",
       "sourceRecord": {
         "type": "original_procedural_drawing_or_sound",
         "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
-        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+        "ownerDecision": "Owner human-play accepted mechanism 1; formal Q02 integration explicitly approved in current instruction.",
+        "prototypeHistory": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
       },
       "generationRecord": null,
       "author": "project original code prototype",
@@ -3015,35 +2996,37 @@
         "selection"
       ],
       "sceneBinding": "view._draw_item/textbook",
-      "module": "DEV_arrival_luggage_experiment",
-      "replacementRequired": null,
+      "module": "q02_arrival_luggage_shared_runtime",
+      "replacementRequired": false,
       "issues": [
-        "Owner human play/retain decision pending; not FINAL_APPROVED.",
-        "Four-item code-drawn prototype visual only; no art expansion authorized."
+        "程序化原型美术允许当前正式 Q02 使用；本轮不打磨；不是最终美术验收。"
       ]
     },
     {
       "assetId": "prototype.arrival_luggage.scarf",
-      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "path": "scripts/p1/luggage_tidy/view.gd",
       "paths": [
-        "scripts/dev_tools/luggage_tidy/view.gd"
+        "scripts/p1/luggage_tidy/view.gd"
       ],
       "sourceType": "PROJECT_ORIGINAL",
-      "retentionStatus": "REVIEW_REQUIRED",
-      "status": "REVIEW_REQUIRED",
-      "replaceStatus": "REVIEW_REQUIRED",
-      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "OWNER_PLAYED_MECHANISM_1_APPROVED_FOR_Q02_TEMP_USE",
       "permanentApproval": false,
       "usedInGame": true,
       "activeProfiles": [
-        "DEV_LUGGAGE_EXPERIMENT"
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
       ],
       "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
-      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "usageScope": "Shared runtime Q02 in DEV/PLAYTEST/RELEASE and isolated DEV replay. Stable assetId retained from prototype.",
       "sourceRecord": {
         "type": "original_procedural_drawing_or_sound",
         "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
-        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+        "ownerDecision": "Owner human-play accepted mechanism 1; formal Q02 integration explicitly approved in current instruction.",
+        "prototypeHistory": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
       },
       "generationRecord": null,
       "author": "project original code prototype",
@@ -3081,35 +3064,37 @@
         "selection"
       ],
       "sceneBinding": "view._draw_item/scarf",
-      "module": "DEV_arrival_luggage_experiment",
-      "replacementRequired": null,
+      "module": "q02_arrival_luggage_shared_runtime",
+      "replacementRequired": false,
       "issues": [
-        "Owner human play/retain decision pending; not FINAL_APPROVED.",
-        "Four-item code-drawn prototype visual only; no art expansion authorized."
+        "程序化原型美术允许当前正式 Q02 使用；本轮不打磨；不是最终美术验收。"
       ]
     },
     {
       "assetId": "prototype.arrival_luggage.surface",
-      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "path": "scripts/p1/luggage_tidy/view.gd",
       "paths": [
-        "scripts/dev_tools/luggage_tidy/view.gd"
+        "scripts/p1/luggage_tidy/view.gd"
       ],
       "sourceType": "PROJECT_ORIGINAL",
-      "retentionStatus": "REVIEW_REQUIRED",
-      "status": "REVIEW_REQUIRED",
-      "replaceStatus": "REVIEW_REQUIRED",
-      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "OWNER_PLAYED_MECHANISM_1_APPROVED_FOR_Q02_TEMP_USE",
       "permanentApproval": false,
       "usedInGame": true,
       "activeProfiles": [
-        "DEV_LUGGAGE_EXPERIMENT"
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
       ],
       "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
-      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "usageScope": "Shared runtime Q02 in DEV/PLAYTEST/RELEASE and isolated DEV replay. Stable assetId retained from prototype.",
       "sourceRecord": {
         "type": "original_procedural_drawing_or_sound",
         "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
-        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+        "ownerDecision": "Owner human-play accepted mechanism 1; formal Q02 integration explicitly approved in current instruction.",
+        "prototypeHistory": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
       },
       "generationRecord": null,
       "author": "project original code prototype",
@@ -3146,35 +3131,37 @@
         "edge"
       ],
       "sceneBinding": "view._draw",
-      "module": "DEV_arrival_luggage_experiment",
-      "replacementRequired": null,
+      "module": "q02_arrival_luggage_shared_runtime",
+      "replacementRequired": false,
       "issues": [
-        "Owner human play/retain decision pending; not FINAL_APPROVED.",
-        "Four-item code-drawn prototype visual only; no art expansion authorized."
+        "程序化原型美术允许当前正式 Q02 使用；本轮不打磨；不是最终美术验收。"
       ]
     },
     {
       "assetId": "prototype.arrival_luggage.feedback",
-      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "path": "scripts/p1/luggage_tidy/view.gd",
       "paths": [
-        "scripts/dev_tools/luggage_tidy/view.gd"
+        "scripts/p1/luggage_tidy/view.gd"
       ],
       "sourceType": "PROJECT_ORIGINAL",
-      "retentionStatus": "REVIEW_REQUIRED",
-      "status": "REVIEW_REQUIRED",
-      "replaceStatus": "REVIEW_REQUIRED",
-      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "visualApproval": "OWNER_PLAYED_MECHANISM_1_APPROVED_FOR_Q02_TEMP_USE",
       "permanentApproval": false,
       "usedInGame": true,
       "activeProfiles": [
-        "DEV_LUGGAGE_EXPERIMENT"
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
       ],
       "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
-      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "usageScope": "Shared runtime Q02 in DEV/PLAYTEST/RELEASE and isolated DEV replay. Stable assetId retained from prototype.",
       "sourceRecord": {
         "type": "original_procedural_drawing_or_sound",
         "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
-        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+        "ownerDecision": "Owner human-play accepted mechanism 1; formal Q02 integration explicitly approved in current instruction.",
+        "prototypeHistory": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
       },
       "generationRecord": null,
       "author": "project original code prototype",
@@ -3207,11 +3194,126 @@
         "local_audio_visual_feedback"
       ],
       "sceneBinding": "view._tone/_process",
-      "module": "DEV_arrival_luggage_experiment",
-      "replacementRequired": null,
+      "module": "q02_arrival_luggage_shared_runtime",
+      "replacementRequired": false,
       "issues": [
-        "Owner human play/retain decision pending; not FINAL_APPROVED.",
-        "Four-item code-drawn prototype visual only; no art expansion authorized."
+        "程序化原型美术允许当前正式 Q02 使用；本轮不打磨；不是最终美术验收。"
+      ]
+    },
+    {
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "author": "项目负责人提供",
+      "sourceRecord": "2026-10-29 本轮用户提供并授权使用的地图原件与 ABC 标注",
+      "visualApproval": "OWNER_PROVIDED_APPROVED_FOR_CURRENT_GAME_USE",
+      "licenseReview": "负责人声明项目原创并授权本轮使用；未自行声明 CC0/排他权利或全部发行审查完成。",
+      "commercialUseReview": "FINAL_RELEASE_REVIEW_PENDING",
+      "module": "city_map",
+      "dimensions": {
+        "pixels": [
+          1952,
+          1087
+        ]
+      },
+      "transparency": {
+        "mode": "RGB",
+        "opaqueBackground": true
+      },
+      "anchor": {
+        "type": "texture_origin",
+        "normalized": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "background"
+      ],
+      "issues": [
+        "地点按负责人 ABC 轮廓映射，待本轮实机试玩确认边缘舒适度。"
+      ],
+      "assetId": "map.st_petersburg.source",
+      "path": "docs/art-source/city_map/city_map.png",
+      "usedInGame": false,
+      "activeProfiles": [],
+      "sha256": "87d6b549d76bca53738df9bdb0c22bb3b7dbbfcd7ba0a2e3bfbba2ecf4f90eaa"
+    },
+    {
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "author": "项目负责人提供",
+      "sourceRecord": "2026-10-29 本轮用户提供并授权使用的地图原件与 ABC 标注",
+      "visualApproval": "OWNER_PROVIDED_APPROVED_FOR_CURRENT_GAME_USE",
+      "licenseReview": "负责人声明项目原创并授权本轮使用；未自行声明 CC0/排他权利或全部发行审查完成。",
+      "commercialUseReview": "FINAL_RELEASE_REVIEW_PENDING",
+      "module": "city_map",
+      "dimensions": {
+        "pixels": [
+          1952,
+          1087
+        ]
+      },
+      "transparency": {
+        "mode": "RGB",
+        "opaqueBackground": true
+      },
+      "anchor": {
+        "type": "texture_origin",
+        "normalized": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "background"
+      ],
+      "issues": [
+        "地点按负责人 ABC 轮廓映射，待本轮实机试玩确认边缘舒适度。"
+      ],
+      "assetId": "map.st_petersburg.runtime",
+      "path": "assets/city_map/st_petersburg.png",
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
+      ],
+      "sha256": "87d6b549d76bca53738df9bdb0c22bb3b7dbbfcd7ba0a2e3bfbba2ecf4f90eaa",
+      "rendererKey": "city.map",
+      "sourceAssetId": "map.st_petersburg.source",
+      "conversion": "BYTE_IDENTICAL_COPY; source preserved"
+    },
+    {
+      "assetId": "reference.map.owner_abc",
+      "path": "docs/art-source/city_map/city_map_marked.png",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "visualApproval": "OWNER_LOCATION_MARKS",
+      "usedInGame": false,
+      "permanentApproval": false,
+      "author": "项目负责人",
+      "sourceRecord": "E:/俄语游戏/美术/ABC.png 原件字节复制",
+      "dimensions": {
+        "pixels": [
+          8134,
+          4530
+        ]
+      },
+      "transparency": {
+        "mode": "RGB"
+      },
+      "module": "city_map_development_only",
+      "replacementRequired": false,
+      "issues": [
+        "仅坐标参考，不入游戏、不代表背景图；手动轮廓数据见 data/city_map.json。"
       ]
     }
   ],
@@ -3219,6 +3321,7 @@
   "generationEvidence": "docs/production/p1r_generation_records.json",
   "prototypeApprovalRecord": {
     "date": "2026-10-29",
-    "scope": "One pure-memory DEV mechanism-1 experiment; four objects; owner retention decision pending; adjustment rounds used 0."
+    "history": "One pure-memory DEV mechanism-1 experiment; four objects; owner retention decision pending; adjustment rounds used 0.",
+    "scope": "Owner played and approved mechanism 1 for replacing formal Q02; integration authorized; four existing items, no further polishing, not FINAL_APPROVED art."
   }
 }

@@ -1,5 +1,5 @@
 extends SceneTree
-const MODEL = preload("res://scripts/dev_tools/luggage_tidy/model.gd")
+const MODEL = preload("res://scripts/p1/luggage_tidy/model.gd")
 var app: Control
 var view: Control
 var evidence := ""
@@ -209,7 +209,7 @@ func _run() -> void:
 	check(encounter.is_processing() == prior_flag,"退出不强行改变原猫处理标志")
 	var failed := checks.filter(func(row):return not row.passed).size()
 	var output := FileAccess.open(evidence.path_join("prototype_results.json"),FileAccess.WRITE)
-	output.store_string(JSON.stringify({"passed":checks.size()-failed,"failed":failed,"checks":checks,"display":DisplayServer.get_name(),"actualWindow":str(root.size),"note":"engineering checks only; owner play/retain decision pending; adjustment rounds used=0"},"\t"))
+	output.store_string(JSON.stringify({"passed":checks.size()-failed,"failed":failed,"checks":checks,"display":DisplayServer.get_name(),"actualWindow":str(root.size),"note":"engineering checks only; shared runtime regression; owner approved retention; final integration acceptance pending"},"\t"))
 	output.close()
 	print("LUGGAGE_PROTOTYPE passed=%d failed=%d" % [checks.size()-failed,failed])
 	quit(0 if failed == 0 else 1)

@@ -1,5 +1,5 @@
 {
-  "revision": "p1-01-a",
+  "revision": "p1-gameplay-map-compatibility-view",
   "status": "TEMP_REPLACE_REQUIRED",
   "buildApproval": "CONTROLLED_PLAYTEST_ONLY",
   "releaseStatus": "ART_PENDING",
@@ -36,7 +36,10 @@
         "MISSING_ART_FALLBACK"
       ],
       "usageScope": "Original room shell and painted architecture only in technical mode or missing-background fallback; P1R uses generated backdrop.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "P0/P1 gray shell is a geometry prototype, not the accepted P1-01R visual finish. Keep spatial renderer and room coordinates."
+      ]
     },
     {
       "assetId": "temp.home.bed",
@@ -65,7 +68,10 @@
         "PLAYTEST_P1R"
       ],
       "usageScope": "Old bed geometric silhouette and occluding surfaces remain visible, with generated fabric/wood material in P1R; no whole furniture sprite replacement.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Visible original furniture shape still requires later art replacement; generated materials improve appearance without retiring the geometry."
+      ]
     },
     {
       "assetId": "temp.home.desk",
@@ -94,7 +100,10 @@
         "PLAYTEST_P1R"
       ],
       "usageScope": "Old desk geometric silhouette remains visible with generated wood material; preserve object ID, depth and hit geometry.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Visible original furniture shape still requires later art replacement; generated materials improve appearance without retiring the geometry."
+      ]
     },
     {
       "assetId": "temp.home.wardrobe",
@@ -123,7 +132,10 @@
         "PLAYTEST_P1R"
       ],
       "usageScope": "Old wardrobe geometric silhouette remains visible with generated wood and original simple handle lines; not fully replaced.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Visible original furniture shape still requires later art replacement; generated materials improve appearance without retiring the geometry."
+      ]
     },
     {
       "assetId": "temp.home.window",
@@ -152,7 +164,10 @@
         "PLAYTEST_P1R"
       ],
       "usageScope": "Original window_sill world box remains; painted technical architecture is replaced by backdrop in P1R.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Gray architecture/window appearance is not final; keep window anchor and fourth cat spot."
+      ]
     },
     {
       "assetId": "temp.cat.siberian_placeholder",
@@ -184,7 +199,10 @@
         "MISSING_ART_FALLBACK"
       ],
       "usageScope": "GrayboxCat remains in P0/free-hunt technical mode and P1CatEncounter missing-image fallback; loaded P1R cat uses p1r.cat.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Geometric cat is a fallback/test silhouette, not the accepted cat appearance. Do not replace cat motion or reward state logic."
+      ]
     },
     {
       "assetId": "temp.npc.anna",
@@ -209,7 +227,10 @@
       "usedInGame": false,
       "activeProfiles": [],
       "usageScope": "Historical text-only visual representation superseded by P1R portrait/stage; Russian/Chinese identity and dialogue data retained.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Text-only NPC visual representation needs the approved illustrated direction; retain Russian dialogue and Chinese subtitle data."
+      ]
     },
     {
       "assetId": "temp.npc.admin",
@@ -234,7 +255,10 @@
       "usedInGame": false,
       "activeProfiles": [],
       "usageScope": "Historical text-only visual representation superseded by P1R portrait/stage; original identity, dialogue and key event retained.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Text-only NPC visual representation needs the approved illustrated direction; retain original NPC identity and key event."
+      ]
     },
     {
       "assetId": "temp.ui.first_playable",
@@ -261,7 +285,10 @@
       "usedInGame": false,
       "activeProfiles": [],
       "usageScope": "Historical combined plain-panel art record superseded by the three P1R PROJECT_ORIGINAL UI records; naming, feedback and dialogue logic retained.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Legacy plain modal/control styling is a placeholder. New scalable UI can have a separate PROJECT_ORIGINAL record after actual integration."
+      ]
     },
     {
       "assetId": "temp.org.item_set",
@@ -288,7 +315,10 @@
       "usedInGame": false,
       "activeProfiles": [],
       "usageScope": "Historical text-selection visual presentation superseded by P1R item PNGs and organization board; puzzle rules and state retained.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Legacy text-only item/bin presentation must be replaced by visible items and compartments; puzzle and placements contract remain unchanged."
+      ]
     },
     {
       "assetId": "temp.reward.first_meeting",
@@ -316,12 +346,16 @@
         "DEV_P1R"
       ],
       "usageScope": "Reward remains a text-only sticker/badge record/feedback; reward ledger logic is not artwork and is retained.",
-      "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
+      "usageVerifiedAt": "P1-01R integrated working tree static source inspection",
+      "issues": [
+        "Text-only sticker/badge visual is a placeholder; reward ledger and one-time grant logic are not art and must remain intact."
+      ]
     }
   ],
   "registryRef": "res://assets/art_registry.json",
   "registryRole": "LEGACY_COMPATIBILITY_VIEW",
   "stateAuthority": "assets/art_registry.json",
   "scope": "Existing P0/P1 placeholder compatibility records only; root TEMP_REPLACE_REQUIRED must not be inherited by generated or project-original P1-01R assets. Usage profiles reflect current integration.",
-  "classificationRevision": "p1-01r-integrated-dual-axis-v2"
+  "classificationRevision": "p1-01r-integrated-dual-axis-v2",
+  "statusNote": "Root TEMP status describes legacy placeholder subset only. Per-asset status in art_registry.json is authoritative; no blanket replacement requirement."
 }

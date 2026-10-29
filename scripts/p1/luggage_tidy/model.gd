@@ -1,5 +1,5 @@
 extends RefCounted
-## Pure-memory geometry experiment. No game session, rewards or file access.
+## Shared spatial rules; persistence and quest events belong to P1Session.
 const AREA := Rect2(20,20,560,560)
 const IDS := ["passport","washbag","textbook","scarf"]
 const SIZES := {"passport":Vector2(90,135),"washbag":Vector2(125,190),"textbook":Vector2(150,220),"scarf":Vector2(95,280)}
@@ -108,3 +108,34 @@ func snap(id: String, raw: Dictionary, radius: float) -> Dictionary:
 		var final_rect := footprint(id,pose)
 		guides = [{"axis":axis,"edge":aligned_edge,"from":minf(peer.position[axis],final_rect.position[axis]),"to":maxf(peer.end[axis],final_rect.end[axis])}]
 	return {"pose":pose,"guides":guides,"snapped":best_alignment <= radius or best_gap <= radius}
+
+func snapshot() -> Dictionary:
+	var saved := {}
+	for id in IDS:
+		saved[id] = {"x":poses[id].position.x,"y":poses[id].position.y,"turn":poses[id].turn}
+	return {"version":1,"poses":saved}
+
+static func valid_snapshot(value: Variant) -> bool:
+	if not value is Dictionary:
+		return false
+	if not (value.get("version") is float or value.get("version") is int) or value.version != 1 or not value.get("poses") is Dictionary or value.poses.size() != IDS.size():
+		return false
+	var model = new()
+	for id in IDS:
+		var pose = value.poses.get(id)
+		if not pose is Dictionary:
+			return false
+		for key in ["x","y","turn"]:
+			if not (pose.get(key) is float or pose.get(key) is int) or not is_finite(float(pose[key])):
+				return false
+		if pose.turn < 0 or pose.turn > 1 or floorf(pose.turn) != pose.turn or not AREA.encloses(model.footprint(id,{"position":Vector2(pose.x,pose.y),"turn":int(pose.turn)})):
+			return false
+	return true
+
+func restore(value: Dictionary) -> bool:
+	if not valid_snapshot(value):
+		return false
+	for id in IDS:
+		poses[id] = {"position":Vector2(value.poses[id].x,value.poses[id].y),"turn":int(value.poses[id].turn)}
+	history.clear()
+	return true

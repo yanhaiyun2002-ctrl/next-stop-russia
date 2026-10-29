@@ -38,7 +38,13 @@ foreach($taskMode in @('DEV','PLAYTEST','RELEASE')){
     if($taskMode -eq 'DEV'){$taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--preview=q02')}
     if($taskMode -eq 'DEV' -and $LuggagePrototype){$taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--luggage-prototype')}
     $taskProcess=Start-Process -FilePath "$taskBuild/NextStopRussia-$taskMode.exe" -WorkingDirectory $taskBuild -ArgumentList $taskArgs -WindowStyle Hidden -RedirectStandardOutput "$taskEvidence/stdout-$taskLower.log" -RedirectStandardError "$taskEvidence/stderr-$taskLower.log" -PassThru
+    # Retain the native handle before exit (Windows PowerShell otherwise may
+    # lose ExitCode for a short-lived process returned by Start-Process).
+    $null=$taskProcess.Handle
     if(-not $taskProcess.WaitForExit(20000)){Stop-Process -Id $taskProcess.Id; throw "$taskMode graceful runtime timeout"}
+    $taskProcess.WaitForExit()
+    $taskProcess.Refresh()
+    if($null -eq $taskProcess.ExitCode){throw "$taskMode exit code unavailable; do not claim runtime PASS"}
     if($taskProcess.ExitCode -ne 0){throw "$taskMode standalone exit $($taskProcess.ExitCode)"}
     $taskLog=Get-Content -LiteralPath $taskRuntime -Raw
     if($taskLog -notmatch "NSR_MODE=$taskMode " -or $taskLog -match 'SCRIPT ERROR|Parse Error|Compile Error'){throw "$taskMode actual runtime failed"}

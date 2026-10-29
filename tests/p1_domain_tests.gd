@@ -41,18 +41,21 @@ func _run() -> void:
 	check(not restored.confirm_name("第二次") and restored.state.cat.displayName == "Снежок 小雪", "确认幂等，不重复命名")
 	check(restored.state.quests.q01_cat == "completed" and restored.state.quests.q02_organize == "active", "名字确认才完成 Q01")
 	check(not restored.complete_organization(), "未放完物品不能通过")
-	for pair in [["textbook","B"],["passport","B"],["scarf","B"],["washbag","C"]]:
-		check(restored.place_item(pair[0], pair[1]), "教程摆放保存 " + pair[0])
-	check(not restored.complete_organization(), "容量及区域非法拒绝")
-	check(restored.undo_organization(), "非法摆放可撤销")
-	var mid := P1Session.new("PLAYTEST", base)
-	check(mid.state.organization.placements.size() == 3 and not mid.state.organization.tutorialCompleted, "退出重入保留局部摆放，不跳 Q02")
-	check(mid.undo_organization(true), "可重置教程")
-	for pair in [["textbook","A"],["passport","B"],["scarf","B"],["washbag","C"]]:
-		mid.place_item(pair[0], pair[1])
-	check(mid.complete_organization(), "源教程合法解通过")
+	var model = restored.luggage_model()
+	check(restored.save_luggage(model.snapshot()), "新空间初始摆放单独保存")
+	check(not restored.complete_organization(), "未满足长短和齐边不能推进")
+	model.place("passport",{"position":Vector2(100,260),"turn":0})
+	check(restored.save_luggage(model.snapshot()), "空间调整持久化")
+	var mid := P1Session.new("PLAYTEST",base)
+	check(mid.luggage_model().poses == model.poses and not mid.state.organization.tutorialCompleted,"退出重入保留空间坐标，不跳Q02")
+	model.restart()
+	var solution := {"passport":Vector2(83,332.5),"washbag":Vector2(206.5,305),"textbook":Vector2(360,290),"scarf":Vector2(498.5,260)}
+	for id in solution:
+		model.place(id,{"position":solution[id],"turn":0})
+	check(mid.save_luggage(model.snapshot()) and mid.complete_organization(), "空间合法解完成原Q02事件")
 	check(mid.state.rewards.size() == 2 and not mid.state.story.cityUnlocked, "整理纪念一次；消息读完前城市仍锁")
-	check(mid.complete_organization() and mid.state.rewards.size() == 2, "重做教程不重复奖励")
+	var completed_revision: int = mid.state.revision
+	check(mid.complete_organization() and mid.state.rewards.size() == 2 and mid.state.revision == completed_revision, "重复完成不重复奖励也不重复写档")
 	check(mid.advance_message() and not mid.state.story.cityUnlocked, "消息第一条不提前解锁")
 	check(mid.advance_message() and mid.state.story.cityUnlocked, "消息第二条完成 Q03")
 	check(mid.advance_message() and mid.state.story.annaMessageIndex == 2, "重复读消息幂等")

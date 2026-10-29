@@ -87,6 +87,8 @@ static func valid(value: Variant) -> bool:
 		for id in placements:
 			if not P1Content.data().itemNames.has(id) or not placements[id] is String or not P1Content.data().binNames.has(placements[id]):
 				return false
+	if org.has("spatial") and not preload("res://scripts/p1/luggage_tidy/model.gd").valid_snapshot(org.spatial):
+		return false
 	var named: bool = cat.firstPetCompleted and not cat.displayName.strip_edges().is_empty() and not cat.namePending
 	if cat.namePending != (cat.firstPetCompleted and cat.displayName.is_empty()):
 		return false

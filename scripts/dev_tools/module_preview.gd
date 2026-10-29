@@ -42,7 +42,7 @@ func show_menu() -> void:
 	app.story_flow._screen("dev_modules","DEV · 模块预览")
 	app.story_flow._text("每次预览新建独立数据，通过原领域事件进入模块；不会覆盖完整流程档。",16)
 	app.story_flow._text("当前："+app.session.store.directory,13)
-	luggage_button = app.story_flow._button("实验 · 行李整理",open_luggage_experiment)
+	luggage_button = app.story_flow._button("行李整理 · 独立重玩",open_luggage_experiment)
 	module_buttons.clear()
 	for id in MODULES:
 		var module: String = id
@@ -54,7 +54,7 @@ func open_luggage_experiment() -> bool:
 	if not app.runtime_mode.can_dev or app.transitioning or is_instance_valid(luggage_experiment):
 		return false
 	# Does not create fixtures, switch sessions, advance quests or write profiles.
-	luggage_experiment = load("res://scripts/dev_tools/luggage_tidy/view.gd").new()
+	luggage_experiment = load("res://scripts/p1/luggage_tidy/view.gd").new()
 	app.add_child(luggage_experiment)
 	luggage_experiment.setup(app)
 	luggage_experiment.closed.connect(func(): luggage_experiment = null)
@@ -89,9 +89,13 @@ static func fixture(module: String, base: String) -> P1Session:
 		return null
 	if module == "q02":
 		return player
-	for item in player.puzzle.verification.exampleSolution:
-		if not player.place_item(item,player.puzzle.verification.exampleSolution[item]):
+	var model = player.luggage_model()
+	var positions := {"passport":Vector2(83,332.5),"washbag":Vector2(206.5,305),"textbook":Vector2(360,290),"scarf":Vector2(498.5,260)}
+	for item_id in positions:
+		if not model.place(item_id,{"position":positions[item_id],"turn":0}):
 			return null
+	if not player.save_luggage(model.snapshot()):
+		return null
 	if not player.complete_organization():
 		return null
 	if module == "home":

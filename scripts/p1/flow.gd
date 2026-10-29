@@ -11,15 +11,12 @@ var name_error: Label
 var org_status: Label
 var undo_button: Button
 var reset_button: Button
-var item_buttons: Dictionary = {}
-var bin_buttons: Dictionary = {}
-var selected_item := ""
 var item_summary: Label
 var map_entry: VBoxContainer
 var map_continue: Button
 var map_instruction: Label
 var resume_organization := false
-var organization_board: P1OrganizationBoard
+var organization_board: Control
 var stage: P1StoryStage
 var russian_line: Label
 var chinese_line: Label
@@ -93,6 +90,9 @@ func show_profiles() -> void:
 	_button("返回城市地图",_clear)
 
 func refresh_map_entry() -> void:
+	app.map_view.board.task_id = &"" if session.state.story.cityUnlocked else &"dormitory"
+	app.map_view.task_button.disabled = session.state.story.cityUnlocked
+	app.map_view.board.queue_redraw()
 	if not is_instance_valid(map_instruction):
 		return
 	if session.store.blocked:
@@ -114,7 +114,7 @@ func refresh_map_entry() -> void:
 		map_instruction.text = "整理完成 · 回小屋阅读安娜的俄中消息。"
 		map_continue.text = "继续查看安娜消息"
 	else:
-		map_instruction.text = "首段已完成 · 主动选择地点进入。此处仍为技术地图。"
+		map_instruction.text = "首段已完成 · 主动选择地点进入。选择地点或拖动浏览圣彼得堡。"
 		map_continue.text = "回我的小屋"
 	if not session.store.notice.is_empty():
 		map_instruction.text += "\n" + session.store.notice
@@ -125,6 +125,11 @@ func home_entered() -> void:
 		show_organization()
 
 func _clear() -> void:
+	if is_instance_valid(organization_board):
+		organization_board._restore_host()
+		remove_child(organization_board)
+		organization_board.queue_free()
+	organization_board = null
 	if is_instance_valid(stage) and stage.get_parent() == self:
 		remove_child(stage)
 		stage.queue_free()
@@ -319,42 +324,16 @@ func show_naming() -> void:
 func show_organization() -> void:
 	if session.state.quests.q01_cat != "completed":
 		return
-	selected_item = ""
-	_screen("organization", "整理行李")
-	body.add_theme_constant_override("separation",6)
-	_text("拖放或点选；教材 A、随身物品 B、洗漱包 C。", 15)
-	organization_board = P1OrganizationBoard.new()
-	organization_board.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	body.add_child(organization_board)
-	organization_board.configure(session)
-	item_buttons = organization_board.item_controls
-	bin_buttons = organization_board.bin_controls
-	org_status = _text("选好物品，放进行李箱。", 14)
-	organization_board.feedback.connect(func(message): org_status.text=message)
-	var actions := HBoxContainer.new()
-	body.add_child(actions)
-	undo_button = _button("撤销", func(): session.undo_organization())
-	body.remove_child(undo_button)
-	actions.add_child(undo_button)
-	undo_button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	reset_button = _button("重置", func(): session.undo_organization(true))
-	body.remove_child(reset_button)
-	actions.add_child(reset_button)
-	reset_button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	primary_button = _button("确认", func():
-		if session.complete_organization():
-			_clear()
-			show_message()
-		else:
-			org_status.text = session.last_error)
-	body.remove_child(primary_button)
-	actions.add_child(primary_button)
-	primary_button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	for state in ["normal","hover","pressed"]:
-		var confirm_style := primary_button.get_theme_stylebox(state).duplicate() as StyleBoxFlat
-		confirm_style.bg_color = Color("9bb78f") if state == "normal" else Color("87a67b")
-		primary_button.add_theme_stylebox_override(state,confirm_style)
-	_button("回房间 · 保留摆放", _clear)
+	_clear()
+	modal_kind = "organization"
+	organization_board = load("res://scripts/p1/luggage_tidy/view.gd").new()
+	add_child(organization_board)
+	organization_board.setup(app,session)
+	organization_board.closed.connect(_clear)
+	organization_board.continued.connect(func():
+		_clear()
+		show_message())
+	primary_button = organization_board.continue_button
 
 func show_message() -> void:
 	if not session.state.organization.tutorialCompleted:
@@ -371,7 +350,7 @@ func show_message() -> void:
 			if session.state.story.cityUnlocked:
 				_screen("complete", "第一段旅程完成")
 				_text("猫咪有了名字，行李整理好了，安娜的消息也收到了。现在可以出门，或留在房间继续找猫。")
-				_text("城市目前沿用技术地图；本轮止于 Q03，大学领资料尚未开放。", 16)
+				_text("城市地图已开放；本轮止于 Q03，大学领资料尚未开放。", 16)
 				primary_button = _button("留在房间", _clear)
 				_button("看看城市地图", func():
 					_clear()

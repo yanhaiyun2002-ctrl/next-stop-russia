@@ -25,6 +25,21 @@ func _frames(count := 5) -> void:
 
 func _settle() -> void:
 	var deadline := Time.get_ticks_msec() + 3500
+	# The spatial modal deliberately freezes the underlay's process tree. Wait
+	# for its own geometry instead of asking the paused SafeLayout to tick.
+	if app.process_mode == Node.PROCESS_MODE_DISABLED and is_instance_valid(app.story_flow.organization_board):
+		var view: Control = app.story_flow.organization_board
+		var prior: Array = []
+		var stable := 0
+		while stable < 3:
+			var current: Array = view._signature()
+			stable = stable+1 if current == prior else 0
+			prior = current
+			if Time.get_ticks_msec() > deadline:
+				check(false,"空间整理自身布局3.5秒内稳定")
+				return
+			await process_frame
+		return
 	while app.transitioning or not app.safe_layout.is_layout_settled():
 		if Time.get_ticks_msec() > deadline:
 			check(false, "P1 布局 3.5 秒内稳定")
@@ -140,14 +155,11 @@ func _drag(control: Control, delta: Vector2, touch: bool) -> void:
 			event.button_mask = MOUSE_BUTTON_MASK_LEFT
 			root.push_input(event, true)
 		await _frames(3)
-	if control.get_parent() is P1OrganizationBoard:
-		await _picture("06_drag_%s_%s" % [control.item_id,"touch" if touch else "mouse"])
 	if touch:
 		_touch(origin + delta, false)
 	else:
 		_mouse(origin + delta, false)
 	await _frames(4)
-
 func _run() -> void:
 	evidence = OS.get_environment("P1_EVIDENCE_DIR")
 	create_timer(300).timeout.connect(func():
@@ -229,63 +241,23 @@ func _run() -> void:
 	await _click(app.story_flow.primary_button, true)
 	check(app.session.state.quests.q01_cat == "completed" and app.active_room.p1_controller.organize_button.disabled == false, "实际确认名字推进 Q01 和独立整理按钮")
 	await _click(app.active_room.p1_controller.organize_button)
-	await _click(app.story_flow.item_buttons.textbook)
-	await _click(app.story_flow.bin_buttons.B)
-	await _click(app.story_flow.primary_button)
-	check(not app.session.state.organization.tutorialCompleted, "实际非法/不完整摆放不能推进")
-	check(app.return_to_map() == false and app.story_flow.modal_kind.is_empty(), "整理退出保留进度且不出门")
+	var board: Control = app.story_flow.organization_board
+	check(not board.done and not board.continue_button.visible,"正式整理不显示DEV文案且未解不能继续")
+	check(not app.session.complete_organization(),"不完整摆放不能推进Q02")
+	await preload("res://tests/luggage_input.gd").drag(self,board,"passport",Vector2(100,260),false)
+	var first_pose: Dictionary = board.model.snapshot()
+	check(app.session.state.organization.spatial == first_pose,"正式Q02鼠标拖动后保存独立空间坐标")
+	await _click(board.action_buttons["撤销"])
+	check(board.model.poses == board.MODEL.new().poses,"正式撤销恢复初始摆法")
+	await _click(board.action_buttons["退出"])
+	check(app.story_flow.modal_kind.is_empty() and not app.return_to_map(),"退出整理回房间但不能绕过Q02出门")
 	await _click(app.active_room.p1_controller.organize_button)
-	check(not app.session.state.organization.placements.has("textbook") and not app.story_flow.org_status.text.is_empty(), "非法放置保持原状态且重进不丢合法数据")
-	check(app.story_flow.selected_item.is_empty(), "重进整理清除旧选择，提示与操作一致")
-	var board: P1OrganizationBoard = app.story_flow.organization_board
-	await _drag(board.item_controls.textbook, board.bin_rect("A").get_center()-board.item_rect("textbook").get_center(), false)
-	check(app.session.state.organization.placements.get("textbook") == "A", "实际剧情弹窗内鼠标拖放吸附并保存")
-	await _click(app.story_flow.undo_button)
-	check(app.session.state.organization.placements.is_empty(), "实际撤销按钮恢复拖放前状态")
-	await _drag(board.item_controls.washbag, board.bin_rect("C").get_center()-board.item_rect("washbag").get_center(), true)
-	check(app.session.state.organization.placements.get("washbag") == "C", "实际剧情弹窗内合成触摸拖放")
-	await _click(app.story_flow.reset_button, true)
-	check(app.session.state.organization.placements.is_empty(), "实际重置按钮清空摆放")
-	await _click(board.item_controls.passport, true)
-	var empty_slot := board.bin_rect("B").get_center()
-	_touch(empty_slot,true)
-	await _frames(2)
-	_touch(empty_slot,false)
-	await _frames(4)
-	check(app.session.state.organization.placements.get("passport") == "B", "选择物品后触摸空格位也可放置")
-	await _drag(board.item_controls.passport, board.bin_rect("C").get_center()-board.item_rect("passport").get_center(), false)
-	check(app.session.state.organization.placements.get("passport") == "B" and not board.last_drop_valid, "已放置物品可重拖；非法目标反馈并保留原位")
-	await _click(app.story_flow.reset_button)
-	# Exercise the actual Flow ScrollContainer, including content that requires scrolling.
-	var scroll: ScrollContainer = app.story_flow.body.get_parent()
-	var overflow := Control.new()
-	overflow.custom_minimum_size.y = 300
-	app.story_flow.body.add_child(overflow)
-	scroll.scroll_vertical = 0
-	await _frames(6)
-	var drag_origin := board.item_rect("passport").get_center()
-	_mouse(drag_origin,true)
-	await _frames(2)
-	var move := InputEventMouseMotion.new()
-	move.position = drag_origin+Vector2(12,0)
-	move.relative = Vector2(12,0)
-	move.button_mask = MOUSE_BUTTON_MASK_LEFT
-	root.push_input(move,true)
-	await _frames(2)
-	check(board.pointer_active and board.dragging, "实际整理弹窗开始拖动")
-	scroll.scroll_vertical = 24
-	await _frames(3)
-	_mouse(board.bin_rect("B").get_center(),false)
-	await _frames(3)
-	check(scroll.scroll_vertical > 0 and not board.pointer_active and app.session.state.organization.placements.is_empty(), "实际弹窗滚动取消旧拖放且不误存档")
-	overflow.queue_free()
-	scroll.scroll_vertical = 0
-	await _frames(6)
-	for pair in [["textbook","A"],["passport","B"],["scarf","B"],["washbag","C"]]:
-		await _click(app.story_flow.item_buttons[pair[0]], true)
-		await _click(app.story_flow.bin_buttons[pair[1]], true)
+	board = app.story_flow.organization_board
+	await preload("res://tests/luggage_input.gd").solve(self,board,OS.get_environment("P1_FULL_PORTRAIT") == "1")
+	check(board.model.result().complete and board.done and board.continue_button.visible,"真实拖放旋转完成后显示继续；尚未自动结算")
+	check(not app.session.state.organization.tutorialCompleted,"完成反馈本身不提前推进剧情")
 	await _picture("06_organization")
-	await _click(app.story_flow.primary_button)
+	await _click(board.continue_button)
 	check(app.story_flow.modal_kind == "message" and not app.session.state.story.cityUnlocked, "Q02 完成进入安娜消息但未提前开放城市")
 	check(app.story_flow.russian_line.text == P1Content.data().annaMessage[0].ru and app.story_flow.chinese_line.text == P1Content.data().annaMessage[0].zhSubtitle, "安娜消息俄语和中文同显")
 	await _picture("07_anna_message")

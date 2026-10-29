@@ -1,7 +1,11 @@
 extends Control
-## DEV-only tactile experiment; all placements live in model memory.
+## One runtime view shared by Q02 and isolated DEV replay.
 signal closed
-const MODEL = preload("res://scripts/dev_tools/luggage_tidy/model.gd")
+signal continued
+var player: P1Session
+var continue_button: Button
+var restored_host := false
+const MODEL = preload("res://scripts/p1/luggage_tidy/model.gd")
 const INK := Color("4b463b")
 const VOCAB := {"passport":"паспорт · 护照","textbook":"учебник · 教材","scarf":"шарф · 围巾","washbag":"洗漱包"}
 var model = MODEL.new()
@@ -39,7 +43,11 @@ var actions: HBoxContainer
 var action_buttons: Dictionary = {}
 var sound: AudioStreamPlayer
 
-func setup(app: Control) -> void:
+func setup(app: Control, session: P1Session = null) -> void:
+	player = session
+	if player != null:
+		model = player.luggage_model()
+		info.text = "摆放自动保存 · 可以随时回房间。"
 	host = app
 	prior_process_mode = app.process_mode
 	var focused := get_viewport().gui_get_focus_owner()
@@ -52,7 +60,7 @@ func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	title = _label("初到俄罗斯\n整理行李",25)
 	intro = _label("把摊开的行李收拾一下吧。",17)
-	info = _label("独立 DEV 实验 · 不保存进度\n保留与否，等你亲自试玩决定。",13)
+	info = _label("把四件行李整理成舒服的样子。",13)
 	vocab = _label("",15)
 	status = _label("拿起一件物品试试看。",16)
 	hint_button = _button("线索",_hint)
@@ -65,6 +73,8 @@ func _ready() -> void:
 		actions.add_child(button)
 		button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		action_buttons[pair[0]] = button
+	continue_button = _button("整理好了 · 继续",_continue)
+	continue_button.visible = false
 	sound = AudioStreamPlayer.new()
 	add_child(sound)
 	resized.connect(_layout)
@@ -115,6 +125,8 @@ func _layout() -> void:
 	status.size = Vector2(size.x-40 if portrait else 230,44)
 	actions.position = Vector2(16,size.y-60)
 	actions.size = Vector2(size.x-32,48)
+	continue_button.position = Vector2(20,size.y-205 if portrait else 445)
+	continue_button.size = Vector2(size.x-40 if portrait else 230,50)
 	var area := Rect2(16,138,size.x-32,maxf(220,size.y-362)) if portrait else Rect2(285,20,maxf(260,size.x-305),maxf(300,size.y-100))
 	scale_factor = minf(area.size.x/600,area.size.y/600)
 	origin = area.position+(area.size-Vector2(600,600)*scale_factor)/2
@@ -189,6 +201,7 @@ func _input(event: InputEvent) -> void:
 		if dragging:
 			if model.place(held,proposed):
 				status.text = "边缘对齐了。" if snapped else "轻轻放好了，还可以再调整。"
+				_persist()
 				last_drop = held
 				drop_age = 0
 				_tone(false)
@@ -221,6 +234,7 @@ func _rotate() -> void:
 		pose.turn = 1-int(pose.turn)
 		if model.place(selected,pose):
 			status.text = "转好了。"
+			_persist()
 			_tone(false)
 		else:
 			status.text = "靠桌边太近，先挪开一点。"
@@ -232,17 +246,20 @@ func _undo() -> void:
 	_cancel()
 	if model.undo():
 		status.text = "回到刚才的摆法。"
+		_persist()
 		_refresh_completion()
 
 func _restart() -> void:
 	_cancel()
 	model.restart()
+	continue_button.visible = false
 	selected = ""
 	done = false
 	settling = 0
 	glow = 0
 	vocab.text = ""
 	status.text = "还是这四件行李，慢慢来。"
+	_persist()
 	queue_redraw()
 
 func _hint() -> void:
@@ -254,6 +271,7 @@ func _refresh_completion() -> void:
 	settling = 0
 	if not model.result().complete:
 		done = false
+		continue_button.visible = false
 	queue_redraw()
 
 func _process(delta: float) -> void:
@@ -268,7 +286,8 @@ func _process(delta: float) -> void:
 		if settling >= 0.3 and not done:
 			done = true
 			glow = 1
-			status.text = "收好了。留在这里，看看你的摆法。"
+			status.text = "收好了。看看你的摆法，再继续旅程。"
+			continue_button.visible = player != null
 			_tone(true)
 	else:
 		settling = 0
@@ -295,17 +314,38 @@ func _tone(complete: bool) -> void:
 	sound.stream = stream
 	sound.play()
 
-func _close() -> void:
-	_cancel()
-	host.process_mode = prior_process_mode
+func _persist() -> void:
+	if player != null and not player.save_luggage(model.snapshot()):
+		model = player.luggage_model()
+		status.text = player.last_error
+
+func _continue() -> void:
+	if player == null or not done or not model.result().complete:
+		return
+	if not player.complete_organization():
+		status.text = player.last_error
+		return
+	_restore_host()
+	continued.emit()
+	queue_free()
+
+func _restore_host() -> void:
+	if restored_host:
+		return
+	restored_host = true
+	if is_instance_valid(host):
+		host.process_mode = prior_process_mode
 	if prior_focus != null and is_instance_valid(prior_focus.get_ref()):
 		prior_focus.get_ref().grab_focus()
+
+func _close() -> void:
+	_cancel()
+	_restore_host()
 	closed.emit()
 	queue_free()
 
 func _exit_tree() -> void:
-	if is_instance_valid(host):
-		host.process_mode = prior_process_mode
+	_restore_host()
 
 func _round(rect: Rect2, color: Color, border: Color = Color(0,0,0,0), radius := 8) -> void:
 	var style := StyleBoxFlat.new()

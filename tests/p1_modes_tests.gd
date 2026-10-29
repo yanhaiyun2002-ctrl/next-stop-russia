@@ -18,6 +18,20 @@ func _frames(count := 8) -> void:
 
 func _settle() -> void:
 	await _frames()
+	if app.process_mode == Node.PROCESS_MODE_DISABLED and is_instance_valid(app.story_flow.organization_board):
+		var view: Control = app.story_flow.organization_board
+		var previous: Array = []
+		var stable := 0
+		var until := Time.get_ticks_msec()+5000
+		while stable < 3:
+			var current: Array = view._signature()
+			stable = stable+1 if current == previous else 0
+			previous = current
+			if Time.get_ticks_msec() > until:
+				check(false,"DEV空间整理自身布局稳定超时")
+				return
+			await process_frame
+		return
 	var deadline := Time.get_ticks_msec()+5000
 	while app.transitioning or not app.safe_layout.is_layout_settled():
 		if Time.get_ticks_msec() > deadline:
@@ -125,6 +139,8 @@ func _run() -> void:
 		for module in PREVIEWS.MODULES:
 			var prior := ""
 			for repeat in range(2):
+				if is_instance_valid(app.story_flow.organization_board):
+					await _click(app.story_flow.organization_board.action_buttons["退出"])
 				if app.story_flow.modal_kind != "dev_modules":
 					await _click(app.dev_tools.entry)
 				await _click(app.dev_tools.module_buttons[module])

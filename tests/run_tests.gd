@@ -130,7 +130,7 @@ func _check_layout(pixels: Vector2i) -> void:
 		var button: Button = app.map_view.buttons[id]
 		var rect := button.get_global_rect()
 		_check(_on_screen(button), "热点可见 %s %s" % [pixels, id])
-		_check(Rect2(Vector2.ZERO, app.map_view.board.size).encloses(Rect2(button.position, button.size)), "热点在地图内 %s %s" % [pixels, id])
+		_check(app.map_view.get_global_rect().encloses(button.get_global_rect()), "地点列表位于地图页面内 %s %s" % [pixels, id])
 		_check(button.size.x >= 48 and button.size.y >= 48, "热点最小触摸尺寸 %s %s" % [pixels, id])
 		for other in rects:
 			_check(not rect.intersects(other), "热点无重叠 %s %s" % [pixels, id])
@@ -283,7 +283,10 @@ func _resize_regressions() -> void:
 		var board: Control = app.map_view.board
 		_check(board.portrait, "连续方向切换完成 %d" % round_index)
 		for id in app.map_view.buttons:
-			_check(app.map_view.buttons[id].size.is_equal_approx(Vector2(156, 92)), "同一帧竖屏热点一致 %d %s" % [round_index, id])
+			var button: Button = app.map_view.buttons[id]
+			var row: HBoxContainer = app.map_view.location_row
+			var expected_width := (row.size.x-row.get_theme_constant("separation")*2)/3
+			_check(absf(button.size.x-expected_width) <= 1.5 and button.size.y >= 48 and _on_screen(button), "方向切换后地点列表等分且触摸尺寸稳定 %d %s" % [round_index, id])
 		var id := &"dormitory" if round_index % 2 == 0 else &"school"
 		await _mouse_click(app.map_view.buttons[id])
 		_check(app.active_id == id, "切换后新热点进入 %d" % round_index)

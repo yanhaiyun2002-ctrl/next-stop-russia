@@ -1,21 +1,16 @@
-# 《下一站，俄罗斯！》P1-01 · Q00～Q03
+# 《下一站，俄罗斯！》P1 整理与圣彼得堡地图整合
 
-当前交付与测试（含真实失败）只汇总于 [P1-01_SUMMARY.md](docs/reports/P1-01_SUMMARY.md)。本轮沿用 Godot 4.7.2 / GDScript / Compatibility，同一主工程；全部视觉仍为 `TEMP_REPLACE_REQUIRED`，不代表正式宿舍设计。
+当前版本已将“长短成序＋共边对齐”的空间行李整理接入正式 Q02，并使用负责人提供的圣彼得堡地图。沿用唯一 Godot 4.7.2 / GDScript / Compatibility 工程。完成本轮后等待负责人试玩验收，不进入 Q04/Q05。
 
-双击根目录 **`试玩P1.cmd`**，或在 Godot 导入 `project.godot` 后按 F5。默认玩家入口为「开始/继续旅程」：安娜和管理员→入宿舍→四家具俄语标签找猫→猫走出→点猫抚摸→确认名字→右侧整理→安娜双语消息→城市开放。暂无语音时明确显示文字回退；出门前必须完成首遇和整理，命名不能跳过。完成首段后可无限重玩找猫，大学领资料属于后续阶段。
+双击 **`试玩整合版PLAYTEST.cmd`** 运行已构建的 Windows PLAYTEST；地图上的“试玩档”可继续旧档或新建独立档，从 Q00 重玩。也可执行 `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-integrated.ps1 -Fresh` 直接建立独立新档。源码入口 `试玩PLAYTEST.cmd` 继续可用；两入口默认共用 `.local-dev/player-data/PLAYTEST/`，不迁移、不删除旧档。已有 `NSR_DATA_ROOT` 时仍优先使用该进程设置。
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-p1.ps1
-# 独立新试玩目录，不覆盖旧档：
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-p1.ps1 -Fresh
-# 仅 DEV 的四藏点与待命名复现；与 PLAYTEST 存档隔离：
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-p1.ps1 -Dev -CatSpot by_window
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-p1.ps1 -Dev -Fresh -NamePending
-```
+每次启动先进入地图。Q00 安娜/管理员与钥匙 → Q01 四家具识词、找猫、抚摸和强制命名 → Q02 拖放、转向、长短排序与齐边，完成后点“整理好了 · 继续” → Q03 原安娜消息与城市解锁。旧已完成 Q02 仍有效；旧 ABC 中途档从新空间初始摆放进入，新空间坐标独立自动保存。没有新增整理规则、物品、每日轮换或奖励。
 
-默认源码玩家存档：`.local-dev/player-data/PLAYTEST/`；DEV 使用相邻 `DEV/`。测试脚本改用每轮证据下的隔离目录。Windows P1 Playtest 独立包位于 `builds/p1-01/`，默认存档在 EXE 同目录 `player-data/PLAYTEST/`。关闭窗口后会自动恢复；读写失败保留旧进度并提示，未来版本/无有效备份的坏档不会被静默覆盖。所有路径可通过进程变量 `NSR_DATA_ROOT` 指定；不改系统环境设置。
+地图可点击负责人标注的宿舍、学校与锁定商店轮廓，也可用底部地点列表；支持拖动、缩放和任务定位。地图 PNG 与地点热区/名称/任务状态分离，原件不变。地图和程序整理美术为 PROJECT_ORIGINAL / RETAIN_CANDIDATE，其他资源按 `assets/art_registry.json` 各自状态管理，均未自动升级 FINAL_APPROVED。
 
-新增验证：`powershell -NoProfile -ExecutionPolicy Bypass -File tests/p1.ps1 -Rendered -EvidenceDir docs/evidence/新的目录`，可加 `-FullPortrait` 从模拟竖屏新档完成整段；默认 Headless 不验证像素。原 P0 测试完整保留，通过显式 `technical_mode` 验原合同，不降低断言。P1 模拟触摸与竖屏不等同真机或真人验收。
+DEV：`开发DEV.cmd` → 地图“模块” → Q02 首次整理，可重复创建隔离预览；完整关闭整理界面后再切换模块。“行李整理 · 独立重玩”复用同一运行时，仅不写正式任务。RELEASE 包无 DEV 菜单、fixture 注入及调试验收器。三模式使用独立存档目录；直接运行导出 EXE 时未设置 `NSR_DATA_ROOT` 则数据在 EXE 同目录 `player-data/<MODE>`，与上述脚本默认目录不同，不自动搬迁。
+
+当前单份交付：[P1_GAMEPLAY_MAP_INTEGRATION_SUMMARY.md](docs/reports/P1_GAMEPLAY_MAP_INTEGRATION_SUMMARY.md)。报告记录实际截图、自动化和 Windows 运行结果及失败历史；模拟触摸通过不代表 P0 偶发触摸风险已修复，未宣称真人/Android/Apple 验收。
 
 ## 保留的 P0 技术模式说明
 
@@ -133,7 +128,7 @@ Android 产物为 `builds/android/NextStopRussia-debug.apk`。须在 Godot 编�
 
 **P0 历史基线止于 P0-04；当前整改授权为 P1-01R（Q00～Q03），不自动进入下一阶段。**
 
-## P1-01R 视觉与交互试玩
+## P1-01R 历史阶段：视觉与交互试玩
 
 根目录 `试玩P1.cmd` 继续运行当前主工程，沿用 `.local-dev/player-data/PLAYTEST` 存档。每次启动先到城市地图，再通过“继续”入口进入当前剧情；地图入口不清空或推进存档。`-Fresh` 使用单独的新存档目录，不覆盖已有记录。
 
@@ -145,7 +140,7 @@ Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 �
 
 双击 `试玩PLAYTEST.cmd`（原 `试玩P1.cmd` 也保留），在城市地图点“试玩档”：可继续“原默认档”，或“新建独立试玩档 · 从 Q00 开始”。每个新档保留旧记录，最近选择跨启动记住；`试玩PLAYTEST.cmd -Fresh` 也会创建新的独立档，不删除唯一存档。
 
-双击 `开发DEV.cmd`，点地图“模块”选择 Q00、Q01、Q02、Q03 或宿舍自由视觉预览；预览中右上“DEV · 模块”可再次选择或退出预览，退出会回到 DEV 完整流程档。也可以 `开发DEV.cmd -Module q02`。每次模块启动以原领域事件生成新的独立测试数据，不覆盖常规 DEV 档或验收档。
+双击 `开发DEV.cmd`，点地图“模块”选择 Q00、Q01、Q02、Q03 或宿舍自由视觉预览；预览中右上“DEV · 模块”可再次选择或退出预览（全屏整理须先点“退出”回宿舍），退出会回到 DEV 完整流程档。也可以 `开发DEV.cmd -Module q02`。每次模块启动以原领域事件生成新的独立测试数据，不覆盖常规 DEV 档或验收档。
 
 存档根目录继续优先用进程环境 `NSR_DATA_ROOT`。源工程启动器默认 `.local-dev/player-data`，独立 EXE 默认其旁 `player-data`；三个模式分别存到根目录下 `DEV/`、`PLAYTEST/`、`RELEASE/`。旧档仍在各命名空间 `save.json`，新试玩档在 `PLAYTEST/profiles/slot_*/save.json`，DEV 预览在 `DEV/previews/<模块>/run_*/save.json`。`selected_profile.json` 只记录所选档 ID，不改变存档 schema。实际路径显示在档位／DEV 模块菜单中，模式显示在地图副标题和 Windows 标题栏。
 
@@ -153,10 +148,8 @@ Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 �
 
 本轮开发效率与隔离结果见 `docs/reports/P1-01R_DEV_MODES_SUMMARY.md`。不进入 Q04／Q05，未增加新剧情或修改美术。
 
-## 整理玩法：机制一独立 DEV 原型，待真人试玩
+## 整理原型到正式 Q02 的接入
 
-整理已改为可选系统的有边界验证，旧 A/B/C 方案不再代表最终产品目标；当前正式 Q02 尚未删除或重写。最新合并提案见 `docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md`，负责人已选择机制一“长短成序＋共边对齐”，本轮只制作该独立 DEV 实验。早期“窗边书桌”草稿继续暂停。最终保留／最多一轮针对性调整／删除均由负责人真人试玩后决定。
+负责人已亲自试玩并决定保留机制一，本轮已用它替换正式 Q02。原型报告作为历史记录保留；当前状态、实际截图和运行方式以页首及本轮整合报告为准。
 
-直接双击根目录 `行李整理原型DEV.cmd` 可进入实验，启动器单独使用 `.local-dev/prototype-data/arrival-luggage` 沙盒，不读写原试玩目录。也可在 `开发DEV.cmd` 的地图“模块”菜单中点“实验 · 行李整理”；打开时暂停下层，关闭后恢复当前菜单／场景。本实验摆放、撤销、重来和完成都只在内存中，不改变当前档位、剧情或奖励。
-
-按住／单指拖动物品；轻点选中后点“转向”，PC 也可用 R。可撤销、重来同一初始局面、主动查看线索；满足空间关系后自动给出完成反馈，不设计时或评分。Esc／退出返回原场景。机制二未实现，玩法是否值得保留仍待负责人试玩。结果记录在 `docs/reports/ARRIVAL_LUGGAGE_PROTOTYPE_SUMMARY.md`。
+`行李整理原型DEV.cmd` 保留为隔离重玩快捷入口，使用 `.local-dev/prototype-data/arrival-luggage`；菜单显示“行李整理 · 独立重玩”，复用当前共享运行时，摆放只在内存，不修改主线。正式 Q02 则保存空间摆放，并在完成后由明确的继续按钮提交 Q02 事件；退出返回宿舍。

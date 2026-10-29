@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "assetId": "p1r.organization.textbook",
+      "path": "assets/p1r/organization/textbook.png",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "706dca063f05906e8d224f07a856d4ad9d423cfbb325516bd20d4a5614cc6392"
+    },
+    {
+      "assetId": "p1r.organization.passport",
+      "path": "assets/p1r/organization/passport.png",
+      "pixels": [
+        1236,
+        1273
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "dfbe9fc38befb2254c7bc42f22808d6d6db5b7c58e9034ac2feaa4e00786c619"
+    },
+    {
+      "assetId": "p1r.organization.scarf",
+      "path": "assets/p1r/organization/scarf.png",
+      "pixels": [
+        1312,
+        1199
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9f7fc37c207e9e5635795ea60166abb7281a9efb5355610db7180ec7da95ba24"
+    },
+    {
+      "assetId": "p1r.organization.washbag",
+      "path": "assets/p1r/organization/washbag.png",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "f0ad67683463d9a84af517ed7ef487f5a4ba40778e5374535fcd864b6fb80b9c"
+    },
+    {
+      "assetId": "p1r.story.arrival",
+      "path": "assets/p1r/story/arrival.png",
+      "pixels": [
+        1672,
+        941
+      ],
+      "alpha": null,
+      "sha256": "9d060c74281220534b3755c99c35ca9487432012dfe6ced1a19eb1fe94fc806e"
+    },
+    {
+      "assetId": "p1r.story.reception",
+      "path": "assets/p1r/story/reception.png",
+      "pixels": [
+        1672,
+        941
+      ],
+      "alpha": null,
+      "sha256": "62db9ba9d53dc7a7b7df4ee9088ab45f0afad3ccf288620b68b758471043f33c"
+    },
+    {
+      "assetId": "p1r.story.anna",
+      "path": "assets/p1r/story/anna.png",
+      "pixels": [
+        1213,
+        1296
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "03637e7c28dd38b2071d8ccd8b80e244fa891f7e21719b27bf7cf0aaf2701ad6"
+    },
+    {
+      "assetId": "p1r.story.admin",
+      "path": "assets/p1r/story/admin.png",
+      "pixels": [
+        1145,
+        1374
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "6e23a47af2720236c9a3056b018e1c743c35a39dce13c1e92752f543a4050665"
+    },
+    {
+      "assetId": "p1r.home.background",
+      "path": "assets/p1r/home/background.png",
+      "pixels": [
+        2135,
+        736
+      ],
+      "alpha": null,
+      "sha256": "b3a8ac8980157d9a7d370278f431f787a85558250bdf35173b4ac46b0131c4b1"
+    },
+    {
+      "assetId": "p1r.home.wood",
+      "path": "assets/p1r/home/wood.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "alpha": null,
+      "sha256": "24d9aee1e6d323c3512c8d86447ee46acb133d7a70ebada421e484c218c0c332"
+    },
+    {
+      "assetId": "p1r.home.fabric",
+      "path": "assets/p1r/home/fabric.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "alpha": null,
+      "sha256": "a9967f9c1e0a2c0e0152e38491777921d53344af36b397ef52e54abc935dee1f"
+    },
+    {
+      "assetId": "p1r.cat",
+      "path": "assets/p1r/home/cat.png",
+      "pixels": [
+        1586,
+        992
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "0cc42edb4f0420853b7cfcf8b8e6aed8f0cbb59eae091f8b3902af8976914e7b"
+    },
+    {
+      "assetId": "p1r.organization.caseA",
+      "path": "assets/p1r/organization/caseA.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "21f94adb1c96820a443f042573c3adc566e17544bd84ec8e7a91186100af3035"
+    },
+    {
+      "assetId": "p1r.organization.caseB",
+      "path": "assets/p1r/organization/caseB.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "5f124f67434cb7d0bbb532536de026bfdd9124ef74f7619a46205f9e23a7c230"
+    },
+    {
+      "assetId": "p1r.organization.caseC",
+      "path": "assets/p1r/organization/caseC.png",
+      "pixels": [
+        1774,
+        887
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "ad3a5fa5fcf8cc38d6573034c787c537bbc15210e729b78e0fe7b6717c5d46db"
+    }
+  ],
+  "checks": [
+    "unique IDs/renderer keys",
+    "PNG decode/real alpha",
+    "actual dimensions",
+    "AI retention/use flags",
+    "story unchanged except label offsets",
+    "tutorial puzzle unchanged"
+  ],
+  "notChecked": [
+    "save behavior: use p1_domain_tests/p1_modes_tests",
+    "final producer art approval",
+    "full commercial rights review"
+  ]
+}

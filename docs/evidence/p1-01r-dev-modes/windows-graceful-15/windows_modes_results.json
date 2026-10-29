@@ -1,0 +1,59 @@
+[
+  {
+    "previewSaveCount": 1,
+    "regularSaveHashesUnchanged": true,
+    "packAudit": "pack-dev.json",
+    "mode": "DEV",
+    "runtime": "PASS",
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\p1-01r-dev-modes\\windows-graceful-15/runtime-dev.log\"",
+      "--quit-after",
+      "180",
+      "--",
+      "--preview=q02"
+    ]
+  },
+  {
+    "previewSaveCount": 0,
+    "regularSaveHashesUnchanged": true,
+    "packAudit": "pack-playtest.json",
+    "mode": "PLAYTEST",
+    "runtime": "PASS",
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\p1-01r-dev-modes\\windows-graceful-15/runtime-playtest.log\"",
+      "--quit-after",
+      "180",
+      "--",
+      "--dev",
+      "--mode=DEV",
+      "--preview=q02",
+      "--name-pending",
+      "--technical-map",
+      "--cat-spot=under_bed"
+    ]
+  },
+  {
+    "previewSaveCount": 0,
+    "regularSaveHashesUnchanged": true,
+    "packAudit": "pack-release.json",
+    "mode": "RELEASE",
+    "runtime": "PASS",
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\p1-01r-dev-modes\\windows-graceful-15/runtime-release.log\"",
+      "--quit-after",
+      "180",
+      "--",
+      "--dev",
+      "--mode=DEV",
+      "--preview=q02",
+      "--name-pending",
+      "--technical-map",
+      "--cat-spot=under_bed",
+      "--new-playtest",
+      "--verify-p1-package"
+    ]
+  }
+]

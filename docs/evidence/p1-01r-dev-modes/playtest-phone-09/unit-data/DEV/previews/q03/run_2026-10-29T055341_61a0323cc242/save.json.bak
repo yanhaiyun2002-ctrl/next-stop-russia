@@ -1,0 +1,55 @@
+{
+	"cat": {
+		"breedId": "siberian_forest",
+		"displayName": "Снег",
+		"firstPetCompleted": true,
+		"namePending": false,
+		"petRoundId": 1,
+		"roundId": 1,
+		"rounds": 1,
+		"spotId": "by_window"
+	},
+	"organization": {
+		"history": [
+			{},
+			{
+				"textbook": "A"
+			},
+			{
+				"passport": "B",
+				"textbook": "A"
+			},
+			{
+				"passport": "B",
+				"scarf": "B",
+				"textbook": "A"
+			}
+		],
+		"journalDate": "",
+		"placements": {
+			"passport": "B",
+			"scarf": "B",
+			"textbook": "A",
+			"washbag": "C"
+		},
+		"tutorialCompleted": false
+	},
+	"quests": {
+		"q00_arrival": "completed",
+		"q01_cat": "completed",
+		"q02_organize": "active",
+		"q03_anna_message": "locked"
+	},
+	"revision": 13,
+	"rewards": {
+		"cat_first_meeting_v1": true
+	},
+	"schemaVersion": 1,
+	"story": {
+		"annaMessageIndex": 0,
+		"arrivalIndex": 5,
+		"cityUnlocked": false,
+		"hasHomeKey": true,
+		"homeEntered": true
+	}
+}

@@ -1,4 +1,4 @@
-param([string]$EvidenceDir='docs/evidence/p1-01r-dev-modes/windows-01')
+param([string]$EvidenceDir='docs/evidence/p1-01r-dev-modes/windows-01',[switch]$SkipBuild)
 $ErrorActionPreference='Stop'
 $taskRoot=Split-Path -Parent $PSScriptRoot
 $taskEvidence=[IO.Path]::GetFullPath((Join-Path $taskRoot $EvidenceDir))
@@ -15,8 +15,10 @@ foreach($taskMode in @('DEV','PLAYTEST','RELEASE')){
     $taskLower=$taskMode.ToLowerInvariant()
     $taskBuild="$taskRoot/builds/modes/$taskLower"
     New-Item -ItemType Directory -Force $taskBuild | Out-Null
-    & $taskGodot --headless --path $taskRoot --export-release "Windows $taskMode" --log-file "$taskEvidence/export-$taskLower.log"
-    if($LASTEXITCODE -ne 0 -or (Select-String -LiteralPath "$taskEvidence/export-$taskLower.log" -Pattern 'SCRIPT ERROR|Parse Error|Compile Error')){throw "$taskMode export failed"}
+    if(-not $SkipBuild){
+        & $taskGodot --headless --path $taskRoot --export-release "Windows $taskMode" --log-file "$taskEvidence/export-$taskLower.log"
+        if($LASTEXITCODE -ne 0 -or (Select-String -LiteralPath "$taskEvidence/export-$taskLower.log" -Pattern 'SCRIPT ERROR|Parse Error|Compile Error')){throw "$taskMode export failed"}
+    }
     $env:NSR_AUDIT_MODE=$taskMode
     $env:NSR_AUDIT_PACK="$taskBuild/NextStopRussia-$taskMode.pck"
     $env:NSR_AUDIT_OUT="$taskEvidence/pack-$taskLower.json"
@@ -29,12 +31,13 @@ foreach($taskMode in @('DEV','PLAYTEST','RELEASE')){
     $taskBefore=@{}
     foreach($taskChannel in @('DEV','PLAYTEST','RELEASE')){$taskBefore[$taskChannel]=(Get-FileHash "$taskData/$taskChannel/save.json").Hash}
     $taskRuntime="$taskEvidence/runtime-$taskLower.log"
-    $taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--','--dev','--mode=DEV','--preview=q02','--name-pending','--technical-map','--cat-spot=under_bed')
+    $taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--dev','--mode=DEV','--preview=q02','--name-pending','--technical-map','--cat-spot=under_bed')
     if($taskMode -eq 'RELEASE'){$taskArgs+=@('--new-playtest','--verify-p1-package')}
     # DEV gets one unambiguous module request; negative builds get every legacy attack flag.
-    if($taskMode -eq 'DEV'){$taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--','--preview=q02')}
-    $taskProcess=Start-Process -FilePath "$taskBuild/NextStopRussia-$taskMode.exe" -WorkingDirectory $taskBuild -ArgumentList $taskArgs -WindowStyle Hidden -PassThru
-    if(-not $taskProcess.WaitForExit(7000)){Stop-Process -Id $taskProcess.Id; $taskProcess.WaitForExit()}
+    if($taskMode -eq 'DEV'){$taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--preview=q02')}
+    $taskProcess=Start-Process -FilePath "$taskBuild/NextStopRussia-$taskMode.exe" -WorkingDirectory $taskBuild -ArgumentList $taskArgs -WindowStyle Hidden -RedirectStandardOutput "$taskEvidence/stdout-$taskLower.log" -RedirectStandardError "$taskEvidence/stderr-$taskLower.log" -PassThru
+    if(-not $taskProcess.WaitForExit(20000)){Stop-Process -Id $taskProcess.Id; throw "$taskMode graceful runtime timeout"}
+    if($taskProcess.ExitCode -ne 0){throw "$taskMode standalone exit $($taskProcess.ExitCode)"}
     $taskLog=Get-Content -LiteralPath $taskRuntime -Raw
     if($taskLog -notmatch "NSR_MODE=$taskMode " -or $taskLog -match 'SCRIPT ERROR|Parse Error|Compile Error'){throw "$taskMode actual runtime failed"}
     foreach($taskChannel in @('DEV','PLAYTEST','RELEASE')){

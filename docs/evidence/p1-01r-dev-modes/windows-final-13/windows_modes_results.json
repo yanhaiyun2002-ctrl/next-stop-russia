@@ -1,0 +1,53 @@
+[
+  {
+    "runtime": "PASS",
+    "packAudit": "pack-dev.json",
+    "mode": "DEV",
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\p1-01r-dev-modes\\windows-final-13/runtime-dev.log\"",
+      "--",
+      "--preview=q02"
+    ],
+    "previewSaveCount": 1,
+    "regularSaveHashesUnchanged": true
+  },
+  {
+    "runtime": "PASS",
+    "packAudit": "pack-playtest.json",
+    "mode": "PLAYTEST",
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\p1-01r-dev-modes\\windows-final-13/runtime-playtest.log\"",
+      "--",
+      "--dev",
+      "--mode=DEV",
+      "--preview=q02",
+      "--name-pending",
+      "--technical-map",
+      "--cat-spot=under_bed"
+    ],
+    "previewSaveCount": 0,
+    "regularSaveHashesUnchanged": true
+  },
+  {
+    "runtime": "PASS",
+    "packAudit": "pack-release.json",
+    "mode": "RELEASE",
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\p1-01r-dev-modes\\windows-final-13/runtime-release.log\"",
+      "--",
+      "--dev",
+      "--mode=DEV",
+      "--preview=q02",
+      "--name-pending",
+      "--technical-map",
+      "--cat-spot=under_bed",
+      "--new-playtest",
+      "--verify-p1-package"
+    ],
+    "previewSaveCount": 0,
+    "regularSaveHashesUnchanged": true
+  }
+]

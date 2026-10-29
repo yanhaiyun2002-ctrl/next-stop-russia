@@ -1,0 +1,1228 @@
+{
+	"checks": [
+		{
+			"name": "地图为真实启动入口",
+			"passed": true
+		},
+		{
+			"name": "三栋建筑配置",
+			"passed": true
+		},
+		{
+			"name": "无效建筑 ID 有反馈",
+			"passed": true
+		},
+		{
+			"name": "锁定商店可点击并反馈",
+			"passed": true
+		},
+		{
+			"name": "拒绝操作保留可见提示",
+			"passed": true
+		},
+		{
+			"name": "空场景路径被拦截",
+			"passed": true
+		},
+		{
+			"name": "缺失场景路径被拦截",
+			"passed": true
+		},
+		{
+			"name": "错误场景接口被拦截",
+			"passed": true
+		},
+		{
+			"name": "失败保持地图可用",
+			"passed": true
+		},
+		{
+			"name": "请求进入 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同帧重复进入被拦截 dormitory",
+			"passed": true
+		},
+		{
+			"name": "独立场景已进入 dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内隐藏地图 dormitory",
+			"passed": true
+		},
+		{
+			"name": "临时场景简单交互 dormitory",
+			"passed": true
+		},
+		{
+			"name": "临时交互显示结果 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同帧重复返回被拦截 dormitory",
+			"passed": true
+		},
+		{
+			"name": "返回地图 dormitory",
+			"passed": true
+		},
+		{
+			"name": "保留地图实例 dormitory",
+			"passed": true
+		},
+		{
+			"name": "保留建筑选择 dormitory",
+			"passed": true
+		},
+		{
+			"name": "恢复建筑焦点 dormitory",
+			"passed": true
+		},
+		{
+			"name": "请求进入 school",
+			"passed": true
+		},
+		{
+			"name": "同帧重复进入被拦截 school",
+			"passed": true
+		},
+		{
+			"name": "独立场景已进入 school",
+			"passed": true
+		},
+		{
+			"name": "室内隐藏地图 school",
+			"passed": true
+		},
+		{
+			"name": "临时场景简单交互 school",
+			"passed": true
+		},
+		{
+			"name": "临时交互显示结果 school",
+			"passed": true
+		},
+		{
+			"name": "同帧重复返回被拦截 school",
+			"passed": true
+		},
+		{
+			"name": "返回地图 school",
+			"passed": true
+		},
+		{
+			"name": "保留地图实例 school",
+			"passed": true
+		},
+		{
+			"name": "保留建筑选择 school",
+			"passed": true
+		},
+		{
+			"name": "恢复建筑焦点 school",
+			"passed": true
+		},
+		{
+			"name": "20 轮额外往返无重复实例",
+			"passed": true
+		},
+		{
+			"name": "返回后无室内节点残留",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 0",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 0",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 0",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 0 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 0 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 0 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 0",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 0",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 0",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 0",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 1",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 1",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 1",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 1 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 1 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 1 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 1",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 1",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 1",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 1",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 2",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 2",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 2",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 2 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 2 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 2 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 2",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 2",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 2",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 2",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 3",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 3",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 3",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 3 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 3 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 3 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 3",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 3",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 3",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 3",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 4",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 4",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 4",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 4 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 4 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 4 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 4",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 4",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 4",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 4",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 5",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 5",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 5",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 5 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 5 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 5 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 5",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 5",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 5",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 5",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 6",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 6",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 6",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 6 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 6 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 6 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 6",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 6",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 6",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 6",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 7",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 7",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 7",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 7 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 7 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 7 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 7",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 7",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 7",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 7",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 8",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 8",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 8",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 8 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 8 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 8 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 8",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 8",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 8",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 8",
+			"passed": true
+		},
+		{
+			"name": "跨尺寸按下/释放取消 9",
+			"passed": true
+		},
+		{
+			"name": "取消后热点不保持按下 9",
+			"passed": true
+		},
+		{
+			"name": "连续方向切换完成 9",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 9 dormitory",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 9 school",
+			"passed": true
+		},
+		{
+			"name": "同一帧竖屏热点一致 9 shop",
+			"passed": true
+		},
+		{
+			"name": "切换后新热点进入 9",
+			"passed": true
+		},
+		{
+			"name": "切换后交互 9",
+			"passed": true
+		},
+		{
+			"name": "切换后返回 9",
+			"passed": true
+		},
+		{
+			"name": "切换后锁定反馈 9",
+			"passed": true
+		},
+		{
+			"name": "方向布局 (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1920, 1080) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1920, 1080) school",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1920, 1080) shop",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1920, 1080) shop",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1920, 1080) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1920, 1080) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1920, 1080) shop",
+			"passed": true
+		},
+		{
+			"name": "比例内点击商店反馈 (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "实际渲染截图 (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "截图尺寸符合请求 (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "方向布局 (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内实际渲染截图 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1280, 800) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "室内实际渲染截图 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1280, 800) school",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1280, 800) shop",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1280, 800) shop",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1280, 800) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1280, 800) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1280, 800) shop",
+			"passed": true
+		},
+		{
+			"name": "比例内点击商店反馈 (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "实际渲染截图 (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "截图尺寸符合请求 (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "方向布局 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1080, 1920) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1080, 1920) school",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1080, 1920) shop",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1080, 1920) shop",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1080, 1920) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1080, 1920) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1080, 1920) shop",
+			"passed": true
+		},
+		{
+			"name": "比例内点击商店反馈 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "实际渲染截图 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "截图尺寸符合请求 (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "方向布局 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1170, 2532) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (1170, 2532) school",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (1170, 2532) shop",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (1170, 2532) shop",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (1170, 2532) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1170, 2532) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (1170, 2532) shop",
+			"passed": true
+		},
+		{
+			"name": "比例内点击商店反馈 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "实际渲染截图 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "截图尺寸符合请求 (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "方向布局 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "室内实际渲染截图 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (360, 780) dormitory",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "比例内点击进入 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "室内控件可见 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 交互 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "室内实际渲染截图 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "GUI 返回 (360, 780) school",
+			"passed": true
+		},
+		{
+			"name": "热点可见 (360, 780) shop",
+			"passed": true
+		},
+		{
+			"name": "热点在地图内 (360, 780) shop",
+			"passed": true
+		},
+		{
+			"name": "热点最小触摸尺寸 (360, 780) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (360, 780) shop",
+			"passed": true
+		},
+		{
+			"name": "热点无重叠 (360, 780) shop",
+			"passed": true
+		},
+		{
+			"name": "比例内点击商店反馈 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "实际渲染截图 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "截图尺寸符合请求 (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "模拟刘海安全区内热点 dormitory",
+			"passed": true
+		},
+		{
+			"name": "模拟刘海安全区内热点 school",
+			"passed": true
+		},
+		{
+			"name": "模拟刘海安全区内热点 shop",
+			"passed": true
+		},
+		{
+			"name": "模拟底部安全区内返回按钮",
+			"passed": true
+		},
+		{
+			"name": "方向切换后室内返回可访问",
+			"passed": true
+		},
+		{
+			"name": "单向触摸模拟配置",
+			"passed": true
+		},
+		{
+			"name": "合成触摸仅进入一次",
+			"passed": true
+		},
+		{
+			"name": "拖出热点取消点击",
+			"passed": true
+		},
+		{
+			"name": "禁用引擎默认系统返回即退出",
+			"passed": true
+		},
+		{
+			"name": "合成系统返回通知回到地图",
+			"passed": true
+		},
+		{
+			"name": "Escape 返回地图",
+			"passed": true
+		}
+	],
+	"display_server": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": 0,
+	"layouts": [
+		{
+			"actual_window": "(1920, 1080)",
+			"buildings": {
+				"dormitory": {
+					"h": 110.0,
+					"w": 200.0,
+					"x": 220.0,
+					"y": 330.0
+				},
+				"school": {
+					"h": 110.0,
+					"w": 200.0,
+					"x": 540.0,
+					"y": 268.079986572266
+				},
+				"shop": {
+					"h": 110.0,
+					"w": 200.0,
+					"x": 860.0,
+					"y": 371.279998779297
+				}
+			},
+			"logical_viewport": "(1280.0, 720.0)",
+			"portrait": false,
+			"requested_pixels": "(1920, 1080)",
+			"screenshot": "E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-01r-dev-modes/p0-navigation-14/map_1920x1080.png"
+		},
+		{
+			"actual_window": "(1280, 800)",
+			"buildings": {
+				"dormitory": {
+					"h": 110.0,
+					"w": 200.0,
+					"x": 220.0,
+					"y": 370.0
+				},
+				"school": {
+					"h": 110.0,
+					"w": 200.0,
+					"x": 540.0,
+					"y": 293.679992675781
+				},
+				"shop": {
+					"h": 110.0,
+					"w": 200.0,
+					"x": 860.0,
+					"y": 420.880004882813
+				}
+			},
+			"logical_viewport": "(1280.0, 800.0)",
+			"portrait": false,
+			"requested_pixels": "(1280, 800)",
+			"screenshot": "E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-01r-dev-modes/p0-navigation-14/map_1280x800.png"
+		},
+		{
+			"actual_window": "(1080, 1920)",
+			"buildings": {
+				"dormitory": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 141.0,
+					"y": 226.279998779297
+				},
+				"school": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 100.320007324219,
+					"y": 369.0
+				},
+				"shop": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 168.119995117188,
+					"y": 511.720001220703
+				}
+			},
+			"logical_viewport": "(438.0, 780.0)",
+			"portrait": true,
+			"requested_pixels": "(1080, 1920)",
+			"screenshot": "E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-01r-dev-modes/p0-navigation-14/map_1080x1920.png"
+		},
+		{
+			"actual_window": "(1170, 2532)",
+			"buildings": {
+				"dormitory": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 102.0,
+					"y": 226.279998779297
+				},
+				"school": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 75.3600006103516,
+					"y": 369.0
+				},
+				"shop": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 119.760009765625,
+					"y": 511.720001220703
+				}
+			},
+			"logical_viewport": "(360.0, 780.0)",
+			"portrait": true,
+			"requested_pixels": "(1170, 2532)",
+			"screenshot": "E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-01r-dev-modes/p0-navigation-14/map_1170x2532.png"
+		},
+		{
+			"actual_window": "(360, 780)",
+			"buildings": {
+				"dormitory": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 102.0,
+					"y": 226.279998779297
+				},
+				"school": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 75.3600006103516,
+					"y": 369.0
+				},
+				"shop": {
+					"h": 92.0,
+					"w": 156.0,
+					"x": 119.760009765625,
+					"y": 511.720001220703
+				}
+			},
+			"logical_viewport": "(360.0, 780.0)",
+			"portrait": true,
+			"requested_pixels": "(360, 780)",
+			"screenshot": "E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-01r-dev-modes/p0-navigation-14/map_360x780.png"
+		}
+	],
+	"passed": 268,
+	"scope": "synthetic desktop viewport/input; not mobile device tests"
+}

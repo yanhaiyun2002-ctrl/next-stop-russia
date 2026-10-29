@@ -1,0 +1,345 @@
+{
+	"checks": [
+		{
+			"name": "RELEASE/未知/冲突构建失败闭合 []",
+			"passed": true
+		},
+		{
+			"name": "RELEASE/未知/冲突构建失败闭合 [\"nsr_release\"]",
+			"passed": true
+		},
+		{
+			"name": "RELEASE/未知/冲突构建失败闭合 [\"nsr_release\", \"nsr_dev\"]",
+			"passed": true
+		},
+		{
+			"name": "RELEASE/未知/冲突构建失败闭合 [\"nsr_dev\", \"p1_playtest\"]",
+			"passed": true
+		},
+		{
+			"name": "PLAYTEST不接受DEV提权参数",
+			"passed": true
+		},
+		{
+			"name": "DEV构建明确允许开发能力",
+			"passed": true
+		},
+		{
+			"name": "源工程显式DEV",
+			"passed": true
+		},
+		{
+			"name": "源工程RELEASE更严格模式优先",
+			"passed": true
+		},
+		{
+			"name": "模式独立合法保存 DEV",
+			"passed": true
+		},
+		{
+			"name": "模式独立目录 DEV",
+			"passed": true
+		},
+		{
+			"name": "模式独立合法保存 PLAYTEST",
+			"passed": true
+		},
+		{
+			"name": "模式独立目录 PLAYTEST",
+			"passed": true
+		},
+		{
+			"name": "模式独立合法保存 RELEASE",
+			"passed": true
+		},
+		{
+			"name": "模式独立目录 RELEASE",
+			"passed": true
+		},
+		{
+			"name": "通过真实领域事件构造完成档",
+			"passed": true
+		},
+		{
+			"name": "仅在隔离证据目录模拟原已完成试玩档",
+			"passed": true
+		},
+		{
+			"name": "新档唯一且不替换已有档",
+			"passed": true
+		},
+		{
+			"name": "独立档选择跨启动持久化",
+			"passed": true
+		},
+		{
+			"name": "新PLAYTEST档从Q00正常开始",
+			"passed": true
+		},
+		{
+			"name": "创建和切换新档后原档字节不变",
+			"passed": true
+		},
+		{
+			"name": "原已完成档继续可读",
+			"passed": true
+		},
+		{
+			"name": "拒绝越界ID和RELEASE新测试档",
+			"passed": true
+		},
+		{
+			"name": "底层profile ID路径穿越被拒绝",
+			"passed": true
+		},
+		{
+			"name": "恶意profile ID不覆盖原存档",
+			"passed": true
+		},
+		{
+			"name": "新档正常事件写入并生成备份",
+			"passed": true
+		},
+		{
+			"name": "独立档保留原损坏恢复机制",
+			"passed": true
+		},
+		{
+			"name": "独立档备份保留",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q000",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q000",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q001",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q001",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q010",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q010",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q011",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q011",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q020",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q020",
+			"passed": true
+		},
+		{
+			"name": "模块不重复首遇奖励 q020",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q021",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q021",
+			"passed": true
+		},
+		{
+			"name": "模块不重复首遇奖励 q021",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q030",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q030",
+			"passed": true
+		},
+		{
+			"name": "模块不重复首遇奖励 q030",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 q031",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 q031",
+			"passed": true
+		},
+		{
+			"name": "模块不重复首遇奖励 q031",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 home0",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 home0",
+			"passed": true
+		},
+		{
+			"name": "模块不重复首遇奖励 home0",
+			"passed": true
+		},
+		{
+			"name": "模块合法状态 home1",
+			"passed": true
+		},
+		{
+			"name": "模块重复预览新目录 home1",
+			"passed": true
+		},
+		{
+			"name": "模块不重复首遇奖励 home1",
+			"passed": true
+		},
+		{
+			"name": "预览ID白名单不拼接任意路径",
+			"passed": true
+		},
+		{
+			"name": "所有DEV预览后PLAYTEST完成档不变",
+			"passed": true
+		},
+		{
+			"name": "预览不污染常规DEV与RELEASE",
+			"passed": true
+		},
+		{
+			"name": "DEV入口通过真实点击打开菜单",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q000",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "模块直达原开场UI",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q001",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "模块直达原开场UI",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q010",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q011",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q020",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "模块直达真实整理UI",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q021",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "模块直达真实整理UI",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q030",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "模块直达原安娜消息UI",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 q031",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "模块直达原安娜消息UI",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 home0",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单重复启动 home1",
+			"passed": true
+		},
+		{
+			"name": "实际预览不使用常规DEV档",
+			"passed": true
+		},
+		{
+			"name": "退出预览回原DEV流程档",
+			"passed": true
+		}
+	],
+	"display": "headless",
+	"failed": 0,
+	"mode": "DEV",
+	"note": "synthetic input; not human or physical phone acceptance",
+	"passed": 84
+}

@@ -1,6 +1,6 @@
 {
   "registrySchemaVersion": 1,
-  "revision": "p1-01r-integrated-dual-axis-v4",
+  "revision": "p1-01r-plus-arrival-luggage-dev-prototype",
   "authority": "Single authoritative art classification and rendererKey-to-path lookup; does not change gameplay/save schema.",
   "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
   "approvalRecord": {
@@ -2823,8 +2823,402 @@
         "Original prompt unavailable; must not substitute the older candidate_organization_v02 prompt.",
         "Direction approved for P1-01R UI layout/interaction; not permanent final art approval."
       ]
+    },
+    {
+      "assetId": "prototype.arrival_luggage.passport",
+      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "paths": [
+        "scripts/dev_tools/luggage_tidy/view.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_LUGGAGE_EXPERIMENT"
+      ],
+      "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
+      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "sourceRecord": {
+        "type": "original_procedural_drawing_or_sound",
+        "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
+        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+      },
+      "generationRecord": null,
+      "author": "project original code prototype",
+      "licenseReview": {
+        "status": "PROJECT_ORIGINAL",
+        "note": "No reference-game pixels, code, downloads or AI image generation."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "DEV experiment; no final art/distribution approval."
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBounds": [
+          90,
+          135
+        ],
+        "measurementStatus": "CODE_DRAWN_LOGICAL_UNITS_NOT_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA",
+        "hasAlpha": true,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "prototype world",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "layers": [
+        "shadow",
+        "object",
+        "selection"
+      ],
+      "sceneBinding": "view._draw_item/passport",
+      "module": "DEV_arrival_luggage_experiment",
+      "replacementRequired": null,
+      "issues": [
+        "Owner human play/retain decision pending; not FINAL_APPROVED.",
+        "Four-item code-drawn prototype visual only; no art expansion authorized."
+      ]
+    },
+    {
+      "assetId": "prototype.arrival_luggage.washbag",
+      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "paths": [
+        "scripts/dev_tools/luggage_tidy/view.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_LUGGAGE_EXPERIMENT"
+      ],
+      "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
+      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "sourceRecord": {
+        "type": "original_procedural_drawing_or_sound",
+        "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
+        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+      },
+      "generationRecord": null,
+      "author": "project original code prototype",
+      "licenseReview": {
+        "status": "PROJECT_ORIGINAL",
+        "note": "No reference-game pixels, code, downloads or AI image generation."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "DEV experiment; no final art/distribution approval."
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBounds": [
+          125,
+          190
+        ],
+        "measurementStatus": "CODE_DRAWN_LOGICAL_UNITS_NOT_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA",
+        "hasAlpha": true,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "prototype world",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "layers": [
+        "shadow",
+        "object",
+        "selection"
+      ],
+      "sceneBinding": "view._draw_item/washbag",
+      "module": "DEV_arrival_luggage_experiment",
+      "replacementRequired": null,
+      "issues": [
+        "Owner human play/retain decision pending; not FINAL_APPROVED.",
+        "Four-item code-drawn prototype visual only; no art expansion authorized."
+      ]
+    },
+    {
+      "assetId": "prototype.arrival_luggage.textbook",
+      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "paths": [
+        "scripts/dev_tools/luggage_tidy/view.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_LUGGAGE_EXPERIMENT"
+      ],
+      "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
+      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "sourceRecord": {
+        "type": "original_procedural_drawing_or_sound",
+        "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
+        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+      },
+      "generationRecord": null,
+      "author": "project original code prototype",
+      "licenseReview": {
+        "status": "PROJECT_ORIGINAL",
+        "note": "No reference-game pixels, code, downloads or AI image generation."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "DEV experiment; no final art/distribution approval."
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBounds": [
+          150,
+          220
+        ],
+        "measurementStatus": "CODE_DRAWN_LOGICAL_UNITS_NOT_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA",
+        "hasAlpha": true,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "prototype world",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "layers": [
+        "shadow",
+        "object",
+        "selection"
+      ],
+      "sceneBinding": "view._draw_item/textbook",
+      "module": "DEV_arrival_luggage_experiment",
+      "replacementRequired": null,
+      "issues": [
+        "Owner human play/retain decision pending; not FINAL_APPROVED.",
+        "Four-item code-drawn prototype visual only; no art expansion authorized."
+      ]
+    },
+    {
+      "assetId": "prototype.arrival_luggage.scarf",
+      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "paths": [
+        "scripts/dev_tools/luggage_tidy/view.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_LUGGAGE_EXPERIMENT"
+      ],
+      "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
+      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "sourceRecord": {
+        "type": "original_procedural_drawing_or_sound",
+        "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
+        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+      },
+      "generationRecord": null,
+      "author": "project original code prototype",
+      "licenseReview": {
+        "status": "PROJECT_ORIGINAL",
+        "note": "No reference-game pixels, code, downloads or AI image generation."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "DEV experiment; no final art/distribution approval."
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBounds": [
+          95,
+          280
+        ],
+        "measurementStatus": "CODE_DRAWN_LOGICAL_UNITS_NOT_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA",
+        "hasAlpha": true,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "prototype world",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "layers": [
+        "shadow",
+        "object",
+        "selection"
+      ],
+      "sceneBinding": "view._draw_item/scarf",
+      "module": "DEV_arrival_luggage_experiment",
+      "replacementRequired": null,
+      "issues": [
+        "Owner human play/retain decision pending; not FINAL_APPROVED.",
+        "Four-item code-drawn prototype visual only; no art expansion authorized."
+      ]
+    },
+    {
+      "assetId": "prototype.arrival_luggage.surface",
+      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "paths": [
+        "scripts/dev_tools/luggage_tidy/view.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_LUGGAGE_EXPERIMENT"
+      ],
+      "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
+      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "sourceRecord": {
+        "type": "original_procedural_drawing_or_sound",
+        "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
+        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+      },
+      "generationRecord": null,
+      "author": "project original code prototype",
+      "licenseReview": {
+        "status": "PROJECT_ORIGINAL",
+        "note": "No reference-game pixels, code, downloads or AI image generation."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "DEV experiment; no final art/distribution approval."
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBounds": [
+          600,
+          600
+        ],
+        "measurementStatus": "CODE_DRAWN_LOGICAL_UNITS_NOT_PNG"
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA",
+        "hasAlpha": true,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "prototype world",
+        "value": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "cloth",
+        "edge"
+      ],
+      "sceneBinding": "view._draw",
+      "module": "DEV_arrival_luggage_experiment",
+      "replacementRequired": null,
+      "issues": [
+        "Owner human play/retain decision pending; not FINAL_APPROVED.",
+        "Four-item code-drawn prototype visual only; no art expansion authorized."
+      ]
+    },
+    {
+      "assetId": "prototype.arrival_luggage.feedback",
+      "path": "scripts/dev_tools/luggage_tidy/view.gd",
+      "paths": [
+        "scripts/dev_tools/luggage_tidy/view.gd"
+      ],
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "visualApproval": "DEV_EXPERIMENT_NOT_FINAL_REVIEWED",
+      "permanentApproval": false,
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV_LUGGAGE_EXPERIMENT"
+      ],
+      "productionStatus": "IMPLEMENTED_FOR_OWNER_PLAYTEST",
+      "usageScope": "One approved mechanism-1 prototype only; excluded from PLAYTEST/RELEASE. No Q02 integration.",
+      "sourceRecord": {
+        "type": "original_procedural_drawing_or_sound",
+        "record": "docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md",
+        "ownerDecision": "Reply 1: one mechanism-1 DEV prototype; retention undecided."
+      },
+      "generationRecord": null,
+      "author": "project original code prototype",
+      "licenseReview": {
+        "status": "PROJECT_ORIGINAL",
+        "note": "No reference-game pixels, code, downloads or AI image generation."
+      },
+      "commercialUseReview": {
+        "status": "NOT_FINAL_REVIEWED",
+        "note": "DEV experiment; no final art/distribution approval."
+      },
+      "dimensions": {
+        "pixels": null,
+        "logicalBounds": null,
+        "measurementStatus": "CODE_DRAWN_LOGICAL_UNITS_NOT_PNG"
+      },
+      "transparency": {
+        "mode": "PROCEDURAL_AUDIO",
+        "hasAlpha": null,
+        "measurementStatus": "NOT_A_PNG_ASSET"
+      },
+      "anchor": {
+        "space": "prototype world",
+        "value": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "local_audio_visual_feedback"
+      ],
+      "sceneBinding": "view._tone/_process",
+      "module": "DEV_arrival_luggage_experiment",
+      "replacementRequired": null,
+      "issues": [
+        "Owner human play/retain decision pending; not FINAL_APPROVED.",
+        "Four-item code-drawn prototype visual only; no art expansion authorized."
+      ]
     }
   ],
   "measurementEvidence": "docs/evidence/p1-01r/asset_measurements.json",
-  "generationEvidence": "docs/production/p1r_generation_records.json"
+  "generationEvidence": "docs/production/p1r_generation_records.json",
+  "prototypeApprovalRecord": {
+    "date": "2026-10-29",
+    "scope": "One pure-memory DEV mechanism-1 experiment; four objects; owner retention decision pending; adjustment rounds used 0."
+  }
 }

@@ -4,16 +4,22 @@ param(
     [switch]$TechnicalMap,
     [ValidateSet('', 'under_bed', 'by_window', 'by_wardrobe', 'under_desk')][string]$CatSpot = '',
     [switch]$NamePending,
-    [ValidateSet('', 'q00', 'q01', 'q02', 'q03', 'home')][string]$Module = ''
+    [ValidateSet('', 'q00', 'q01', 'q02', 'q03', 'home')][string]$Module = '',
+    [switch]$LuggagePrototype
 )
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot/use-e-drive.ps1"
 $taskRoot = (Resolve-Path "$PSScriptRoot/../..").Path
 $taskData = if ($env:NSR_DATA_ROOT) { $env:NSR_DATA_ROOT } else { Join-Path $taskRoot '.local-dev/player-data' }
+if ($LuggagePrototype) {
+    if (-not $Dev -or $Fresh -or $TechnicalMap -or $CatSpot -or $NamePending -or $Module) { throw 'LuggagePrototype requires DEV without other fixtures.' }
+    $taskData = Join-Path $taskRoot '.local-dev/prototype-data/arrival-luggage'
+}
 $env:NSR_DATA_ROOT = $taskData.Replace('\', '/')
 $taskArgs = @('--path', $taskRoot, '--log-file', (Join-Path $taskRoot '.local-dev/p1-play.log'))
 $taskUserArgs = @()
 if ($Dev) { $taskUserArgs += '--dev' }
+if ($LuggagePrototype) { $taskUserArgs += '--luggage-prototype' }
 if ($Fresh) {
     if ($Dev) { throw 'DEV: choose a module to create a fresh isolated preview run.' }
     $taskUserArgs += '--new-playtest'

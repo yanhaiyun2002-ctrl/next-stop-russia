@@ -1,4 +1,4 @@
-param([string]$EvidenceDir='docs/evidence/p1-01r-dev-modes/windows-01',[switch]$SkipBuild)
+param([string]$EvidenceDir='docs/evidence/p1-01r-dev-modes/windows-01',[switch]$SkipBuild,[switch]$LuggagePrototype)
 $ErrorActionPreference='Stop'
 $taskRoot=Split-Path -Parent $PSScriptRoot
 $taskEvidence=[IO.Path]::GetFullPath((Join-Path $taskRoot $EvidenceDir))
@@ -33,8 +33,10 @@ foreach($taskMode in @('DEV','PLAYTEST','RELEASE')){
     $taskRuntime="$taskEvidence/runtime-$taskLower.log"
     $taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--dev','--mode=DEV','--preview=q02','--name-pending','--technical-map','--cat-spot=under_bed')
     if($taskMode -eq 'RELEASE'){$taskArgs+=@('--new-playtest','--verify-p1-package')}
+    if($LuggagePrototype){$taskArgs+='--luggage-prototype'}
     # DEV gets one unambiguous module request; negative builds get every legacy attack flag.
     if($taskMode -eq 'DEV'){$taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--preview=q02')}
+    if($taskMode -eq 'DEV' -and $LuggagePrototype){$taskArgs=@('--log-file',('"'+$taskRuntime+'"'),'--quit-after','180','--','--luggage-prototype')}
     $taskProcess=Start-Process -FilePath "$taskBuild/NextStopRussia-$taskMode.exe" -WorkingDirectory $taskBuild -ArgumentList $taskArgs -WindowStyle Hidden -RedirectStandardOutput "$taskEvidence/stdout-$taskLower.log" -RedirectStandardError "$taskEvidence/stderr-$taskLower.log" -PassThru
     if(-not $taskProcess.WaitForExit(20000)){Stop-Process -Id $taskProcess.Id; throw "$taskMode graceful runtime timeout"}
     if($taskProcess.ExitCode -ne 0){throw "$taskMode standalone exit $($taskProcess.ExitCode)"}
@@ -44,7 +46,7 @@ foreach($taskMode in @('DEV','PLAYTEST','RELEASE')){
         if((Get-FileHash "$taskData/$taskChannel/save.json").Hash -ne $taskBefore[$taskChannel]){throw "$taskMode changed regular $taskChannel save"}
     }
     $taskPreviewCount=@(Get-ChildItem -LiteralPath "$taskData/DEV" -Recurse -Filter save.json).Count-1
-    if(($taskMode -eq 'DEV' -and $taskPreviewCount -lt 1) -or ($taskMode -ne 'DEV' -and $taskPreviewCount -ne 0)){throw "$taskMode preview namespace check failed"}
+    if(($taskMode -eq 'DEV' -and -not $LuggagePrototype -and $taskPreviewCount -lt 1) -or (($taskMode -ne 'DEV' -or $LuggagePrototype) -and $taskPreviewCount -ne 0)){throw "$taskMode preview namespace check failed"}
     if($taskMode -ne 'DEV' -and (Test-Path -LiteralPath "$taskData/PLAYTEST/profiles")){throw 'Negative debug flags created a test profile'}
     $taskResults+=@{mode=$taskMode;runtime='PASS';regularSaveHashesUnchanged=$true;previewSaveCount=$taskPreviewCount;arguments=$taskArgs;packAudit="pack-$taskLower.json"}
     Get-ChildItem -LiteralPath $taskBuild -File | ForEach-Object {[ordered]@{path=$_.Name;bytes=$_.Length;sha256=(Get-FileHash $_.FullName -Algorithm SHA256).Hash}} | ConvertTo-Json | Set-Content -LiteralPath "$taskEvidence/artifacts-$taskLower.json" -Encoding utf8

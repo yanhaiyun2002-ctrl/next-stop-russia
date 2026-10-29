@@ -5,6 +5,8 @@ var app: Control
 var entry: Button
 var last_error := ""
 var module_buttons: Dictionary = {}
+var luggage_experiment: Control
+var luggage_button: Button
 
 func setup(main: Control) -> void:
 	app = main
@@ -40,12 +42,23 @@ func show_menu() -> void:
 	app.story_flow._screen("dev_modules","DEV · 模块预览")
 	app.story_flow._text("每次预览新建独立数据，通过原领域事件进入模块；不会覆盖完整流程档。",16)
 	app.story_flow._text("当前："+app.session.store.directory,13)
+	luggage_button = app.story_flow._button("实验 · 行李整理",open_luggage_experiment)
 	module_buttons.clear()
 	for id in MODULES:
 		var module: String = id
 		module_buttons[id] = app.story_flow._button(MODULES[id],func(): await launch(module))
 	app.story_flow._button("退出预览 · 返回 DEV 完整流程档",exit_preview)
 	app.story_flow._button("关闭菜单 · 继续当前体验",app.story_flow._clear)
+
+func open_luggage_experiment() -> bool:
+	if not app.runtime_mode.can_dev or app.transitioning or is_instance_valid(luggage_experiment):
+		return false
+	# Does not create fixtures, switch sessions, advance quests or write profiles.
+	luggage_experiment = load("res://scripts/dev_tools/luggage_tidy/view.gd").new()
+	app.add_child(luggage_experiment)
+	luggage_experiment.setup(app)
+	luggage_experiment.closed.connect(func(): luggage_experiment = null)
+	return true
 
 static func fixture(module: String, base: String) -> P1Session:
 	if module not in MODULES and module != "name_pending":
@@ -108,6 +121,9 @@ func exit_preview() -> void:
 
 func _boot_arguments() -> void:
 	var arguments := OS.get_cmdline_user_args()
+	if "--luggage-prototype" in arguments:
+		open_luggage_experiment()
+		return
 	if "--technical-map" in arguments:
 		app.technical_mode = true
 		return

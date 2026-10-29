@@ -21,8 +21,15 @@ var last_rejection: StringName = &""
 var technical_mode := false
 var session: P1Session
 var story_flow: Control
+var runtime_mode := P1RuntimeMode.new()
+var profiles: P1ProfileCatalog
+var active_profile := "legacy"
+var preview_active := false
+var dev_tools: Node
 
 func _ready() -> void:
+	if runtime_mode.mode == "RELEASE" or (not OS.has_feature("editor") and not runtime_mode.can_dev):
+		technical_mode = false
 	get_tree().auto_accept_quit = true
 	get_tree().quit_on_go_back = false
 	for building in CATALOG:
@@ -32,25 +39,73 @@ func _ready() -> void:
 	map_view.configure(CATALOG)
 	map_view.building_requested.connect(_request_building)
 	if not technical_mode:
-		var channel := "DEV" if "--dev" in OS.get_cmdline_user_args() else "PLAYTEST"
-		session = P1Session.new(channel)
-		if channel == "DEV" and "--name-pending" in OS.get_cmdline_user_args() and not session.store.blocked and not session.state.cat.firstPetCompleted:
-			while session.state.story.arrivalIndex < 5:
-				if not session.advance_arrival():
-					break
-			if session.enter_home() and session.choose_spot("by_window"):
-				session.pet_reaction_completed()
-		story_flow = load("res://scripts/p1/flow.gd").new()
-		add_child(story_flow)
-		story_flow.setup(self, session)
-		if OS.has_feature("p1_playtest") and "--verify-p1-package" in OS.get_cmdline_user_args():
+		profiles = P1ProfileCatalog.new(runtime_mode.mode)
+		active_profile = profiles.selected() if runtime_mode.mode != "RELEASE" else "legacy"
+		session = profiles.open_session(active_profile)
+		_build_flow()
+		print("NSR_MODE=%s DEV_CAPABILITY=%s SAVE=%s" % [runtime_mode.mode,runtime_mode.can_dev,session.store.directory])
+		if runtime_mode.can_dev:
+			dev_tools = load("res://scripts/dev_tools/module_preview.gd").new()
+			add_child(dev_tools)
+			dev_tools.setup(self)
+		if runtime_mode.mode == "PLAYTEST" and "--new-playtest" in OS.get_cmdline_user_args():
+			create_playtest_profile.call_deferred()
+		if runtime_mode.mode == "PLAYTEST" and OS.has_feature("p1_playtest") and "--verify-p1-package" in OS.get_cmdline_user_args():
 			var verifier: Node = load("res://scripts/p1/package_check.gd").new()
 			verifier.app = self
 			add_child(verifier)
-		if channel == "DEV" and "--technical-map" in OS.get_cmdline_user_args():
-			technical_mode = true
-			story_flow._clear()
-			map_view.show()
+
+func _build_flow() -> void:
+	story_flow = load("res://scripts/p1/flow.gd").new()
+	add_child(story_flow)
+	story_flow.setup(self,session)
+	if is_instance_valid(dev_tools):
+		dev_tools.raise_entry.call_deferred()
+
+func activate_session(player: P1Session, preview := false) -> bool:
+	if transitioning or (preview and not runtime_mode.can_dev):
+		return false
+	if preview:
+		if not player.store.directory.begins_with(profiles.directory.path_join("previews")+"/"):
+			return false
+	elif not profiles.owns(player.store.directory):
+		return false
+	transitioning = true
+	if is_instance_valid(story_flow):
+		story_flow.dispose()
+		remove_child(story_flow)
+		story_flow.queue_free()
+	if is_instance_valid(active_room):
+		safe_layout.remove_child(active_room)
+		active_room.queue_free()
+	active_room = null
+	active_id = &""
+	technical_mode = false
+	preview_active = preview
+	session = player
+	map_view.show()
+	_build_flow()
+	await get_tree().process_frame
+	transitioning = false
+	return true
+
+func choose_profile(id: String) -> bool:
+	if runtime_mode.mode == "RELEASE" or transitioning:
+		return false
+	if not profiles.select(id):
+		map_view.show_feedback(profiles.error)
+		return false
+	active_profile = id
+	return await activate_session(profiles.open_session(id))
+
+func create_playtest_profile() -> bool:
+	if runtime_mode.mode != "PLAYTEST" or transitioning:
+		return false
+	var id := profiles.create_playtest()
+	if id.is_empty():
+		map_view.show_feedback(profiles.error)
+		return false
+	return await choose_profile(id)
 
 func _request_building(id: StringName) -> void:
 	if not technical_mode and id == &"dormitory" and not session.state.story.homeEntered:

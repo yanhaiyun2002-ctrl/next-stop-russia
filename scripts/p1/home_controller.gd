@@ -87,11 +87,8 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 		else:
 			room.room_view.set_browse_center(encounter.explore_center))
 	encounter.setup(room.world, room.room_view, session)
-	if session.store.directory.ends_with("DEV"):
-		room.mode_label.text = "DEV · TEMP_REPLACE_REQUIRED"
-		for argument in OS.get_cmdline_user_args():
-			if argument.begins_with("--cat-spot=") and not session.state.cat.namePending:
-				encounter.begin_round(true, argument.trim_prefix("--cat-spot="))
+	if flow.app.runtime_mode.can_dev:
+		room.mode_label.text = "DEV · 模块预览" if flow.app.preview_active else "DEV · 完整流程"
 	room.room_view.framing_changed.connect(_position_labels)
 	session.changed.connect(_refresh)
 	_refresh()

@@ -3,17 +3,25 @@ param(
     [switch]$Fresh,
     [switch]$TechnicalMap,
     [ValidateSet('', 'under_bed', 'by_window', 'by_wardrobe', 'under_desk')][string]$CatSpot = '',
-    [switch]$NamePending
+    [switch]$NamePending,
+    [ValidateSet('', 'q00', 'q01', 'q02', 'q03', 'home')][string]$Module = ''
 )
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot/use-e-drive.ps1"
 $taskRoot = (Resolve-Path "$PSScriptRoot/../..").Path
-$taskData = Join-Path $taskRoot '.local-dev/player-data'
-if ($Fresh) { $taskData = Join-Path $taskData ('fresh-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff')) }
+$taskData = if ($env:NSR_DATA_ROOT) { $env:NSR_DATA_ROOT } else { Join-Path $taskRoot '.local-dev/player-data' }
 $env:NSR_DATA_ROOT = $taskData.Replace('\', '/')
 $taskArgs = @('--path', $taskRoot, '--log-file', (Join-Path $taskRoot '.local-dev/p1-play.log'))
 $taskUserArgs = @()
 if ($Dev) { $taskUserArgs += '--dev' }
+if ($Fresh) {
+    if ($Dev) { throw 'DEV: choose a module to create a fresh isolated preview run.' }
+    $taskUserArgs += '--new-playtest'
+}
+if ($Module) {
+    if (-not $Dev) { throw 'Module preview requires -Dev.' }
+    $taskUserArgs += "--preview=$Module"
+}
 if ($TechnicalMap -or $CatSpot -or $NamePending) {
     if (-not $Dev) { throw 'Fixtures require explicit -Dev. PLAYTEST has no fixture controls.' }
     if ($TechnicalMap) { $taskUserArgs += '--technical-map' }

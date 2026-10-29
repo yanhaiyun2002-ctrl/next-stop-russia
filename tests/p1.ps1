@@ -1,6 +1,7 @@
 param(
     [switch]$Rendered,
     [switch]$FullPortrait,
+    [switch]$NewProfile,
     [string]$EvidenceDir = 'docs/evidence/p1-01/check-01'
 )
 $ErrorActionPreference = 'Stop'
@@ -12,6 +13,7 @@ New-Item -ItemType Directory -Force $taskEvidence | Out-Null
 $env:P1_EVIDENCE_DIR = $taskEvidence.Replace('\', '/')
 $env:NSR_DATA_ROOT = "$env:P1_EVIDENCE_DIR/player-data"
 $env:P1_FULL_PORTRAIT = if ($FullPortrait) { '1' } else { '0' }
+$env:P1_NEW_PROFILE = if ($NewProfile) { '1' } else { '0' }
 $taskGodot = "$taskRoot/.tools/godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe"
 if ((& $taskGodot --version) -notmatch '^4\.7\.2\.stable\.') { throw 'Expected existing Godot 4.7.2.' }
 & $taskGodot --headless --path $taskRoot --editor --import --log-file "$taskEvidence/import.log"

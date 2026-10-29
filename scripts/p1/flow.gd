@@ -23,6 +23,10 @@ var organization_board: P1OrganizationBoard
 var stage: P1StoryStage
 var russian_line: Label
 var chinese_line: Label
+var profile_button: Button
+var new_profile_button: Button
+var profile_buttons: Dictionary = {}
+var dev_module_button: Button
 
 func setup(main: Control, player: P1Session) -> void:
 	app = main
@@ -37,13 +41,56 @@ func setup(main: Control, player: P1Session) -> void:
 	map_entry.add_child(map_instruction)
 	map_continue = Button.new()
 	map_continue.custom_minimum_size.y = 48
+	map_continue.clip_text = true
+	map_continue.add_theme_font_size_override("font_size",16)
 	map_continue.pressed.connect(start)
-	map_entry.add_child(map_continue)
+	var entry_actions := HBoxContainer.new()
+	map_entry.add_child(entry_actions)
+	map_continue.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	entry_actions.add_child(map_continue)
+	if app.runtime_mode.mode != "RELEASE":
+		profile_button = Button.new()
+		profile_button.text = "试玩档" if app.runtime_mode.mode == "PLAYTEST" else "开发档"
+		profile_button.custom_minimum_size = Vector2(76,48)
+		profile_button.pressed.connect(show_profiles)
+		entry_actions.add_child(profile_button)
+	if app.runtime_mode.can_dev:
+		dev_module_button = Button.new()
+		dev_module_button.text = "模块"
+		dev_module_button.custom_minimum_size = Vector2(60,48)
+		dev_module_button.pressed.connect(func(): app.dev_tools.show_menu())
+		entry_actions.add_child(dev_module_button)
 	app.map_view.add_child(map_entry)
 	app.map_view.move_child(map_entry,3)
 	session.changed.connect(refresh_map_entry)
 	refresh_map_entry()
 	primary_button = map_continue
+	app.map_view.get_child(1).text = app.runtime_mode.mode+" · "+("独立模块预览" if app.preview_active else P1ProfileCatalog.label(app.active_profile))
+	app.get_window().title = "下一站，俄罗斯！ · "+app.runtime_mode.mode+(" · 模块预览" if app.preview_active else "")
+
+func dispose() -> void:
+	_clear()
+	if session.changed.is_connected(refresh_map_entry):
+		session.changed.disconnect(refresh_map_entry)
+	if is_instance_valid(map_entry):
+		map_entry.get_parent().remove_child(map_entry)
+		map_entry.queue_free()
+
+func show_profiles() -> void:
+	if app.runtime_mode.mode == "RELEASE":
+		return
+	_screen("profiles", app.runtime_mode.mode+" · 独立存档")
+	_text("当前目录：\n"+session.store.directory,14)
+	_text("切换或新建会保留其他档位；每个档位独立保存与恢复。",16)
+	profile_buttons.clear()
+	for id in app.profiles.slots():
+		var slot_id: String = id
+		profile_buttons[id] = _button("继续 · "+P1ProfileCatalog.label(id),func(): await app.choose_profile(slot_id))
+	if app.runtime_mode.mode == "PLAYTEST":
+		new_profile_button = _button("新建独立试玩档 · 从 Q00 开始",func(): await app.create_playtest_profile())
+	if app.runtime_mode.can_dev and app.dev_tools != null:
+		_button("DEV 模块预览",app.dev_tools.show_menu)
+	_button("返回城市地图",_clear)
 
 func refresh_map_entry() -> void:
 	if not is_instance_valid(map_instruction):
@@ -147,6 +194,8 @@ func _text(value: String, font_size := 19) -> Label:
 func _button(value: String, callback: Callable) -> Button:
 	var button := Button.new()
 	button.text = value
+	button.clip_text = true
+	button.tooltip_text = value
 	button.custom_minimum_size.y = 48
 	button.add_theme_font_size_override("font_size", 18)
 	style_button(button)

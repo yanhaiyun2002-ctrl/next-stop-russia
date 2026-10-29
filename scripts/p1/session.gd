@@ -6,8 +6,8 @@ var state: Dictionary
 var puzzle: Dictionary
 var last_error := ""
 
-func _init(channel := "PLAYTEST", base := "") -> void:
-	store = P1SaveStore.new(channel, base)
+func _init(channel := "PLAYTEST", base := "", profile := "legacy") -> void:
+	store = P1SaveStore.new(channel, base, profile)
 	state = store.read_save()
 	last_error = store.error
 	puzzle = JSON.parse_string(FileAccess.get_file_as_string("res://data/p1/organization_tutorial.json"))

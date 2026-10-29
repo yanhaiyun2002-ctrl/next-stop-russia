@@ -160,6 +160,10 @@ func _run() -> void:
 	await _settle()
 	check(not app.technical_mode and app.story_flow.modal_kind.is_empty() and app.map_view.visible and app.active_room == null, "默认玩家入口为一级地图；QA仍隐藏")
 	check(not app.enter_building(&"school") and app.last_rejection == &"story_locked", "地图入口不绕过首日其他地点门禁")
+	if OS.get_environment("P1_NEW_PROFILE") == "1":
+		await _click(app.story_flow.profile_button)
+		await _click(app.story_flow.new_profile_button)
+		check(app.active_profile != "legacy" and app.session.state.revision == 0,"完整验收使用真实UI新建独立试玩档")
 	await _picture("01_title")
 	await _click(app.story_flow.primary_button)
 	for i in range(5):

@@ -140,3 +140,15 @@ Android 产物为 `builds/android/NextStopRussia-debug.apk`。须在 Godot 编�
 Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 构建目录保留。直接启动独立包默认使用其旁 `player-data`；如需续用主工程进度，在启动该进程前把 `NSR_DATA_ROOT` 指向项目 `.local-dev/player-data`，不要手工更改存档结构。导出验证：`./tests/verify_p1_windows.ps1 -P1R -Build -EvidenceDir docs/evidence/自选未存在目录`。
 
 美术登记以 `assets/art_registry.json` 为准。生成素材可为 `RETAIN_CANDIDATE`，既有几何占位仍可为 `MUST_REPLACE`，两者都没有自动获得最终美术批准。阶段结果、真实截图、已知风险见 `docs/reports/P1-01R_SUMMARY.md`。
+
+## DEV／PLAYTEST／RELEASE 与独立试玩档
+
+双击 `试玩PLAYTEST.cmd`（原 `试玩P1.cmd` 也保留），在城市地图点“试玩档”：可继续“原默认档”，或“新建独立试玩档 · 从 Q00 开始”。每个新档保留旧记录，最近选择跨启动记住；`试玩PLAYTEST.cmd -Fresh` 也会创建新的独立档，不删除唯一存档。
+
+双击 `开发DEV.cmd`，点地图“模块”选择 Q00、Q01、Q02、Q03 或宿舍自由视觉预览；预览中右上“DEV · 模块”可再次选择或退出预览，退出会回到 DEV 完整流程档。也可以 `开发DEV.cmd -Module q02`。每次模块启动以原领域事件生成新的独立测试数据，不覆盖常规 DEV 档或验收档。
+
+存档根目录继续优先用进程环境 `NSR_DATA_ROOT`。源工程启动器默认 `.local-dev/player-data`，独立 EXE 默认其旁 `player-data`；三个模式分别存到根目录下 `DEV/`、`PLAYTEST/`、`RELEASE/`。旧档仍在各命名空间 `save.json`，新试玩档在 `PLAYTEST/profiles/slot_*/save.json`，DEV 预览在 `DEV/previews/<模块>/run_*/save.json`。`selected_profile.json` 只记录所选档 ID，不改变存档 schema。实际路径显示在档位／DEV 模块菜单中，模式显示在地图副标题和 Windows 标题栏。
+
+统一 Windows 导出预设为 `Windows DEV`、`Windows PLAYTEST`、`Windows RELEASE`，产物在 `builds/modes/<模式小写>/`。RELEASE 构建优先锁定 RELEASE，PLAYTEST 构建不能用 `--dev` 提权；两者物理排除 DEV 工具，RELEASE 额外排除包内验收器。RELEASE 预设只表示权限隔离构建，不表示游戏已达到正式发行质量。
+
+本轮开发效率与隔离结果见 `docs/reports/P1-01R_DEV_MODES_SUMMARY.md`。不进入 Q04／Q05，未增加新剧情或修改美术。

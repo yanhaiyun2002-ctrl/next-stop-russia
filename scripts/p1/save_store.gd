@@ -7,13 +7,30 @@ var error := ""
 var notice := ""
 var blocked := false
 
-func _init(channel := "PLAYTEST", base := "") -> void:
+static func storage_root(base := "") -> String:
 	var storage_root := base
 	if storage_root.is_empty():
 		storage_root = OS.get_environment("NSR_DATA_ROOT")
 	if storage_root.is_empty():
 		storage_root = ProjectSettings.globalize_path("res://.local-dev/player-data") if OS.has_feature("editor") else OS.get_executable_path().get_base_dir().path_join("player-data")
-	directory = storage_root.path_join(channel)
+	return storage_root
+
+static func valid_profile_id(id: String) -> bool:
+	if not id.begins_with("slot_") or id.length() < 10 or id.length() > 80:
+		return false
+	for character in id:
+		if character not in "abcdefghijklmnopqrstuvwxyz0123456789_":
+			return false
+	return true
+
+func _init(channel := "PLAYTEST", base := "", profile := "legacy") -> void:
+	directory = storage_root(base).path_join(channel)
+	if profile != "legacy":
+		if not valid_profile_id(profile):
+			blocked = true
+			error = "存档 ID 无效；没有读取或写入其他目录。"
+			return
+		directory = directory.path_join("profiles").path_join(profile)
 
 static func fresh() -> Dictionary:
 	return {"schemaVersion": SCHEMA, "revision": 0,
@@ -101,6 +118,8 @@ static func _parse_file(path: String) -> Variant:
 	return parser.data
 
 func read_save() -> Dictionary:
+	if blocked:
+		return fresh()
 	var path := directory.path_join("save.json")
 	if not FileAccess.file_exists(path):
 		if FileAccess.file_exists(path + ".bak"):

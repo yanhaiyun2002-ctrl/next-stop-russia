@@ -1,6 +1,11 @@
-"""Audit actual P1R PNGs/registry and unchanged P1 story/save contracts."""
+"""Audit actual P1R PNGs/registry and unchanged story/puzzle content.
+
+Save behavior is covered by p1_domain_tests and p1_modes_tests; the authorized
+profile routing changes must not be rejected by an old whole-source-file check.
+"""
 import hashlib
 import json
+import os
 import subprocess
 from pathlib import Path
 
@@ -44,11 +49,14 @@ def run():
     for now, before in zip(current["spots"], old["spots"]):
         now["labelOffset"] = before["labelOffset"]
     assert current == old, "story/content changed beyond furniture label anchors"
-    for path in ["data/p1/organization_tutorial.json", "scripts/p1/session.gd", "scripts/p1/save_store.gd"]:
+    for path in ["data/p1/organization_tutorial.json"]:
         assert (ROOT / path).read_bytes().replace(b"\r\n", b"\n") == baseline(path).replace(b"\r\n", b"\n"), path
-    output = ROOT / "docs/evidence/p1-01r/asset_audit.json"
-    output.write_text(json.dumps({"status": "PASS", "assets": measured, "checks": ["unique IDs/renderer keys", "PNG decode/real alpha", "actual dimensions", "AI retention/use flags", "story unchanged except label offsets", "session/save/tutorial unchanged"], "notChecked": ["final producer art approval", "full commercial rights review"]}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"P1R_ASSET_AUDIT PASS: {len(measured)} PNGs, story/save/tutorial contracts unchanged")
+    output = Path(os.environ.get("P1_EVIDENCE_DIR", str(ROOT / ".local-dev"))) / "asset_audit.json"
+    if output.exists():
+        raise FileExistsError("Choose a new P1_EVIDENCE_DIR; preserve prior evidence")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps({"status": "PASS", "assets": measured, "checks": ["unique IDs/renderer keys", "PNG decode/real alpha", "actual dimensions", "AI retention/use flags", "story unchanged except label offsets", "tutorial puzzle unchanged"], "notChecked": ["save behavior: use p1_domain_tests/p1_modes_tests", "final producer art approval", "full commercial rights review"]}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"P1R_ASSET_AUDIT PASS: {len(measured)} PNGs, story/tutorial content unchanged")
 
 
 if __name__ == "__main__":

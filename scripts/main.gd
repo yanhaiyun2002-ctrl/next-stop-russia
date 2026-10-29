@@ -12,7 +12,7 @@ const CATALOG: Array[BuildingDefinition] = [
 ]
 
 @onready var safe_layout: MarginContainer = $SafeLayout
-var map_view: VBoxContainer
+var map_view: Control
 var active_room: BuildingRoom
 var active_id: StringName = &""
 var buildings: Dictionary = {}
@@ -28,6 +28,9 @@ var preview_active := false
 var dev_tools: Node
 
 func _ready() -> void:
+	theme = GameUI.make_theme()
+	safe_layout.full_bleed = not technical_mode
+	safe_layout.refresh()
 	if runtime_mode.mode == "RELEASE" or (not OS.has_feature("editor") and not runtime_mode.can_dev):
 		technical_mode = false
 	get_tree().auto_accept_quit = true
@@ -35,8 +38,11 @@ func _ready() -> void:
 	for building in CATALOG:
 		buildings[building.id] = building
 	map_view = MAP_SCENE.instantiate()
-	safe_layout.add_child(map_view)
+	map_view.safety = safe_layout
+	add_child(map_view)
+	map_view.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	map_view.configure(CATALOG)
+	map_view.set_technical(technical_mode)
 	map_view.building_requested.connect(_request_building)
 	if not technical_mode:
 		profiles = P1ProfileCatalog.new(runtime_mode.mode)

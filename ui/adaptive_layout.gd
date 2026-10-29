@@ -1,15 +1,18 @@
 extends MarginContainer
+signal safe_area_changed
 ## Changes design base and converts device safe-area insets to logical UI units.
 ## Override is for deterministic viewport tests, never a fake device claim.
 
 var safe_override_pixels := Rect2(-1, -1, 0, 0)
 var portrait := false
+var full_bleed := true
 var layout_ready := false
 var _last_geometry: Array = []
 var _stable_frames := 0
 var _press_geometry: Dictionary = {}
 
 func _ready() -> void:
+	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	get_tree().root.size_changed.connect(refresh)
 	refresh()
 
@@ -35,19 +38,24 @@ func refresh() -> void:
 			safe = Rect2(device_safe).intersection(safe)
 	var inset := Vector4(safe.position.x, safe.position.y,
 		pixels.x - safe.end.x, pixels.y - safe.end.y) / logical_scale
-	var padding := 16 if portrait else 28
+	var padding := 0 if full_bleed else (16 if portrait else 28)
 	add_theme_constant_override("margin_left", padding + ceili(inset.x))
 	add_theme_constant_override("margin_top", padding + ceili(inset.y))
 	add_theme_constant_override("margin_right", padding + ceili(inset.z))
 	add_theme_constant_override("margin_bottom", padding + ceili(inset.w))
+	safe_area_changed.emit()
 
 func geometry_signature() -> Array:
 	var window := get_tree().root
 	var signature: Array = [window.size, window.content_scale_size, window.get_visible_rect().size]
-	_append_geometry(self, signature)
+	_append_geometry(get_parent(), signature)
 	return signature
 
 func _append_geometry(node: Node, signature: Array) -> void:
+	# Passive map plaques have no input of their own; Board owns their gesture
+	# and resize cancellation. Map panning is not a UI reflow.
+	if node.get_meta("visual_only_geometry",false) or node.get_meta("owner_managed_geometry",false):
+		return
 	if node is Control:
 		if not node.is_visible_in_tree():
 			return
@@ -88,12 +96,14 @@ func _input(event: InputEvent) -> void:
 			valid = valid and _press_geometry.get(pointer, []) == current
 			_press_geometry.erase(pointer)
 		if not valid:
-			_cancel_pointer_press(self)
+			_cancel_pointer_press(get_parent())
 			get_viewport().set_input_as_handled()
 	elif event.is_action("ui_accept") and not is_layout_settled():
 		get_viewport().set_input_as_handled()
 
 func _cancel_pointer_press(node: Node) -> void:
+	if node.get_meta("owner_managed_geometry",false) and node.has_method("cancel_gesture"):
+		node.cancel_gesture()
 	# BaseButton clears its press-attempt/capture state when disabled. Restore the
 	# enabled state synchronously; no navigation signal or fabricated click occurs.
 	if node is BaseButton and node.is_pressed() and not node.disabled:

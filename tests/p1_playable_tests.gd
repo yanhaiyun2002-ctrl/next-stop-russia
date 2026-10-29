@@ -290,6 +290,8 @@ func _run() -> void:
 			await _drag(label, Vector2(34,0), pixels.x < pixels.y)
 			check(encounter.phase == "guessing" and encounter.anchor == before, "标签上横拖不误判 " + entry.spotId)
 			check(is_equal_approx(expected_camera, app.active_room.room_view.focus_x), "标签横拖按边界平移视角 " + entry.spotId)
+			if not is_equal_approx(expected_camera, app.active_room.room_view.focus_x):
+				print("UI01_DRAG_DIAGNOSTIC spot=",entry.spotId," viewport=",pixels," expected=",expected_camera," actual=",app.active_room.room_view.focus_x," label=",label.get_global_rect()," view=",app.active_room.room_view.get_global_rect())
 			app.active_room.room_view.set_browse_center(app.active_room.room_view.project_base(anchor).x)
 			await _settle()
 			await _click(label, pixels.x < pixels.y)
@@ -317,7 +319,7 @@ func _run() -> void:
 	check(app.return_to_map(), "学校返回保持原导航")
 	await _settle()
 	check(not app.enter_building(&"shop") and app.last_rejection == &"locked", "商店仍锁定，无 Q04/Q05 实现")
-	await _click(app.map_view.buttons[&"dormitory"])
+	await _click(app.map_view.board.plaques["dormitory"])
 	await _wait_phase("guessing")
 	check(app.session.state.story.cityUnlocked and not app.session.state.cat.namePending, "地图重入保留任务与猫名字")
 	await _picture("09_phone_reentry")

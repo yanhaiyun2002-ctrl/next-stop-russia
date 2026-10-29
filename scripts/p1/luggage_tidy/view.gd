@@ -53,6 +53,8 @@ func setup(app: Control, session: P1Session = null) -> void:
 	var focused := get_viewport().gui_get_focus_owner()
 	prior_focus = weakref(focused) if focused != null else null
 	app.process_mode = Node.PROCESS_MODE_DISABLED
+	app.safe_layout.safe_area_changed.connect(_layout)
+	_layout()
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -85,7 +87,7 @@ func _label(text: String, font_size: int) -> Label:
 	label.text = text
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	label.add_theme_font_size_override("font_size",font_size)
-	label.add_theme_color_override("font_color",INK)
+	label.add_theme_color_override("font_color",GameUI.INK)
 	add_child(label)
 	return label
 
@@ -95,13 +97,7 @@ func _button(text: String, callback: Callable) -> Button:
 	button.custom_minimum_size = Vector2(60,48)
 	button.add_theme_font_size_override("font_size",16)
 	button.add_theme_color_override("font_color",INK)
-	var style := StyleBoxFlat.new()
-	style.bg_color = Color("e5cda8")
-	style.border_color = Color("9b7a50")
-	style.set_border_width_all(2)
-	style.set_corner_radius_all(14)
-	for state in ["normal","hover","pressed","focus"]:
-		button.add_theme_stylebox_override(state,style)
+	GameUI.button(button)
 	button.pressed.connect(callback)
 	add_child(button)
 	return button
@@ -110,26 +106,35 @@ func _layout() -> void:
 	_cancel()
 	if not is_instance_valid(title):
 		return
-	var portrait := size.y > size.x
+	var safe_origin := Vector2.ZERO
+	var safe_end := Vector2.ZERO
+	if is_instance_valid(host):
+		safe_origin = Vector2(host.safe_layout.get_theme_constant("margin_left"),host.safe_layout.get_theme_constant("margin_top"))
+		safe_end = Vector2(host.safe_layout.get_theme_constant("margin_right"),host.safe_layout.get_theme_constant("margin_bottom"))
+	var available := size-safe_origin-safe_end
+	var portrait := available.y > available.x
 	title.position = Vector2(20,16)
-	title.size = Vector2(size.x-110 if portrait else 230,66)
+	title.size = Vector2(available.x-110 if portrait else 230,66)
 	intro.position = Vector2(20,86 if portrait else 100)
-	intro.size = Vector2(size.x-40 if portrait else 230,50)
-	hint_button.position = Vector2(size.x-80,20) if portrait else Vector2(20,165)
+	intro.size = Vector2(available.x-40 if portrait else 230,50)
+	hint_button.position = Vector2(available.x-80,20) if portrait else Vector2(20,165)
 	hint_button.size = Vector2(60,48)
-	info.position = Vector2(20,size.y-205 if portrait else 245)
-	info.size = Vector2(size.x-40 if portrait else 230,60)
-	vocab.position = Vector2(20,size.y-140 if portrait else 330)
-	vocab.size = Vector2(size.x-40 if portrait else 230,28)
-	status.position = Vector2(20,size.y-110 if portrait else 375)
-	status.size = Vector2(size.x-40 if portrait else 230,44)
-	actions.position = Vector2(16,size.y-60)
-	actions.size = Vector2(size.x-32,48)
-	continue_button.position = Vector2(20,size.y-205 if portrait else 445)
-	continue_button.size = Vector2(size.x-40 if portrait else 230,50)
-	var area := Rect2(16,138,size.x-32,maxf(220,size.y-362)) if portrait else Rect2(285,20,maxf(260,size.x-305),maxf(300,size.y-100))
+	info.position = Vector2(20,available.y-205 if portrait else 245)
+	info.size = Vector2(available.x-40 if portrait else 230,60)
+	vocab.position = Vector2(20,available.y-140 if portrait else 330)
+	vocab.size = Vector2(available.x-40 if portrait else 230,28)
+	status.position = Vector2(20,available.y-110 if portrait else 375)
+	status.size = Vector2(available.x-40 if portrait else 230,44)
+	actions.position = Vector2(16,available.y-60)
+	actions.size = Vector2(available.x-32,48)
+	continue_button.position = Vector2(20,available.y-205 if portrait else 445)
+	continue_button.size = Vector2(available.x-40 if portrait else 230,50)
+	var area := Rect2(16,138,available.x-32,maxf(220,available.y-362)) if portrait else Rect2(285,20,maxf(260,available.x-305),maxf(300,available.y-100))
 	scale_factor = minf(area.size.x/600,area.size.y/600)
 	origin = area.position+(area.size-Vector2(600,600)*scale_factor)/2
+	origin += safe_origin
+	for control in [title,intro,hint_button,info,vocab,status,actions,continue_button]:
+		control.position += safe_origin
 	queue_redraw()
 
 func _signature() -> Array:

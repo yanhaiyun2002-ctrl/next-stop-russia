@@ -362,7 +362,7 @@ func _draw() -> void:
 		left.y = minf(0.0,left.y)
 		var right := Vector2(project(Vector3(world.room_half_width,0,world.room_depth)).x,project(Vector3(0,0,world.room_front)).y)
 		# Room-space rectangle: panning and window changes use the same projection.
-		draw_texture_rect(P1Art.texture("home.background"),Rect2(left,Vector2(right.x-left.x,right.y-left.y)),false)
+		GameUI.draw_cover(self,P1Art.texture("home.background"),Rect2(left,Vector2(right.x-left.x,right.y-left.y)))
 	else:
 		_room_shell()
 		if composition == "ribbon":

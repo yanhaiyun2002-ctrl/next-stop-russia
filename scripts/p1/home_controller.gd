@@ -6,7 +6,7 @@ var session: P1Session
 var flow: Control
 var encounter: P1CatEncounter
 var labels: Dictionary = {}
-var sidebar: VBoxContainer
+var sidebar: BoxContainer
 var organize_button: Button
 var message_button: Button
 var replay_button: Button
@@ -34,10 +34,20 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 	room.move_child(area, index)
 	room.room_view.custom_minimum_size = Vector2(0, 220)
 	room.room_view.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	area.add_child(room.room_view)
-	sidebar = VBoxContainer.new()
-	sidebar.custom_minimum_size.x = 64
-	area.add_child(sidebar)
+	var spacer := Control.new()
+	spacer.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	area.add_child(spacer)
+	flow.app.add_child(room.room_view)
+	flow.app.move_child(room.room_view,0)
+	room.tree_exiting.connect(func():
+		if is_instance_valid(room.room_view): room.room_view.queue_free())
+	room.visibility_changed.connect(func():
+		if is_instance_valid(room.room_view): room.room_view.visible = room.is_visible_in_tree())
+	sidebar = HBoxContainer.new()
+	sidebar.alignment = BoxContainer.ALIGNMENT_END
+	room.add_child(sidebar)
+	room.move_child(sidebar,area.get_index())
 	organize_button = _side_button("整理", flow.show_organization)
 	message_button = _side_button("消息", flow.show_message)
 	replay_button = _side_button("再找", func(): encounter.begin_round())
@@ -56,6 +66,7 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 	room.move_child(browse_bar,room.feedback.get_index())
 	var left: Button = room._make_button("‹")
 	left.custom_minimum_size.x = 64
+	left.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	left.pressed.connect(room.room_view.pan.bind(-1.0))
 	flow.style_button(left)
 	browse_bar.add_child(left)
@@ -67,6 +78,7 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 	browse_bar.add_child(browse_hint)
 	var right: Button = room._make_button("›")
 	right.custom_minimum_size.x = 64
+	right.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	right.pressed.connect(room.room_view.pan.bind(1.0))
 	flow.style_button(right)
 	browse_bar.add_child(right)
@@ -96,9 +108,46 @@ func setup(home: BuildingRoom, player: P1Session, story_flow: Control) -> void:
 		flow.show_naming.call_deferred()
 	elif session.state.organization.tutorialCompleted and not session.state.story.cityUnlocked:
 		flow.show_message.call_deferred()
+	# One safe HUD wrapper; the existing room canvas covers the real viewport.
+	var hud := VBoxContainer.new()
+	hud.add_theme_constant_override("separation",8)
+	for child in room.get_children():
+		if child is Control and child != room.room_view:
+			room.remove_child(child)
+			hud.add_child(child)
+	var margins := MarginContainer.new()
+	margins.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	for side in ["left","right","top","bottom"]:
+		margins.add_theme_constant_override("margin_"+side,12)
+	room.add_child(margins)
+	margins.add_child(hud)
+	_passthrough_layout(room)
+	GameUI.legible(room.hunt_prompt)
+	GameUI.legible(room.feedback)
+	for child in hud.get_children():
+		if child is HBoxContainer:
+			for label in child.get_children():
+				if label is Label: GameUI.legible(label)
+	room.resized.connect(_full_bleed_canvas)
+	flow.app.resized.connect(_full_bleed_canvas)
+	_full_bleed_canvas.call_deferred()
+
+func _full_bleed_canvas() -> void:
+	if is_instance_valid(room) and is_instance_valid(room.room_view):
+		room.room_view.global_position = Vector2.ZERO
+		room.room_view.size = flow.get_viewport_rect().size
+
+func _passthrough_layout(node: Node) -> void:
+	if node is Container:
+		node.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	for child in node.get_children():
+		_passthrough_layout(child)
+
 
 func _side_button(text: String, callback: Callable) -> Button:
 	var button: Button = room._make_button(text)
+	button.custom_minimum_size.x = 64
+	button.size_flags_horizontal = Control.SIZE_SHRINK_END
 	flow.style_button(button)
 	button.pressed.connect(callback)
 	sidebar.add_child(button)
@@ -126,7 +175,7 @@ func _refresh() -> void:
 	elif session.state.story.cityUnlocked:
 		room.feedback.text = "首段已完成 · 可自由找猫、整理或出门。"
 	elif session.state.quests.q01_cat == "completed":
-		room.feedback.text = "以后就叫你「%s」！下一步：右侧「整理」。" % session.state.cat.displayName
+		room.feedback.text = "以后就叫你「%s」！下一步：点击「整理」。" % session.state.cat.displayName
 	else:
 		room.feedback.text = "首次摸猫后会记录纪念，再确认猫咪名字。"
 	for entry in P1Content.data().spots:

@@ -2,6 +2,6 @@
 
 [ext_resource type="Script" path="res://scripts/map.gd" id="1"]
 
-[node name="LevelOneMap" type="VBoxContainer"]
+[node name="LevelOneMap" type="Control"]
 layout_mode = 2
 script = ExtResource("1")

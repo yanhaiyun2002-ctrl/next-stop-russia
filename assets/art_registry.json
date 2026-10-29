@@ -1,6 +1,6 @@
 {
   "registrySchemaVersion": 1,
-  "revision": "p1-gameplay-map-integration",
+  "revision": "p1-ui-01-visual-unification",
   "authority": "Single authoritative art classification and rendererKey-to-path lookup; does not change gameplay/save schema.",
   "baseSHA": "0dd8274b2860596b1912a5c6f0e9dd3f04146940",
   "approvalRecord": {
@@ -2295,11 +2295,8 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "IMPLEMENTED_AND_INTEGRATED",
       "retentionReason": "Responsive dialogue/name/message controls with engine-rendered Russian/Chinese text need no baked art and can be retained after actual visual/input checks.",
       "sourceRecord": {
@@ -2348,9 +2345,9 @@
       "module": "q00_story",
       "replacementRequired": false,
       "issues": [
-        "Final visual/input acceptance remains pending; no mandatory replacement obligation."
+        "Historical artwork style only; interactive label/dialogue logic remains active with shared UI01 Theme."
       ],
-      "usageScope": "Active scalable P1-01R code-drawn UI; retainable based on existing retentionReason, subject to final visual/input acceptance.",
+      "usageScope": "Legacy P1R plate/dialogue style retired; same behavior bindings now use ui01.shared_theme.",
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
     },
     {
@@ -2366,11 +2363,8 @@
       "replaceStatus": "OPTIONAL_REPLACEMENT",
       "visualApproval": "APPROVED_FOR_P1R_DIRECTION",
       "permanentApproval": false,
-      "usedInGame": true,
-      "activeProfiles": [
-        "PLAYTEST_P1R",
-        "DEV_P1R"
-      ],
+      "usedInGame": false,
+      "activeProfiles": [],
       "productionStatus": "IMPLEMENTED_AND_INTEGRATED",
       "retentionReason": "Projected text controls and >=48 logical unit hit areas can be retained because they stay tied to object IDs and camera projection, not baked into art.",
       "sourceRecord": {
@@ -2420,9 +2414,9 @@
       "module": "dormitory",
       "replacementRequired": false,
       "issues": [
-        "Final visual/input acceptance remains pending; no mandatory replacement obligation."
+        "Historical artwork style only; interactive label/dialogue logic remains active with shared UI01 Theme."
       ],
-      "usageScope": "Active scalable P1-01R code-drawn UI; retainable based on existing retentionReason, subject to final visual/input acceptance.",
+      "usageScope": "Legacy P1R plate/dialogue style retired; same behavior bindings now use ui01.shared_theme.",
       "usageVerifiedAt": "P1-01R integrated working tree static source inspection"
     },
     {
@@ -3314,6 +3308,193 @@
       "replacementRequired": false,
       "issues": [
         "仅坐标参考，不入游戏、不代表背景图；手动轮廓数据见 data/city_map.json。"
+      ]
+    },
+    {
+      "retentionStatus": "REVIEW_REQUIRED",
+      "status": "REVIEW_REQUIRED",
+      "replaceStatus": "REVIEW_REQUIRED",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "CANDIDATE_NOT_SELECTED_AFTER_MOBILE_NINE_SLICE_REVIEW",
+      "usedInGame": false,
+      "activeProfiles": [],
+      "module": "shared_game_ui",
+      "licenseReview": "Current controlled game use; not FINAL_APPROVED, CC0, exclusive rights or all commercial release review.",
+      "author": "official built-in imagegen output",
+      "assetId": "ui01.paper_panel",
+      "path": "docs/art-prep/p1-ui-01/paper_panel_candidate.png",
+      "sourceType": "AI_GENERATED",
+      "generationRecord": "docs/production/ui01_generation_records.json",
+      "dimensions": {
+        "pixels": [
+          1774,
+          887
+        ]
+      },
+      "transparency": {
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ]
+      },
+      "nineSlice": {
+        "sourceRegion": [
+          32,
+          123,
+          1710,
+          640
+        ],
+        "textureMargins": [
+          70,
+          48,
+          70,
+          48
+        ],
+        "contentMargins": [
+          18,
+          14,
+          18,
+          14
+        ]
+      },
+      "anchor": {
+        "normalized": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "panel"
+      ],
+      "sourceRecord": "original generated blank reusable panel; unchanged RGBA copy from CODEX_HOME",
+      "sha256": "4377218b329c6898435935dc8a4f531e006ff5e148c0b18d115ef632cc59583d",
+      "issues": [
+        "Decorative corners deform in tall portrait nine-slice cards. Not shipped. Shared native StyleBoxFlat replaces the attempted UI rendering; no original alpha alteration."
+      ]
+    },
+    {
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "OWNER_AUTHORIZED_P1_UI_01_DIRECTION_PENDING_FINAL_REVIEW",
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
+      ],
+      "module": "shared_game_ui",
+      "licenseReview": "Current controlled game use; not FINAL_APPROVED, CC0, exclusive rights or all commercial release review.",
+      "author": "project original programmatic UI",
+      "assetId": "ui01.shared_theme",
+      "path": "ui/game_ui.gd",
+      "sourceType": "PROJECT_ORIGINAL",
+      "sourceRecord": "Shared cream/tan/bluegray button states, focus, disabled and soft shadow",
+      "dimensions": {
+        "pixels": null,
+        "responsive": true
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA"
+      },
+      "nineSlice": null,
+      "anchor": {
+        "normalized": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "ui"
+      ],
+      "issues": [
+        "Visual review pending; no bundled third-party art."
+      ]
+    },
+    {
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "OWNER_AUTHORIZED_P1_UI_01_DIRECTION_PENDING_FINAL_REVIEW",
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
+      ],
+      "module": "shared_game_ui",
+      "licenseReview": "Current controlled game use; not FINAL_APPROVED, CC0, exclusive rights or all commercial release review.",
+      "author": "project original programmatic UI",
+      "assetId": "ui01.map_plaques",
+      "path": "ui/map_plaque.gd",
+      "sourceType": "PROJECT_ORIGINAL",
+      "sourceRecord": "Bilingual plaques with code-drawn lock; Board owns input and leaders",
+      "dimensions": {
+        "pixels": null,
+        "responsive": true
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA"
+      },
+      "nineSlice": null,
+      "anchor": {
+        "normalized": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "ui"
+      ],
+      "issues": [
+        "Visual review pending; no bundled third-party art."
+      ]
+    },
+    {
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "OWNER_AUTHORIZED_P1_UI_01_DIRECTION_PENDING_FINAL_REVIEW",
+      "usedInGame": true,
+      "activeProfiles": [
+        "DEV",
+        "PLAYTEST",
+        "RELEASE"
+      ],
+      "module": "shared_game_ui",
+      "licenseReview": "Current controlled game use; not FINAL_APPROVED, CC0, exclusive rights or all commercial release review.",
+      "author": "project original programmatic UI",
+      "assetId": "ui01.map_selection",
+      "path": "ui/map_board.gd",
+      "sourceType": "PROJECT_ORIGINAL",
+      "sourceRecord": "Soft warm-gold anchor halo and label emphasis; no hotspot polygon outline",
+      "dimensions": {
+        "pixels": null,
+        "responsive": true
+      },
+      "transparency": {
+        "mode": "CODE_DRAWN_ALPHA"
+      },
+      "nineSlice": null,
+      "anchor": {
+        "normalized": [
+          0,
+          0
+        ]
+      },
+      "layers": [
+        "ui"
+      ],
+      "issues": [
+        "Visual review pending; no bundled third-party art."
       ]
     }
   ],

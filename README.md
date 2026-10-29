@@ -1,16 +1,16 @@
-# 《下一站，俄罗斯！》P1 整理与圣彼得堡地图整合
+# 《下一站，俄罗斯！》P1-UI-01 全屏场景与共享旅行手账 UI
 
-当前版本已将“长短成序＋共边对齐”的空间行李整理接入正式 Q02，并使用负责人提供的圣彼得堡地图。沿用唯一 Godot 4.7.2 / GDScript / Compatibility 工程。完成本轮后等待负责人试玩验收，不进入 Q04/Q05。
+当前版本保留正式空间 Q02 和负责人地图，采用共享温暖纸张 Theme、全屏场景、常驻中俄地点标牌与自然金色反馈。沿用唯一 Godot 4.7.2 / GDScript / Compatibility 工程。完成本轮后等待负责人试玩验收，不进入 Q04/Q05。
 
 双击 **`试玩整合版PLAYTEST.cmd`** 运行已构建的 Windows PLAYTEST；地图上的“试玩档”可继续旧档或新建独立档，从 Q00 重玩。也可执行 `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-integrated.ps1 -Fresh` 直接建立独立新档。源码入口 `试玩PLAYTEST.cmd` 继续可用；两入口默认共用 `.local-dev/player-data/PLAYTEST/`，不迁移、不删除旧档。已有 `NSR_DATA_ROOT` 时仍优先使用该进程设置。
 
 每次启动先进入地图。Q00 安娜/管理员与钥匙 → Q01 四家具识词、找猫、抚摸和强制命名 → Q02 拖放、转向、长短排序与齐边，完成后点“整理好了 · 继续” → Q03 原安娜消息与城市解锁。旧已完成 Q02 仍有效；旧 ABC 中途档从新空间初始摆放进入，新空间坐标独立自动保存。没有新增整理规则、物品、每日轮换或奖励。
 
-地图可点击负责人标注的宿舍、学校与锁定商店轮廓，也可用底部地点列表；支持拖动、缩放和任务定位。地图 PNG 与地点热区/名称/任务状态分离，原件不变。地图和程序整理美术为 PROJECT_ORIGINAL / RETAIN_CANDIDATE，其他资源按 `assets/art_registry.json` 各自状态管理，均未自动升级 FINAL_APPROVED。
+地图可点击建筑及常驻中俄标牌，也可点“地点”展开列表；支持拖动、缩放和任务定位。地图 PNG 与地点热区/名称/任务状态分离，原件不变。地图和程序整理美术为 PROJECT_ORIGINAL / RETAIN_CANDIDATE，其他资源按 `assets/art_registry.json` 各自状态管理，均未自动升级 FINAL_APPROVED。
 
 DEV：`开发DEV.cmd` → 地图“模块” → Q02 首次整理，可重复创建隔离预览；完整关闭整理界面后再切换模块。“行李整理 · 独立重玩”复用同一运行时，仅不写正式任务。RELEASE 包无 DEV 菜单、fixture 注入及调试验收器。三模式使用独立存档目录；直接运行导出 EXE 时未设置 `NSR_DATA_ROOT` 则数据在 EXE 同目录 `player-data/<MODE>`，与上述脚本默认目录不同，不自动搬迁。
 
-当前单份交付：[P1_GAMEPLAY_MAP_INTEGRATION_SUMMARY.md](docs/reports/P1_GAMEPLAY_MAP_INTEGRATION_SUMMARY.md)。报告记录实际截图、自动化和 Windows 运行结果及失败历史；模拟触摸通过不代表 P0 偶发触摸风险已修复，未宣称真人/Android/Apple 验收。
+当前单份交付：[P1_UI_VISUAL_UNIFICATION_SUMMARY.md](docs/reports/P1_UI_VISUAL_UNIFICATION_SUMMARY.md)。前轮整合报告作为历史依据保留。报告记录实际截图、自动化和 Windows 运行结果及失败历史；模拟触摸通过不代表 P0 偶发触摸风险已修复，未宣称真人/Android/Apple 验收。
 
 ## 保留的 P0 技术模式说明
 

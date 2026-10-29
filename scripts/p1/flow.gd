@@ -34,7 +34,7 @@ func setup(main: Control, player: P1Session) -> void:
 	map_entry = VBoxContainer.new()
 	map_instruction = Label.new()
 	map_instruction.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	map_instruction.add_theme_font_size_override("font_size",16)
+	map_instruction.add_theme_font_size_override("font_size",14)
 	map_entry.add_child(map_instruction)
 	map_continue = Button.new()
 	map_continue.custom_minimum_size.y = 48
@@ -57,12 +57,11 @@ func setup(main: Control, player: P1Session) -> void:
 		dev_module_button.custom_minimum_size = Vector2(60,48)
 		dev_module_button.pressed.connect(func(): app.dev_tools.show_menu())
 		entry_actions.add_child(dev_module_button)
-	app.map_view.add_child(map_entry)
-	app.map_view.move_child(map_entry,3)
+	app.map_view.install_story_entry(map_entry)
 	session.changed.connect(refresh_map_entry)
 	refresh_map_entry()
 	primary_button = map_continue
-	app.map_view.get_child(1).text = app.runtime_mode.mode+" · "+("独立模块预览" if app.preview_active else P1ProfileCatalog.label(app.active_profile))
+	app.map_view.mode_label.text = app.runtime_mode.mode+" · "+("独立模块预览" if app.preview_active else P1ProfileCatalog.label(app.active_profile))
 	app.get_window().title = "下一站，俄罗斯！ · "+app.runtime_mode.mode+(" · 模块预览" if app.preview_active else "")
 
 func dispose() -> void:
@@ -90,6 +89,7 @@ func show_profiles() -> void:
 	_button("返回城市地图",_clear)
 
 func refresh_map_entry() -> void:
+	app.map_view.update_locks(not session.state.story.cityUnlocked)
 	app.map_view.board.task_id = &"" if session.state.story.cityUnlocked else &"dormitory"
 	app.map_view.task_button.disabled = session.state.story.cityUnlocked
 	app.map_view.board.queue_redraw()
@@ -153,10 +153,10 @@ func _screen(kind: String, title: String) -> void:
 	modal.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(modal)
 	var panel := PanelContainer.new()
-	var style := StyleBoxFlat.new()
-	style.bg_color = Color(0,0,0,0) if kind == "arrival" else Color("f2e4cb")
-	style.set_content_margin_all(10 if kind == "arrival" else 14)
-	style.set_corner_radius_all(12)
+	var style: StyleBox = StyleBoxEmpty.new() if kind in ["arrival","message"] else GameUI.paper()
+	if kind not in ["arrival","message"]:
+		panel.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		panel.custom_minimum_size.y = minf(600,size.y-24)
 	panel.add_theme_stylebox_override("panel", style)
 	modal.add_child(panel)
 	var scroll := ScrollContainer.new()
@@ -165,14 +165,12 @@ func _screen(kind: String, title: String) -> void:
 	body = VBoxContainer.new()
 	body.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	body.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	body.alignment = BoxContainer.ALIGNMENT_END if kind == "arrival" else BoxContainer.ALIGNMENT_BEGIN
+	body.alignment = BoxContainer.ALIGNMENT_END if kind in ["arrival","message"] else BoxContainer.ALIGNMENT_BEGIN
 	body.add_theme_constant_override("separation", 7 if kind == "arrival" else 10)
 	scroll.add_child(body)
 	var title_label := _text(title, 19 if kind == "arrival" else 24)
-	if kind == "arrival":
-		title_label.add_theme_color_override("font_color",Color("fff0d9"))
-		title_label.add_theme_color_override("font_outline_color",Color("66513c"))
-		title_label.add_theme_constant_override("outline_size",5)
+	if kind in ["arrival","message"]:
+		GameUI.legible(title_label)
 	_layout_modal()
 	if is_instance_valid(app.active_room) and app.active_room.p1_controller != null:
 		app.active_room.p1_controller.encounter.set_process(false)
@@ -184,15 +182,15 @@ func _layout_modal() -> void:
 	var side := (12 if portrait else 24) if modal_kind in ["arrival","organization"] else (16 if portrait else maxi(28, int((size.x - 760) / 2)))
 	modal.add_theme_constant_override("margin_left", maxi(side, app.safe_layout.get_theme_constant("margin_left")))
 	modal.add_theme_constant_override("margin_right", maxi(side, app.safe_layout.get_theme_constant("margin_right")))
-	modal.add_theme_constant_override("margin_top", app.safe_layout.get_theme_constant("margin_top"))
-	modal.add_theme_constant_override("margin_bottom", app.safe_layout.get_theme_constant("margin_bottom"))
+	modal.add_theme_constant_override("margin_top", maxi(12,app.safe_layout.get_theme_constant("margin_top")))
+	modal.add_theme_constant_override("margin_bottom", maxi(12,app.safe_layout.get_theme_constant("margin_bottom")))
 
 func _text(value: String, font_size := 19) -> Label:
 	var label := Label.new()
 	label.text = value
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	label.add_theme_font_size_override("font_size", font_size)
-	label.add_theme_color_override("font_color",Color("293b41"))
+	label.add_theme_color_override("font_color",GameUI.INK)
 	body.add_child(label)
 	return label
 
@@ -209,17 +207,7 @@ func _button(value: String, callback: Callable) -> Button:
 	return button
 
 func style_button(button: Button) -> void:
-	for state in ["normal","hover","pressed","focus"]:
-		var style := StyleBoxFlat.new()
-		style.bg_color = Color("ead0a8") if state == "normal" else Color("d9bb8e")
-		style.border_color = Color("95734e")
-		style.set_border_width_all(2)
-		style.set_corner_radius_all(18)
-		style.set_content_margin_all(8)
-		button.add_theme_stylebox_override(state,style)
-	button.add_theme_color_override("font_color",Color("32434a"))
-	button.add_theme_color_override("font_hover_color",Color("24373c"))
-	button.add_theme_color_override("font_pressed_color",Color("24373c"))
+	GameUI.button(button)
 
 func _save_error() -> void:
 	_text(session.last_error if not session.last_error.is_empty() else "操作尚未完成，请重试。", 16)
@@ -273,20 +261,16 @@ func show_arrival() -> void:
 
 func _dialogue_text(value: String, color: Color, font_size: int) -> Label:
 	var panel := PanelContainer.new()
-	var style := StyleBoxFlat.new()
-	style.bg_color = color
-	style.bg_color.a = 0.96
-	style.border_color = Color("80664f")
-	style.set_border_width_all(2)
-	style.set_corner_radius_all(12)
-	style.set_content_margin_all(12)
+	# The generated ornate corners belong on larger cards. Compact subtitles use
+	# the same palette with a native thin frame to preserve readable small sizes.
+	var style: StyleBox = GameUI.flat(GameUI.PAPER if color.r > color.b else Color("eaf2ed"))
 	panel.add_theme_stylebox_override("panel",style)
 	body.add_child(panel)
 	var label := Label.new()
 	label.text = value
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	label.add_theme_font_size_override("font_size",font_size)
-	label.add_theme_color_override("font_color",Color("293b41"))
+	label.add_theme_color_override("font_color",GameUI.INK)
 	panel.add_child(label)
 	return label
 
@@ -341,6 +325,7 @@ func show_message() -> void:
 	var index := mini(int(session.state.story.annaMessageIndex), 1)
 	var line: Dictionary = P1Content.data().annaMessage[index]
 	_screen("message", line.speaker)
+	_add_stage("home.background", "")
 	russian_line = _dialogue_text(line.ru, Color("fff0d9"), 23)
 	chinese_line = _dialogue_text(line.zhSubtitle, Color("dcecf5"), 20)
 	primary_button = _button("回房间" if session.state.story.cityUnlocked else ("读下一条" if index == 0 else "收好消息 · 解锁城市"), func():

@@ -1,0 +1,11 @@
+{
+  "id": "ui01.paper_panel.v1",
+  "tool": "official built-in image_gen.imagegen",
+  "date": "2026-10-29",
+  "transparent_background": true,
+  "prompt": "Use case: game-ui-asset. Asset type: one standalone reusable nine-slice paper panel texture for a warm illustrated travel-journal game UI. Generate a single clean blank rounded rectangular cream stationery panel viewed perfectly straight-on, width approximately twice its height, centered with generous genuine transparent padding outside on all sides. Soft ivory paper, very faint warm fibers, restrained thin pale tan double-line border, softly rounded corners, tiny subtle warm shadow immediately under edge only. Center must be almost uniform pale cream with no decorative objects and abundant completely blank area for dynamic Chinese and Russian dialogue rendered in game. Corners and edge thickness consistent, straight horizontal/vertical border segments suitable for nine-slice stretching, inner 80 percent quiet and smooth. Flat UI drawing, refined light storybook game aesthetic, readable at small sizes. No perspective, no tabletop, no scene background, no page curl, no tape, no stamps, no icons, no text, no letters, no numbers, no buttons, no watermark, no checkerboard. Exactly one isolated UI panel, not a UI mockup or spritesheet. Actual RGBA transparency outside the panel. This is a RETAIN_CANDIDATE game resource, not final approved art.",
+  "originalOutput": "C:/Users/yyy/.codex/generated_images/01a183bb-5cde-7040-9648-1da9ff19faa0/exec-8cfa12b3-2164-4e6e-b1b2-352e4a14e2a8.png",
+  "disposition": "REVIEW_REQUIRED / NOT_SHIPPED. Actual RGBA original preserved; ornate corners failed tall mobile nine-slice visual review. Production uses shared Godot Theme / StyleBoxFlat.",
+  "initialProjectOutput": "assets/ui01/paper_panel.png",
+  "projectCandidateOutput": "docs/art-prep/p1-ui-01/paper_panel_candidate.png"
+}

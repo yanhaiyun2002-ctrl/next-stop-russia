@@ -56,7 +56,7 @@ func _run() -> void:
 		app.return_to_map()
 		await _frames(3)
 	_check(entries == 22 and app.active_room == null, "20 轮额外往返无重复实例")
-	_check(app.safe_layout.get_child_count() == 1, "返回后无室内节点残留")
+	_check(app.safe_layout.get_child_count() == 0 and app.map_view.get_parent() == app, "返回后无室内节点残留，全屏地图保留在根视觉层")
 	await _resize_regressions()
 	for pixels in [Vector2i(1920, 1080), Vector2i(1280, 800), Vector2i(1080, 1920), Vector2i(1170, 2532), Vector2i(360, 780)]:
 		await _check_layout(pixels)

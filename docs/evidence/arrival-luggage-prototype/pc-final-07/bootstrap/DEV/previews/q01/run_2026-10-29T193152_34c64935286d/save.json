@@ -1,0 +1,34 @@
+{
+	"cat": {
+		"breedId": "siberian_forest",
+		"displayName": "",
+		"firstPetCompleted": false,
+		"namePending": false,
+		"petRoundId": 0,
+		"roundId": 1,
+		"rounds": 0,
+		"spotId": "by_window"
+	},
+	"organization": {
+		"history": [],
+		"journalDate": "",
+		"placements": {},
+		"tutorialCompleted": false
+	},
+	"quests": {
+		"q00_arrival": "completed",
+		"q01_cat": "active",
+		"q02_organize": "locked",
+		"q03_anna_message": "locked"
+	},
+	"revision": 7,
+	"rewards": {},
+	"schemaVersion": 1,
+	"story": {
+		"annaMessageIndex": 0,
+		"arrivalIndex": 5,
+		"cityUnlocked": false,
+		"hasHomeKey": true,
+		"homeEntered": true
+	}
+}

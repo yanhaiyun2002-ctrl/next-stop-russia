@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "baseline": "eede196",
+  "protectedPathsUnchanged": [
+    "scripts/main.gd",
+    "scripts/p1",
+    "data",
+    "project.godot",
+    "scenes",
+    "ui",
+    "assets/p1r"
+  ],
+  "originalRegistryEntriesUnchanged": 37,
+  "newDevReviewEntries": [
+    "prototype.arrival_luggage.passport",
+    "prototype.arrival_luggage.washbag",
+    "prototype.arrival_luggage.textbook",
+    "prototype.arrival_luggage.scarf",
+    "prototype.arrival_luggage.surface",
+    "prototype.arrival_luggage.feedback"
+  ],
+  "prototypeHasNoProductionOrFileAPIs": true,
+  "note": "static boundary audit plus separate runtime hash checks; no owner gameplay acceptance"
+}

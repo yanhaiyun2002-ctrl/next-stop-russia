@@ -1,0 +1,217 @@
+{
+	"actualWindow": "(720, 800)",
+	"checks": [
+		{
+			"name": "初始散放不自动完成",
+			"passed": true
+		},
+		{
+			"name": "初始物件在面内 passport",
+			"passed": true
+		},
+		{
+			"name": "初始物件在面内 washbag",
+			"passed": true
+		},
+		{
+			"name": "初始物件在面内 textbook",
+			"passed": true
+		},
+		{
+			"name": "初始物件在面内 scarf",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 passportfalse",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 washbagfalse",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 textbookfalse",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 scarffalse",
+			"passed": true
+		},
+		{
+			"name": "递增底齐解有效",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 passporttrue",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 washbagtrue",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 textbooktrue",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 scarftrue",
+			"passed": true
+		},
+		{
+			"name": "不同位置的递减顶齐解有效",
+			"passed": true
+		},
+		{
+			"name": "整体换轴后的竖排解有效",
+			"passed": true
+		},
+		{
+			"name": "桌面外放置不改状态",
+			"passed": true
+		},
+		{
+			"name": "重来固定同一局面",
+			"passed": true
+		},
+		{
+			"name": "允许临时叠放但不能当整理完成",
+			"passed": true
+		},
+		{
+			"name": "撤销真实空间修改",
+			"passed": true
+		},
+		{
+			"name": "远处不自动代摆",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 passportfalse",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 washbagfalse",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 textbookfalse",
+			"passed": true
+		},
+		{
+			"name": "几何摆放有效 scarffalse",
+			"passed": true
+		},
+		{
+			"name": "附近真实边缘吸附",
+			"passed": true
+		},
+		{
+			"name": "乱齐边不能完成",
+			"passed": true
+		},
+		{
+			"name": "使用实际DEV能力入口",
+			"passed": true
+		},
+		{
+			"name": "只在证据目录建立隔离验收样本",
+			"passed": true
+		},
+		{
+			"name": "实际DEV菜单打开并隔离下层输入",
+			"passed": true
+		},
+		{
+			"name": "真实渲染 01_initial",
+			"passed": true
+		},
+		{
+			"name": "真实按钮转向围巾",
+			"passed": true
+		},
+		{
+			"name": "真实抓取并跟随 scarf",
+			"passed": true
+		},
+		{
+			"name": "真实抓取并跟随 washbag",
+			"passed": true
+		},
+		{
+			"name": "真实抓取并跟随 textbook",
+			"passed": true
+		},
+		{
+			"name": "真实抓取并跟随 passport",
+			"passed": true
+		},
+		{
+			"name": "真实渲染 02_dragging_passport",
+			"passed": true
+		},
+		{
+			"name": "直接拖放达到空间关系并自动完成反馈",
+			"passed": true
+		},
+		{
+			"name": "完成音生成实际音频数据（不等于真人听感验收）",
+			"passed": true
+		},
+		{
+			"name": "真实渲染 03_complete",
+			"passed": true
+		},
+		{
+			"name": "真实抓取并跟随 passport",
+			"passed": true
+		},
+		{
+			"name": "真实渲染 02_dragging_passport",
+			"passed": true
+		},
+		{
+			"name": "越界松手回原处",
+			"passed": true
+		},
+		{
+			"name": "完成后仍可撤销调整",
+			"passed": true
+		},
+		{
+			"name": "实际重来回同一局面",
+			"passed": true
+		},
+		{
+			"name": "方向改变取消旧手势且不改摆法",
+			"passed": true
+		},
+		{
+			"name": "打开/拖放/完成/重来全过程不写原档或任务状态",
+			"passed": true
+		},
+		{
+			"name": "退出恢复原处理模式与菜单",
+			"passed": true
+		},
+		{
+			"name": "退出不改旧存档",
+			"passed": true
+		},
+		{
+			"name": "重复进入是独立内存初始局面",
+			"passed": true
+		},
+		{
+			"name": "运行中的猫场景被隔离暂停，不发生隐藏任务进度",
+			"passed": true
+		},
+		{
+			"name": "退出不强行改变原猫处理标志",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"failed": 0,
+	"note": "engineering checks only; owner play/retain decision pending; adjustment rounds used=0",
+	"passed": 52
+}

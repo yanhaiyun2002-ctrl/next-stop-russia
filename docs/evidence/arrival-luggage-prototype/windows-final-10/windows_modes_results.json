@@ -1,0 +1,61 @@
+[
+  {
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\arrival-luggage-prototype\\windows-final-10/runtime-dev.log\"",
+      "--quit-after",
+      "180",
+      "--",
+      "--luggage-prototype"
+    ],
+    "previewSaveCount": 0,
+    "mode": "DEV",
+    "regularSaveHashesUnchanged": true,
+    "packAudit": "pack-dev.json",
+    "runtime": "PASS"
+  },
+  {
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\arrival-luggage-prototype\\windows-final-10/runtime-playtest.log\"",
+      "--quit-after",
+      "180",
+      "--",
+      "--dev",
+      "--mode=DEV",
+      "--preview=q02",
+      "--name-pending",
+      "--technical-map",
+      "--cat-spot=under_bed",
+      "--luggage-prototype"
+    ],
+    "previewSaveCount": 0,
+    "mode": "PLAYTEST",
+    "regularSaveHashesUnchanged": true,
+    "packAudit": "pack-playtest.json",
+    "runtime": "PASS"
+  },
+  {
+    "arguments": [
+      "--log-file",
+      "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\arrival-luggage-prototype\\windows-final-10/runtime-release.log\"",
+      "--quit-after",
+      "180",
+      "--",
+      "--dev",
+      "--mode=DEV",
+      "--preview=q02",
+      "--name-pending",
+      "--technical-map",
+      "--cat-spot=under_bed",
+      "--new-playtest",
+      "--verify-p1-package",
+      "--luggage-prototype"
+    ],
+    "previewSaveCount": 0,
+    "mode": "RELEASE",
+    "regularSaveHashesUnchanged": true,
+    "packAudit": "pack-release.json",
+    "runtime": "PASS"
+  }
+]

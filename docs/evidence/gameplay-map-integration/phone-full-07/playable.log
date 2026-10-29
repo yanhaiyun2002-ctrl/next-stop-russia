@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/gameplay-map-integration/phone-full-07/player-data/PLAYTEST
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/gameplay-map-integration/phone-full-07/player-data/PLAYTEST/profiles/slot_20261029_211159_a77a3eb74775
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/gameplay-map-integration/phone-full-07/player-data/PLAYTEST/profiles/slot_20261029_211159_a77a3eb74775
+ERROR: P1 布局 3.5 秒内稳定
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _settle (res://tests/p1_playable_tests.gd:30)
+P1_PLAYABLE passed=187 failed=1

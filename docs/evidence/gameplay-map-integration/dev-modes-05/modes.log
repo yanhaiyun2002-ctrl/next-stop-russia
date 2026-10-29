@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Could not preload resource script "res://scripts/dev_tools/module_preview.gd".
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:2)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://scripts/dev_tools/module_preview.gd".
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:2)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "complete" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:64)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://scripts/dev_tools/module_preview.gd".
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:90)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "fixture" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:93)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "seed" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:111)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://scripts/dev_tools/module_preview.gd".
+   at: GDScript::reload (res://tests/p1_modes_tests.gd:125)
+ERROR: Failed to load script "res://tests/p1_modes_tests.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

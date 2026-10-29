@@ -1,0 +1,59 @@
+﻿[
+    {
+        "runtime":  "PASS",
+        "regularSaveHashesUnchanged":  true,
+        "arguments":  [
+                          "--log-file",
+                          "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\gameplay-map-integration\\windows-final-18/runtime-dev.log\"",
+                          "--quit-after",
+                          "180",
+                          "--",
+                          "--preview=q02"
+                      ],
+        "previewSaveCount":  1,
+        "packAudit":  "pack-dev.json",
+        "mode":  "DEV"
+    },
+    {
+        "runtime":  "PASS",
+        "regularSaveHashesUnchanged":  true,
+        "arguments":  [
+                          "--log-file",
+                          "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\gameplay-map-integration\\windows-final-18/runtime-playtest.log\"",
+                          "--quit-after",
+                          "180",
+                          "--",
+                          "--dev",
+                          "--mode=DEV",
+                          "--preview=q02",
+                          "--name-pending",
+                          "--technical-map",
+                          "--cat-spot=under_bed"
+                      ],
+        "previewSaveCount":  0,
+        "packAudit":  "pack-playtest.json",
+        "mode":  "PLAYTEST"
+    },
+    {
+        "runtime":  "PASS",
+        "regularSaveHashesUnchanged":  true,
+        "arguments":  [
+                          "--log-file",
+                          "\"E:\\俄语游戏\\NEXT_STOP_RUSSIA\\docs\\evidence\\gameplay-map-integration\\windows-final-18/runtime-release.log\"",
+                          "--quit-after",
+                          "180",
+                          "--",
+                          "--dev",
+                          "--mode=DEV",
+                          "--preview=q02",
+                          "--name-pending",
+                          "--technical-map",
+                          "--cat-spot=under_bed",
+                          "--new-playtest",
+                          "--verify-p1-package"
+                      ],
+        "previewSaveCount":  0,
+        "packAudit":  "pack-release.json",
+        "mode":  "RELEASE"
+    }
+]

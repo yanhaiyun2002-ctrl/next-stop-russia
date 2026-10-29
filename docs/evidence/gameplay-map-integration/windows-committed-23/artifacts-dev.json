@@ -1,0 +1,12 @@
+﻿[
+    {
+        "path":  "NextStopRussia-DEV.exe",
+        "bytes":  109268480,
+        "sha256":  "D34D36F3BE1A6C49C56525AE86469B92E4F417DDF0B43CF00DD80C385C4B0562"
+    },
+    {
+        "path":  "NextStopRussia-DEV.pck",
+        "bytes":  20721484,
+        "sha256":  "D739BC40CCE58F80F7AF96DEB3DA6F3D56F67E7E1D215BE3BC3A52521E736952"
+    }
+]

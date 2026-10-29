@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+SCRIPT ERROR: Parse Error: Could not preload resource script "res://scripts/dev_tools/module_preview.gd".
+   at: GDScript::reload (res://tests/gameplay_map_integration_tests.gd:3)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://scripts/dev_tools/module_preview.gd".
+   at: GDScript::reload (res://tests/gameplay_map_integration_tests.gd:3)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "old_mid" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/gameplay_map_integration_tests.gd:22)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "old_done" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/gameplay_map_integration_tests.gd:32)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "player" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/gameplay_map_integration_tests.gd:117)
+ERROR: Failed to load script "res://tests/gameplay_map_integration_tests.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

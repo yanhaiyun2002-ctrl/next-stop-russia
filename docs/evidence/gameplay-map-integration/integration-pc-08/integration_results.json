@@ -1,0 +1,148 @@
+{
+	"checks": [
+		{
+			"name": "构造合法旧ABC中途档，无空间字段",
+			"passed": true
+		},
+		{
+			"name": "旧中途档主线不丢，新空间从初始局面进入",
+			"passed": true
+		},
+		{
+			"name": "读取旧档不自动迁移、不改ABC原始数据或文件",
+			"passed": true
+		},
+		{
+			"name": "旧ABC摆满也不能冒充新空间完成",
+			"passed": true
+		},
+		{
+			"name": "构造合法旧已完成Q02/Q03档",
+			"passed": true
+		},
+		{
+			"name": "旧完成档有效，重复完成不改日期/奖励/revision",
+			"passed": true
+		},
+		{
+			"name": "拒绝小数转向",
+			"passed": true
+		},
+		{
+			"name": "拒绝越界存档坐标",
+			"passed": true
+		},
+		{
+			"name": "拒绝布尔坐标",
+			"passed": true
+		},
+		{
+			"name": "新空间布局持久化",
+			"passed": true
+		},
+		{
+			"name": "JSON往返恢复空间坐标和整数转向",
+			"passed": true
+		},
+		{
+			"name": "写入失败空间状态不提交",
+			"passed": true
+		},
+		{
+			"name": "每次启动先地图",
+			"passed": true
+		},
+		{
+			"name": "负责人地图实际加载且保持原图坐标系",
+			"passed": true
+		},
+		{
+			"name": "ABC映射既有业务ID，没有新增地点",
+			"passed": true
+		},
+		{
+			"name": "真实Godot截图 01_map_initial",
+			"passed": true
+		},
+		{
+			"name": "纹理坐标往返 dormitory",
+			"passed": true
+		},
+		{
+			"name": "轮廓和触摸中心正确 dormitory",
+			"passed": true
+		},
+		{
+			"name": "纹理坐标往返 school",
+			"passed": true
+		},
+		{
+			"name": "轮廓和触摸中心正确 school",
+			"passed": true
+		},
+		{
+			"name": "纹理坐标往返 shop",
+			"passed": true
+		},
+		{
+			"name": "轮廓和触摸中心正确 shop",
+			"passed": true
+		},
+		{
+			"name": "缩放平移后点学校仍执行原剧情门禁",
+			"passed": true
+		},
+		{
+			"name": "地图鼠标/触摸拖动浏览不误入剧情或建筑",
+			"passed": true
+		},
+		{
+			"name": "任务定位指向当前宿舍",
+			"passed": true
+		},
+		{
+			"name": "真实Godot截图 02_map_task",
+			"passed": true
+		},
+		{
+			"name": "只在测试数据根目录模拟Q02未完成玩家",
+			"passed": true
+		},
+		{
+			"name": "Q02未完成重启仍先地图，不绕过必做继续入口",
+			"passed": true
+		},
+		{
+			"name": "地图继续直达共享正式Q02，无DEV标题",
+			"passed": true
+		},
+		{
+			"name": "真实Godot截图 03_q02_initial",
+			"passed": true
+		},
+		{
+			"name": "正常退出再进入恢复空间摆放",
+			"passed": true
+		},
+		{
+			"name": "完成反馈等待明确继续，未提前结算",
+			"passed": true
+		},
+		{
+			"name": "真实Godot截图 04_q02_complete",
+			"passed": true
+		},
+		{
+			"name": "继续原子完成Q02并进入Q03，城市尚锁",
+			"passed": true
+		},
+		{
+			"name": "原安娜消息完成后解锁城市",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"failed": 0,
+	"note": "synthetic desktop mouse/touch, not human or physical phone acceptance",
+	"passed": 35
+}

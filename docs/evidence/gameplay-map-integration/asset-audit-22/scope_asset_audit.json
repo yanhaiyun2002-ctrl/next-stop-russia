@@ -1,0 +1,367 @@
+{
+  "passed": 82,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "owner source unchanged from opening inspection",
+      "passed": true
+    },
+    {
+      "name": "runtime PNG is byte-identical copy; no original edits",
+      "passed": true
+    },
+    {
+      "name": "owner ABC reference byte-identical copy, not runtime background",
+      "passed": true
+    },
+    {
+      "name": "actual source dimensions/mode recorded; not misreported RGBA",
+      "passed": true
+    },
+    {
+      "name": "asset IDs unique",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.home.room_bg",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.home.room_bg",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.home.bed",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.home.bed",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.home.desk",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.home.desk",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.home.wardrobe",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.home.wardrobe",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.home.window",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.home.window",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.cat.siberian_placeholder",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.cat.siberian_placeholder",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists temp.reward.first_meeting",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval temp.reward.first_meeting",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists placeholder.app_icon",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval placeholder.app_icon",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists placeholder.debug.marker",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval placeholder.debug.marker",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists placeholder.school.tech_room",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval placeholder.school.tech_room",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.story.arrival",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.story.arrival",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.story.reception",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.story.reception",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.story.anna",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.story.anna",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.story.admin",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.story.admin",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.home.background",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.home.background",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.home.wood",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.home.wood",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.home.fabric",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.home.fabric",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.cat",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.cat",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.ui.dialogue_frame",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.ui.dialogue_frame",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists p1r.ui.world_labels",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval p1r.ui.world_labels",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists prototype.arrival_luggage.passport",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval prototype.arrival_luggage.passport",
+      "passed": true
+    },
+    {
+      "name": "shared procedural asset classification prototype.arrival_luggage.passport",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists prototype.arrival_luggage.washbag",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval prototype.arrival_luggage.washbag",
+      "passed": true
+    },
+    {
+      "name": "shared procedural asset classification prototype.arrival_luggage.washbag",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists prototype.arrival_luggage.textbook",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval prototype.arrival_luggage.textbook",
+      "passed": true
+    },
+    {
+      "name": "shared procedural asset classification prototype.arrival_luggage.textbook",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists prototype.arrival_luggage.scarf",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval prototype.arrival_luggage.scarf",
+      "passed": true
+    },
+    {
+      "name": "shared procedural asset classification prototype.arrival_luggage.scarf",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists prototype.arrival_luggage.surface",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval prototype.arrival_luggage.surface",
+      "passed": true
+    },
+    {
+      "name": "shared procedural asset classification prototype.arrival_luggage.surface",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists prototype.arrival_luggage.feedback",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval prototype.arrival_luggage.feedback",
+      "passed": true
+    },
+    {
+      "name": "shared procedural asset classification prototype.arrival_luggage.feedback",
+      "passed": true
+    },
+    {
+      "name": "active resource path exists map.st_petersburg.runtime",
+      "passed": true
+    },
+    {
+      "name": "no automatic final art approval map.st_petersburg.runtime",
+      "passed": true
+    },
+    {
+      "name": "only existing stable location IDs",
+      "passed": true
+    },
+    {
+      "name": "texture-space polygon in original bounds",
+      "passed": true
+    },
+    {
+      "name": "texture-space polygon in original bounds",
+      "passed": true
+    },
+    {
+      "name": "texture-space polygon in original bounds",
+      "passed": true
+    },
+    {
+      "name": "retained ancestor 78a792a",
+      "passed": true
+    },
+    {
+      "name": "retained ancestor 0c4af5c",
+      "passed": true
+    },
+    {
+      "name": "retained ancestor cbf68e8",
+      "passed": true
+    },
+    {
+      "name": "retained ancestor d2007bb",
+      "passed": true
+    },
+    {
+      "name": "retained ancestor 6f1f052",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content scripts/main.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content scripts/p1/cat_encounter.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content scripts/p1/home_controller.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content scripts/p1/runtime_mode.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content scripts/p1/profile_catalog.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content data/p1/content.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected logic/content project.godot",
+      "passed": true
+    },
+    {
+      "name": "no second experiment implementation",
+      "passed": true
+    }
+  ],
+  "measurements": [
+    {
+      "path": "docs\\art-source\\city_map\\city_map.png",
+      "pixels": [
+        1952,
+        1087
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "87d6b549d76bca53738df9bdb0c22bb3b7dbbfcd7ba0a2e3bfbba2ecf4f90eaa"
+    },
+    {
+      "path": "assets\\city_map\\st_petersburg.png",
+      "pixels": [
+        1952,
+        1087
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "87d6b549d76bca53738df9bdb0c22bb3b7dbbfcd7ba0a2e3bfbba2ecf4f90eaa"
+    },
+    {
+      "path": "docs\\art-source\\city_map\\city_map_marked.png",
+      "pixels": [
+        8134,
+        4530
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "20e811df449267c9ebc2ea926bfb3fb4106437125c7e66bf151438ada6624418"
+    }
+  ],
+  "note": "static scope/PNG audit; actual gameplay and package results are separate evidence"
+}

@@ -1,0 +1,226 @@
+{
+	"checks": [
+		{
+			"name": "显式 schema 1；无 P0 玩家存档迁移源",
+			"passed": true
+		},
+		{
+			"name": "新档不能绕过钥匙或猫首遇",
+			"passed": true
+		},
+		{
+			"name": "到达对白持久化 0",
+			"passed": true
+		},
+		{
+			"name": "到达对白持久化 1",
+			"passed": true
+		},
+		{
+			"name": "到达对白持久化 2",
+			"passed": true
+		},
+		{
+			"name": "到达对白持久化 3",
+			"passed": true
+		},
+		{
+			"name": "到达对白持久化 4",
+			"passed": true
+		},
+		{
+			"name": "持钥匙入宿舍",
+			"passed": true
+		},
+		{
+			"name": "摸猫前无奖励",
+			"passed": true
+		},
+		{
+			"name": "窗为合法独立构件藏点",
+			"passed": true
+		},
+		{
+			"name": "拒绝未知藏点",
+			"passed": true
+		},
+		{
+			"name": "摸猫完成原子写奖励及待命名",
+			"passed": true
+		},
+		{
+			"name": "同一轮摸猫完成事件重放幂等",
+			"passed": true
+		},
+		{
+			"name": "命名前重启恢复且 Q01 未完成",
+			"passed": true
+		},
+		{
+			"name": "空白与超长名字拒绝",
+			"passed": true
+		},
+		{
+			"name": "命名未完成不开放整理或城市",
+			"passed": true
+		},
+		{
+			"name": "俄中名字去首尾空格并确认",
+			"passed": true
+		},
+		{
+			"name": "确认幂等，不重复命名",
+			"passed": true
+		},
+		{
+			"name": "名字确认才完成 Q01",
+			"passed": true
+		},
+		{
+			"name": "未放完物品不能通过",
+			"passed": true
+		},
+		{
+			"name": "新空间初始摆放单独保存",
+			"passed": false
+		},
+		{
+			"name": "未满足长短和齐边不能推进",
+			"passed": true
+		},
+		{
+			"name": "空间调整持久化",
+			"passed": false
+		},
+		{
+			"name": "退出重入保留空间坐标，不跳Q02",
+			"passed": false
+		},
+		{
+			"name": "空间合法解完成原Q02事件",
+			"passed": false
+		},
+		{
+			"name": "整理纪念一次；消息读完前城市仍锁",
+			"passed": false
+		},
+		{
+			"name": "重复完成不重复奖励也不重复写档",
+			"passed": false
+		},
+		{
+			"name": "消息第一条不提前解锁",
+			"passed": false
+		},
+		{
+			"name": "消息第二条完成 Q03",
+			"passed": false
+		},
+		{
+			"name": "重复读消息幂等",
+			"passed": false
+		},
+		{
+			"name": "DEV PLAYTEST 物理目录隔离",
+			"passed": true
+		},
+		{
+			"name": "完整进度重启仍保留",
+			"passed": false
+		},
+		{
+			"name": "约束判题接受合法解一",
+			"passed": true
+		},
+		{
+			"name": "约束判题接受合法解二，不匹配示例",
+			"passed": true
+		},
+		{
+			"name": "禁止共仓或容量非法失败",
+			"passed": true
+		},
+		{
+			"name": "容量足够时禁止共仓仍生效",
+			"passed": true
+		},
+		{
+			"name": "allowedBins 生效",
+			"passed": true
+		},
+		{
+			"name": "坏档恢复有效备份并提示",
+			"passed": true
+		},
+		{
+			"name": "损坏原文件已保留",
+			"passed": true
+		},
+		{
+			"name": "恢复备份可继续可靠写入",
+			"passed": false
+		},
+		{
+			"name": "未来版本禁止覆盖及倒退迁移",
+			"passed": true
+		},
+		{
+			"name": "不完整数据结构拒绝",
+			"passed": true
+		},
+		{
+			"name": "坏档不能注入城市解锁",
+			"passed": true
+		},
+		{
+			"name": "拒绝小数进度防软锁 arrivalIndex",
+			"passed": true
+		},
+		{
+			"name": "拒绝小数进度防软锁 annaMessageIndex",
+			"passed": true
+		},
+		{
+			"name": "拒绝小数进度防软锁 rounds",
+			"passed": true
+		},
+		{
+			"name": "拒绝小数进度防软锁 roundId",
+			"passed": true
+		},
+		{
+			"name": "对白结束但无钥匙的坏档拒绝",
+			"passed": true
+		},
+		{
+			"name": "消息完成但城市未解锁的坏档拒绝",
+			"passed": true
+		},
+		{
+			"name": "空白名字与待命名标志不一致拒绝",
+			"passed": true
+		},
+		{
+			"name": "畸形 schema 正常报错保留原档 broken",
+			"passed": true
+		},
+		{
+			"name": "畸形 schema 正常报错保留原档 {  }",
+			"passed": true
+		},
+		{
+			"name": "畸形 schema 正常报错保留原档 0.5",
+			"passed": true
+		},
+		{
+			"name": "无备份坏档保留，拒绝静默新档",
+			"passed": true
+		},
+		{
+			"name": "写入失败内存与剧情不推进",
+			"passed": true
+		}
+	],
+	"failed": 11,
+	"passed": 44
+}

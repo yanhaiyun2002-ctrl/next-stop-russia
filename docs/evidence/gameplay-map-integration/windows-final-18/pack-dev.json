@@ -1,0 +1,12 @@
+{
+	"corePresent": true,
+	"devToolPresent": true,
+	"failed": 0,
+	"legacyABCAndExperimentImplementationAbsent": true,
+	"loaded": true,
+	"mode": "DEV",
+	"packageVerifierPresent": true,
+	"playerBuildDirectoriesAbsent": true,
+	"runtimeMapPresent": true,
+	"sharedLuggageRuntimePresent": true
+}

@@ -275,6 +275,9 @@ func _refresh_completion() -> void:
 	queue_redraw()
 
 func _process(delta: float) -> void:
+	# On portrait the continue action uses the note's slot; do not leave text
+	# peeking out behind its rounded corners.
+	info.visible = not (size.y > size.x and continue_button.visible)
 	if held.is_empty():
 		vocab_age += delta
 		vocab.modulate.a = clampf(1.5-vocab_age,0,1)

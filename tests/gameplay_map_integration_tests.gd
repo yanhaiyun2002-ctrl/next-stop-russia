@@ -149,6 +149,8 @@ func _run() -> void:
 	await INPUT.tap(self,view.action_buttons["重来"].get_global_rect().get_center(),touch)
 	await INPUT.solve(self,view,touch)
 	check(view.done and not app.session.state.organization.tutorialCompleted,"完成反馈等待明确继续，未提前结算")
+	if touch:
+		check(not view.info.visible,"手机完成按钮出现时收起同位置说明，避免文字叠压")
 	await picture("04_q02_complete")
 	await INPUT.tap(self,view.continue_button.get_global_rect().get_center(),touch)
 	check(app.story_flow.modal_kind == "message" and app.session.state.rewards.size() == 2 and not app.session.state.story.cityUnlocked,"继续原子完成Q02并进入Q03，城市尚锁")

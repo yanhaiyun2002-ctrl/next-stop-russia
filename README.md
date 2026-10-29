@@ -152,3 +152,7 @@ Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 �
 统一 Windows 导出预设为 `Windows DEV`、`Windows PLAYTEST`、`Windows RELEASE`，产物在 `builds/modes/<模式小写>/`。RELEASE 构建优先锁定 RELEASE，PLAYTEST 构建不能用 `--dev` 提权；两者物理排除 DEV 工具，RELEASE 额外排除包内验收器。RELEASE 预设只表示权限隔离构建，不表示游戏已达到正式发行质量。
 
 本轮开发效率与隔离结果见 `docs/reports/P1-01R_DEV_MODES_SUMMARY.md`。不进入 Q04／Q05，未增加新剧情或修改美术。
+
+## 整理玩法下一步：待确认设计
+
+整理已改为可选系统的有边界验证，旧 A/B/C 方案不再代表最终产品目标；当前正式 Q02 尚未删除或重写。最新合并提案见 `docs/design/prototypes/ARRIVAL_LUGGAGE_TIDY_PROPOSAL.md`，以“初到俄罗斯，整理行李”为首个原型，等待负责人确认交互方案后才制作独立 DEV 实验。早期“窗边书桌”草稿已暂停，未作为可玩版本交付。最终保留／最多一轮针对性调整／删除均由负责人真人试玩后决定。

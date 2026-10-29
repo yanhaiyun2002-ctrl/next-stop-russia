@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-ui-01/pc-01/player-data/PLAYTEST
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+SCRIPT ERROR: Invalid assignment of property or key 'label_avoid_rects' with value of type 'Array' on a base object of type 'Control (map_board.gd)'.
+   at: _layout (res://scripts/map.gd:143)
+   GDScript backtrace (most recent call first):
+       [0] _layout (res://scripts/map.gd:143)
+ERROR: Q00 正常对白 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:182)
+       [2] _click (res://tests/p1_playable_tests.gd:80)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+SCRIPT ERROR: Invalid access to property or key 'text' on a base object of type 'Nil'.
+   at: _run (res://tests/p1_playable_tests.gd:184)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/p1_playable_tests.gd:184)
+       [1] _click (res://tests/p1_playable_tests.gd:80)
+       [2] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: P1_PLAYABLE_TIMEOUT
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] <anonymous lambda> (res://tests/p1_playable_tests.gd:166)

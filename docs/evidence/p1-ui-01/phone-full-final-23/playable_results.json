@@ -1,0 +1,1073 @@
+{
+	"checks": [
+		{
+			"name": "默认玩家入口为一级地图；QA仍隐藏",
+			"passed": true
+		},
+		{
+			"name": "地图入口不绕过首日其他地点门禁",
+			"passed": true
+		},
+		{
+			"name": "完整验收使用真实UI新建独立试玩档",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 01_title",
+			"passed": true
+		},
+		{
+			"name": "Q00 正常对白 0",
+			"passed": true
+		},
+		{
+			"name": "俄语与中文字幕同显 q00.anna.01",
+			"passed": true
+		},
+		{
+			"name": "Q00真实背景与独立人物 q00.anna.01",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 02_arrival_anna",
+			"passed": true
+		},
+		{
+			"name": "Q00 正常对白 1",
+			"passed": true
+		},
+		{
+			"name": "俄语与中文字幕同显 q00.anna.02",
+			"passed": true
+		},
+		{
+			"name": "Q00真实背景与独立人物 q00.anna.02",
+			"passed": true
+		},
+		{
+			"name": "Q00 正常对白 2",
+			"passed": true
+		},
+		{
+			"name": "俄语与中文字幕同显 q00.maria.01",
+			"passed": true
+		},
+		{
+			"name": "Q00真实背景与独立人物 q00.maria.01",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 02_admin_key",
+			"passed": true
+		},
+		{
+			"name": "Q00 正常对白 3",
+			"passed": true
+		},
+		{
+			"name": "俄语与中文字幕同显 q00.maria.02",
+			"passed": true
+		},
+		{
+			"name": "Q00真实背景与独立人物 q00.maria.02",
+			"passed": true
+		},
+		{
+			"name": "Q00 正常对白 4",
+			"passed": true
+		},
+		{
+			"name": "俄语与中文字幕同显 q00.anna.03",
+			"passed": true
+		},
+		{
+			"name": "Q00真实背景与独立人物 q00.anna.03",
+			"passed": true
+		},
+		{
+			"name": "对白结束持钥匙，尚未直接跳猫任务",
+			"passed": true
+		},
+		{
+			"name": "Q00 入原宿舍，测试入口隐藏",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 03_cat_first_visible",
+			"passed": true
+		},
+		{
+			"name": "首日返回地图门禁",
+			"passed": true
+		},
+		{
+			"name": "不能先整理或跳消息",
+			"passed": true
+		},
+		{
+			"name": "错误候选世界标签可见",
+			"passed": true
+		},
+		{
+			"name": "错选不换点、不处罚、不发奖",
+			"passed": true
+		},
+		{
+			"name": "同次尝试明确无音频回退",
+			"passed": true
+		},
+		{
+			"name": "选对走出后未摸猫不奖励",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 04_await_pet",
+			"passed": true
+		},
+		{
+			"name": "每次重启先到一级地图",
+			"passed": true
+		},
+		{
+			"name": "地图启动不改变既有存档状态",
+			"passed": true
+		},
+		{
+			"name": "摸猫前退出重启仍无奖励",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "摸猫反馈尚未结束不抢先奖励",
+			"passed": true
+		},
+		{
+			"name": "反馈完成奖励一次，Q01 等待命名",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 05_name_required",
+			"passed": true
+		},
+		{
+			"name": "命名不可通过返回绕过",
+			"passed": true
+		},
+		{
+			"name": "Escape 和系统返回不跳过命名",
+			"passed": true
+		},
+		{
+			"name": "每次重启先到一级地图",
+			"passed": true
+		},
+		{
+			"name": "地图启动不改变既有存档状态",
+			"passed": true
+		},
+		{
+			"name": "命名前退出恢复命名、不重领奖",
+			"passed": true
+		},
+		{
+			"name": "空名字在实际 UI 被拒绝",
+			"passed": true
+		},
+		{
+			"name": "实际确认名字推进 Q01 和独立整理按钮",
+			"passed": true
+		},
+		{
+			"name": "正式整理不显示DEV文案且未解不能继续",
+			"passed": true
+		},
+		{
+			"name": "不完整摆放不能推进Q02",
+			"passed": true
+		},
+		{
+			"name": "正式Q02鼠标拖动后保存独立空间坐标",
+			"passed": true
+		},
+		{
+			"name": "正式撤销恢复初始摆法",
+			"passed": true
+		},
+		{
+			"name": "退出整理回房间但不能绕过Q02出门",
+			"passed": true
+		},
+		{
+			"name": "真实拖放旋转完成后显示继续；尚未自动结算",
+			"passed": true
+		},
+		{
+			"name": "完成反馈本身不提前推进剧情",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 06_organization",
+			"passed": true
+		},
+		{
+			"name": "Q02 完成进入安娜消息但未提前开放城市",
+			"passed": true
+		},
+		{
+			"name": "安娜消息俄语和中文同显",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 07_anna_message",
+			"passed": true
+		},
+		{
+			"name": "正常 UI 连续路径 Q00→Q03 解锁城市",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 08_first_playable_complete",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 under_bed",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 under_bed",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (1280, 720) under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (1280, 720) under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 under_bed",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_1280x720_under_bed",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 under_bed",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 under_bed",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 under_bed",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 by_window",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 by_window",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (1280, 720) by_window",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (1280, 720) by_window",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 by_window",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_1280x720_by_window",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 by_window",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 by_window",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 by_window",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (1280, 720) by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (1280, 720) by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_1280x720_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 under_desk",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 under_desk",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (1280, 720) under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (1280, 720) under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 under_desk",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_1280x720_under_desk",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 under_desk",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 under_desk",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 under_desk",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 under_bed",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 under_bed",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (360, 780) under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (360, 780) under_bed",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 under_bed",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_360x780_under_bed",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 under_bed",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 under_bed",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 under_bed",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 by_window",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 by_window",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (360, 780) by_window",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (360, 780) by_window",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 by_window",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_360x780_by_window",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 by_window",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 by_window",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 by_window",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (360, 780) by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (360, 780) by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_360x780_by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 by_wardrobe",
+			"passed": true
+		},
+		{
+			"name": "可复现四藏点 under_desk",
+			"passed": true
+		},
+		{
+			"name": "新轮清理旧词汇反馈 under_desk",
+			"passed": true
+		},
+		{
+			"name": "家具世界标签可见 (360, 780) under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏猫真实可见线索 (360, 780) under_desk",
+			"passed": true
+		},
+		{
+			"name": "藏点由物件和世界偏移定位 under_desk",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 spot_360x780_under_desk",
+			"passed": true
+		},
+		{
+			"name": "标签上横拖不误判 under_desk",
+			"passed": true
+		},
+		{
+			"name": "标签横拖按边界平移视角 under_desk",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "重玩不重复纪念与命名 under_desk",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 0",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 1",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 2",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 3",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 4",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 5",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 6",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 7",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 8",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 9",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "自由随机连续轮次不相邻重复 10",
+			"passed": true
+		},
+		{
+			"name": "走出后猫咪可见可摸",
+			"passed": true
+		},
+		{
+			"name": "点击猫进入摸猫反馈",
+			"passed": true
+		},
+		{
+			"name": "累计 20 次摸猫、11 次自然随机重玩无再次命名",
+			"passed": true
+		},
+		{
+			"name": "完成首段可返回原地图",
+			"passed": true
+		},
+		{
+			"name": "城市开放仍可进技术学校",
+			"passed": true
+		},
+		{
+			"name": "学校返回保持原导航",
+			"passed": true
+		},
+		{
+			"name": "商店仍锁定，无 Q04/Q05 实现",
+			"passed": true
+		},
+		{
+			"name": "地图重入保留任务与猫名字",
+			"passed": true
+		},
+		{
+			"name": "真实渲染截图 09_phone_reentry",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"failed": 0,
+	"motion": [
+		{
+			"movingFrames": 88,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_desk",
+			"target": "name_required"
+		},
+		{
+			"movingFrames": 84,
+			"spot": "under_bed",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "under_bed",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_bed",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_window",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 105,
+			"spot": "by_window",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_window",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_wardrobe",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "by_wardrobe",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_wardrobe",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_desk",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_bed",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_bed",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_bed",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_window",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "by_window",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_window",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_wardrobe",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "by_wardrobe",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_wardrobe",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 109,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_desk",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_bed",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_bed",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_bed",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_window",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "by_window",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_window",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_desk",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_window",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "by_window",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_window",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_bed",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_bed",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_bed",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_window",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "by_window",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_window",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_bed",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_bed",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_bed",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_desk",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "by_wardrobe",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "by_wardrobe",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "by_wardrobe",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_desk",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 107,
+			"spot": "under_desk",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_desk",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_bed",
+			"target": "guessing"
+		},
+		{
+			"movingFrames": 108,
+			"spot": "under_bed",
+			"target": "await_pet"
+		},
+		{
+			"movingFrames": 0,
+			"spot": "under_bed",
+			"target": "complete"
+		},
+		{
+			"movingFrames": 87,
+			"spot": "under_bed",
+			"target": "guessing"
+		}
+	],
+	"note": "synthetic desktop mouse/touch; not human or physical phone acceptance",
+	"passed": 187
+}

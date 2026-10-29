@@ -1,0 +1,225 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-ui-01/pc-06/player-data/PLAYTEST
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-ui-01/pc-06/player-data/PLAYTEST
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-ui-01/pc-06/player-data/PLAYTEST
+ERROR: 标签横拖按边界平移视角 by_window
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:292)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+UI01_DRAG_DIAGNOSTIC spot=by_window viewport=(1280, 720) expected=563.008409288194 actual=506.980834960938 label=[P: (816.7297, 263.7865), S: (92.0, 52.0)] view=[P: (0.0, 0.0), S: (1280.0, 720.0)]
+ERROR: 标签横拖按边界平移视角 by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:292)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+UI01_DRAG_DIAGNOSTIC spot=by_wardrobe viewport=(1280, 720) expected=752.713670518663 actual=506.980834960938 label=[P: (1303.599, 358.4723), S: (92.0, 52.0)] view=[P: (0.0, 0.0), S: (1280.0, 720.0)]
+ERROR: 标签横拖按边界平移视角 under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:292)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+UI01_DRAG_DIAGNOSTIC spot=under_desk viewport=(1280, 720) expected=619.694444444444 actual=506.980834960938 label=[P: (775.9566, 422.505), S: (92.0, 52.0)] view=[P: (0.0, 0.0), S: (1280.0, 720.0)]
+ERROR: 点击猫进入摸猫反馈
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _pet (res://tests/p1_playable_tests.gd:121)
+       [2] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 猫阶段超时，目标 complete 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 可复现四藏点 by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:277)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 新轮清理旧词汇反馈 by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:278)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 猫阶段超时，目标 guessing 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 家具世界标签可见 (360, 780) by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:281)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 藏点由物件和世界偏移定位 by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:285)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 标签上横拖不误判 by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:291)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 标签横拖按边界平移视角 by_wardrobe
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:292)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+UI01_DRAG_DIAGNOSTIC spot=by_wardrobe viewport=(360, 780) expected=542.500367775942 actual=561.243957519531 label=[P: (804.3016, 390.5116), S: (92.0, 52.0)] view=[P: (0.0, 0.0), S: (360.0, 780.0)]
+ERROR: 走出后猫咪可见可摸
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _pet (res://tests/p1_playable_tests.gd:107)
+       [2] _run (res://tests/p1_playable_tests.gd:299)
+       [3] _wait_phase (res://tests/p1_playable_tests.gd:96)
+       [4] _settle (res://tests/p1_playable_tests.gd:48)
+       [5] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 猫阶段超时，目标 complete 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 可复现四藏点 under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:277)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 新轮清理旧词汇反馈 under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:278)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 猫阶段超时，目标 guessing 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 家具世界标签可见 (360, 780) under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:281)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 藏猫真实可见线索 (360, 780) under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:283)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 藏点由物件和世界偏移定位 under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:285)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 标签上横拖不误判 under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:291)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 标签横拖按边界平移视角 under_desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:292)
+       [2] _drag (res://tests/p1_playable_tests.gd:162)
+       [3] _frames (res://tests/p1_playable_tests.gd:24)
+UI01_DRAG_DIAGNOSTIC spot=under_desk viewport=(360, 780) expected=849.517274514223 actual=868.260864257813 label=[P: (-324.2255, 459.8804), S: (92.0, 52.0)] view=[P: (0.0, 0.0), S: (360.0, 780.0)]
+ERROR: 点击猫进入摸猫反馈
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _pet (res://tests/p1_playable_tests.gd:121)
+       [2] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 猫阶段超时，目标 complete 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 猫阶段超时，目标 guessing 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 自由随机连续轮次不相邻重复 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:309)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 点击猫进入摸猫反馈
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _pet (res://tests/p1_playable_tests.gd:121)
+       [2] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 猫阶段超时，目标 complete 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 猫阶段超时，目标 guessing 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 自由随机连续轮次不相邻重复 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:309)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 点击猫进入摸猫反馈
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _pet (res://tests/p1_playable_tests.gd:121)
+       [2] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: 猫阶段超时，目标 complete 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 猫阶段超时，目标 guessing 实际 await_pet
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _wait_phase (res://tests/p1_playable_tests.gd:89)
+ERROR: 自由随机连续轮次不相邻重复 2
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _run (res://tests/p1_playable_tests.gd:309)
+       [2] _wait_phase (res://tests/p1_playable_tests.gd:90)
+ERROR: 点击猫进入摸猫反馈
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/p1_playable_tests.gd:20)
+       [1] _pet (res://tests/p1_playable_tests.gd:121)
+       [2] _frames (res://tests/p1_playable_tests.gd:24)
+ERROR: P1_PLAYABLE_TIMEOUT
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] <anonymous lambda> (res://tests/p1_playable_tests.gd:166)

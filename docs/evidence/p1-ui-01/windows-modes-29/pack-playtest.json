@@ -1,0 +1,14 @@
+{
+	"corePresent": true,
+	"devToolPresent": false,
+	"failed": 0,
+	"legacyABCAndExperimentImplementationAbsent": true,
+	"loaded": true,
+	"mode": "PLAYTEST",
+	"packageVerifierPresent": true,
+	"playerBuildDirectoriesAbsent": true,
+	"runtimeMapPresent": true,
+	"sharedLuggageRuntimePresent": true,
+	"sharedUIThemePresent": true,
+	"unselectedUICandidateAbsent": true
+}

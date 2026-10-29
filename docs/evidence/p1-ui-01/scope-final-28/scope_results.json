@@ -1,0 +1,442 @@
+{
+  "base": "a91f819",
+  "passed": 106,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "unchanged protected file scripts/p1/session.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/p1/save_store.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/p1/luggage_tidy/model.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/p1/cat_encounter.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/p1/cat_visual.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/p1/profile_catalog.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/p1/runtime_mode.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/dev_tools/module_preview.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/dormitory/room_world.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file scripts/dormitory/cat_hunt.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected file data/p1/content.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_ready",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_signature",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::world_to_screen",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_world",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_pick",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_gui_input",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_input",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_cancel",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_rotate",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_undo",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_restart",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_hint",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_refresh_completion",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_process",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_tone",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_persist",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_continue",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_restore_host",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_close",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_exit_tree",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_round",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_draw",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/luggage_tidy/view.gd::_draw_item",
+      "passed": true
+    },
+    {
+      "name": "Q02 objects/surface/feedback art and mechanics retained",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_ready",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::configure",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::set_composition",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::set_ceiling_emphasis",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::project_base",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::project",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::is_portrait",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::effective_framing",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::reset_browse",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::set_browse_center",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::frame_object",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::pan",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::rebuild",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_item_bounds",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_overview_bounds",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_face",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_box_faces",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_marker",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::pick",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::visible_point",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_gui_input",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_cancel_pointer",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_legacy_gui_input",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_sprite_hit",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_draw_furniture_details",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_room_polygon",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::shell_clip_rect",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_room_shell",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/dormitory/room_view.gd::_architecture",
+      "passed": true
+    },
+    {
+      "name": "occlusion/cat draw ordering unchanged",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_build_flow",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::activate_session",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::choose_profile",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::create_playtest_profile",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_request_building",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::enter_building",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_enter_room",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::return_to_map",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_restore_map",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_reject",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_unhandled_input",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/main.gd::_notification",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/home_controller.gd::selected",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/home_controller.gd::_position_labels",
+      "passed": true
+    },
+    {
+      "name": "home refresh changes only placement hint text",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::dispose",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::show_profiles",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::home_entered",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::_clear",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::_button",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::_save_error",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::show_title",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::start",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::show_arrival",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::_add_stage",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::show_naming",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::show_organization",
+      "passed": true
+    },
+    {
+      "name": "unchanged behavior scripts/p1/flow.gd::block_return",
+      "passed": true
+    },
+    {
+      "name": "Q03 adds only visual backdrop",
+      "passed": true
+    },
+    {
+      "name": "no added map location",
+      "passed": true
+    },
+    {
+      "name": "original owner anchor/region dormitory",
+      "passed": true
+    },
+    {
+      "name": "original owner anchor/region school",
+      "passed": true
+    },
+    {
+      "name": "original owner anchor/region shop",
+      "passed": true
+    },
+    {
+      "name": "owner map immutable docs/art-source/city_map/city_map.png",
+      "passed": true
+    },
+    {
+      "name": "owner map immutable assets/city_map/st_petersburg.png",
+      "passed": true
+    },
+    {
+      "name": "generated candidate has real alpha, not fake checkerboard",
+      "passed": true
+    },
+    {
+      "name": "failed nine-slice candidate not presented as shipping art",
+      "passed": true
+    },
+    {
+      "name": "current UI approval ui01.shared_theme",
+      "passed": true
+    },
+    {
+      "name": "current UI approval ui01.map_plaques",
+      "passed": true
+    },
+    {
+      "name": "current UI approval ui01.map_selection",
+      "passed": true
+    },
+    {
+      "name": "no system font binary copied into assets",
+      "passed": true
+    }
+  ],
+  "candidate": {
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  }
+}

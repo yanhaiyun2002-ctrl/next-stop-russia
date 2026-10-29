@@ -1,0 +1,354 @@
+{
+	"checks": [
+		{
+			"name": "宿舍背景cover源区域等比裁切 (1280.0, 720.0)",
+			"passed": true
+		},
+		{
+			"name": "宿舍背景cover源区域等比裁切 (360.0, 780.0)",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 О",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 б",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 щ",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 е",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 ж",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 и",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 т",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 и",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 е",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 У",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 н",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 и",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 в",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 е",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 р",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 с",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 и",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 т",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 е",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 т",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 М",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 а",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 г",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 а",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 з",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 и",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 н",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 宿",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 舍",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 大",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 学",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 商",
+			"passed": true
+		},
+		{
+			"name": "本机系统字体真实字形覆盖 店",
+			"passed": true
+		},
+		{
+			"name": "地图画布覆盖真实有效视口",
+			"passed": true
+		},
+		{
+			"name": "等比cover无图片contain留边",
+			"passed": true
+		},
+		{
+			"name": "常驻双语标牌在安全区可见 dormitory",
+			"passed": true
+		},
+		{
+			"name": "地点中俄文字来自地点数据 dormitory",
+			"passed": true
+		},
+		{
+			"name": "标牌命中对应业务ID dormitory",
+			"passed": true
+		},
+		{
+			"name": "常驻双语标牌在安全区可见 school",
+			"passed": true
+		},
+		{
+			"name": "地点中俄文字来自地点数据 school",
+			"passed": true
+		},
+		{
+			"name": "标牌命中对应业务ID school",
+			"passed": true
+		},
+		{
+			"name": "标牌彼此不叠压 school",
+			"passed": true
+		},
+		{
+			"name": "常驻双语标牌在安全区可见 shop",
+			"passed": true
+		},
+		{
+			"name": "地点中俄文字来自地点数据 shop",
+			"passed": true
+		},
+		{
+			"name": "标牌命中对应业务ID shop",
+			"passed": true
+		},
+		{
+			"name": "标牌彼此不叠压 shop",
+			"passed": true
+		},
+		{
+			"name": "标牌彼此不叠压 shop",
+			"passed": true
+		},
+		{
+			"name": "学校显示剧情锁、商店显示配置锁",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 01_map_fullscreen",
+			"passed": true
+		},
+		{
+			"name": "点击大学标牌金色反馈但不绕剧情门禁",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 02_school_locked",
+			"passed": true
+		},
+		{
+			"name": "锁定商店只给锁定反馈",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 03_shop_locked",
+			"passed": true
+		},
+		{
+			"name": "存在可交互空白城市画面",
+			"passed": true
+		},
+		{
+			"name": "点空白清除选中",
+			"passed": true
+		},
+		{
+			"name": "折叠地点列表时也可恢复地点键盘焦点",
+			"passed": true
+		},
+		{
+			"name": "标牌键盘确认复用锁定导航",
+			"passed": true
+		},
+		{
+			"name": "缩放定位后标牌与变换一致",
+			"passed": true
+		},
+		{
+			"name": "标牌/地图拖动不误触导航且正常释放",
+			"passed": true
+		},
+		{
+			"name": "按住宿舍标牌有自然金色选中反馈",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 04_dormitory_selected",
+			"passed": true
+		},
+		{
+			"name": "宿舍标牌复用原Q00引导",
+			"passed": true
+		},
+		{
+			"name": "Q00俄中内容未改",
+			"passed": true
+		},
+		{
+			"name": "Q00背景全屏、字幕独立安全区",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 05_q00_dialogue",
+			"passed": true
+		},
+		{
+			"name": "模拟安全区不缩小背景画布",
+			"passed": true
+		},
+		{
+			"name": "地图主要HUD处于模拟安全区",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 06_safe_area",
+			"passed": true
+		},
+		{
+			"name": "只在隔离测试根目录构造合法Q02验收状态",
+			"passed": true
+		},
+		{
+			"name": "正式地图继续进入原空间Q02",
+			"passed": true
+		},
+		{
+			"name": "宿舍真实画布铺满视口，HUD不挤压相机窗口",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 07_home_fullscreen",
+			"passed": true
+		},
+		{
+			"name": "整理操作按钮位于模拟安全区 转向",
+			"passed": true
+		},
+		{
+			"name": "整理操作按钮位于模拟安全区 撤销",
+			"passed": true
+		},
+		{
+			"name": "整理操作按钮位于模拟安全区 重来",
+			"passed": true
+		},
+		{
+			"name": "整理操作按钮位于模拟安全区 退出",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 07_q02_safe_area",
+			"passed": true
+		},
+		{
+			"name": "安全区布局仍可真实拖放旋转吸附完成且继续可用",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 08_q02_complete",
+			"passed": true
+		},
+		{
+			"name": "Q03使用整屏场景与独立纸张消息卡",
+			"passed": true
+		},
+		{
+			"name": "Q03俄中台词保持原内容",
+			"passed": true
+		},
+		{
+			"name": "实际Godot画面 09_q03_message",
+			"passed": true
+		},
+		{
+			"name": "退出房间清除金色选中并恢复地图键盘焦点",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"failed": 0,
+	"fontNames": [
+		"Microsoft YaHei",
+		"Noto Sans CJK SC",
+		"PingFang SC",
+		"Arial"
+	],
+	"note": "synthetic Godot desktop render/input, not physical phone or human visual approval",
+	"passed": 85
+}

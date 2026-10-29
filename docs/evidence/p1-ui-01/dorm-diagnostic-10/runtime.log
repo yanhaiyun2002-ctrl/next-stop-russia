@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-ui-01/dorm-diagnostic-10/data/PLAYTEST
+BEGIN_DIAG source=(640.0, 289.7865) label=[P: (594.0, 263.7865), S: (92.0, 52.0)] view=[P: (0.0, 0.0), S: (1280.0, 720.0)] focus=640.0 scale=1.67441860465116
+LABEL_EVENT local=(46.0, 26.0) global=(0.0, 0.0) parent=RoomView pdown=false press=(0.0, 0.0) camera=640.0
+LABEL_EVENT local=(51.66669, 26.0) global=(645.6667, 289.7865) parent=RoomView pdown=true press=(0.0, 0.0) camera=640.0
+LABEL_EVENT local=(-165.3964, 26.0) global=(651.3333, 289.7865) parent=RoomView pdown=true press=(0.0, 0.0) camera=506.980834960938
+LABEL_EVENT local=(-159.7297, 26.0) global=(657.0, 289.7865) parent=RoomView pdown=true press=(0.0, 0.0) camera=506.980834960938
+LABEL_EVENT local=(-154.063, 26.0) global=(662.6667, 289.7865) parent=RoomView pdown=true press=(0.0, 0.0) camera=506.980834960938
+LABEL_EVENT local=(-148.3964, 26.0) global=(668.3333, 289.7865) parent=RoomView pdown=true press=(0.0, 0.0) camera=506.980834960938
+LABEL_EVENT local=(-142.7297, 26.0) global=(674.0, 289.7865) parent=RoomView pdown=true press=(0.0, 0.0) camera=506.980834960938
+END_DIAG focus=506.980834960938 pointer=true labelDown=true

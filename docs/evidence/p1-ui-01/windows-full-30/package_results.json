@@ -1,0 +1,76 @@
+{
+	"checks": [
+		{
+			"name": "实际 Windows 导出模板运行",
+			"passed": true
+		},
+		{
+			"name": "包内无策划参考/证据/工具密钥/原测试目录",
+			"passed": true
+		},
+		{
+			"name": "当前剧情/地图JSON打包，旧ABC题目不入运行包",
+			"passed": true
+		},
+		{
+			"name": "统一登记表与地图/剧情/宿舍/猫素材在独立包可加载",
+			"passed": true
+		},
+		{
+			"name": "TEMP 清单打包且明确 ART_PENDING",
+			"passed": true
+		},
+		{
+			"name": "包默认正常地图玩家入口",
+			"passed": true
+		},
+		{
+			"name": "包内真实截图 standalone_title",
+			"passed": true
+		},
+		{
+			"name": "独立包 Q00 实际 UI 入宿舍",
+			"passed": true
+		},
+		{
+			"name": "包内真实截图 standalone_naming",
+			"passed": true
+		},
+		{
+			"name": "独立包摸猫和名字确认推进 Q01",
+			"passed": true
+		},
+		{
+			"name": "Windows正式Q02真实拖放和完成反馈",
+			"passed": true
+		},
+		{
+			"name": "包内真实截图 standalone_q02",
+			"passed": true
+		},
+		{
+			"name": "独立包 Q02 Q03 完整连续流程与两次纪念记录",
+			"passed": true
+		},
+		{
+			"name": "包内真实截图 standalone_complete",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"executable": "E:/俄语游戏/NEXT_STOP_RUSSIA/builds/modes/playtest/NextStopRussia-PLAYTEST.exe",
+	"failed": 0,
+	"passed": 14,
+	"saveDirectory": "E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/p1-ui-01/windows-full-30/player-data/PLAYTEST"
+}

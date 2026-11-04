@@ -1,0 +1,55 @@
+{
+	"checks": [
+		{
+			"name": "seed isolated completed Q00-Q03 profile through existing services",
+			"passed": true
+		},
+		{
+			"name": "main scene loads selected completed profile",
+			"passed": true
+		},
+		{
+			"name": "real school map navigation accepts unlocked school",
+			"passed": true
+		},
+		{
+			"name": "school sidecar uses active mode/profile directory",
+			"passed": true
+		},
+		{
+			"name": "return to map from school",
+			"passed": true
+		},
+		{
+			"name": "school re-entry",
+			"passed": true
+		},
+		{
+			"name": "real map roundtrip preserves current feedback and strengthening",
+			"passed": true
+		},
+		{
+			"name": "school never rewrites Q00-Q03 save.json",
+			"passed": true
+		},
+		{
+			"name": "existing Escape navigation exits school and saves",
+			"passed": true
+		},
+		{
+			"name": "switch profile using existing selector",
+			"passed": true
+		},
+		{
+			"name": "second profile cannot inherit another player's alphabet/session",
+			"passed": true
+		},
+		{
+			"name": "school preserves existing main-story lock for new profile",
+			"passed": true
+		}
+	],
+	"failed": 0,
+	"passed": 12,
+	"scope": "actual main scene and real mode/profile services, isolated test saves"
+}

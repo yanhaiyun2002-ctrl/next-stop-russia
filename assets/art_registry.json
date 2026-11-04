@@ -3496,6 +3496,1712 @@
       "issues": [
         "Visual review pending; no bundled third-party art."
       ]
+    },
+    {
+      "assetId": "school.v04.blackboard_empty_from_sheet",
+      "path": "assets/school/blackboard_empty_from_sheet.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04",
+        "DEV",
+        "PLAYTEST"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/blackboard_empty_from_sheet",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "AI atlas crop",
+        "modification": "Engine atlas region / common transparent canvas only; no bitmap pixels changed"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": [
+          1017,
+          651
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "verified": true
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "background"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "ed826e373327e09638976ba8196a265eaedfbff78b965ec50afdf8fa0d9b7477",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval",
+        "Contaminated alpha above frame is excluded by runtime AtlasTexture region [18,75,990,570]; source unchanged"
+      ],
+      "usageScope": "Missing-R2 fallback only; current R2 uses independent cleaned blackboard PNG."
+    },
+    {
+      "assetId": "school.v04.blackboard_empty_scalable",
+      "path": "assets/school/blackboard_empty_scalable.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04",
+        "DEV",
+        "PLAYTEST"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/blackboard_empty_scalable",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "Hand-authored vector fallback supplied with handoff",
+        "modification": "Unmodified"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "verified": false
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "background"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "d10b3f3bd9896c687688546b84a0b94c227383539658bc673ee9ba3de4d4a460",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval"
+      ],
+      "usageScope": "Missing-R2 fallback only; current R2 uses independent cleaned blackboard PNG."
+    },
+    {
+      "assetId": "school.v04.classroom_backplate",
+      "path": "assets/school/classroom_backplate.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": false,
+      "activeProfiles": [
+        "LEGACY_V04_R1"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/classroom_backplate",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "Hand-authored vector fallback supplied with handoff",
+        "modification": "Replaced unsupported SVG book pattern with explicit vector books for Godot import"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "verified": false
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "background"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "4160c68d2a3693915a2adbca54c4061533176e4d77e53ceadb3624123b3af211",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval"
+      ],
+      "usageScope": "Superseded in current school renderer by R2 painted environment; retained for historical build provenance."
+    },
+    {
+      "assetId": "school.v04.teacher_correct",
+      "path": "assets/school/teacher_correct.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04",
+        "DEV",
+        "PLAYTEST"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/teacher_correct",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "AI atlas crop",
+        "modification": "Engine atlas region / common transparent canvas only; no bitmap pixels changed"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": [
+          478,
+          433
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "verified": true
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "teacher"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "619011920eaca2a6f90a70792facce36c45dd9fbc1df15dcf190e889cfaefa1b",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval"
+      ]
+    },
+    {
+      "assetId": "school.v04.teacher_explain",
+      "path": "assets/school/teacher_explain.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04",
+        "DEV",
+        "PLAYTEST"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/teacher_explain",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "AI atlas crop",
+        "modification": "Engine atlas region / common transparent canvas only; no bitmap pixels changed"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": [
+          657,
+          415
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "verified": true
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "teacher"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "8e02be81db7e882222e8247cd6199a1b672940da658253ee8f3cc8aef95bd3bc",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval"
+      ]
+    },
+    {
+      "assetId": "school.v04.teacher_hint",
+      "path": "assets/school/teacher_hint.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04",
+        "DEV",
+        "PLAYTEST"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/teacher_hint",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "AI atlas crop",
+        "modification": "Engine atlas region / common transparent canvas only; no bitmap pixels changed"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": [
+          525,
+          428
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "verified": true
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "teacher"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "20e53e0ec319e914480618154888812577d6796e39f0ae1dc751c1a8aeab1228",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval"
+      ]
+    },
+    {
+      "assetId": "school.v04.teacher_idle",
+      "path": "assets/school/teacher_idle.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "permanentApproval": false,
+      "replacementRequired": false,
+      "visualApproval": "APPROVED_FOR_V04_IMPLEMENTATION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04",
+        "DEV",
+        "PLAYTEST"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolThemePresenter/teacher_idle",
+      "sourceRecord": {
+        "type": "user_provided_school_zip",
+        "sourcePath": "E:/俄语游戏/新/学校.zip",
+        "handoffManifest": "docs/reference/school_vocab_blackboard_v04/art/ASSETS_MANIFEST.json",
+        "author": "User handoff; individual source author not specified",
+        "sourceDescription": "AI atlas crop",
+        "modification": "Engine atlas region / common transparent canvas only; no bitmap pixels changed"
+      },
+      "licenseNote": "User authorized implementation and controlled playtest; no claim of CC0, exclusivity or final commercial approval.",
+      "commercialUseReview": "PENDING_FINAL_REVIEW",
+      "dimensions": {
+        "pixels": [
+          454,
+          414
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "verified": true
+      },
+      "anchorNormalized": [
+        0.5,
+        0.0
+      ],
+      "layers": [
+        "teacher"
+      ],
+      "perspective": "flat_classroom_ui",
+      "sha256": "333b7fd0714d16a71de2796dbc3673695c8144d2bdd8aa813f2e21ee934e6f0e",
+      "checkedOn": "2026-11-04",
+      "issues": [
+        "Not final producer/rights approval"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.answer_correct",
+      "path": "assets/school/r2/answer_correct.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/answer_correct",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "bef2b9cf2bebb4badfdf12b38adcbf2ebe0f1bf855f9aeb4c30b0e6a6edb6e63",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.answer_disabled",
+      "path": "assets/school/r2/answer_disabled.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/answer_disabled",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "bbbaa2085dbba090b1f0589dd4e1b0c2ea477d1b511484afb335fe77f8f1d8f6",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.answer_hover",
+      "path": "assets/school/r2/answer_hover.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/answer_hover",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "659b9287b9c1a058994360e597e6e1b919b4a0b7959b14798bec8ae380816b1a",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.answer_idle",
+      "path": "assets/school/r2/answer_idle.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/answer_idle",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "e1bb3dfea43096638c32bfe4fbf1b0f8a1c7c6fea7ea1d67de75d97a7ba3f3f8",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.answer_wrong",
+      "path": "assets/school/r2/answer_wrong.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/answer_wrong",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "2817e70162547e8f8e514a2844fe0cb6a815d6dfefcca2f05d2fee713b7d6d55",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.blackboard_clean_v2",
+      "path": "assets/school/r2/blackboard_clean_v2.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/blackboard_clean_v2",
+      "dimensions": {
+        "pixels": [
+          1620,
+          971
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "requirement": "transparent outside frame"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-r2/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "8efdab9ab7eca480ad2d60da48c386b97eb2dccc8e2e27251321f69ef5c4d89c",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.chalk_prompt_swipe",
+      "path": "assets/school/r2/chalk_prompt_swipe.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/chalk_prompt_swipe",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "1923852c5a9b688ec5432bc88db9d4318fbe072a0ed44756e70b683d6fcfac02",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.classroom_environment_v2",
+      "path": "assets/school/r2/classroom_environment_v2.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/classroom_environment_v2",
+      "dimensions": {
+        "pixels": [
+          1672,
+          941
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "environment"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-r2/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "54e996a5e8f3e1a32fef11de583d04816e96b24b7903143cdab199ef29314bae",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.hud_frame",
+      "path": "assets/school/r2/hud_frame.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/hud_frame",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "84ca0649883b9670c20e1a56f091424d30ddefa01ab4e90f60587284c65646b3",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.mode_book",
+      "path": "assets/school/r2/mode_book.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/mode_book",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "aac06310b7a631cfb4fdfe2d16d13cab06dd6700e4f32253d519674115cb2c03",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.mode_dictionary",
+      "path": "assets/school/r2/mode_dictionary.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/mode_dictionary",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "9810e9f5b89fab8134c4ad28f0f04d63045fb9171adcad283b41093ae57ca804",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.mode_green",
+      "path": "assets/school/r2/mode_green.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/mode_green",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "7d479bae9e4be72a532bb04156895a5e1e555decbdf55ddf7da4ace4f42c029d",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.mode_paper",
+      "path": "assets/school/r2/mode_paper.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/mode_paper",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "c88a489ed012cafed8caab277811b9b5c5f46bdd14bdcded2460bb41bf16b737",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.mode_review",
+      "path": "assets/school/r2/mode_review.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/mode_review",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "4f1ead2bb2f2872a67c3feea336ab9b220e3655f960e0ca96f734610e4ce43e5",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.pill_cream",
+      "path": "assets/school/r2/pill_cream.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/pill_cream",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "84ca0649883b9670c20e1a56f091424d30ddefa01ab4e90f60587284c65646b3",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.preparation_parchment_v2",
+      "path": "assets/school/r2/preparation_parchment_v2.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/preparation_parchment_v2",
+      "dimensions": {
+        "pixels": [
+          1430,
+          1100
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "requirement": "transparent outside frame"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-r2/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "d3913fa1c7dbef73328401fd9dc2037a9a27f357d7719b7d4e3790fbc9e7aa96",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.primary_green",
+      "path": "assets/school/r2/primary_green.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/primary_green",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "3ab714b9206883191a8df3f84f844fcf8d311eec0fda02acbee983d6b1208ec9",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.speech_bubble",
+      "path": "assets/school/r2/speech_bubble.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/speech_bubble",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "ab94647fb8563f1039460ecc130d88f0ddf044c267a4f1b11b1bae10b933293b",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.portrait.blackboard",
+      "path": "assets/school/portrait/blackboard.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/blackboard",
+      "dimensions": {
+        "pixels": [
+          1176,
+          1337
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-portrait/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "7d6e167c7a481beda9c50853495458372b5aa645cdcc30af3991934a3fbef711",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.portrait.chalk_underline",
+      "path": "assets/school/portrait/chalk_underline.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/chalk_underline",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "4c89bab63afdad07fa76dd9170544e568b97376f05b2d4c2630dcf0d8a7b6e00",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.portrait.environment",
+      "path": "assets/school/portrait/environment.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/environment",
+      "dimensions": {
+        "pixels": [
+          941,
+          1672
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-portrait/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "d53978127d4cd8ddc0e6a6101133802058514a46d6e7a1135d6c121702dd1969",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.portrait.mode_icons",
+      "path": "assets/school/portrait/mode_icons.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/mode_icons",
+      "dimensions": {
+        "pixels": [
+          2172,
+          724
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-portrait/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "4b7db4269073c6d24a50067ec9511227afe204aa7a64bc6cdf176708dea80c2d",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.portrait.parchment",
+      "path": "assets/school/portrait/parchment.png",
+      "sourceType": "AI_GENERATED",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/parchment",
+      "dimensions": {
+        "pixels": [
+          1054,
+          1492
+        ],
+        "measurementStatus": "PNG_DECODED"
+      },
+      "transparency": {
+        "alphaRange": [
+          0,
+          255
+        ],
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "builtin_imagegen",
+        "record": "docs/art-prep/school-v04-portrait/GENERATION_RECORD.json",
+        "author": "built-in image generation",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "a598fbb5aa28325179d21db4d1b867d80e273b2f51fcd1c520a9027431025699",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.portrait_card_green",
+      "path": "assets/school/r2/portrait_card_green.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/portrait_card_green",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "87198896af4f35256c0964ca37a8a7562d73de920f2802601a964c3d9a055a6e",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.portrait_card_paper",
+      "path": "assets/school/r2/portrait_card_paper.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/portrait_card_paper",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "3886c2783608b4cce08741282c8b9a0b7d13d11ba66386e7adea681c0e9b6418",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.portrait_count_green",
+      "path": "assets/school/r2/portrait_count_green.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/portrait_count_green",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "5f45655e3bfa21c959d5152ea953b056c1208276726a9e51284da9dd02e2f7f9",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.portrait_pill",
+      "path": "assets/school/r2/portrait_pill.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/portrait_pill",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "29e29eacc3f601bf48b26532eed436edc27f68ac9c2d6c6184eed8d34f5ad3ab",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
+    },
+    {
+      "assetId": "school.v04.r2.portrait_type_banner",
+      "path": "assets/school/r2/portrait_type_banner.svg",
+      "sourceType": "PROJECT_ORIGINAL",
+      "retentionStatus": "RETAIN_CANDIDATE",
+      "status": "RETAIN_CANDIDATE",
+      "replaceStatus": "OPTIONAL_REPLACEMENT",
+      "replacementRequired": false,
+      "permanentApproval": false,
+      "visualApproval": "APPROVED_R2_DIRECTION_NOT_FINAL",
+      "usedInGame": true,
+      "activeProfiles": [
+        "SCHOOL_V04_R2",
+        "PLAYTEST",
+        "DEV"
+      ],
+      "module": "school",
+      "targetSlot": "SchoolStudyView/portrait_type_banner",
+      "dimensions": {
+        "pixels": null,
+        "measurementStatus": "ENGINE_SVG_IMPORT"
+      },
+      "transparency": {
+        "alphaRange": null,
+        "requirement": "environment opaque / vector as authored"
+      },
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "independent_ui_frame"
+      ],
+      "sourceRecord": {
+        "type": "project_vector_code",
+        "record": "scripts/dev/build-school-r2-vectors.py",
+        "author": "project code",
+        "referenceUse": "empty board is an edit of the user-provided runtime board; other art generated from textual composition, no character uploaded"
+      },
+      "licenseNote": "Controlled implementation/playtest authorized; no CC0 or exclusive ownership claim. Final visual/use review pending.",
+      "checkedOn": "2026-11-04",
+      "sha256": "a0b2dc316ae9840fde9085d13cd184e54809bac1ab6c4f4a360cc1ba2dabbbbc",
+      "issues": [
+        "Final producer art approval pending; generated edges reviewed in actual composited game"
+      ]
     }
   ],
   "measurementEvidence": "docs/evidence/p1-01r/asset_measurements.json",

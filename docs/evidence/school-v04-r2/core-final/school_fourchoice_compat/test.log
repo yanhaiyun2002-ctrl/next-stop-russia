@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCHOOL_TRACE {"alphabetComplete":false,"count":2,"eligible":6,"event":"session_request","mode":"new"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":1,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":2,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":3,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":4,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":5,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":6,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":7.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":8.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":9.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":7.0,"status":"active"}
+SCHOOL_FOURCHOICE_COMPAT passed=6 failed=0

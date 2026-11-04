@@ -6,6 +6,7 @@ config/name="下一站，俄罗斯！ · P1-01R 视觉试玩"
 config/icon="res://assets/p0_icon.svg"
 run/main_scene="res://scenes/main.tscn"
 run/main_scene.p0_test="res://tests/package_entry.tscn"
+run/main_scene.school_v04="res://scenes/school_demo.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]

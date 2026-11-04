@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "note": "用于开发接口验证的人工示例；音频文件未提供，须另行审校并填入。不要将此示例视为正式完整词库。",
+  "lexemes": [
+    {
+      "id": "ru.noun.moloko",
+      "language": "ru",
+      "lemma": "молоко",
+      "displayRu": "молоко",
+      "stressDisplay": "молоко́",
+      "zhMeanings": ["牛奶"],
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "tags": ["food", "cafe"],
+      "audioRef": null,
+      "exampleIds": []
+    },
+    {
+      "id": "ru.noun.kofe",
+      "language": "ru",
+      "lemma": "кофе",
+      "displayRu": "кофе",
+      "stressDisplay": "ко́фе",
+      "zhMeanings": ["咖啡"],
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "tags": ["food", "cafe"],
+      "audioRef": null,
+      "exampleIds": []
+    },
+    {
+      "id": "ru.noun.chai",
+      "language": "ru",
+      "lemma": "чай",
+      "displayRu": "чай",
+      "stressDisplay": "чай",
+      "zhMeanings": ["茶"],
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "tags": ["food", "cafe"],
+      "audioRef": null,
+      "exampleIds": []
+    },
+    {
+      "id": "ru.noun.voda",
+      "language": "ru",
+      "lemma": "вода",
+      "displayRu": "вода",
+      "stressDisplay": "вода́",
+      "zhMeanings": ["水"],
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "tags": ["food", "cafe"],
+      "audioRef": null,
+      "exampleIds": []
+    },
+    {
+      "id": "ru.noun.kniga",
+      "language": "ru",
+      "lemma": "книга",
+      "displayRu": "книга",
+      "stressDisplay": "кни́га",
+      "zhMeanings": ["书"],
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "tags": ["school", "home"],
+      "audioRef": null,
+      "exampleIds": []
+    },
+    {
+      "id": "ru.noun.shkola",
+      "language": "ru",
+      "lemma": "школа",
+      "displayRu": "школа",
+      "stressDisplay": "шко́ла",
+      "zhMeanings": ["学校"],
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "tags": ["school"],
+      "audioRef": null,
+      "exampleIds": []
+    }
+  ]
+}

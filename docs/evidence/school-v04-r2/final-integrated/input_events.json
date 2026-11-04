@@ -1,0 +1,263 @@
+[
+	{
+		"control": "@Button@239",
+		"disabled": false,
+		"pageAfter": "MAP_OR_DORMITORY",
+		"pageBefore": "MAP_OR_DORMITORY",
+		"text": "看看城市地图",
+		"x": 640.0,
+		"y": 296.0
+	},
+	{
+		"control": "@Button@21",
+		"disabled": false,
+		"pageAfter": "MAP_OR_DORMITORY",
+		"pageBefore": "MAP_OR_DORMITORY",
+		"text": "地点",
+		"x": 232.0,
+		"y": 684.0
+	},
+	{
+		"control": "school",
+		"disabled": false,
+		"pageAfter": "MAP_OR_DORMITORY",
+		"pageBefore": "MAP_OR_DORMITORY",
+		"text": "学校",
+		"x": 1047.5,
+		"y": 676.0
+	},
+	{
+		"control": "Mode_new",
+		"disabled": false,
+		"pageAfter": "STUDY_PREPARATION",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "学习新词",
+		"x": 426.460021972656,
+		"y": 286.032012939453
+	},
+	{
+		"control": "Count_6",
+		"disabled": false,
+		"pageAfter": "STUDY_PREPARATION",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "6",
+		"x": 890.460021972656,
+		"y": 386.532012939453
+	},
+	{
+		"control": "StartStudy",
+		"disabled": false,
+		"pageAfter": "WORD_PREVIEW",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "开始学习 ▶",
+		"x": 632.960021972656,
+		"y": 521.031982421875
+	},
+	{
+		"control": "@Button@446",
+		"disabled": false,
+		"pageAfter": "WORD_PREVIEW",
+		"pageBefore": "WORD_PREVIEW",
+		"text": "记下并查看下一张 →",
+		"x": 633.460021972656,
+		"y": 497.032012939453
+	},
+	{
+		"control": "@Button@462",
+		"disabled": false,
+		"pageAfter": "WORD_PREVIEW",
+		"pageBefore": "WORD_PREVIEW",
+		"text": "记下并查看下一张 →",
+		"x": 629.460021972656,
+		"y": 555.031982421875
+	},
+	{
+		"control": "@Button@478",
+		"disabled": false,
+		"pageAfter": "WORD_PREVIEW",
+		"pageBefore": "WORD_PREVIEW",
+		"text": "记下并查看下一张 →",
+		"x": 629.460021972656,
+		"y": 555.031982421875
+	},
+	{
+		"control": "@Button@494",
+		"disabled": false,
+		"pageAfter": "WORD_PREVIEW",
+		"pageBefore": "WORD_PREVIEW",
+		"text": "记下并查看下一张 →",
+		"x": 629.460021972656,
+		"y": 555.031982421875
+	},
+	{
+		"control": "@Button@510",
+		"disabled": false,
+		"pageAfter": "WORD_PREVIEW",
+		"pageBefore": "WORD_PREVIEW",
+		"text": "记下并查看下一张 →",
+		"x": 629.460021972656,
+		"y": 555.031982421875
+	},
+	{
+		"control": "@Button@526",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "WORD_PREVIEW",
+		"text": "开始测验 →",
+		"x": 629.460021972656,
+		"y": 555.031982421875
+	},
+	{
+		"control": "@Button@539",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "книга",
+		"x": 759.859985351563,
+		"y": 381.832000732422
+	},
+	{
+		"control": "@Button@563",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "继续 →",
+		"x": 574.359985351563,
+		"y": 540.83203125
+	},
+	{
+		"control": "@Button@580",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "学校",
+		"x": 398.359985351563,
+		"y": 381.832000732422
+	},
+	{
+		"control": "@Button@605",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "继续 →",
+		"x": 574.359985351563,
+		"y": 540.83203125
+	},
+	{
+		"control": "@Button@624",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "вода",
+		"x": 398.359985351563,
+		"y": 460.832000732422
+	},
+	{
+		"control": "@Button@647",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "继续 →",
+		"x": 574.359985351563,
+		"y": 540.83203125
+	},
+	{
+		"control": "@Button@667",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "牛奶",
+		"x": 759.859985351563,
+		"y": 460.832000732422
+	},
+	{
+		"control": "@Button@689",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "继续 →",
+		"x": 574.359985351563,
+		"y": 540.83203125
+	},
+	{
+		"control": "@Button@709",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "чай",
+		"x": 759.859985351563,
+		"y": 460.832000732422
+	},
+	{
+		"control": "@Button@731",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "继续 →",
+		"x": 574.359985351563,
+		"y": 540.83203125
+	},
+	{
+		"control": "@Button@750",
+		"disabled": false,
+		"pageAfter": "QUIZ_BLACKBOARD",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "咖啡",
+		"x": 398.359985351563,
+		"y": 460.832000732422
+	},
+	{
+		"control": "@Button@773",
+		"disabled": false,
+		"pageAfter": "RESULTS",
+		"pageBefore": "QUIZ_BLACKBOARD",
+		"text": "查看本轮结算 →",
+		"x": 574.359985351563,
+		"y": 540.83203125
+	},
+	{
+		"control": "@Button@791",
+		"disabled": false,
+		"pageAfter": "STUDY_PREPARATION",
+		"pageBefore": "RESULTS",
+		"text": "返回学习中心",
+		"x": 633.460021972656,
+		"y": 411.032012939453
+	},
+	{
+		"control": "Mode_new",
+		"disabled": false,
+		"pageAfter": "STUDY_PREPARATION",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "学习新词",
+		"x": 425.460021972656,
+		"y": 286.032012939453
+	},
+	{
+		"control": "StartStudy",
+		"disabled": false,
+		"pageAfter": "STUDY_PREPARATION",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "开始学习 ▶",
+		"x": 628.960021972656,
+		"y": 540.031982421875
+	},
+	{
+		"control": "Mode_review",
+		"disabled": false,
+		"pageAfter": "STUDY_PREPARATION",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "复习旧词",
+		"x": 629.960021972656,
+		"y": 286.032012939453
+	},
+	{
+		"control": "Mode_notebook",
+		"disabled": false,
+		"pageAfter": "AUXILIARY",
+		"pageBefore": "STUDY_PREPARATION",
+		"text": "查看词本",
+		"x": 833.960021972656,
+		"y": 286.032012939453
+	}
+]

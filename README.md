@@ -1,4 +1,12 @@
-# 《下一站，俄罗斯！》P1-UI-01 全屏场景与共享旅行手账 UI
+# 《下一站，俄罗斯！》共享游戏工程
+
+## 学校 V0.4 R2.3：手机竖屏课堂（2026-11-04）
+
+本轮最新交付：双击 **`学校竖屏试玩V04.cmd`**（原 `学校黑板课堂V04.cmd` 同样可用）直接打开 450×800 竖屏学校；双击 **`试玩学校整合版V04.cmd`** 运行主游戏整合包，沿用 Q00～Q03 后的学校入口。`试玩学校整合版V04.cmd -Portrait` 可从竖屏主游戏进入；`学校黑板课堂V04.cmd -Landscape` 保留横屏试玩。快捷课堂使用独立 `school-demo` 学习档；整合学校使用当前玩家档位下的 `school_v04.json`，不改写原 `save.json`。
+
+流程：学校入口 → 独立学习准备页选模式和数量 → 单词卡预习 → 黑板四选一 → 学习结算。字母入门保留独立入口，当前六词演示不设字母硬门禁。只能选择真实可学数量，空词包和启动错误均有说明；小词量会先预习辨认辅助词，辅助词不计入目标。错词累计独立正确两次的规则、暂停恢复、独立存档保持。没有真实录音，不出听音题。完整根因、修改、测试、截图与限制见 [R2 修复交付报告](docs/reports/SCHOOL_V04_R2_FIX_REPORT.md)，[参考图与真实截图对照](docs/evidence/school-v04-r2/visual-review/index.html)。
+
+源码方式：`powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev/play-school.ps1 -Source`；加 `-Integrated` 运行主游戏源码。最新 Windows EXE/PCK 在 `builds/school-v04-r2/`，启动器按 `build_manifest.json` 校验配对哈希，并打印版本、入口和存档目录。旧 `builds/school-v04/` 与旧 P1 整合包保留；R1 报告作为历史记录。以下为历史 P1-UI-01 说明。
 
 当前版本保留正式空间 Q02 和负责人地图，采用共享温暖纸张 Theme、全屏场景、常驻中俄地点标牌与自然金色反馈。沿用唯一 Godot 4.7.2 / GDScript / Compatibility 工程。完成本轮后等待负责人试玩验收，不进入 Q04/Q05。
 
@@ -153,7 +161,3 @@ Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 �
 负责人已亲自试玩并决定保留机制一，本轮已用它替换正式 Q02。原型报告作为历史记录保留；当前状态、实际截图和运行方式以页首及本轮整合报告为准。
 
 `行李整理原型DEV.cmd` 保留为隔离重玩快捷入口，使用 `.local-dev/prototype-data/arrival-luggage`；菜单显示“行李整理 · 独立重玩”，复用当前共享运行时，摆放只在内存，不修改主线。正式 Q02 则保存空间摆放，并在完成后由明确的继续按钮提交 Q02 事件；退出返回宿舍。
-
-## 主线与独立开发任务树
-
-主体使用 main；学校隔离于 feat/school-v04-r2 和 E:\俄语游戏\worktrees\school-v04-r2。后续开发窗口必须先创建独立分支和 Worktree，不在主体目录直接开发；详见 docs/production/BRANCH_WORKTREE_REGISTRY.md 与根 AGENTS.md。学校尚未合入 main，原学校技术占位入口在 main 保留。

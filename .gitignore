@@ -31,3 +31,22 @@ Thumbs.db
 docs/evidence/**/player-data/
 docs/evidence/**/data/
 docs/evidence/**/bootstrap/
+
+# Keep original reference bundles and repeated raw runs local to this task tree.
+/docs/reference/school_v04_portrait/
+/docs/reference/school_v04_round2/
+/docs/reference/school_vocab_blackboard_v04/*
+!/docs/reference/school_vocab_blackboard_v04/art/
+/docs/reference/school_vocab_blackboard_v04/art/*
+!/docs/reference/school_vocab_blackboard_v04/art/runtime/
+/docs/evidence/school-v04/
+/docs/evidence/school-v04-r2/*
+!/docs/evidence/school-v04-r2/test_summary.json
+!/docs/evidence/school-v04-r2/build_manifest.json
+!/docs/evidence/school-v04-r2/final-portrait/
+!/docs/evidence/school-v04-r2/final-integrated/
+!/docs/evidence/school-v04-r2/core-final/
+!/docs/evidence/school-v04-r2/ui-release/
+!/docs/evidence/school-v04-r2/font-input-final/
+!/docs/evidence/school-v04-r2/asset-scope-delivery/
+!/docs/evidence/school-v04-r2/visual-review/

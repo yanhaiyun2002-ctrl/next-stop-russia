@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "activeThemeId": "classroom_blackboard_v1",
+  "themes": [
+    {
+      "id": "classroom_blackboard_v1",
+      "type": "StaticQuizBoardTheme",
+      "status": "ACTIVE_IMPLEMENT",
+      "assetsManifest": "art/ASSETS_MANIFEST.json",
+      "reducedMotionSupported": true,
+      "animations": {
+        "correctMs": 350,
+        "wrongMinReadMs": 0,
+        "wrongContinueRequiresUser": true,
+        "strengthenMs": 300,
+        "completeMs": 900
+      },
+      "teacherComponentOptional": true
+    }
+  ],
+  "futureThemesNotYetImplemented": [
+    "rail_workshop",
+    "classroom_projector",
+    "magnetic_board"
+  ]
+}

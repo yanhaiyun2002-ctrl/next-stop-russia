@@ -1,0 +1,304 @@
+{
+	"alphabet": {
+		"ru.letter.01": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.02": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.03": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.04": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.05": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.06": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.07": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.08": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.09": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.10": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.11": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.12": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.13": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.14": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.15": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.16": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.17": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.18": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.19": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.20": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.21": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.22": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.23": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.24": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.25": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.26": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.27": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.28": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.29": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.30": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.31": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.32": {
+			"passed": true,
+			"viewed": true
+		},
+		"ru.letter.33": {
+			"passed": true,
+			"viewed": true
+		}
+	},
+	"availableDecks": [
+		"basic.demo"
+	],
+	"events": {
+		"session/school-1800000000-66": {
+			"at": 1800000015.0,
+			"eventId": "session/school-1800000000-66",
+			"payload": {
+				"sessionId": "school-1800000000-66"
+			},
+			"type": "StudySessionCompleted"
+		}
+	},
+	"records": {
+		"ru.noun.chai": {
+			"discovered": false,
+			"firstLearned": false,
+			"introduced": true,
+			"reviewState": {},
+			"sessionHistory": [],
+			"sourceOccurrences": []
+		},
+		"ru.noun.kniga": {
+			"discovered": false,
+			"firstLearned": true,
+			"introduced": true,
+			"reviewState": {
+				"intervalDays": 1.0,
+				"lapseCount": 1.0,
+				"lastOutcome": "strengthened",
+				"lastReviewedAt": 1800000015.0,
+				"nextReviewAt": 1800086415.0,
+				"reviewStreak": 0.0
+			},
+			"sessionHistory": [
+				"school-1800000000-66"
+			],
+			"sourceOccurrences": []
+		},
+		"ru.noun.kofe": {
+			"discovered": false,
+			"firstLearned": false,
+			"introduced": true,
+			"reviewState": {},
+			"sessionHistory": [],
+			"sourceOccurrences": []
+		},
+		"ru.noun.moloko": {
+			"discovered": false,
+			"firstLearned": false,
+			"introduced": true,
+			"reviewState": {},
+			"sessionHistory": [],
+			"sourceOccurrences": []
+		}
+	},
+	"revision": 105.0,
+	"schemaVersion": 1.0,
+	"session": {
+		"activeQuestion": {
+			"assisted": false,
+			"correctSlot": 1,
+			"id": "school-1800086415-84.0/6",
+			"kind": "RU_TO_ZH",
+			"options": [
+				{
+					"id": "ru.noun.chai",
+					"text": "茶"
+				},
+				{
+					"id": "ru.noun.kniga",
+					"text": "书"
+				},
+				{
+					"id": "ru.noun.moloko",
+					"text": "牛奶"
+				},
+				{
+					"id": "ru.noun.kofe",
+					"text": "咖啡"
+				}
+			],
+			"prompt": "книга",
+			"result": {},
+			"submitted": false,
+			"wordId": "ru.noun.kniga"
+		},
+		"deckId": "basic.demo",
+		"errors": 4,
+		"items": {
+			"ru.noun.kniga": {
+				"attempts": 5,
+				"correctInStrengthening": 1,
+				"everWrong": true,
+				"lastOrdinal": 5,
+				"lastSlot": 3,
+				"lastType": "ZH_TO_RU",
+				"remainingCorrect": 1
+			}
+		},
+		"mode": "review",
+		"ordinal": 6,
+		"pendingQueue": [
+			"ru.noun.kniga"
+		],
+		"phase": "quiz",
+		"previewIds": [
+			"ru.noun.kniga",
+			"ru.noun.moloko",
+			"ru.noun.kofe",
+			"ru.noun.chai"
+		],
+		"previewIndex": 4,
+		"questionHistory": [
+			{
+				"assisted": false,
+				"correct": false,
+				"ordinal": 1,
+				"questionId": "school-1800086415-84.0/1",
+				"wordId": "ru.noun.kniga"
+			},
+			{
+				"assisted": false,
+				"correct": false,
+				"ordinal": 2,
+				"questionId": "school-1800086415-84.0/2",
+				"wordId": "ru.noun.kniga"
+			},
+			{
+				"assisted": false,
+				"correct": false,
+				"ordinal": 3,
+				"questionId": "school-1800086415-84.0/3",
+				"wordId": "ru.noun.kniga"
+			},
+			{
+				"assisted": false,
+				"correct": false,
+				"ordinal": 4,
+				"questionId": "school-1800086415-84.0/4",
+				"wordId": "ru.noun.kniga"
+			},
+			{
+				"assisted": false,
+				"correct": true,
+				"ordinal": 5,
+				"questionId": "school-1800086415-84.0/5",
+				"wordId": "ru.noun.kniga"
+			}
+		],
+		"readyAt": 1800086440,
+		"seed": 20261104,
+		"sessionId": "school-1800086415-84.0",
+		"startedAt": 1800086415,
+		"status": "active",
+		"targetLexemeIds": [
+			"ru.noun.kniga"
+		],
+		"updatedAt": 1800086440
+	},
+	"settings": {
+		"newCount": 5.0,
+		"reducedMotion": false,
+		"teacher": true,
+		"themeId": "classroom_blackboard_v1",
+		"voiceVolume": 0.8
+	},
+	"unlocks": {}
+}

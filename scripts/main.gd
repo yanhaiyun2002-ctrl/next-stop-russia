@@ -60,6 +60,10 @@ func _ready() -> void:
 			var verifier: Node = load("res://scripts/p1/package_check.gd").new()
 			verifier.app = self
 			add_child(verifier)
+		if runtime_mode.mode == "PLAYTEST" and OS.has_feature("p1_playtest") and "--verify-school-r2" in OS.get_cmdline_user_args():
+			var verifier: Node = load("res://scripts/school/integrated_package_check.gd").new()
+			verifier.app = self
+			add_child(verifier)
 
 func _build_flow() -> void:
 	story_flow = load("res://scripts/p1/flow.gd").new()
@@ -150,6 +154,9 @@ func _enter_room(room: BuildingRoom, id: StringName) -> void:
 	active_room = room
 	active_id = id
 	map_view.hide()
+	if id == &"school":
+		# Sidecar belongs to the same mode/profile; preserve the existing save schema.
+		room.storage_directory = session.store.directory if session != null else P1SaveStore.storage_root().path_join("DEV/school-technical")
 	safe_layout.add_child(room)
 	if not technical_mode and id == &"dormitory":
 		var controller := P1HomeController.new()

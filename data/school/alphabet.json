@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "note": "完整 33 字母枚举与元数据占位。lessonGroup 仅作开发期初步分组，教学顺序/发音资源待俄语教学审校。",
+  "letters": [
+    {
+      "id": "ru.letter.01",
+      "upper": "А",
+      "lower": "а",
+      "category": "vowel",
+      "lessonGroup": 1,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.02",
+      "upper": "Б",
+      "lower": "б",
+      "category": "consonant",
+      "lessonGroup": 1,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.03",
+      "upper": "В",
+      "lower": "в",
+      "category": "consonant",
+      "lessonGroup": 1,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.04",
+      "upper": "Г",
+      "lower": "г",
+      "category": "consonant",
+      "lessonGroup": 1,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.05",
+      "upper": "Д",
+      "lower": "д",
+      "category": "consonant",
+      "lessonGroup": 1,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.06",
+      "upper": "Е",
+      "lower": "е",
+      "category": "vowel",
+      "lessonGroup": 1,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.07",
+      "upper": "Ё",
+      "lower": "ё",
+      "category": "vowel",
+      "lessonGroup": 2,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.08",
+      "upper": "Ж",
+      "lower": "ж",
+      "category": "consonant",
+      "lessonGroup": 2,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.09",
+      "upper": "З",
+      "lower": "з",
+      "category": "consonant",
+      "lessonGroup": 2,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.10",
+      "upper": "И",
+      "lower": "и",
+      "category": "vowel",
+      "lessonGroup": 2,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.11",
+      "upper": "Й",
+      "lower": "й",
+      "category": "consonant",
+      "lessonGroup": 2,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.12",
+      "upper": "К",
+      "lower": "к",
+      "category": "consonant",
+      "lessonGroup": 2,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.13",
+      "upper": "Л",
+      "lower": "л",
+      "category": "consonant",
+      "lessonGroup": 3,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.14",
+      "upper": "М",
+      "lower": "м",
+      "category": "consonant",
+      "lessonGroup": 3,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.15",
+      "upper": "Н",
+      "lower": "н",
+      "category": "consonant",
+      "lessonGroup": 3,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.16",
+      "upper": "О",
+      "lower": "о",
+      "category": "vowel",
+      "lessonGroup": 3,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.17",
+      "upper": "П",
+      "lower": "п",
+      "category": "consonant",
+      "lessonGroup": 3,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.18",
+      "upper": "Р",
+      "lower": "р",
+      "category": "consonant",
+      "lessonGroup": 3,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.19",
+      "upper": "С",
+      "lower": "с",
+      "category": "consonant",
+      "lessonGroup": 4,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.20",
+      "upper": "Т",
+      "lower": "т",
+      "category": "consonant",
+      "lessonGroup": 4,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.21",
+      "upper": "У",
+      "lower": "у",
+      "category": "vowel",
+      "lessonGroup": 4,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.22",
+      "upper": "Ф",
+      "lower": "ф",
+      "category": "consonant",
+      "lessonGroup": 4,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.23",
+      "upper": "Х",
+      "lower": "х",
+      "category": "consonant",
+      "lessonGroup": 4,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.24",
+      "upper": "Ц",
+      "lower": "ц",
+      "category": "consonant",
+      "lessonGroup": 4,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.25",
+      "upper": "Ч",
+      "lower": "ч",
+      "category": "consonant",
+      "lessonGroup": 5,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.26",
+      "upper": "Ш",
+      "lower": "ш",
+      "category": "consonant",
+      "lessonGroup": 5,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.27",
+      "upper": "Щ",
+      "lower": "щ",
+      "category": "consonant",
+      "lessonGroup": 5,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.28",
+      "upper": "Ъ",
+      "lower": "ъ",
+      "category": "sign",
+      "lessonGroup": 5,
+      "audioRef": null,
+      "notes": "特殊符号，不具有独立常规读音"
+    },
+    {
+      "id": "ru.letter.29",
+      "upper": "Ы",
+      "lower": "ы",
+      "category": "vowel",
+      "lessonGroup": 5,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.30",
+      "upper": "Ь",
+      "lower": "ь",
+      "category": "sign",
+      "lessonGroup": 5,
+      "audioRef": null,
+      "notes": "特殊符号，不具有独立常规读音"
+    },
+    {
+      "id": "ru.letter.31",
+      "upper": "Э",
+      "lower": "э",
+      "category": "vowel",
+      "lessonGroup": 6,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.32",
+      "upper": "Ю",
+      "lower": "ю",
+      "category": "vowel",
+      "lessonGroup": 6,
+      "audioRef": null,
+      "notes": ""
+    },
+    {
+      "id": "ru.letter.33",
+      "upper": "Я",
+      "lower": "я",
+      "category": "vowel",
+      "lessonGroup": 6,
+      "audioRef": null,
+      "notes": ""
+    }
+  ]
+}

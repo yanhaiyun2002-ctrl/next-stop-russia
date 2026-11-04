@@ -1,0 +1,27 @@
+{
+  "version": "V0.4-R2.3-Portrait",
+  "buildDate": "2026-11-04",
+  "kind": "controlled Windows playtest, not final art approval",
+  "files": [
+    {
+      "name": "NextStopRussia-Integrated-V04-R2.exe",
+      "bytes": 103176704,
+      "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107"
+    },
+    {
+      "name": "NextStopRussia-Integrated-V04-R2.pck",
+      "bytes": 34668648,
+      "sha256": "b7aa60ed1af2fc13d0d97a38ba409adb7052d834bacd544bbdd73d632d7b0196"
+    },
+    {
+      "name": "NextStopRussia-School-V04-R2.exe",
+      "bytes": 103176704,
+      "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107"
+    },
+    {
+      "name": "NextStopRussia-School-V04-R2.pck",
+      "bytes": 34668648,
+      "sha256": "4d06f2d1cebc487dc53d61df205b7c0ac3512f69a34329c5f4c04d4d30ec1be9"
+    }
+  ]
+}

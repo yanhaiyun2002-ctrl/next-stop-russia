@@ -1,0 +1,246 @@
+{
+	"checks": [
+		{
+			"name": "P1 data validation",
+			"passed": true
+		},
+		{
+			"name": "Q26 full unique alphabet",
+			"passed": true
+		},
+		{
+			"name": "R2 clean demo starts without forging alphabet progress",
+			"passed": true
+		},
+		{
+			"name": "33 viewed and identified letters unlock vocabulary",
+			"passed": true
+		},
+		{
+			"name": "Q24 6 words cannot fabricate 10/20",
+			"passed": true
+		},
+		{
+			"name": "Q10 single target session",
+			"passed": true
+		},
+		{
+			"name": "four-choice support cards explicit, not extra targets",
+			"passed": true
+		},
+		{
+			"name": "Q02 first wrong commits",
+			"passed": true
+		},
+		{
+			"name": "Q02 first wrong requires 2",
+			"passed": true
+		},
+		{
+			"name": "Q11 repeated/stale submit rejected",
+			"passed": true
+		},
+		{
+			"name": "Q09/Q10 single word round delay",
+			"passed": true
+		},
+		{
+			"name": "minimum non-answer delay enforced",
+			"passed": true
+		},
+		{
+			"name": "single target resumes after delay",
+			"passed": true
+		},
+		{
+			"name": "Q09 direction and correct position change",
+			"passed": true
+		},
+		{
+			"name": "Q03 first strengthening success not passed",
+			"passed": true
+		},
+		{
+			"name": "Q04 repeat wrong does not reset success",
+			"passed": true
+		},
+		{
+			"name": "Q19 pause commits without completion",
+			"passed": true
+		},
+		{
+			"name": "Q12 exact feedback and remaining restored",
+			"passed": true
+		},
+		{
+			"name": "Q19 pause produces no completed event",
+			"passed": true
+		},
+		{
+			"name": "Q05/Q08 final independent success completes",
+			"passed": true
+		},
+		{
+			"name": "Q08/Q11 completion idempotent",
+			"passed": true
+		},
+		{
+			"name": "one lifetime word record",
+			"passed": true
+		},
+		{
+			"name": "reload cannot resettle",
+			"passed": true
+		},
+		{
+			"name": "not due immediately",
+			"passed": true
+		},
+		{
+			"name": "Q23 injected cross-day due date",
+			"passed": true
+		},
+		{
+			"name": "start due review",
+			"passed": true
+		},
+		{
+			"name": "Q06 repeated strengthening wrong remains 2",
+			"passed": true
+		},
+		{
+			"name": "Q06 repeated strengthening wrong remains 2",
+			"passed": true
+		},
+		{
+			"name": "Q06 repeated strengthening wrong remains 2",
+			"passed": true
+		},
+		{
+			"name": "Q23 failures shorten interval and record lapse",
+			"passed": true
+		},
+		{
+			"name": "Q13 audio factory rejects missing audio",
+			"passed": true
+		},
+		{
+			"name": "Q14 synonym/duplicate meanings excluded",
+			"passed": true
+		},
+		{
+			"name": "factory supports four choices",
+			"passed": true
+		},
+		{
+			"name": "UI17 revealing hint assisted, cannot pass",
+			"passed": true
+		},
+		{
+			"name": "Q10 two-word session terminates",
+			"passed": true
+		},
+		{
+			"name": "Q09 at least 2 distinct intervening targets",
+			"passed": true
+		},
+		{
+			"name": "Q07 progress monotonic",
+			"passed": true
+		},
+		{
+			"name": "Q07 progress monotonic",
+			"passed": true
+		},
+		{
+			"name": "Q07 progress monotonic",
+			"passed": true
+		},
+		{
+			"name": "Q07 progress monotonic",
+			"passed": true
+		},
+		{
+			"name": "Q01/Q08 5 target flow complete",
+			"passed": true
+		},
+		{
+			"name": "Q20/Q21 theme/teacher/reduced motion never alter session",
+			"passed": true
+		},
+		{
+			"name": "Q17/Q18 verified occurrence adapter",
+			"passed": true
+		},
+		{
+			"name": "Q17/Q18 discovery is not learning, deduplicated source",
+			"passed": true
+		},
+		{
+			"name": "story adapter opens scenario pack",
+			"passed": true
+		},
+		{
+			"name": "Q15/Q16 shared words complete scenario, permanent unlock",
+			"passed": true
+		},
+		{
+			"name": "Q15/Q16 one record per word, events deduplicated",
+			"passed": true
+		},
+		{
+			"name": "Q25 additive school schema migration preserves records",
+			"passed": true
+		},
+		{
+			"name": "failed disk write rolls back memory transaction",
+			"passed": true
+		},
+		{
+			"name": "invalid session snapshot rejected",
+			"passed": true
+		},
+		{
+			"name": "corrupt primary recovered from preserved valid backup",
+			"passed": true
+		},
+		{
+			"name": "future schema blocked, never overwritten",
+			"passed": true
+		},
+		{
+			"name": "Q24 larger fixture starts 10",
+			"passed": true
+		},
+		{
+			"name": "Q24 larger fixture completes 10",
+			"passed": true
+		},
+		{
+			"name": "Q24 larger fixture starts 20",
+			"passed": true
+		},
+		{
+			"name": "Q24 larger fixture completes 20",
+			"passed": true
+		},
+		{
+			"name": "invalid settings rejected without mutation",
+			"passed": true
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": 0,
+	"passed": 57,
+	"scope": "Godot pure domain + actual E-drive persistence, injected clock"
+}

@@ -1,0 +1,98 @@
+{
+  "version": "V0.4-R2.3-Portrait",
+  "scope": "Windows GUI / engine tests; no physical Android or iOS acceptance",
+  "cases": [
+    {
+      "name": "学校领域规则",
+      "passed": 57,
+      "failed": 0,
+      "evidence": "core-final/school_domain_tests/domain_results.json"
+    },
+    {
+      "name": "旧三选题存档兼容",
+      "passed": 6,
+      "failed": 0,
+      "evidence": "core-final/school_fourchoice_compat/compat_results.json"
+    },
+    {
+      "name": "学校档位隔离",
+      "passed": 12,
+      "failed": 0,
+      "evidence": "core-final/school_integration_tests/integration_results.json"
+    },
+    {
+      "name": "布局、安全区、触摸",
+      "passed": 43,
+      "failed": 0,
+      "evidence": "ui-release/ui_results.json"
+    },
+    {
+      "name": "重音字体与按下/松开稳定性",
+      "passed": 9,
+      "failed": 0,
+      "evidence": "font-input-final/stability_results.json"
+    },
+    {
+      "name": "素材与保护范围",
+      "passed": 174,
+      "failed": 0,
+      "evidence": "asset-scope-delivery/asset_scope_results.json"
+    },
+    {
+      "name": "最终竖屏包实际 GUI 全流程",
+      "passed": 80,
+      "failed": 0,
+      "evidence": "final-portrait/e2e_results.json"
+    },
+    {
+      "name": "最终整合包实际 GUI 学校流程",
+      "passed": 46,
+      "failed": 0,
+      "evidence": "final-integrated/e2e_results.json"
+    },
+    {
+      "name": "最终整合包 Q00–Q03 实际流程",
+      "passed": 14,
+      "failed": 0,
+      "evidence": "final-integrated/p1_package_results.json"
+    },
+    {
+      "name": "原剧情领域",
+      "passed": 55,
+      "failed": 0,
+      "evidence": "protected-regression-02/p1_domain_tests/test.log"
+    },
+    {
+      "name": "原剧情可玩性",
+      "passed": 168,
+      "failed": 0,
+      "evidence": "protected-regression-02/p1_playable_tests/test.log"
+    },
+    {
+      "name": "DEV/PLAYTEST/RELEASE",
+      "passed": 61,
+      "failed": 0,
+      "evidence": "protected-regression-02/p1_modes_tests/test.log"
+    },
+    {
+      "name": "空间整理",
+      "passed": 53,
+      "failed": 0,
+      "evidence": "protected-regression-02/luggage_prototype_tests/test.log"
+    },
+    {
+      "name": "猫咪",
+      "passed": 540,
+      "failed": 0,
+      "evidence": "protected-regression-02/cat_hunt_tests/test.log"
+    },
+    {
+      "name": "导航与输入",
+      "passed": 254,
+      "failed": 0,
+      "evidence": "protected-regression-02/run_tests/test.log"
+    }
+  ],
+  "visualReview": "visual-review/index.html",
+  "buildManifest": "build_manifest.json"
+}

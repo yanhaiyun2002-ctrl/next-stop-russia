@@ -1,0 +1,95 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+ERROR: Can't create shader cache folder, no shader caching will happen: user://
+   at: RasterizerGLES3 (drivers/gles3/rasterizer_gles3.cpp:345)
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+NSR_MODE=PLAYTEST DEV_CAPABILITY=false SAVE=E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/school-v04-r2/final-integrated/player-data/PLAYTEST
+SCHOOL_BUILD {"binary":"E:/俄语游戏/NEXT_STOP_RUSSIA/builds/school-v04-r2/NextStopRussia-Integrated-V04-R2.exe","buildDate":"2026-11-04","entry":"integrated","mode":"PLAYTEST","saveNamespace":"E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/school-v04-r2/final-integrated/player-data/PLAYTEST/school_v04.json","scene":"res://scenes/buildings/school.tscn","version":"V0.4-R2.3-Portrait"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"Mode_new","event":"pressed","page":"STUDY_PREPARATION","text":"学习新词"}
+SCHOOL_TRACE {"event":"select_mode","mode":"new","page":"STUDY_PREPARATION"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"Count_6","event":"pressed","page":"STUDY_PREPARATION","text":"6"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":1,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"StartStudy","event":"pressed","page":"STUDY_PREPARATION","text":"开始学习 ▶"}
+SCHOOL_TRACE {"count":6,"eligible":6,"event":"start_pressed","mode":"new","save":"E:/俄语游戏/NEXT_STOP_RUSSIA/docs/evidence/school-v04-r2/final-integrated/player-data/PLAYTEST/school_v04.json","screen":"home"}
+SCHOOL_TRACE {"alphabetComplete":false,"count":6,"eligible":6,"event":"session_request","mode":"new"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":2,"status":"active"}
+SCHOOL_TRACE {"event":"route","from":"home","sessionId":"school-1793747185-1","to":"WORD_PREVIEW"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":3,"status":"active"}
+SCHOOL_TRACE {"control":"@Button@446","event":"pressed","page":"WORD_PREVIEW","text":"记下并查看下一张 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":4,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":5,"status":"active"}
+SCHOOL_TRACE {"control":"@Button@462","event":"pressed","page":"WORD_PREVIEW","text":"记下并查看下一张 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":6,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":7,"status":"active"}
+SCHOOL_TRACE {"control":"@Button@478","event":"pressed","page":"WORD_PREVIEW","text":"记下并查看下一张 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":8,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":9,"status":"active"}
+SCHOOL_TRACE {"control":"@Button@494","event":"pressed","page":"WORD_PREVIEW","text":"记下并查看下一张 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":10,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":11,"status":"active"}
+SCHOOL_TRACE {"control":"@Button@510","event":"pressed","page":"WORD_PREVIEW","text":"记下并查看下一张 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":12,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":13,"status":"active"}
+SCHOOL_TRACE {"control":"@Button@526","event":"pressed","page":"WORD_PREVIEW","text":"开始测验 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":14,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":15,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@539","event":"pressed","page":"QUIZ_BLACKBOARD","text":"книга"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":16,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@563","event":"pressed","page":"QUIZ_BLACKBOARD","text":"继续 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":17,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@580","event":"pressed","page":"QUIZ_BLACKBOARD","text":"学校"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":18,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@605","event":"pressed","page":"QUIZ_BLACKBOARD","text":"继续 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":19,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@624","event":"pressed","page":"QUIZ_BLACKBOARD","text":"вода"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":20,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@647","event":"pressed","page":"QUIZ_BLACKBOARD","text":"继续 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":21,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@667","event":"pressed","page":"QUIZ_BLACKBOARD","text":"牛奶"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":22,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@689","event":"pressed","page":"QUIZ_BLACKBOARD","text":"继续 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":23,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@709","event":"pressed","page":"QUIZ_BLACKBOARD","text":"чай"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":24,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@731","event":"pressed","page":"QUIZ_BLACKBOARD","text":"继续 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":25,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@750","event":"pressed","page":"QUIZ_BLACKBOARD","text":"咖啡"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":26,"status":"completed"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@773","event":"pressed","page":"QUIZ_BLACKBOARD","text":"查看本轮结算 →"}
+SCHOOL_TRACE {"event":"persisted","phase":"summary","revision":27,"status":"completed"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"RESULTS","screen":"summary"}
+SCHOOL_TRACE {"control":"@Button@791","event":"pressed","page":"RESULTS","text":"返回学习中心"}
+SCHOOL_TRACE {"event":"page","from":"summary","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"Mode_new","event":"pressed","page":"STUDY_PREPARATION","text":"学习新词"}
+SCHOOL_TRACE {"event":"select_mode","mode":"new","page":"STUDY_PREPARATION"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"StartStudy","event":"pressed","page":"STUDY_PREPARATION","text":"开始学习 ▶"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"Mode_review","event":"pressed","page":"STUDY_PREPARATION","text":"复习旧词"}
+SCHOOL_TRACE {"event":"select_mode","mode":"review","page":"STUDY_PREPARATION"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"Mode_notebook","event":"pressed","page":"STUDY_PREPARATION","text":"查看词本"}
+SCHOOL_TRACE {"event":"select_mode","mode":"notebook","page":"STUDY_PREPARATION"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"AUXILIARY","screen":"notebook"}
+SCHOOL_R2_E2E passed=46 failed=0 quantity=6 integrated=true

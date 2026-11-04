@@ -1,0 +1,180 @@
+{
+	"checks": [
+		{
+			"name": "UI01 school actual scene + separate board and tutor textures",
+			"passed": true
+		},
+		{
+			"name": "initial footer geometry remains inside screen",
+			"passed": true
+		},
+		{
+			"name": "initial tutor speech follows reference-sized region",
+			"passed": true
+		},
+		{
+			"name": "33 alphabet cards + recognition through UI",
+			"passed": true
+		},
+		{
+			"name": "word preview entry",
+			"passed": true
+		},
+		{
+			"name": "visible card immediately records introduced, without firstLearned",
+			"passed": true
+		},
+		{
+			"name": "UI03/UI05 no teacher/audio leak; missing audio disabled",
+			"passed": true
+		},
+		{
+			"name": "UI01 four real answer buttons",
+			"passed": true
+		},
+		{
+			"name": "UI07 real mouse input enters strengthening",
+			"passed": true
+		},
+		{
+			"name": "UI11 stale second click cannot submit twice",
+			"passed": true
+		},
+		{
+			"name": "UI07 wrong feedback waits for user, answers locked",
+			"passed": true
+		},
+		{
+			"name": "UI12 paused at wrong feedback",
+			"passed": true
+		},
+		{
+			"name": "UI12 fresh scene restores exact wrong feedback",
+			"passed": true
+		},
+		{
+			"name": "UI08 first strengthening correct doesn't add progress",
+			"passed": true
+		},
+		{
+			"name": "UI10/UI19 all targets actually completed",
+			"passed": true
+		},
+		{
+			"name": "UI13 teacher collapse preserves board rectangle",
+			"passed": true
+		},
+		{
+			"name": "UI15/UI16 presenter palette/motion cannot mutate session",
+			"passed": true
+		},
+		{
+			"name": "notebook populated from real learned words",
+			"passed": true
+		},
+		{
+			"name": "dictionary during question marks assisted",
+			"passed": true
+		},
+		{
+			"name": "UI17 notebook/hint cannot bypass independent success",
+			"passed": true
+		},
+		{
+			"name": "UI14 controls within viewport (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "UI14 readable board scroll area (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "independent portrait layout (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "tutor actions remain on screen (1920, 1080)",
+			"passed": true
+		},
+		{
+			"name": "UI14 controls within viewport (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "UI14 readable board scroll area (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "independent portrait layout (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "tutor actions remain on screen (1280, 800)",
+			"passed": true
+		},
+		{
+			"name": "UI14 controls within viewport (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "UI14 readable board scroll area (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "independent portrait layout (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "tutor actions remain on screen (360, 780)",
+			"passed": true
+		},
+		{
+			"name": "UI14 controls within viewport (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "UI14 readable board scroll area (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "independent portrait layout (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "tutor actions remain on screen (1080, 1920)",
+			"passed": true
+		},
+		{
+			"name": "UI14 controls within viewport (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "UI14 readable board scroll area (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "independent portrait layout (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "tutor actions remain on screen (1170, 2532)",
+			"passed": true
+		},
+		{
+			"name": "UI14 long option wraps within board",
+			"passed": true
+		},
+		{
+			"name": "visible mobile navigation and actions respect simulated notch and bottom safe area",
+			"passed": true
+		},
+		{
+			"name": "portrait synthetic native touch submits exactly once",
+			"passed": true
+		}
+	],
+	"display": "Windows",
+	"failed": 0,
+	"passed": 43,
+	"scope": "synthetic mouse/viewport + actual Godot rendering if not headless; no physical device or human acceptance"
+}

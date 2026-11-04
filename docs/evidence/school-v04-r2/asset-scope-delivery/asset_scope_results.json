@@ -1,0 +1,702 @@
+{
+  "passed": 174,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "unique art IDs",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.home.room_bg",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.home.bed",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.home.desk",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.home.wardrobe",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.home.window",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.cat.siberian_placeholder",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.npc.anna",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.npc.admin",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.ui.first_playable",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.org.item_set",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset temp.reward.first_meeting",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset placeholder.map.city",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset placeholder.app_icon",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset placeholder.debug.marker",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset placeholder.school.tech_room",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset candidate.p1r.organization",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset candidate.p1r.story",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset candidate.p1r.dormitory",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.textbook",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.passport",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.scarf",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.washbag",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.story.arrival",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.story.reception",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.story.anna",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.story.admin",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.home.background",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.home.wood",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.home.fabric",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.cat",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.ui.organization_board",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.ui.dialogue_frame",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.ui.world_labels",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.caseA",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.caseB",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset p1r.organization.caseC",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset reference.p1r.organization_layout",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset prototype.arrival_luggage.passport",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset prototype.arrival_luggage.washbag",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset prototype.arrival_luggage.textbook",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset prototype.arrival_luggage.scarf",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset prototype.arrival_luggage.surface",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset prototype.arrival_luggage.feedback",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset map.st_petersburg.source",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset map.st_petersburg.runtime",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset reference.map.owner_abc",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset ui01.paper_panel",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset ui01.shared_theme",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset ui01.map_plaques",
+      "passed": true
+    },
+    {
+      "name": "preserved existing asset ui01.map_selection",
+      "passed": true
+    },
+    {
+      "name": "registered source blackboard_empty_from_sheet.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final blackboard_empty_from_sheet.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions blackboard_empty_from_sheet.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha blackboard_empty_from_sheet.png",
+      "passed": true
+    },
+    {
+      "name": "user bitmap source unmodified blackboard_empty_from_sheet.png",
+      "passed": true
+    },
+    {
+      "name": "registered source blackboard_empty_scalable.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final blackboard_empty_scalable.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source classroom_backplate.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final classroom_backplate.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source teacher_correct.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final teacher_correct.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions teacher_correct.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha teacher_correct.png",
+      "passed": true
+    },
+    {
+      "name": "user bitmap source unmodified teacher_correct.png",
+      "passed": true
+    },
+    {
+      "name": "registered source teacher_explain.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final teacher_explain.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions teacher_explain.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha teacher_explain.png",
+      "passed": true
+    },
+    {
+      "name": "user bitmap source unmodified teacher_explain.png",
+      "passed": true
+    },
+    {
+      "name": "registered source teacher_hint.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final teacher_hint.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions teacher_hint.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha teacher_hint.png",
+      "passed": true
+    },
+    {
+      "name": "user bitmap source unmodified teacher_hint.png",
+      "passed": true
+    },
+    {
+      "name": "registered source teacher_idle.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final teacher_idle.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions teacher_idle.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha teacher_idle.png",
+      "passed": true
+    },
+    {
+      "name": "user bitmap source unmodified teacher_idle.png",
+      "passed": true
+    },
+    {
+      "name": "registered source answer_correct.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final answer_correct.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source answer_disabled.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final answer_disabled.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source answer_hover.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final answer_hover.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source answer_idle.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final answer_idle.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source answer_wrong.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final answer_wrong.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source blackboard_clean_v2.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final blackboard_clean_v2.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions blackboard_clean_v2.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha blackboard_clean_v2.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance blackboard_clean_v2.png",
+      "passed": true
+    },
+    {
+      "name": "registered source chalk_prompt_swipe.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final chalk_prompt_swipe.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source classroom_environment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final classroom_environment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions classroom_environment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "opaque independent environment classroom_environment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance classroom_environment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "registered source hud_frame.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final hud_frame.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source mode_book.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final mode_book.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source mode_dictionary.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final mode_dictionary.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source mode_green.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final mode_green.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source mode_paper.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final mode_paper.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source mode_review.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final mode_review.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source pill_cream.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final pill_cream.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source preparation_parchment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final preparation_parchment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions preparation_parchment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha preparation_parchment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance preparation_parchment_v2.png",
+      "passed": true
+    },
+    {
+      "name": "registered source primary_green.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final primary_green.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source speech_bubble.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final speech_bubble.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source blackboard.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final blackboard.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions blackboard.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha blackboard.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance blackboard.png",
+      "passed": true
+    },
+    {
+      "name": "registered source chalk_underline.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final chalk_underline.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source environment.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final environment.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions environment.png",
+      "passed": true
+    },
+    {
+      "name": "opaque independent environment environment.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance environment.png",
+      "passed": true
+    },
+    {
+      "name": "registered source mode_icons.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final mode_icons.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions mode_icons.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha mode_icons.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance mode_icons.png",
+      "passed": true
+    },
+    {
+      "name": "registered source parchment.png",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final parchment.png",
+      "passed": true
+    },
+    {
+      "name": "actual dimensions parchment.png",
+      "passed": true
+    },
+    {
+      "name": "real transparent alpha parchment.png",
+      "passed": true
+    },
+    {
+      "name": "generated layer has provenance parchment.png",
+      "passed": true
+    },
+    {
+      "name": "registered source portrait_card_green.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final portrait_card_green.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source portrait_card_paper.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final portrait_card_paper.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source portrait_count_green.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final portrait_count_green.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source portrait_pill.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final portrait_pill.svg",
+      "passed": true
+    },
+    {
+      "name": "registered source portrait_type_banner.svg",
+      "passed": true
+    },
+    {
+      "name": "candidate not falsely final portrait_type_banner.svg",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected data/city_map.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected data/p1/content.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected data/p1/organization_tutorial.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/session.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/save_store.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/runtime_mode.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/profile_catalog.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/flow.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/cat_encounter.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/home_controller.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/luggage_tidy/model.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/p1/luggage_tidy/view.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/dormitory/cat_hunt.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected scripts/dormitory/room_world.gd",
+      "passed": true
+    },
+    {
+      "name": "unchanged protected assets/city_map/st_petersburg.png",
+      "passed": true
+    },
+    {
+      "name": "no system font binaries distributed",
+      "passed": true
+    },
+    {
+      "name": "6 real sample words, no fake audio",
+      "passed": true
+    }
+  ]
+}

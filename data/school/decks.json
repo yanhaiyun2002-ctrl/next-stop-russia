@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "decks": [
+    {
+      "deckId": "basic.demo",
+      "title": "基础词汇·开发样例",
+      "level": "basic",
+      "lexemeIds": ["ru.noun.moloko", "ru.noun.kofe", "ru.noun.chai", "ru.noun.voda", "ru.noun.kniga", "ru.noun.shkola"],
+      "recommendedOrder": ["ru.noun.kniga", "ru.noun.shkola", "ru.noun.voda", "ru.noun.moloko", "ru.noun.chai", "ru.noun.kofe"],
+      "unlockConditions": [{ "type": "alphabet_intro_completed" }],
+      "linkedMinigameIds": []
+    },
+    {
+      "deckId": "scenario.cafe.demo",
+      "title": "咖啡店准备词包·接口测试",
+      "level": "scenario",
+      "lexemeIds": ["ru.noun.kofe", "ru.noun.chai", "ru.noun.moloko", "ru.noun.voda"],
+      "recommendedOrder": ["ru.noun.kofe", "ru.noun.chai", "ru.noun.moloko", "ru.noun.voda"],
+      "unlockConditions": [{ "type": "story_event", "id": "story.cafe_invitation_demo" }],
+      "linkedMinigameIds": ["cafe_work_demo"]
+    }
+  ]
+}

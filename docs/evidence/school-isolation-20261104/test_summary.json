@@ -1,0 +1,83 @@
+{
+  "source_commit": "6aaa666e441e4e5ea31f76ab545d80dc79080b4a",
+  "branch": "feat/school-v04-r2",
+  "worktree": "E:\\俄语游戏\\worktrees\\school-v04-r2",
+  "cases": [
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/asset-scope/asset_scope_results.json",
+      "passed": 174,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/package-integrated/e2e_results.json",
+      "passed": 46,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/package-integrated/p1_package_results.json",
+      "passed": 14,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/package-phone/e2e_results.json",
+      "passed": 80,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/regression/cat_hunt_tests/cat_hunt_results.json",
+      "passed": 540,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/regression/luggage_prototype_tests/prototype_results.json",
+      "passed": 53,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/regression/p1_domain_tests/domain_results.json",
+      "passed": 55,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/regression/p1_modes_tests/modes_results.json",
+      "passed": 61,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/regression/p1_playable_tests/playable_results.json",
+      "passed": 168,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/regression/run_tests/headless_results.json",
+      "passed": 254,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/school_click_stability/stability_results.json",
+      "passed": 9,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/school_domain_tests/domain_results.json",
+      "passed": 57,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/school_fourchoice_compat/compat_results.json",
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/school_integration_tests/integration_results.json",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/school-isolation-20261104/school_ui_tests/ui_results.json",
+      "passed": 43,
+      "failed": 0
+    }
+  ],
+  "scope": "Tests re-executed in this Worktree; actual Windows rendered EXE and synthetic input, not human/mobile device acceptance"
+}

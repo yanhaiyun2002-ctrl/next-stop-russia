@@ -1,0 +1,22 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+SCHOOL_BUILD {"binary":"E:/俄语游戏/worktrees/school-v04-r2/.tools/godot-4.7.2/Godot_v4.7.2-stable_win64.exe","buildDate":"2026-11-04","entry":"standalone","mode":"PLAYTEST","saveNamespace":"E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_click_stability/player-data/PLAYTEST/school-demo/school_v04.json","scene":"res://scenes/buildings/school.tscn","version":"V0.4-R2.3-Portrait"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_V04_SAVE=E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_click_stability/player-data/PLAYTEST/school-demo/school_v04.json
+SCHOOL_TRACE {"control":"Mode_new","event":"pressed","page":"STUDY_PREPARATION","text":"学习新词"}
+SCHOOL_TRACE {"event":"select_mode","mode":"new","page":"STUDY_PREPARATION"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"Count_1","event":"pressed","page":"STUDY_PREPARATION","text":"1"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":1,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"control":"StartStudy","event":"pressed","page":"STUDY_PREPARATION","text":"开始学习 ▶"}
+SCHOOL_TRACE {"count":1,"eligible":6,"event":"start_pressed","mode":"new","save":"E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_click_stability/player-data/PLAYTEST/school-demo/school_v04.json","screen":"home"}
+SCHOOL_TRACE {"alphabetComplete":false,"count":1,"eligible":6,"event":"session_request","mode":"new"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":2,"status":"active"}
+SCHOOL_TRACE {"event":"route","from":"home","sessionId":"school-1793751271-1","to":"WORD_PREVIEW"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":3,"status":"active"}
+STABILITY [{"changedOnPress":[],"settledAtRelease":true,"settledBefore":true,"stage":"mode_new"},{"changedOnPress":[],"settledAtRelease":true,"settledBefore":true,"stage":"quantity_1"},{"selectedCount":1},{"changedOnPress":[],"settledAtRelease":true,"settledBefore":true,"stage":"start"},{"screen":"preview"}]
+FONTS [{"family":"Georgia","hasAcute":true,"plain":136.0,"stressed":161.0},{"family":"Times New Roman","hasAcute":true,"plain":121.0,"stressed":121.0},{"family":"Arial","hasAcute":true,"plain":122.0,"stressed":122.0},{"family":"Noto Serif SC","hasAcute":true,"plain":151.0,"stressed":151.0},{"family":"school_composite","plain":121.0,"stressed":121.0}]
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":4,"status":"paused"}

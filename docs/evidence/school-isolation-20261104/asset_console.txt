@@ -1,0 +1,1 @@
+SCHOOL_ASSET_SCOPE passed=174 failed=0

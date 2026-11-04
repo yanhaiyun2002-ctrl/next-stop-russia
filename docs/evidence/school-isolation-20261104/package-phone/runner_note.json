@@ -1,0 +1,5 @@
+{
+  "runner_note": "Initial PowerShell GUI invocation returned before process exit; observed PID 25424 still running, then awaited completion. Initial wrapper exception was not a gameplay test failure.",
+  "passed": 80,
+  "failed": 0
+}

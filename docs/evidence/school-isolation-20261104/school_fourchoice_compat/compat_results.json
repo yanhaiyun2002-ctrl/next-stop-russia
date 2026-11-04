@@ -1,0 +1,30 @@
+{
+	"checks": [
+		{
+			"name": "R1 three-choice fixture is valid on unchanged schema",
+			"passed": true
+		},
+		{
+			"name": "legacy unanswered question first previews missing fourth support word",
+			"passed": true
+		},
+		{
+			"name": "upgrade preserves question identity and every learning counter",
+			"passed": true
+		},
+		{
+			"name": "legacy unanswered question becomes four-choice without changing target or assistance",
+			"passed": true
+		},
+		{
+			"name": "upgraded persisted question accepts a real valid answer",
+			"passed": true
+		},
+		{
+			"name": "submitted R1 three-choice feedback remains immutable across restart",
+			"passed": true
+		}
+	],
+	"failed": 0,
+	"passed": 6
+}

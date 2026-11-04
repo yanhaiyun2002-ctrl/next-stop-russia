@@ -1,0 +1,30 @@
+{
+  "version": "V0.4-R2.3-Portrait",
+  "buildDate": "2026-11-04",
+  "kind": "isolated Worktree Windows PLAYTEST; not visual approval",
+  "source_commit": "6aaa666e441e4e5ea31f76ab545d80dc79080b4a",
+  "branch": "feat/school-v04-r2",
+  "worktree": "E:\\俄语游戏\\worktrees\\school-v04-r2",
+  "files": [
+    {
+      "name": "NextStopRussia-Integrated-V04-R2.exe",
+      "bytes": 103176704,
+      "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107"
+    },
+    {
+      "name": "NextStopRussia-Integrated-V04-R2.pck",
+      "bytes": 34668104,
+      "sha256": "96e1666d840e98acc79f0bf856809f5dc5b9d0ead33aa904c1f64a3dd7dd51ea"
+    },
+    {
+      "name": "NextStopRussia-School-V04-R2.exe",
+      "bytes": 103176704,
+      "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107"
+    },
+    {
+      "name": "NextStopRussia-School-V04-R2.pck",
+      "bytes": 34668104,
+      "sha256": "6cf0e116057af0a6e032720ac6b8a1d5413b7557cd848f219b41cccad2e0d975"
+    }
+  ]
+}

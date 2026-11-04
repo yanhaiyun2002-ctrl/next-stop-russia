@@ -1,0 +1,61 @@
+{
+	"clicks": [
+		{
+			"changedOnPress": [],
+			"settledAtRelease": true,
+			"settledBefore": true,
+			"stage": "mode_new"
+		},
+		{
+			"changedOnPress": [],
+			"settledAtRelease": true,
+			"settledBefore": true,
+			"stage": "quantity_1"
+		},
+		{
+			"selectedCount": 1
+		},
+		{
+			"changedOnPress": [],
+			"settledAtRelease": true,
+			"settledBefore": true,
+			"stage": "start"
+		},
+		{
+			"screen": "preview"
+		}
+	],
+	"failed": 0,
+	"fonts": [
+		{
+			"family": "Georgia",
+			"hasAcute": true,
+			"plain": 136.0,
+			"stressed": 161.0
+		},
+		{
+			"family": "Times New Roman",
+			"hasAcute": true,
+			"plain": 121.0,
+			"stressed": 121.0
+		},
+		{
+			"family": "Arial",
+			"hasAcute": true,
+			"plain": 122.0,
+			"stressed": 122.0
+		},
+		{
+			"family": "Noto Serif SC",
+			"hasAcute": true,
+			"plain": 151.0,
+			"stressed": 151.0
+		},
+		{
+			"family": "school_composite",
+			"plain": 121.0,
+			"stressed": 121.0
+		}
+	],
+	"passed": 9
+}

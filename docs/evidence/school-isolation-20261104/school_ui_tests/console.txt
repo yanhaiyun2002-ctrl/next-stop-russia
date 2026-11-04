@@ -1,0 +1,327 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 610.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3070 Laptop GPU
+
+SCHOOL_BUILD {"binary":"E:/俄语游戏/worktrees/school-v04-r2/.tools/godot-4.7.2/Godot_v4.7.2-stable_win64.exe","buildDate":"2026-11-04","entry":"standalone","mode":"PLAYTEST","saveNamespace":"E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_ui_tests/player-data/PLAYTEST/school-demo/school_v04.json","scene":"res://scenes/buildings/school.tscn","version":"V0.4-R2.3-Portrait"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_V04_SAVE=E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_ui_tests/player-data/PLAYTEST/school-demo/school_v04.json
+SCHOOL_TRACE {"event":"page","from":"home","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":1,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@115","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@125","event":"pressed","page":"AUXILIARY","text":"а"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":2,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":3,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@149","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@159","event":"pressed","page":"AUXILIARY","text":"б"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":4,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":5,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@183","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@193","event":"pressed","page":"AUXILIARY","text":"в"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":6,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":7,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@217","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@227","event":"pressed","page":"AUXILIARY","text":"г"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":8,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":9,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@251","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@261","event":"pressed","page":"AUXILIARY","text":"д"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":10,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":11,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@285","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@295","event":"pressed","page":"AUXILIARY","text":"е"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":12,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":13,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@319","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@331","event":"pressed","page":"AUXILIARY","text":"ё"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":14,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":15,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@353","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@363","event":"pressed","page":"AUXILIARY","text":"ж"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":16,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":17,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@387","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@397","event":"pressed","page":"AUXILIARY","text":"з"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":18,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":19,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@421","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@431","event":"pressed","page":"AUXILIARY","text":"и"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":20,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":21,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@455","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@465","event":"pressed","page":"AUXILIARY","text":"й"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":22,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":23,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@489","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@499","event":"pressed","page":"AUXILIARY","text":"к"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":24,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":25,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@523","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@533","event":"pressed","page":"AUXILIARY","text":"л"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":26,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":27,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@557","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@567","event":"pressed","page":"AUXILIARY","text":"м"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":28,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":29,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@591","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@602","event":"pressed","page":"AUXILIARY","text":"н"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":30,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":31,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@625","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@636","event":"pressed","page":"AUXILIARY","text":"о"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":32,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":33,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@659","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@670","event":"pressed","page":"AUXILIARY","text":"п"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":34,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":35,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@693","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@704","event":"pressed","page":"AUXILIARY","text":"р"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":36,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":37,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@727","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@738","event":"pressed","page":"AUXILIARY","text":"с"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":38,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":39,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@761","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@772","event":"pressed","page":"AUXILIARY","text":"т"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":40,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":41,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@795","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@805","event":"pressed","page":"AUXILIARY","text":"у"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":42,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":43,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@829","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@840","event":"pressed","page":"AUXILIARY","text":"ф"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":44,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":45,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@863","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@874","event":"pressed","page":"AUXILIARY","text":"х"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":46,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":47,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@897","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@908","event":"pressed","page":"AUXILIARY","text":"ц"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":48,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":49,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@931","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@942","event":"pressed","page":"AUXILIARY","text":"ч"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":50,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":51,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@965","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@976","event":"pressed","page":"AUXILIARY","text":"ш"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":52,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":53,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@999","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1011","event":"pressed","page":"AUXILIARY","text":"щ"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":54,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":55,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1033","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1045","event":"pressed","page":"AUXILIARY","text":"ъ"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":56,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":57,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1067","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1079","event":"pressed","page":"AUXILIARY","text":"ы"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":58,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":59,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1101","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1113","event":"pressed","page":"AUXILIARY","text":"ь"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":60,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":61,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1135","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1147","event":"pressed","page":"AUXILIARY","text":"э"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":62,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":63,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1169","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1181","event":"pressed","page":"AUXILIARY","text":"ю"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":64,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":65,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1203","event":"pressed","page":"AUXILIARY","text":"开始辨形 →"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"AUXILIARY","screen":"alphabet"}
+SCHOOL_TRACE {"control":"@Button@1214","event":"pressed","page":"AUXILIARY","text":"я"}
+SCHOOL_TRACE {"event":"persisted","phase":"none","revision":66,"status":"none"}
+SCHOOL_TRACE {"event":"page","from":"alphabet","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"count":5,"eligible":6,"event":"start_pressed","mode":"new","save":"E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_ui_tests/player-data/PLAYTEST/school-demo/school_v04.json","screen":"home"}
+SCHOOL_TRACE {"alphabetComplete":true,"count":5,"eligible":6,"event":"session_request","mode":"new"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":67,"status":"active"}
+SCHOOL_TRACE {"event":"route","from":"home","sessionId":"school-1800000000-66","to":"WORD_PREVIEW"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":68,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":69,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":70,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":71,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":72,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":73,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":74,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"@Button@1342","event":"pressed","page":"QUIZ_BLACKBOARD","text":"молоко"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":75,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":76,"status":"paused"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"AUXILIARY","screen":"paused"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":77,"status":"paused"}
+SCHOOL_BUILD {"binary":"E:/俄语游戏/worktrees/school-v04-r2/.tools/godot-4.7.2/Godot_v4.7.2-stable_win64.exe","buildDate":"2026-11-04","entry":"standalone","mode":"PLAYTEST","saveNamespace":"E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_ui_tests/player-data/PLAYTEST/school-demo/school_v04.json","scene":"res://scenes/buildings/school.tscn","version":"V0.4-R2.3-Portrait"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_V04_SAVE=E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_ui_tests/player-data/PLAYTEST/school-demo/school_v04.json
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":78.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":79.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":80.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":81.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":82.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":83.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":84.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":85.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":86.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":87.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":88.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"waiting","revision":89.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":90.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":91.0,"status":"completed"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"summary","revision":92.0,"status":"completed"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"RESULTS","screen":"summary"}
+SCHOOL_TRACE {"event":"persisted","phase":"summary","revision":93.0,"status":"completed"}
+SCHOOL_TRACE {"event":"persisted","phase":"summary","revision":94.0,"status":"completed"}
+SCHOOL_TRACE {"event":"persisted","phase":"summary","revision":95.0,"status":"completed"}
+SCHOOL_TRACE {"event":"page","from":"summary","page":"RESULTS","screen":"summary"}
+SCHOOL_TRACE {"event":"page","from":"summary","page":"AUXILIARY","screen":"notebook"}
+SCHOOL_TRACE {"event":"page","from":"notebook","page":"STUDY_PREPARATION","screen":"home"}
+SCHOOL_TRACE {"count":1,"eligible":1,"event":"start_pressed","mode":"new","save":"E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/school_ui_tests/player-data/PLAYTEST/school-demo/school_v04.json","screen":"home"}
+SCHOOL_TRACE {"alphabetComplete":true,"count":1,"eligible":1,"event":"session_request","mode":"new"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":96.0,"status":"active"}
+SCHOOL_TRACE {"event":"route","from":"home","sessionId":"school-1800000005-95.0","to":"WORD_PREVIEW"}
+SCHOOL_TRACE {"event":"page","from":"home","page":"WORD_PREVIEW","screen":"preview"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":97.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":98.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":99.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"preview","revision":100.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":101.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":102.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"preview","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":103.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":104.0,"status":"paused"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"AUXILIARY","screen":"notebook"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":105.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"notebook","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":106.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":107.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"waiting","revision":108.0,"status":"active"}
+SCHOOL_TRACE {"event":"persisted","phase":"quiz","revision":109.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"control":"Answer_1","event":"pressed","page":"QUIZ_BLACKBOARD","text":"B.   咖啡"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":110.0,"status":"active"}
+SCHOOL_TRACE {"event":"page","from":"quiz","page":"QUIZ_BLACKBOARD","screen":"quiz"}
+SCHOOL_TRACE {"event":"persisted","phase":"feedback","revision":111.0,"status":"paused"}
+SCHOOL_UI_RESULT passed=43 failed=0 display=Windows

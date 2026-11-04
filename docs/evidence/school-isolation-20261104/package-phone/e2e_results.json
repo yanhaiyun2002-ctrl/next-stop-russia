@@ -1,0 +1,721 @@
+{
+	"binary": "E:/俄语游戏/worktrees/school-v04-r2/builds/school-v04-r2/NextStopRussia-School-V04-R2.exe",
+	"checks": [
+		{
+			"name": "independent preparation page has no green board",
+			"passed": true
+		},
+		{
+			"name": "clean player path does not require completed alphabet",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 学习新词",
+			"passed": true
+		},
+		{
+			"name": "unavailable 10/20 choices are not displayed",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 5",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始学习 ▶",
+			"passed": true
+		},
+		{
+			"name": "real start click creates session and routes to preview",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始测验 →",
+			"passed": true
+		},
+		{
+			"name": "preview CTA enters real blackboard question",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: B.   чай",
+			"passed": true
+		},
+		{
+			"name": "wrong keeps exact strengthening requirement",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: Ⅱ",
+			"passed": true
+		},
+		{
+			"name": "feedback can pause through actual UI",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续学习 →",
+			"passed": true
+		},
+		{
+			"name": "paused/returned feedback restored exactly",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: D.   学校",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: C.   вода",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: B.   牛奶",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: A.   чай",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: D.   书",
+			"passed": true
+		},
+		{
+			"name": "strengthening 1/2 does not count word passed",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始下一轮强化 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: D.   молоко",
+			"passed": true
+		},
+		{
+			"name": "wrong keeps exact strengthening requirement",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 继续 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始下一轮强化 →",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: D.   书",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 查看结算 →",
+			"passed": true
+		},
+		{
+			"name": "all words finish on separate parchment results page",
+			"passed": true
+		},
+		{
+			"name": "actual selected distinct word count completed",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 返回学习中心",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 学习新词",
+			"passed": true
+		},
+		{
+			"name": "partial profile reports actual remaining new words",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 1",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始学习 ▶",
+			"passed": true
+		},
+		{
+			"name": "real start click creates session and routes to preview",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 记下并查看下一张 →",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始测验 →",
+			"passed": true
+		},
+		{
+			"name": "preview CTA enters real blackboard question",
+			"passed": true
+		},
+		{
+			"name": "every new question renders four dynamic choices",
+			"passed": true
+		},
+		{
+			"name": "portrait choices do not overlap teacher display region",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: C.   кофе",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 查看结算 →",
+			"passed": true
+		},
+		{
+			"name": "all words finish on separate parchment results page",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 返回学习中心",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 学习新词",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 开始学习 ▶",
+			"passed": true
+		},
+		{
+			"name": "zero-new-word CTA gives visible explanation",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 复习旧词",
+			"passed": true
+		},
+		{
+			"name": "no-new profile offers honestly labelled free review",
+			"passed": true
+		},
+		{
+			"name": "player button enabled: 查看词本",
+			"passed": true
+		},
+		{
+			"name": "view notebook card opens notebook directly",
+			"passed": true
+		}
+	],
+	"clicks": [
+		{
+			"control": "Mode_new",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "学习新词",
+			"x": 219.0,
+			"y": 223.470001220703
+		},
+		{
+			"control": "Count_5",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "5",
+			"x": 215.057983398438,
+			"y": 456.459991455078
+		},
+		{
+			"control": "StartStudy",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "开始学习 ▶",
+			"x": 199.290008544922,
+			"y": 663.940002441406
+		},
+		{
+			"control": "@Button@241",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 201.080001831055,
+			"y": 486.5
+		},
+		{
+			"control": "@Button@256",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "@Button@271",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "@Button@286",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "@Button@301",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "开始测验 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "Answer_1",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "B.   чай",
+			"x": 194.720001220703,
+			"y": 363.600006103516
+		},
+		{
+			"control": "@Button@45",
+			"disabled": false,
+			"pageAfter": "AUXILIARY",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "Ⅱ",
+			"x": 361.0,
+			"y": 38.5
+		},
+		{
+			"control": "@Button@349",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "AUXILIARY",
+			"text": "继续学习 →",
+			"x": 201.080001831055,
+			"y": 298.5
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "Answer_3",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "D.   学校",
+			"x": 194.720001220703,
+			"y": 469.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "Answer_2",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "C.   вода",
+			"x": 194.720001220703,
+			"y": 416.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "Answer_1",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "B.   牛奶",
+			"x": 194.720001220703,
+			"y": 363.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "Answer_0",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "A.   чай",
+			"x": 194.720001220703,
+			"y": 310.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "Answer_3",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "D.   书",
+			"x": 194.720001220703,
+			"y": 469.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "@Button@575",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "开始下一轮强化 →",
+			"x": 201.080001831055,
+			"y": 380.5
+		},
+		{
+			"control": "Answer_3",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "D.   молоко",
+			"x": 194.720001220703,
+			"y": 469.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "继续 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "@Button@623",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "开始下一轮强化 →",
+			"x": 201.080001831055,
+			"y": 380.5
+		},
+		{
+			"control": "Answer_3",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "D.   书",
+			"x": 194.720001220703,
+			"y": 469.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "RESULTS",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "查看结算 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "@Button@673",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "RESULTS",
+			"text": "返回学习中心",
+			"x": 201.080001831055,
+			"y": 485.5
+		},
+		{
+			"control": "Mode_new",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "学习新词",
+			"x": 219.0,
+			"y": 223.470001220703
+		},
+		{
+			"control": "Count_1",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "1",
+			"x": 215.058013916016,
+			"y": 456.459991455078
+		},
+		{
+			"control": "StartStudy",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "开始学习 ▶",
+			"x": 199.290008544922,
+			"y": 663.940002441406
+		},
+		{
+			"control": "@Button@809",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 201.080001831055,
+			"y": 486.5
+		},
+		{
+			"control": "@Button@820",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "@Button@831",
+			"disabled": false,
+			"pageAfter": "WORD_PREVIEW",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "记下并查看下一张 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "@Button@842",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "WORD_PREVIEW",
+			"text": "开始测验 →",
+			"x": 197.080001831055,
+			"y": 544.5
+		},
+		{
+			"control": "Answer_2",
+			"disabled": false,
+			"pageAfter": "QUIZ_BLACKBOARD",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "C.   кофе",
+			"x": 194.720001220703,
+			"y": 416.600006103516
+		},
+		{
+			"control": "ContinueQuestion",
+			"disabled": false,
+			"pageAfter": "RESULTS",
+			"pageBefore": "QUIZ_BLACKBOARD",
+			"text": "查看结算 →",
+			"x": 170.820007324219,
+			"y": 657.259948730469
+		},
+		{
+			"control": "@Button@873",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "RESULTS",
+			"text": "返回学习中心",
+			"x": 201.080001831055,
+			"y": 485.5
+		},
+		{
+			"control": "Mode_new",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "学习新词",
+			"x": 219.0,
+			"y": 223.470001220703
+		},
+		{
+			"control": "StartStudy",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "开始学习 ▶",
+			"x": 199.290008544922,
+			"y": 663.940002441406
+		},
+		{
+			"control": "Mode_review",
+			"disabled": false,
+			"pageAfter": "STUDY_PREPARATION",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "复习旧词",
+			"x": 219.0,
+			"y": 292.889984130859
+		},
+		{
+			"control": "Mode_notebook",
+			"disabled": false,
+			"pageAfter": "AUXILIARY",
+			"pageBefore": "STUDY_PREPARATION",
+			"text": "查看词本",
+			"x": 219.0,
+			"y": 362.309997558594
+		}
+	],
+	"entry": "standalone",
+	"failed": 0,
+	"passed": 80,
+	"quantity": 5,
+	"savePath": "E:/俄语游戏/worktrees/school-v04-r2/docs/evidence/school-isolation-20261104/package-phone/player-data/PLAYTEST/school-demo/school_v04.json",
+	"scope": "actual Godot GUI mouse input; no direct learning/service transitions",
+	"version": "V0.4-R2.3-Portrait"
+}

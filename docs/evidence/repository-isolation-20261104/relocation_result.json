@@ -1,0 +1,17 @@
+{
+  "main_worktree": "E:\\俄语游戏\\NEXT_STOP_RUSSIA",
+  "main_branch": "main",
+  "main_base": "46e239c1953891911e6a6f4a4b525dcc0ca406da",
+  "school_worktree": "E:\\俄语游戏\\worktrees\\school-v04-r2",
+  "school_branch": "feat/school-v04-r2",
+  "backed_up_files": 1393,
+  "archived_original_files": 1377,
+  "all_archived_hashes_match": true,
+  "school_transferred_files_verified": 1067,
+  "player_files_unchanged": 13,
+  "old_R2_playtest_pairs_preserved": true,
+  "primary_clean": true,
+  "backup": "E:\\俄语游戏\\worktrees\\repository-isolation-20261104\\.local-dev\\repository-isolation\\original-files",
+  "archive": "E:\\俄语游戏\\worktrees\\repository-isolation-20261104\\.local-dev\\repository-isolation\\relocated-from-primary",
+  "index_refresh_note": "Checkout first refused README due stat/index representation although Git content hashes matched HEAD. Re-added the three identical blobs, verified zero staged diff, then normal switch succeeded. No force/reset/clean."
+}

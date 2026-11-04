@@ -1,0 +1,83 @@
+{
+  "main_functional_commit": "46e239c1953891911e6a6f4a4b525dcc0ca406da",
+  "main_worktree": "E:\\俄语游戏\\NEXT_STOP_RUSSIA",
+  "governance_worktree": "E:\\俄语游戏\\worktrees\\repository-isolation-20261104",
+  "cases": [
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-regression/cat_hunt_tests/cat_hunt_results.json",
+      "passed": 540,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-regression/luggage_prototype_tests/prototype_results.json",
+      "passed": 53,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-regression/p1_domain_tests/domain_results.json",
+      "passed": 55,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-regression/p1_modes_tests/modes_results.json",
+      "passed": 61,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-regression/p1_playable_tests/playable_results.json",
+      "passed": 168,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-regression/run_tests/headless_results.json",
+      "passed": 254,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-ui-pc/ui_results.json",
+      "passed": 85,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/main-ui-phone/ui_results.json",
+      "passed": 85,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/post-main-regression/cat_hunt_tests/cat_hunt_results.json",
+      "passed": 540,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/post-main-regression/luggage_prototype_tests/prototype_results.json",
+      "passed": 53,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/post-main-regression/p1_domain_tests/domain_results.json",
+      "passed": 55,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/post-main-regression/p1_modes_tests/modes_results.json",
+      "passed": 61,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/post-main-regression/p1_playable_tests/playable_results.json",
+      "passed": 168,
+      "failed": 0
+    },
+    {
+      "evidence": "docs/evidence/repository-isolation-20261104/post-main-regression/run_tests/headless_results.json",
+      "passed": 254,
+      "failed": 0
+    }
+  ],
+  "notes": [
+    "Checkout initially refused README despite identical Git content hashes; refreshed only three identical blobs, confirmed zero staged diff, then normal switch succeeded. No force/reset/clean.",
+    "Primary environment helper was refused by local signature execution policy before tests started. Did not alter system execution policy; executed Godot directly with process-local E-drive TEMP and isolated evidence/data. Post-switch six suites all passed.",
+    "School first GUI invocation returned before GUI process exited; awaited the observed process and read actual 80/0 result. Subsequent GUI launch explicitly waited and returned zero."
+  ],
+  "physical_mobile_tested": false
+}

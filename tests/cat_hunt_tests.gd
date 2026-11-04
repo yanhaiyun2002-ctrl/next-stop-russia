@@ -175,7 +175,7 @@ func _run() -> void:
 			_place(i % 3)
 		var old_hunt := world.hunt.get_instance_id()
 		await _click(room.back_button.get_global_rect().get_center())
-		_check(app.active_room == null and app.map_view.get_instance_id() == map_instance and app.safe_layout.get_child_count() == 1, "搜索或找到均可退出且无残留 %d" % i)
+		_check(app.active_room == null and app.map_view.get_instance_id() == map_instance and app.safe_layout.get_child_count() == 0 and app.map_view.get_parent() == app, "搜索或找到均可退出且无残留，全屏地图保留在根视觉层 %d" % i)
 		_check(root.gui_get_focus_owner() == app.map_view.buttons[&"dormitory"], "找猫退出恢复导航焦点 %d" % i)
 		await _click(app.map_view.buttons[&"dormitory"].get_global_rect().get_center())
 		_bind_room()

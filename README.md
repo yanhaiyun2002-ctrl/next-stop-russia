@@ -153,3 +153,7 @@ Windows 新独立包在 `builds/p1-01r/NextStopRussia-P1-01R.exe`，原 P1-01 �
 负责人已亲自试玩并决定保留机制一，本轮已用它替换正式 Q02。原型报告作为历史记录保留；当前状态、实际截图和运行方式以页首及本轮整合报告为准。
 
 `行李整理原型DEV.cmd` 保留为隔离重玩快捷入口，使用 `.local-dev/prototype-data/arrival-luggage`；菜单显示“行李整理 · 独立重玩”，复用当前共享运行时，摆放只在内存，不修改主线。正式 Q02 则保存空间摆放，并在完成后由明确的继续按钮提交 Q02 事件；退出返回宿舍。
+
+## 主线与独立开发任务树
+
+主体使用 main；学校隔离于 feat/school-v04-r2 和 E:\俄语游戏\worktrees\school-v04-r2。后续开发窗口必须先创建独立分支和 Worktree，不在主体目录直接开发；详见 docs/production/BRANCH_WORKTREE_REGISTRY.md 与根 AGENTS.md。学校尚未合入 main，原学校技术占位入口在 main 保留。

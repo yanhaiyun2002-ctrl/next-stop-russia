@@ -1,0 +1,27 @@
+{
+  "codeSHA": "7d211a79ada8f38ead5c82b4e518870d7b877974",
+  "reportSHA": "78a792acf35f9942343e181cec23998ce9129d70",
+  "branch": "codex/p1-01-first-playable",
+  "status": [
+    "?? docs/evidence/p1-01/"
+  ],
+  "artifacts": [
+    {
+      "path": "NextStopRussia-P1-01.exe",
+      "bytes": 109268480,
+      "sha256": "D34D36F3BE1A6C49C56525AE86469B92E4F417DDF0B43CF00DD80C385C4B0562"
+    },
+    {
+      "path": "NextStopRussia-P1-01.pck",
+      "bytes": 124456,
+      "sha256": "1500010AF5E077C3F86412A47D49B4325B6577C9579384BABF8F74882766966D"
+    }
+  ],
+  "scope": "P1-01 Q00-Q03 only; awaiting producer acceptance",
+  "unverified": [
+    "human playtest",
+    "Android device",
+    "iOS/macOS",
+    "historical intermittent touch failures"
+  ]
+}

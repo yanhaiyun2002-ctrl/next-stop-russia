@@ -1,0 +1,25 @@
+P1-01 tooling notes (2026-10-29)
+
+Default exec_command and node_repl startup both reported:
+  windows sandbox failed: helper_unknown_error: setup refresh had errors
+Read/write/build/test work used reviewed exec_command escalation scoped to this project.
+apply_patch worked normally for project edits.
+
+Existing scripts/dev/use-e-drive.ps1 was blocked by local script-signing policy.
+Commands used PowerShell -NoProfile -ExecutionPolicy Bypass for that child process only.
+No machine/user execution policy, registry, global environment or authentication setting was changed.
+The existing E-drive Godot portable toolchain and export templates were reused.
+
+Computer-use skill and guidance were read. Initialization through node_repl + @oai/sky
+failed with the same sandbox setup error before any native GUI input.
+No extra agent-operated native mouse/keyboard session or human playtest is claimed.
+Godot tests did run real Windows rendering and synthetic engine input, with PNG evidence.
+
+The domain test intentionally makes a file where a directory is expected. Its
+"Could not create directory ... file_instead_of_directory/PLAYTEST" log is an
+expected failure-injection diagnostic, not an unhandled script error. Final suites
+reject SCRIPT ERROR / Parse Error / Compile Error even if assertion counters are green.
+
+Reference dorm_layout_camera_reference.jfif was inspected as its actual JPEG/JFIF
+format (FFD8 FFE0 / JFIF), 1280x720, 158989 bytes. No extension renaming or image
+conversion occurred. The image is local documentation only and excluded from builds.

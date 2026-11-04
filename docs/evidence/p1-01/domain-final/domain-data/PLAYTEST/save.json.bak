@@ -1,0 +1,69 @@
+{
+	"cat": {
+		"breedId": "siberian_forest",
+		"displayName": "Снежок 小雪",
+		"firstPetCompleted": true,
+		"namePending": false,
+		"petRoundId": 1.0,
+		"roundId": 1.0,
+		"rounds": 1.0,
+		"spotId": "by_window"
+	},
+	"organization": {
+		"history": [
+			{},
+			{
+				"textbook": "B"
+			},
+			{
+				"passport": "B",
+				"textbook": "B"
+			},
+			{
+				"passport": "B",
+				"scarf": "B",
+				"textbook": "B"
+			},
+			{},
+			{
+				"textbook": "A"
+			},
+			{
+				"passport": "B",
+				"textbook": "A"
+			},
+			{
+				"passport": "B",
+				"scarf": "B",
+				"textbook": "A"
+			}
+		],
+		"journalDate": "2026-10-29",
+		"placements": {
+			"passport": "B",
+			"scarf": "B",
+			"textbook": "A",
+			"washbag": "C"
+		},
+		"tutorialCompleted": true
+	},
+	"quests": {
+		"q00_arrival": "completed",
+		"q01_cat": "completed",
+		"q02_organize": "completed",
+		"q03_anna_message": "active"
+	},
+	"revision": 22.0,
+	"rewards": {
+		"cat_first_meeting_v1": true,
+		"organization_tutorial_v1": true
+	},
+	"schemaVersion": 1.0,
+	"story": {
+		"annaMessageIndex": 1.0,
+		"arrivalIndex": 5.0,
+		"cityUnlocked": false,
+		"hasHomeKey": true,
+		"homeEntered": true
+	}
+}

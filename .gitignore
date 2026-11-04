@@ -26,3 +26,8 @@ Thumbs.db
 /docs/references/*.mp4
 /docs/references/dorm_layout_camera_reference.jfif
 /docs/evidence/p0-03r/reference_frames/
+
+# Local test sessions are not source fixtures or publishable player data.
+docs/evidence/**/player-data/
+docs/evidence/**/data/
+docs/evidence/**/bootstrap/
